@@ -10,4 +10,4 @@ permalink: /research/
 
 
 ## PUBLISHED AND ACCEPTED WORK
- [Anthropogenic climate change has slowed global agricultural productivity growth](https://www.nature.com/articles/s41558-021-01000-1). **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
+ <a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has slowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
