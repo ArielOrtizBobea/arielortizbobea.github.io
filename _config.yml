@@ -1,8 +1,24 @@
 # SITE SETTINGS
 title: AOB's Research Group             # Title in top navigation bar (navbar) and <head>
-author: Ariel Ortiz Bobea                  # Used for copyright statement in footer
-baseurl: "/aob.github.io"                    # Only required if your site is in a directory e.g. https://username.github.io/sitename
+author: Ariel Ortiz Bobea               # Used for copyright statement in footer
+baseurl: "/aob.github.io"               # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
                                         # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/markdown/#links
-
 remote_theme: peterdesmet/petridish@3.0
+
+
+# COLORS
+colors:
+  links: "#b31b1b"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#b31b1b"                     # Background color for page banners: use color that contrasts well with white
+  footer: "#b31b1b"                     # Background color for footer: use color that contrasts well with white
+font_serif: true                        # Font type for page content: serif (default) or slightly smaller sans-serif
+rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+
+# SOCIAL
+social:
+  email: name@example.com
+  twitter: twitter_username
+  github: github_username               # Can also be a github_username/repository
+  mastodon: https://mastodon.social/@mastodon_username
+  facebook: https://www.facebook.com/groups/group_id/
