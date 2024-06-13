@@ -1,0 +1,6 @@
+social:
+  email: name@example.com
+  twitter: twitter_username
+  github: github_username               # Can also be a github_username/repository
+  mastodon: https://mastodon.social/@mastodon_username
+  facebook: https://www.facebook.com/groups/group_id/

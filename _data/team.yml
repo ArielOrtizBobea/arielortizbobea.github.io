@@ -1,0 +1,38 @@
+# Project team members listed below will appear on the /team page
+- name: Professor Ariel Ortiz-Bobea
+  role: Associate Professor
+  image: assets/theme/images/ao332.jpg
+  description: >
+    Ariel Ortiz-Bobea is an applied economist with interests in agricultural, resource, and development economics. 
+    At present, his research program is broadly focused on agricultural sustainability issues with 
+    particular emphasis on the statistical and econometric evaluation of climate change impacts on agriculture and 
+    other sectors of the economy.
+
+- name: Yurou He
+  role: Ph.D., Applied Economics and Management # Will appear next to name
+
+- name: Jerzy Jaromczyk
+  role: Ph.D., Applied Economics and Management # Will appear next to name
+
+- name: Jeisson Prieto
+  role: Ph.D., Applied Economics and Management # Will appear next to name
+  image: assets/theme/images/jp2276.png # Can be external link
+  description: > # Can be Markdown
+    Jeisson Prieto is a third-year Ph.D. student in Applied Economics and Management at Cornell University. 
+    Before coming to Cornell University, he received his BEng in Systems Engineering and MSc in Applied Mathematics 
+    from Universidad Nacional de Colombia. His current research is focused in Environmental and Agricultural Economics, 
+    Computational Sustainability, and Complex Systems.  
+  orcid: 0000-0002-9259-4699
+  researchgate: Jeisson-Prieto
+  googlescholar: 5hGcelEAAAAJ
+  github: japrietov
+  email: jp2276@cornell.edu
+
+- name: Ziyi Li
+  role: Ph.D., Applied Economics and Management # Will appear next to name
+
+- name: Qingli Fan
+  role: Ph.D., Economics # Will appear next to name
+
+- name: Joshua Fan 
+  role: Ph.D., Computer Science # Will appear next to name
