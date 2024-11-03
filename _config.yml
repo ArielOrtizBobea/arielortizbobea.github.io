@@ -17,8 +17,8 @@ rounded_corners: true                   # Enable (default) rounded corners on bo
 
 # SOCIAL
 social:
-  email: name@example.com
-  twitter: twitter_username
-  github: github_username               # Can also be a github_username/repository
-  mastodon: https://mastodon.social/@mastodon_username
-  facebook: https://www.facebook.com/groups/group_id/
+  email: ao332@cornell.edu
+  twitter: arielortizbobea
+  github: ArielOrtizBobea               # Can also be a github_username/repository
+  # mastodon: https://mastodon.social/@mastodon_username
+  # facebook: https://www.facebook.com/groups/group_id/

@@ -3,14 +3,14 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description:
-    links:
-    - text: Name of project partner 1
-      href: http://example.com
-      new_window: true
-    - text: Prestigious and long name of project partner 2
-      href: http://example.com
-      new_window: true
+  # - description:
+  #   links:
+  #   - text: Name of project partner 1
+  #     href: http://example.com
+  #     new_window: true
+  #   - text: Prestigious and long name of project partner 2
+  #     href: http://example.com
+  #     new_window: true
 
   - description: > # E.g. funding acknowledgement. Can be Markdown
       This project is made with ❤ for open source.
@@ -22,4 +22,3 @@ columns:
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 license: >
   Content on this site is licensed under a [CC BY 4.0 License](http://creativecommons.org/licenses/by/4.0/).
-  \| Theme: [Petridish](https://github.com/peterdesmet/petridish)
