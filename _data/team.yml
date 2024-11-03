@@ -3,19 +3,17 @@
   role: Associate Professor
   image: assets/theme/images/ao332.jpg
   description: >
-    Ariel Ortiz-Bobea is an applied economist with interests in agricultural, resource, and development economics. 
-    At present, his research program is broadly focused on agricultural sustainability issues with 
-    particular emphasis on the statistical and econometric evaluation of climate change impacts on agriculture and 
-    other sectors of the economy.
+    Prof. Ortiz-Bobea is an applied economist with interests in agricultural, environmental and development economics. 
+    He is broadly interested in how people cope with environmental change. Much of his research focuses on quantifying the impacts of climate change on agriculture and other economic sectors. 
+    He joined Cornell in 2014 after a brief stint at Resources for the Future (RFF). Prior to graduate school he served as special assistant to the Minister of the Environment of the Dominican Republic.
+     He obtained a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell) and a 
+     diplôme d'Ingénieur from Université Paris-Saclay (AgroparisTech) in France..
+  office: 439 Warren Hall
+  phone: 607-255-0220
+  email: ao332@cornell.edu
   googlescholar: kEZ0ezkAAAAJ
   github: ArielOrtizBobea
-  email: ao332@cornell.edu
-
-- name: Yurou He
-  role: Ph.D., Applied Economics and Management # Will appear next to name
-
-- name: Jerzy Jaromczyk
-  role: Ph.D., Applied Economics and Management # Will appear next to name
+  orcid: 0000-0003-4482-6843
 
 - name: Jeisson Prieto
   role: Ph.D., Applied Economics and Management # Will appear next to name
@@ -25,11 +23,17 @@
     Before coming to Cornell University, he received his BEng in Systems Engineering and MSc in Applied Mathematics 
     from Universidad Nacional de Colombia. His current research is focused in Environmental and Agricultural Economics, 
     Computational Sustainability, and Complex Systems.  
-  orcid: 0000-0002-9259-4699
-  researchgate: Jeisson-Prieto
+  email: jp2276@cornell.edu
   googlescholar: 5hGcelEAAAAJ
   github: japrietov
-  email: jp2276@cornell.edu
+  researchgate: Jeisson-Prieto
+  orcid: 0000-0002-9259-4699
+
+- name: Yurou He
+  role: Ph.D., Applied Economics and Management # Will appear next to name
+
+- name: Jerzy Jaromczyk
+  role: Ph.D., Applied Economics and Management # Will appear next to name
 
 - name: Ziyi Li
   role: Ph.D., Applied Economics and Management # Will appear next to name

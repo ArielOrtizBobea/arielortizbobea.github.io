@@ -5,12 +5,12 @@ permalink: /other/
 
 ## Resources for young researchers:
 
-## Books I recommend:
-- Title here (with hyperlink)
-- Title
-- title
+## Books:
+- (Doing Economics)[https://marcfbellemare.com/wordpress/research/doing-economics] by Marc Bellemare 
 
-## Online resources:
-- Title
-- ….
-- ..
+## Blogs:
+- (Data Colada)[https://datacolada.org]
+
+## Podcasts:
+- (The Hidden Curriculum)[https://podcasters.spotify.com/pod/show/hidden-curriculum]
+
