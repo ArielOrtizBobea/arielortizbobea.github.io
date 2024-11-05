@@ -55,9 +55,9 @@
   role: Ph.D., Computer Science # Will appear next to name
   image: assets/theme/images/people/jp2276.png
   description: > 
-  My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
-  My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
-  farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
-  to develop innovative AI solutions that can benefit their fields.
-  email: jyf6@cornell.edu
-  github: joshuafan
+    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
+    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
+    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
+    to develop innovative AI solutions that can benefit their fields.
+    email: jyf6@cornell.edu
+    github: joshuafan
