@@ -1,5 +1,7 @@
 # Project team members listed below will appear on the /people page
-# BE CAREFULL, description have the following structure description: > 
+# BE CAREFULL, description have the following structure 
+# description: > 
+# \tab description
 - name: Professor Ariel Ortiz-Bobea
   role: Associate Professor
   image: assets/theme/images/people/ao332.jpg
