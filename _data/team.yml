@@ -1,7 +1,7 @@
 # Project team members listed below will appear on the /team page
 - name: Professor Ariel Ortiz-Bobea
   role: Associate Professor
-  image: assets/theme/images/ao332.jpg
+  image: assets/theme/images/people/ao332.jpg
   description: >
     Prof. Ortiz-Bobea is an applied economist with interests in agricultural, environmental and development economics. 
     He is broadly interested in how people cope with environmental change. Much of his research focuses on quantifying the impacts of climate change on agriculture and other economic sectors. 
@@ -17,7 +17,7 @@
 
 - name: Jeisson Prieto
   role: Ph.D., Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/jp2276.png # Can be external link
+  image: assets/theme/images/people/jp2276.png # Can be external link
   description: > # Can be Markdown
     Jeisson Prieto is a third-year Ph.D. student in Applied Economics and Management at Cornell University. 
     Before coming to Cornell University, he received his BEng in Systems Engineering and MSc in Applied Mathematics 
@@ -33,9 +33,6 @@
   role: Ph.D., Applied Economics and Management # Will appear next to name
 
 - name: Jerzy Jaromczyk
-  role: Ph.D., Applied Economics and Management # Will appear next to name
-
-- name: Ziyi Li
   role: Ph.D., Applied Economics and Management # Will appear next to name
 
 - name: Qingli Fan

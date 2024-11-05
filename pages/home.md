@@ -10,9 +10,11 @@ permalink: /
 
 Welcome to my web page.
 
-My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists.
+I'm an Associate Professor at the [Charles H. Dyson School of Applied Economics and Management](https://dyson.cornell.edu) and at the [Jeb Brooks School of Public Policy](https://publicpolicy.cornell.edu) at Cornell University. I'm also a faculty fellow at the [Cornell Atkinson Center for Sustainability](https://www.atkinson.cornell.edu).
 
-We strive to conduct work that is relevant not only to other academics (economists and non-economists) but also to policy and decision makers in industry and government around the world.
+My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists. We strive to conduct work that is relevant not only to other academics (economists and non-economists) but also to policy and decision makers in industry and government around the world.
+
+Here's a link to a recent [CV](/assets/theme/cv.pdf) and to my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en) profile.
 
 Recent and upcoming talks:
 - Agriculture and climate change workshop, Harvard University, May 16, 2024
