@@ -35,7 +35,8 @@
 - name: Yurou He
   role: Ph.D., Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/yh878.png
-  description: TBC...
+  description: >
+    TBC...
   email: yh878@cornell.edu
   googlescholar: 4Po6Kv4AAAAJ&hl
   orcid: 000-0001-9227-6829
@@ -43,13 +44,15 @@
 - name: Jerzy Jaromczyk
   role: Ph.D., Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.png
-  description: TBC...
+  description: >
+    TBC...
   email: jerzyj@cornell.edu
 
 - name: Qingli Fan
   role: Ph.D., Economics # Will appear next to name
   image: assets/theme/images/people/qf38.png
-  description: TBC...
+  description: >
+    TBC...
   image: assets/theme/images/people/jp2276.png
   email: qf38@cornell.edu
 
