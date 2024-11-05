@@ -1,4 +1,5 @@
 # Project team members listed below will appear on the /people page
+# BE CAREFULL, description have the following structure description: > 
 - name: Professor Ariel Ortiz-Bobea
   role: Associate Professor
   image: assets/theme/images/people/ao332.jpg
@@ -53,7 +54,8 @@
 - name: Joshua Fan 
   role: Ph.D., Computer Science # Will appear next to name
   image: assets/theme/images/people/jp2276.png
-  description: My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
+  description: > 
+  My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
   My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
   farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
   to develop innovative AI solutions that can benefit their fields.
