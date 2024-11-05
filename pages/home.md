@@ -1,10 +1,14 @@
 ---
 layout: home
-title: Home
-description: Uses an easy to customize theme for its website
-background: /assets/theme/images/chuttersnap-146799-unsplash.jpg
+title: Ariel Ortiz-Bobea
+description: Associate Professor of Applied Economics and Policy
+background: /assets/theme/images/landing/home.jpg
 permalink: /
 ---
+
+![alt text](/assets/theme/images/landing/aob.jpg)
+
+Welcome to my web page.
 
 My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists.
 
