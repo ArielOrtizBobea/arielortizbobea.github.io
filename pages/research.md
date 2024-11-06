@@ -20,8 +20,10 @@ Access to my Google Scholar page [here](https://scholar.google.com/citations?use
     Remember to open data-bs-target="#collapseOne" then id="collapseOne"
 -->
   <div class="accordion-item">
-      <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <strong>Anthropogenic climate change has slowed global agricultural productivity growth</strong> Nature Climate Change
+      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <p>
+            <b>Anthropogenic climate change has slowed global agricultural productivity growth</b>, Nature Climate Change
+        </p>
       </button>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
@@ -38,8 +40,10 @@ Access to my Google Scholar page [here](https://scholar.google.com/citations?use
     Remember to open data-bs-target="#collapseTwo" then id="collapseTwo"
 -->
   <div class="accordion-item">
-      <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        <strong>Temperature Shocks and Establishment Sales</strong> The Review of Financial Studies
+      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         <p>
+            <b>Temperature Shocks and Establishment Sales</b>, The Review of Financial Studies
+           </p>
       </button>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
