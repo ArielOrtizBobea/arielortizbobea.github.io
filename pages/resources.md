@@ -1,6 +1,6 @@
 ---
-title: Other
-permalink: /other/
+title: Resources
+permalink: /resources/
 background: /assets/theme/images/landing/home.jpg
 ---
 
