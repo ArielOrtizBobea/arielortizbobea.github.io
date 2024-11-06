@@ -1,6 +1,6 @@
 ---
 title: Teaching
-background: /assets/theme/images/landing/teaching.jpg
+background: /assets/theme/images/landing/teaching2.jpg
 permalink: /teaching/
 ---
 
