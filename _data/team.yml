@@ -6,10 +6,11 @@
   role: Associate Professor
   image: assets/theme/images/people/ao332.jpg
   description: >
-    Prof. Ortiz-Bobea is an applied economist with interests in agricultural, environmental and development economics. 
-    He is broadly interested in how people cope with environmental change. His research focuses on quantifying the impacts of climate change on agriculture and other economic sectors. 
-    He joined Cornell in 2014 after a brief stint at Resources for the Future (RFF). Prior to graduate school he served as special assistant to the Minister of the Environment of the Dominican Republic.
-     He obtained a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell) and a 
+    Prof. Ortiz-Bobea is an agricultural and resource economist interested in how people cope with environmental change. 
+    His research focuses primarily on quantifying the impacts of climate change on agriculture and other sectors. 
+    He joined Cornell in 2014 after a brief stint at Resources for the Future (RFF). Prior to graduate school he served 
+    as special assistant to the Minister of the Environment of the Dominican Republic. He obtained a PhD in Agricultural 
+    and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell) and a 
      diplôme d'Ingénieur from Université Paris-Saclay (AgroparisTech) in France.
   office: 439 Warren Hall
   phone: 607-255-0220
@@ -19,7 +20,7 @@
   orcid: 0000-0003-4482-6843
 
 - name: Yurou He
-  role: Ph.D., Applied Economics and Management # Will appear next to name
+  role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/yh878.png
   description: >
     Yurou He is a Ph.D. student at the Charles H. Dyson School of Applied Economics and Management. She studies the impacts 
@@ -33,7 +34,7 @@
   orcid: 000-0001-9227-6829
 
 - name: Jerzy Jaromczyk
-  role: Ph.D., Applied Economics and Management # Will appear next to name
+  role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
   description: >
     Jerzy Jaromczyk is a Ph.D. student in Applied Economics and Management at Cornell University interested in researching 
@@ -44,7 +45,7 @@
   email: jerzyj@cornell.edu
 
 - name: Jeisson Prieto
-  role: Ph.D., Applied Economics and Management # Will appear next to name
+  role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jp2276.png # Can be external link
   description: > # Can be Markdown
     Jeisson Prieto is a third-year Ph.D. student in Applied Economics and Management at Cornell University. 
@@ -56,16 +57,16 @@
   github: japrietov
   researchgate: Jeisson-Prieto
   orcid: 0000-0002-9259-4699
-  
+
 - name: Qingli Fan
-  role: Ph.D., Economics # Will appear next to name
+  role: PhD student, Economics # Will appear next to name
   image: assets/theme/images/people/qf38.jpg
   description: >
     TBC...
   email: qf38@cornell.edu
 
 - name: Joshua Fan 
-  role: Ph.D., Computer Science # Will appear next to name
+  role: PhD, Computer Science # Will appear next to name
   image: assets/theme/images/people/jyf6.jpg
   description: > 
     My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
