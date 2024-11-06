@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Ariel Ortiz-Bobea
-description: Associate Professor of Applied Economics and Policy
+#title: Ariel Ortiz-Bobea
+#description: Associate Professor of Applied Economics and Policy
 background: /assets/theme/images/landing/home.jpg
 permalink: /
 ---
