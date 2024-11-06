@@ -22,11 +22,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 </td>
 <td>
 
-I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
+I'm an Associate Professor in [Applied Economics and Policy](https://business.cornell.edu/faculty-research/areas/applied-economics-and-policy/) at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
 
 <br/><br/>
 
-I serve on various editorial roles at the following journals:
+I have various editorial roles at the following journals:
 <ul>
   <li><a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a> (JAERE)</li>
   <li><a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a> (AJAE)</li>
@@ -43,7 +43,7 @@ During 2024-2027 I will be serving as an author of the economics chapter of the 
 
 <br/><br/>
 
-You can access a recent CV <a href="/assets/theme/cv.pdf" target="_blank">here</a> or my Google Scholar page <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">here</a>.
+Here you can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> and page <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
 </td>
 </tr>
 </table>
@@ -54,5 +54,3 @@ You can access a recent CV <a href="/assets/theme/cv.pdf" target="_blank">here</
 --->
 
 My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists. We strive to conduct work that is relevant not only to other academics (economists and non-economists) but also to policy and decision makers in industry and government around the world.
-
-If you are interested in working with me as a graduate student, predoc, postdoc or as a visiting student or faculty, feel free to reach out.
