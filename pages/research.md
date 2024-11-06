@@ -43,27 +43,6 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
   </div>
 
 ## 2024
-
-<div class="accordion" id="accordionExample">
-<!-- New item
-    Remember to open data-bs-target="#collapseOne" then id="collapseOne"
--->
-  <div class="accordion-item">
-      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <p>
-            <b>Anthropogenic climate change has slowed global agricultural productivity growth</b>, Nature Climate Change
-        </p>
-      </button>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Agricultural research has fostered productivity growth, but the historical influence of anthropogenic climate change (ACC) on that growth has not been quantified. We develop a robust econometric model of weather effects on global agricultural total factor productivity (TFP) and combine this model with counterfactual climate scenarios to evaluate impacts of past climate trends on TFP. Our baseline model indicates that ACC has reduced global agricultural TFP by about 21% since 1961, a slowdown that is equivalent to losing the last 7 years of productivity growth. The effect is substantially more severe (a reduction of ~26–34%) in warmer regions such as Africa and Latin America and the Caribbean. We also find that global agriculture has grown more vulnerable to ongoing climate change.
-        <br/><br/>
-        Ortiz-Bobea, Ariel, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers, and David B. Lobell. "Anthropogenic climate change has slowed global agricultural productivity growth." Nature Climate Change 11, no. 4 (2021): 306-312. [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">paper</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">code + data</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">media</a>]
-        <br/><br/>
-        <img src="/assets/theme/images/papers/2024_A.png" alt="2024_A" style="width: 100%"/>
-      </div>
-    </div>
-  </div>
     
 <!-- New item
     Remember to open data-bs-target="#collapseTwo" then id="collapseTwo"
@@ -93,35 +72,11 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
 
 ## 2023
 
-<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has slowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
-
-<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has lowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
-
-<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has slowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
+*Coming soon...*
 
 ## 2022
 
-<div class="accordion" id="accordionExample">
-<!-- New item
-    Remember to open data-bs-target="#collapseOne" then id="collapseOne"
--->
-  <div class="accordion-item">
-      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <p>
-            <b>Anthropogenic climate change has slowed global agricultural productivity growth</b>, Nature Climate Change
-        </p>
-      </button>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Agricultural research has fostered productivity growth, but the historical influence of anthropogenic climate change (ACC) on that growth has not been quantified. We develop a robust econometric model of weather effects on global agricultural total factor productivity (TFP) and combine this model with counterfactual climate scenarios to evaluate impacts of past climate trends on TFP. Our baseline model indicates that ACC has reduced global agricultural TFP by about 21% since 1961, a slowdown that is equivalent to losing the last 7 years of productivity growth. The effect is substantially more severe (a reduction of ~26–34%) in warmer regions such as Africa and Latin America and the Caribbean. We also find that global agriculture has grown more vulnerable to ongoing climate change.
-        <br/><br/>
-        Ortiz-Bobea, Ariel, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers, and David B. Lobell. "Anthropogenic climate change has slowed global agricultural productivity growth." Nature Climate Change 11, no. 4 (2021): 306-312. [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">paper</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">code + data</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">media</a>]
-        <br/><br/>
-        <img src="/assets/theme/images/papers/2024_A.png" alt="2024_A" style="width: 100%"/>
-      </div>
-    </div>
-  </div>
-
+*Coming soon...*
 
 ## 2021
 
@@ -148,47 +103,8 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
 
 ## 2020
 
-<div class="accordion" id="accordionExample">
-<!-- New item
-    Remember to open data-bs-target="#collapseOne" then id="collapseOne"
--->
-  <div class="accordion-item">
-      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <p>
-            <b>Anthropogenic climate change has slowed global agricultural productivity growth</b>, Nature Climate Change
-        </p>
-      </button>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Agricultural research has fostered productivity growth, but the historical influence of anthropogenic climate change (ACC) on that growth has not been quantified. We develop a robust econometric model of weather effects on global agricultural total factor productivity (TFP) and combine this model with counterfactual climate scenarios to evaluate impacts of past climate trends on TFP. Our baseline model indicates that ACC has reduced global agricultural TFP by about 21% since 1961, a slowdown that is equivalent to losing the last 7 years of productivity growth. The effect is substantially more severe (a reduction of ~26–34%) in warmer regions such as Africa and Latin America and the Caribbean. We also find that global agriculture has grown more vulnerable to ongoing climate change.
-        <br/><br/>
-        Ortiz-Bobea, Ariel, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers, and David B. Lobell. "Anthropogenic climate change has slowed global agricultural productivity growth." Nature Climate Change 11, no. 4 (2021): 306-312. [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">paper</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">code + data</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">media</a>]
-        <br/><br/>
-        <img src="/assets/theme/images/papers/2024_A.png" alt="2024_A" style="width: 100%"/>
-      </div>
-    </div>
-  </div>
+*Coming soon...*
 
 ## 2013-2019
 
-<div class="accordion" id="accordionExample">
-<!-- New item
-    Remember to open data-bs-target="#collapseOne" then id="collapseOne"
--->
-  <div class="accordion-item">
-      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <p>
-            <b>Anthropogenic climate change has slowed global agricultural productivity growth</b>, Nature Climate Change
-        </p>
-      </button>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Agricultural research has fostered productivity growth, but the historical influence of anthropogenic climate change (ACC) on that growth has not been quantified. We develop a robust econometric model of weather effects on global agricultural total factor productivity (TFP) and combine this model with counterfactual climate scenarios to evaluate impacts of past climate trends on TFP. Our baseline model indicates that ACC has reduced global agricultural TFP by about 21% since 1961, a slowdown that is equivalent to losing the last 7 years of productivity growth. The effect is substantially more severe (a reduction of ~26–34%) in warmer regions such as Africa and Latin America and the Caribbean. We also find that global agriculture has grown more vulnerable to ongoing climate change.
-        <br/><br/>
-        Ortiz-Bobea, Ariel, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers, and David B. Lobell. "Anthropogenic climate change has slowed global agricultural productivity growth." Nature Climate Change 11, no. 4 (2021): 306-312. [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">paper</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">code + data</a>] [<a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">media</a>]
-        <br/><br/>
-        <img src="/assets/theme/images/papers/2024_A.png" alt="2024_A" style="width: 100%"/>
-      </div>
-    </div>
-  </div>
-
+*Coming soon...*
