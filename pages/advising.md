@@ -6,17 +6,17 @@ permalink: /advising/
 
 **Prospective PhD students:** 
 
-I advise graduate students in various fields at Cornell: 
+I can advise graduate students in various academic fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
-- [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM), 
+- [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
-- [Natural Resources](https://cals.cornell.edu/natural-resources-environment/degrees-programs/graduate) (NRE). 
+- [Natural Resources](https://cals.cornell.edu/natural-resources-environment/degrees-programs/graduate) (NRE) 
 
-These programs have different admissions criteria. 
+These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The first 3 programs (AEM,PAM, ECON) are fully funded and admissions decisions are made by a committee. You are free to reach out and disclose our conversations but I do not make admissions decisions.
+The first 3 programs (AEM,PAM, ECON) are fully funded and admissions decisions are made by a committee. I do not make admissions decisions directly. You are free to reach out to discuss fit.
 
-Applicants for the NRE program typically secure some external funding before admission (e.g. Fulbright scholarship).
+Prospective students for the NRE program typically secure some external funding (e.g. Fulbright scholarship) before inquiring about fit and advising.
 
 **Postdocs:** 
 
