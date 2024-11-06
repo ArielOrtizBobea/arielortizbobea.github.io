@@ -33,6 +33,18 @@
   googlescholar: 4Po6Kv4AAAAJ&hl
   orcid: 000-0001-9227-6829
 
+- name: Qingli Fan
+  role: PhD student, Economics # Will appear next to name
+  image: assets/theme/images/people/qf38.jpg
+  description: >
+    Qingli Fan is a Ph.D. student in Economics at Cornell University, specializing in health and environmental economics. 
+    His research focuses on health outcomes and healthcare utilization in response to environmental shocks and social factors. 
+    Qingli currently leads projects analyzing the relationship between airborne pollen intensity and asthma hospitalizations, 
+    as well as the long-term effects of prenatal radiation exposure on education and labor market outcomes. Prior to Cornell, 
+    he earned an MA in Public Policy from the University of Chicago Harris School and a BA in Economics through a joint degree 
+    program between the University of St. Andrews and the College of William & Mary.
+  email: qf38@cornell.edu
+
 - name: Jerzy Jaromczyk
   role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
@@ -57,18 +69,6 @@
   github: japrietov
   researchgate: Jeisson-Prieto
   orcid: 0000-0002-9259-4699
-
-- name: Qingli Fan
-  role: PhD student, Economics # Will appear next to name
-  image: assets/theme/images/people/qf38.jpg
-  description: >
-    Qingli Fan is a Ph.D. student in Economics at Cornell University, specializing in health and environmental economics. 
-    His research focuses on health outcomes and healthcare utilization in response to environmental shocks and social factors. 
-    Qingli currently leads projects analyzing the relationship between airborne pollen intensity and asthma hospitalizations, 
-    as well as the long-term effects of prenatal radiation exposure on education and labor market outcomes. Prior to Cornell, 
-    he earned an MA in Public Policy from the University of Chicago Harris School and a BA in Economics through a joint degree 
-    program between the University of St. Andrews and the College of William & Mary.
-  email: qf38@cornell.edu
 
 - name: Joshua Fan 
   role: PhD, Computer Science # Will appear next to name
