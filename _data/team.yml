@@ -62,7 +62,12 @@
   role: PhD student, Economics # Will appear next to name
   image: assets/theme/images/people/qf38.jpg
   description: >
-    TBC...
+    Qingli Fan is a Ph.D. student in Economics at Cornell University, specializing in health and environmental economics. 
+    His research focuses on health outcomes and healthcare utilization in response to environmental shocks and social factors. 
+    Qingli currently leads projects analyzing the relationship between airborne pollen intensity and asthma hospitalizations, 
+    as well as the long-term effects of prenatal radiation exposure on education and labor market outcomes. Prior to Cornell, 
+    he earned an MA in Public Policy from the University of Chicago Harris School and a BA in Economics through a joint degree 
+    program between the University of St. Andrews and the College of William & Mary.
   email: qf38@cornell.edu
 
 - name: Joshua Fan 
