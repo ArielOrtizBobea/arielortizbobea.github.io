@@ -1,0 +1,87 @@
+# Project team members listed below will appear on the /people page
+# BE CAREFULL, description have the following structure 
+# description: > 
+# \tab description
+- name: Ariel Ortiz-Bobea
+  role: Associate Professor
+  image: assets/theme/images/people/ao332.jpg
+  description: >
+    Prof. Ortiz-Bobea is an applied economist interested in how people cope with environmental change. His research has focuses 
+    so far on quantifying the impacts of climate change on agriculture and other sectors using econometric techniques.
+    He joined Cornell in 2014 after a brief stint at Resources for the Future (RFF). Prior to graduate school he served 
+    as special assistant to the Minister of the Environment of the Dominican Republic. He obtained a PhD in Agricultural 
+    and Resource Economics from the University of Maryland, an MPA from Syracuse University (Maxwell) and a 
+     diplôme d'Ingénieur from Université Paris-Saclay (AgroparisTech) in France.
+  office: 439 Warren Hall
+  phone: 607-255-0220
+  email: ao332@cornell.edu
+  googlescholar: kEZ0ezkAAAAJ
+  github: ArielOrtizBobea
+  orcid: 0000-0003-4482-6843
+
+- name: Yurou He
+  role: PhD student, Applied Economics and Management # Will appear next to name
+  image: assets/theme/images/people/yh878.png
+  description: >
+    Yurou He is a Ph.D. student at the Charles H. Dyson School of Applied Economics and Management. She studies the impacts 
+    of climatechange and adaptation strategies, with a focus on human economic behavior in response to environmental challenges. 
+    Her research centers on designing incentive structures in land assembly to ensure that strategies for climate-driven 
+    land use changes and displacement are both economically viable and socially just. Yurou aims to provide policymakers 
+    with actionable insights to improve the efficiency and equity of policies for land conservation and the relocation of 
+    vulnerable communities.
+  email: yh878@cornell.edu
+  googlescholar: 4Po6Kv4AAAAJ&hl
+  orcid: 000-0001-9227-6829
+
+- name: Jerzy Jaromczyk
+  role: PhD student, Applied Economics and Management # Will appear next to name
+  image: assets/theme/images/people/jj443.jpg
+  description: >
+    Jerzy Jaromczyk is a Ph.D. student in Applied Economics and Management at Cornell University interested in researching 
+    questions in agricultural and environmental economics, and agricultural finance. Prior to his doctoral studies, Jerzy 
+    co-directed an agricultural extension education program that served New York State farmers and worked as an analyst at 
+    a private firm developing index-based insurance products. He holds a Bachelors of Science in Finance from Xavier 
+    University in Cincinnati, Ohio and a Masters of Science in Agricultural Economics from the University of Kentucky.
+  email: jerzyj@cornell.edu
+
+- name: Jeisson Prieto
+  role: PhD student, Applied Economics and Management # Will appear next to name
+  image: assets/theme/images/people/jp2276.png # Can be external link
+  description: > # Can be Markdown
+    Jeisson Prieto is a third-year Ph.D. student in Applied Economics and Management at Cornell University. 
+    Before coming to Cornell University, he received his BEng in Systems Engineering and MSc in Applied Mathematics 
+    from Universidad Nacional de Colombia. His current research is focused in Environmental and Agricultural Economics, 
+    Computational Sustainability, and Complex Systems.  
+  email: jp2276@cornell.edu
+  googlescholar: 5hGcelEAAAAJ
+  github: japrietov
+  researchgate: Jeisson-Prieto
+  orcid: 0000-0002-9259-4699
+
+- name: Qingli Fan
+  role: PhD student, Economics # Will appear next to name
+  image: assets/theme/images/people/qf38.jpg
+  description: >
+    TBC...
+  email: qf38@cornell.edu
+
+- name: Joshua Fan 
+  role: PhD, Computer Science # Will appear next to name
+  image: assets/theme/images/people/jyf6.jpg
+  description: > 
+    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
+    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
+    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
+    to develop innovative AI solutions that can benefit their fields.
+  email: jyf6@cornell.edu
+  github: joshuafan
+
+# Dont change this to allow category alumni
+- name: <h3>Alumni</h3> 
+
+# Here the alumni starts
+- name: Professor Hubert J. Farnsworth
+  role: CEO & Owner of Planet Express
+  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+  description: >
+    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
