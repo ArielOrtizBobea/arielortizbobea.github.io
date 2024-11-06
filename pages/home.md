@@ -1,6 +1,6 @@
 ---
 layout: home
-title: AOB Research Group
+title: Home
 #description: Associate Professor of Applied Economics and Policy
 background: /assets/theme/images/landing/home.jpg
 permalink: /
