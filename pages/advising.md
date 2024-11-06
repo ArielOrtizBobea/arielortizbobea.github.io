@@ -7,7 +7,7 @@ background: /assets/theme/images/landing/home.jpg
 
 **Prospective PhD students:** 
 
-    I can advise graduate students in various academic fields at Cornell: 
+ I can advise graduate students in various academic fields at Cornell: 
     - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
     - [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
     - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)

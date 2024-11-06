@@ -6,11 +6,12 @@ permalink: /research/
 
 Access to my Google Scholar page [here](https://scholar.google.com/citations?user=kEZ0ezkAAAAJ).
 
-## Work in Progress
+## Select work in progress
+
 “Navigating Shallow Waters: How Water Level Fluctuations in the Panama Canal Disrupt Maritime Trade” with Jeisson Prieto
 
 
-## Published Work
+## Published work
 
 ## 2024
 
@@ -27,3 +28,11 @@ Access to my Google Scholar page [here](https://scholar.google.com/citations?use
 <a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has lowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
 
 <a href="https://www.nature.com/articles/s41558-021-01000-1" target="_blank">Anthropogenic climate change has slowed global agricultural productivity growth</a>. **_Nature Climate Change_**  (2021): 306-312. [[code + data]()] [[media]()]
+
+## 2022
+
+## 2021
+
+## 2020
+
+## 2013-2019
