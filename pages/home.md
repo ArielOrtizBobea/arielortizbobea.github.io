@@ -25,9 +25,8 @@ THIS IS A COMMENT
 </td>
 <td>
 Welcome to my web page.
-
+<br/><br/>
 I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a faculty fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
-
 <br/><br/>
 Here's a link to a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> and to my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
 </td>
