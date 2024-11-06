@@ -13,7 +13,7 @@ The repository structure follows that of Jekyll websites.
 - General site settings: [_config.yml](_config.yml)
 - Pages: [pages/](pages/)
     - home.md: Main page.
-    - team.md: People in the research group.
+    - people.md: People in the research group.
     - research.md: Papers.
     - advising.md: Advising and new jobs
     - teaching.md: Courses syllabus.
