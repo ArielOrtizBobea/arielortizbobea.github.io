@@ -34,7 +34,7 @@
 
 - name: Yurou He
   role: Ph.D., Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/people/yh878.png
+  image: assets/theme/images/people/yh878.jpeg
   description: >
     TBC...
   email: yh878@cornell.edu
@@ -43,22 +43,21 @@
 
 - name: Jerzy Jaromczyk
   role: Ph.D., Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/people/jj443.png
+  image: assets/theme/images/people/jj443.jpg
   description: >
     TBC...
   email: jerzyj@cornell.edu
 
 - name: Qingli Fan
   role: Ph.D., Economics # Will appear next to name
-  image: assets/theme/images/people/qf38.png
+  image: assets/theme/images/people/qf38.jpg
   description: >
     TBC...
-  image: assets/theme/images/people/jp2276.png
   email: qf38@cornell.edu
 
 - name: Joshua Fan 
   role: Ph.D., Computer Science # Will appear next to name
-  image: assets/theme/images/people/jp2276.png
+  image: assets/theme/images/people/jyf6.jpg
   description: > 
     My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
     My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
