@@ -4,8 +4,6 @@ permalink: /resources/
 background: /assets/theme/images/landing/home.jpg
 ---
 
-Resources for young researchers:
-
 ## Seminars
 - [AERE@OSWEET](https://www.aere.org/osweet-paper-sessions) online seminar for junior scholars
 - The San Francisco Fed [Virtual Seminar on Climate Economics](https://www.frbsf.org/news-and-media/events/virtual-seminar-on-climate-economics/) 
