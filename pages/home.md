@@ -53,4 +53,3 @@ You can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> an
     So links are [text](link).
 --->
 
-My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists. We strive to conduct work that is relevant not only to other academics (economists and non-economists) but also to policy and decision makers in industry and government around the world.
