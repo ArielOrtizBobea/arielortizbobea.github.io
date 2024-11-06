@@ -20,9 +20,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <td>
     <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
 </td>
-
-<br/><br/>
-
+<td>
 Welcome to my website.
 
 <br/><br/>
