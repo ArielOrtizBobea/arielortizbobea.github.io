@@ -35,7 +35,7 @@ I have various editorial roles at the following journals:
   <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li>
 </ul>
 
-I'm also a board director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the Association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
+I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the Association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
 
 <br/><br/>
 
@@ -43,7 +43,7 @@ I'm currently serving as an author of the economics chapter of the <a href="http
 
 <br/><br/>
 
-Here you can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> and page <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
+You can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> and my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
 </td>
 </tr>
 </table>
