@@ -20,13 +20,19 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <td>
     <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
 </td>
-<td>
+
+<br/><br/>
+
+Welcome to my website.
+
+<br/><br/>
+
 I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
 
 <br/><br/>
 
 I serve on the editorial board of the <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a> (JAERE), the <a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a> (AJAE) and of 
-<a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>. I also serve on the board of directors of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
+<a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>. I am also in the editorial Executive Editorial Board of <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a> and in the Editorial Advisory Board of the <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a> (JWE). In addition, I serve on the Board of Directors of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
 
 <br/><br/>
 
