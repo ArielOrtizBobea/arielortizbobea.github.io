@@ -25,6 +25,11 @@ I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_
 
 <br/><br/>
 
+I serve on the editorial board of the <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a> (JAERE), the <a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a> (AJAE) and of 
+<a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>. I also serve on the board of directors of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
+
+<br/><br/>
+
 During 2024-2027 I will be serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a>.
 
 <br/><br/>
