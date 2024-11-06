@@ -1,6 +1,7 @@
 ---
 title: Other
 permalink: /other/
+background: /assets/theme/images/landing/home.jpg
 ---
 
 ## Resources for young researchers:
