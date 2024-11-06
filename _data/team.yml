@@ -75,3 +75,13 @@
     to develop innovative AI solutions that can benefit their fields.
   email: jyf6@cornell.edu
   github: joshuafan
+
+# Dont change this to allow category alumni
+- name: <h3>Alumni</h3> 
+
+# Here the alumni starts
+- name: Professor Hubert J. Farnsworth
+  role: CEO & Owner of Planet Express
+  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+  description: >
+    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
