@@ -45,6 +45,17 @@
     program between the University of St. Andrews and the College of William & Mary.
   email: qf38@cornell.edu
 
+- name: Joshua Fan 
+  role: PhD, Computer Science # Will appear next to name
+  image: assets/theme/images/people/jyf6.jpg
+  description: > 
+    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
+    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
+    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
+    to develop innovative AI solutions that can benefit their fields.
+  email: jyf6@cornell.edu
+  github: joshuafan
+  
 - name: Jerzy Jaromczyk
   role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
@@ -70,16 +81,7 @@
   researchgate: Jeisson-Prieto
   orcid: 0000-0002-9259-4699
 
-- name: Joshua Fan 
-  role: PhD, Computer Science # Will appear next to name
-  image: assets/theme/images/people/jyf6.jpg
-  description: > 
-    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
-    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
-    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
-    to develop innovative AI solutions that can benefit their fields.
-  email: jyf6@cornell.edu
-  github: joshuafan
+
 
 # Dont change this to allow category alumni
 - name: <h3>Alumni</h3> 
