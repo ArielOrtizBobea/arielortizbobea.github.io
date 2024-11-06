@@ -4,6 +4,8 @@ background: /assets/theme/images/landing/home.jpg
 permalink: /research/
 ---
 
+Access to [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAAJ) page.
+
 ## WORK IN PROGRESS
 “Navigating Shallow Waters: How Water Level Fluctuations in the Panama Canal Disrupt Maritime Trade” with Jeisson Prieto
 
