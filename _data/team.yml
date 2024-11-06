@@ -6,10 +6,10 @@
   role: Associate Professor
   image: assets/theme/images/people/ao332.jpg
   description: >
-    Prof. Ortiz-Bobea is an applied economist interested in how people cope with environmental change. His research has focuses 
+    Prof. Ortiz-Bobea is an applied economist interested in how people cope with environmental change. His research has focused 
     so far on quantifying the impacts of climate change on agriculture and other sectors using econometric techniques.
-    He joined Cornell in 2014 after a brief stint at Resources for the Future (RFF). Prior to graduate school he served 
-    as special assistant to the Minister of the Environment of the Dominican Republic. He obtained a PhD in Agricultural 
+    He joined Cornell in 2014 after a brief stint at Resources for the Future. Prior to grad school he served 
+    as Special Assistant to the Minister of the Environment of the Dominican Republic. He obtained a PhD in Agricultural 
     and Resource Economics from the University of Maryland, an MPA from Syracuse University (Maxwell) and a 
      diplôme d'Ingénieur from Université Paris-Saclay (AgroparisTech) in France.
   office: 439 Warren Hall
@@ -69,9 +69,13 @@
   role: PhD, Computer Science # Will appear next to name
   image: assets/theme/images/people/jyf6.jpg
   description: > 
-    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
-    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
-    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
-    to develop innovative AI solutions that can benefit their fields.
+    Joshua Fan is a Ph.D. student in Computer Science at Cornell University. His research focuses on developing machine learning 
+    techniques to address challenging problems in sustainability and agriculture. His work encompasses numerous applications 
+    including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish farms in the Amazon 
+    using satellite imagery. On the computational side, he is interested in methods that allow deep learning to generalize 
+    with small amounts of labeled data, such as weakly-supervised learning, self-supervised learning, incorporating scientific 
+    knowledge into machine learning, and leveraging spatiotemporal structure. He received a B.S. and M.S. in Computer 
+    Science from the University of Washington, and has completed internships at Meta, Kitware, and Docugami working on applied 
+    AI problems. His website is accessible [here](https://joshuafan.github.io).
   email: jyf6@cornell.edu
   github: joshuafan
