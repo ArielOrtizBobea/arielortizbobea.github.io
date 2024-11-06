@@ -2,7 +2,7 @@
 layout: home
 title: Home
 #description: Associate Professor of Applied Economics and Policy
-background: /assets/theme/images/landing/home3.jpg
+background: /assets/theme/images/landing/home.jpg
 permalink: /
 ---
 
@@ -21,7 +21,7 @@ THIS IS A COMMENT
 <table>
 <tr>
 <td>
-    <img src="/assets/theme/images/landing/aob.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
+    <img src="/assets/theme/images/landing/aob2.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
 </td>
 <td>
 Welcome to my web page.
