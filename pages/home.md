@@ -18,7 +18,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <table>
 <tr>
 <td>
-    <img src="/assets/theme/images/landing/aob2.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
+    <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
 </td>
 <td>
 I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
