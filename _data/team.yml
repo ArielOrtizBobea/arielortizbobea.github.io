@@ -85,8 +85,28 @@
 - name: <h3>Alumni</h3> 
 
 # Here the alumni starts
-- name: Professor Hubert J. Farnsworth
-  role: CEO & Owner of Planet Express
-  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+- name: Haoying Wang
+  role: Postdoctotal Fellow (x-x)
+  image: assets/theme/images/people/Haoying.png
   description: >
-    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
+    Now [Associate Professor](https://sites.google.com/site/halkingwang/) at New Mexico Tech.
+
+- name: Osama Sajid
+  role: Postdoctotal Fellow (x-x)
+  image: assets/theme/images/people/Osama.jpg
+  description: >
+    Now [Socio-Economic Specialist](https://ca.linkedin.com/in/osama-sajid-ph-d-857540116) at Hatfield.
+
+- name: Maria Gerulis 
+  role: Postdoctotal Fellow (2022-2023)
+  image: assets/theme/images/people/Maria.jpg
+  description: >
+    Now [Postdoc](https://sites.google.com/view/mariagerullis/home?authuser=0) at Goettingen University.
+
+https://sites.google.com/view/mariagerullis/home
+
+- name: Zhiyun Li 
+  role: PhD student, AEM (x-x)
+  image: assets/theme/images/people/Zhiyun.jpg
+  description: >
+    Now [Mercury Insurance Climate Economist](https://sites.google.com/site/halkingwang/) at UCLA Anderson.
