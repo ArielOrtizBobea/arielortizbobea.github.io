@@ -61,7 +61,6 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
       </div>
     </div>
   </div>
-</div>
 
 <br /><br />
 
@@ -100,6 +99,8 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
       </div>
     </div>
   </div>
+
+<br /><br />
 
 ## 2020
 
