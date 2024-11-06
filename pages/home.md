@@ -39,7 +39,7 @@ I'm also a Board Director of the <a href="https://www.aere.org/board-of-director
 
 <br/><br/>
 
-I'm currently serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027)
+I'm currently serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027).
 
 <br/><br/>
 
