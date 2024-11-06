@@ -13,12 +13,34 @@ You can access Prof. Ortiz-Bobea's Google Scholar page [here](https://scholar.go
 ## In Progress
 
 - "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*)
-- "[The Impact of Large-scale Solar Development on Farmland Values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
+- "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
 - "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*)
 - "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
 - “Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade” (with Jeisson Prieto) (*in preparation*)
 
 ## Publications
+
+## 2025
+
+<!-- New item
+    Remember to open data-bs-target="#collapseOne" then id="collapseOne"
+-->
+  <div class="accordion-item">
+      <button class="accordion-button collapsed lh-30" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <p>
+            <b>The role of staple food prices in deforestation: Evidence from Cambodiah</b>, Land Economics
+        </p>
+      </button>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        Research on agricultural prices and deforestation has mostly focused on cash crops and export-oriented commodities. We develop a theoretical framework to illustrate how a staple food price shock can lead to deforestation through various channels. We explore our theoretical predictions with data from Cambodia and employ a shift-share instrumental variables strategy. We find that shocks to the price of rice explain most of Cambodia’s recent deforestation. To shed light on mechanisms, we use household data to study land use behavior and welfare. Our findings suggest that staple food prices have a more important role in driving deforestation than previously thought.
+        <br/><br/>
+        Wilcox, S. W., Just, D. R., & Ortiz-Bobea, A. (2024). The Role of Staple Food Prices in Deforestation: Evidence from Cambodia. Land Economics. [<a href="https://doi.org/10.3368/le.101.1.100423-0097R" target="_blank">paper</a>]
+        <br/><br/>
+        <img src="/assets/theme/images/papers/2025a.png" alt="2025a" style="width: 100%"/>
+      </div>
+    </div>
+  </div>
 
 ## 2024
 
