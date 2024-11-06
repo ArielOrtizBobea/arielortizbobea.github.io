@@ -15,9 +15,7 @@ I can advise graduate students in various academic fields at Cornell:
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The first 3 programs (AEM,PAM, ECON) are fully funded and admissions decisions are made by a committee. I do not make admissions decisions directly. You are free to reach out to discuss fit prior to your applications. In general the match with your adviser occurs in the second year.
-
-Prospective students for the NRE program typically secure some external funding (e.g. Fulbright scholarship) before inquiring about fit and advising.
+The first 3 programs (AEM,PAM, ECON) are fully funded and admissions decisions are made by a committee. I do not make admissions decisions directly. Prospective students for the NRE program typically secure some external funding (e.g. Fulbright scholarship) before inquiring about fit and advising.
 
 **Postdocs:** 
 
