@@ -20,7 +20,7 @@
   orcid: 0000-0003-4482-6843
 
 - name: Joshua Fan 
-  role: PhD, Computer Science # Will appear next to name
+  role: PhD student, Computer Science # Will appear next to name
   image: assets/theme/images/people/jyf6.jpg
   description: > 
     My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
@@ -89,7 +89,7 @@
 # Here the alumni starts
 
 - name: Zhiyun Li 
-  role: PhD student, AEM (2023)
+  role: PhD student, Applied Economics and Management (2023)
   image: assets/theme/images/people/Zhiyun.jpg
   description: >
     Now [Climate Economist](https://sites.google.com/site/halkingwang/) at UCLA Anderson
