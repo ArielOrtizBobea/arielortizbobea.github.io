@@ -21,7 +21,7 @@ Access to my Google Scholar page [here](https://scholar.google.com/citations?use
 -->
   <div class="accordion-item">
       <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        <strong>Anthropogenic climate change has slowed global agricultural productivity growth</strong>
+        <strong>Anthropogenic climate change has slowed global agricultural productivity growth</strong>, Nature Climate Change
       </button>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
@@ -39,7 +39,7 @@ Access to my Google Scholar page [here](https://scholar.google.com/citations?use
 -->
   <div class="accordion-item">
       <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-        <strong>Temperature Shocks and Establishment Sales</strong>
+        <strong>Temperature Shocks and Establishment Sales</strong>, The Review of Financial Studies
       </button>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
