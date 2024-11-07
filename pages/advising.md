@@ -2,7 +2,7 @@
 title: Advising & Jobs
 #description: Description that will appear below the title in the banner
 permalink: /advising/
-background: /assets/theme/images/landing/home.jpg
+background: /assets/theme/images/landing/advising.jpg
 ---
 
 **Prospective PhD students:** 

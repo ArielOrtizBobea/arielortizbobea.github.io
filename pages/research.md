@@ -1,6 +1,6 @@
 ---
 title: Research
-background: /assets/theme/images/landing/home.jpg
+background: /assets/theme/images/landing/research.png
 permalink: /research/
 ---
 
