@@ -23,7 +23,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <div class="col-sm">
       I'm an Associate Professor at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and at the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
     <br/><br/>
-    I serve on various editorial roles at the following journals:
+    I have editorial roles at the following journals:
     <ul>
         <li><a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a> (JAERE)</li>
         <li><a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a> (AJAE)</li>
@@ -31,7 +31,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <li><a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a></li>
         <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li>
     </ul>
-    I also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the Association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>. I am also serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027).
+    I also serve as a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and as co-host of AERE's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>. I am also serving as an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027).
     <br/><br/>
     You can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> or my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
     </div>
