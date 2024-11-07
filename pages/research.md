@@ -18,17 +18,17 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## 2025
 
-- Wilcox, S.W., D.R. Just and A. Ortiz-Bobea “The Role of Staple Food Prices in Deforestation: Evidence from Cambodia”, Land Economics (2025). (accepted)
+- Wilcox, S.W., D.R. Just and A. Ortiz-Bobea “[The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R)”, Land Economics (2025). (accepted)
 
 ## 2024
 
-- Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters “New York State Climate Impacts Assessment 03 Agriculture”, Annals of the New York Academy of Sciences (2024). (forthcoming) 
+- Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters “[New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf)”, Annals of the New York Academy of Sciences (2024). (forthcoming) 
 
-- Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell “Climate change exacerbates the environmental impacts of agriculture”, Science (2024) Vol 385, No. 6713.
+- Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell “[Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747)”, Science (2024) Vol 385, No. 6713.
 
-- Gammans, M., A. Ortiz-Bobea and P. Mérel “Double cropping as an adaptation to climate change in the United States”, American Journal of Agricultural Economics (2024). (accepted)
+- Gammans, M., A. Ortiz-Bobea and P. Mérel “[Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)”, American Journal of Agricultural Economics (2024). (accepted)
 
-- Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun “A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)”, Environmental Research Letters (2024).
+- Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun “[A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142)”, Environmental Research Letters (2024).
 
 ## 2023
 
@@ -57,7 +57,7 @@ o	Press release here
 - Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate,” Climatic Change 166:34 (2021)
 
 - Ortiz-Bobea, A., T.R. Ault, C.M. Carrillo, R.G. Chambers and D.B. Lobell, “Anthropogenic climate change has slowed global agricultural productivity growth,” Nature Climate Change 11 (2021) 306–312
-['code+data']() [press release]() [video abstract]()
+[[code + data]()] [press release]() [video abstract]()
 
 - Plastina A., S. Lence and A. Ortiz-Bobea, “How weather affects the decomposition of Total Factor Productivity in U.S. agriculture,” Agricultural Economics 52:2 (2021) 215–234
 
