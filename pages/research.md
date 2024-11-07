@@ -57,10 +57,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “[A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8),” **Climatic Change** 166:34 (2021)
 
 - Ortiz-Bobea, A., T.R. Ault, C.M. Carrillo, R.G. Chambers and D.B. Lobell, “[Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1),” **Nature Climate Change** 11 (2021) 306–312
-
-[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
-[[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
-[[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)]
+  - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
+  - [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
+  - [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)]
 
 - Plastina A., S. Lence and A. Ortiz-Bobea, “[How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615),” **Agricultural Economics** 52:2 (2021) 215–234
 
