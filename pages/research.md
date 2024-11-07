@@ -48,7 +48,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## 2022
 
-- Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” Journal of the Agricultural and Applied Economics Association 1 (2022) 180–195 
+- Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” **Journal of the Agricultural and Applied Economics Association** 1 (2022) 180–195 
   - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
 
