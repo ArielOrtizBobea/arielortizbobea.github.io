@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: Home             # Title in top navigation bar (navbar) and <head>
+title: Ariel Ortiz-Bobea            # Title in top navigation bar (navbar) and <head>
 author: Ariel Ortiz-Bobea               # Used for copyright statement in footer
 #baseurl: "/aob.github.io"               # Only required if your site is in a directory e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
