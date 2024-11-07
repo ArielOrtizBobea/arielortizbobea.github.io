@@ -31,7 +31,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <li><a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a></li>
         <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li> (JWE)
     </ul>
-    For the next few years I'll be serving as an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I also serve as a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE)(2022-2024) and co-host <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
+    For the next few years I'll be serving as an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE)(2022-2024) and co-host <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
     <br/><br/>
     Access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> or my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
     </div>
