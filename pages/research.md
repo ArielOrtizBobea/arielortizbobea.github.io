@@ -37,22 +37,23 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Barrett, C., A. Ortiz-Bobea and T. Pham, “[Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319)”, **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
 
 - Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes, “[A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444)”. In **Proceedings of the AAAI conference on artificial intelligence** (2022) Vol. 36, No. 11, pp. 11873-11881.
-[[code + data](https://github.com/JunwenBai/GNN-RNN)]
+  - [[code + data](https://github.com/JunwenBai/GNN-RNN)]
 
 ## 2022
 
 - Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” Journal of the Agricultural and Applied Economics Association 1 (2022) 180–195 
-[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
+  - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
 - Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698
 
 ## 2021
 
 - Ortiz-Bobea, A., “[The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025),” **Handbook of Agricultural Economics** 5 (2021) 3981–4073
-[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
+  - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] 
+  - [[preprint](https://arxiv.org/abs/2105.12044)]
 
 - Merél, P., A. Ortiz-Bobea and E. Paroissien, “[How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824),” **European Economic Review** 138 (2021)
-[[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
+  - [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
 
 - Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “[A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8),” **Climatic Change** 166:34 (2021)
 
@@ -61,6 +62,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
   - [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)]
 
+
 - Plastina A., S. Lence and A. Ortiz-Bobea, “[How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615),” **Agricultural Economics** 52:2 (2021) 215–234
 
 ## 2020
@@ -68,20 +70,21 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Addoum, J., D. Ng and A. Ortiz-Bobea, “[Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126),” **Review of Financial Studies** 33:3 (2020) 1331–1366.
 
 - Ortiz-Bobea, A., “[The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047),” **American Journal of Agricultural Economics** (2020)
-[[code + data](https://doi.org/10.6077/2dhd-f934)]
+  - [[code + data](https://doi.org/10.6077/2dhd-f934)]
 
 
 ## 2019
 
 - Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault, “[Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75)”, **Environmental Research Letters** 14:6 (2019)
-[[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
+  - [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
 
 - H. Wang and A. Ortiz-Bobea, “[Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4),” **Agricultural and Resource Economics Review** (2019) 1–23.
 
 ## 2018
 
 - Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, “[Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343),” **Science Advances** 4:12 (2018)
-[[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+  - [[code + data](https://doi.org/10.6077/f26v-xz15)] 
+  - [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
 ## 2017
 
