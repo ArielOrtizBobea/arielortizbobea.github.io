@@ -8,7 +8,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## In Progress
 
-- "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*)
+- "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) [[code + data](https://doi.org/10.6077/q59w-tj45)]
 - "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
 - "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 - "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
@@ -16,11 +16,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Publications
 
-## 2025
-
-- Wilcox, S.W., D.R. Just and A. Ortiz-Bobea “[The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R)”, **Land Economics** (2025). (accepted)
-
 ## 2024
+
+- Wilcox, S.W., D.R. Just and A. Ortiz-Bobea “[The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R)”, **Land Economics** (2025).
 
 - Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters “[New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf)”, **Annals of the New York Academy of Sciences** (2024). (forthcoming) 
   - [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
@@ -28,7 +26,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell “[Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747)”, **Science** (2024) Vol 385, No. 6713.
   - [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]
 
-- Gammans, M., A. Ortiz-Bobea and P. Mérel “[Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)”, **American Journal of Agricultural Economics** (2024). (accepted)
+- Gammans, M., A. Ortiz-Bobea and P. Mérel “[Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)”, **American Journal of Agricultural Economics** (2024).
   - [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
 
 - Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun “[A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142)”, **Environmental Research Letters** (2024).
@@ -50,6 +48,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
 - Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698
+  - [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
+
 
 ## 2021
 
@@ -58,6 +58,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[preprint](https://arxiv.org/abs/2105.12044)]
 
 - Merél, P., A. Ortiz-Bobea and E. Paroissien, “[How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824),” **European Economic Review** 138 (2021)
+  - [[code + data](https://doi.org/10.6077/zqcs-2544)]
   - [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
 
 - Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “[A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8),” **Climatic Change** 166:34 (2021)
