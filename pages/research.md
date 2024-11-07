@@ -25,6 +25,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell “[Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747)”, **Science** (2024) Vol 385, No. 6713.
   - [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]
+  - [[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)]
 
 - Gammans, M., A. Ortiz-Bobea and P. Mérel “[Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)”, **American Journal of Agricultural Economics** (2024).
   - [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
