@@ -65,33 +65,33 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - Addoum, J., D. Ng and A. Ortiz-Bobea, “[Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126),” **Review of Financial Studies** 33:3 (2020) 1331–1366.
 
-- Ortiz-Bobea, A., “The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture,” American Journal of Agricultural Economics (2020)
-o	Code and data here
+- Ortiz-Bobea, A., “[The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047),” **American Journal of Agricultural Economics** (2020)
+[[code + data](https://doi.org/10.6077/2dhd-f934)]
+
 
 ## 2019
 
-- Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault, “Unpacking the climatic drivers of U.S. agricultural yields”, Environmental Research Letters 14:6 (2019)
-o	Press release here
+- Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault, “[Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75)”, **Environmental Research Letters** 14:6 (2019)
+[[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
 
-- H. Wang and A. Ortiz-Bobea, “Market-Driven Corn Monoculture in the US Midwest,” Agricultural and Resource Economics Review (2019) 1–23.
+- H. Wang and A. Ortiz-Bobea, “[Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4),” **Agricultural and Resource Economics Review** (2019) 1–23.
 
 ## 2018
 
-- Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, “Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization,” Science Advances 4:12 (2018)
-o	Press release and video here
-o	Code and data here
+- Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, “[Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343),” **Science Advances** 4:12 (2018)
+[[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
 ## 2017
 
-- Ortiz-Bobea, A. and J. Tack, “Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?,” Environmental Research Letters 13:12 (2018)
+- Ortiz-Bobea, A. and J. Tack, “[Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](),” **Environmental Research Letters** 13:12 (2018)
 
-- Gammans, M., P. Mérel and A. Ortiz-Bobea, “The Impact of Climate Change on Cereal Yields: Statistical Evidence from France,” Environmental Research Letters 12:5 (2017)
+- Gammans, M., P. Mérel and A. Ortiz-Bobea, “[The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](),” **Environmental Research Letters** 12:5 (2017)
 
-- Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent, “Using the Delphi method to value protection of the Amazon rainforest,” Ecological Economics 131 (2017) 475–484
+- Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent, “[Using the Delphi method to value protection of the Amazon rainforest](),” **Ecological Economics** 131 (2017) 475–484
 
 ## 2013
 
-- Ortiz-Bobea, A. and R.E. Just, “Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture,” American Journal of Agricultural Economics 95:2 (2013) 244–251
+- Ortiz-Bobea, A. and R.E. Just, “[Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](),” **American Journal of Agricultural Economics** 95:2 (2013) 244–251
 
 
 
