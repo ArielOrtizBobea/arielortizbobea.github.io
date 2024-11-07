@@ -25,11 +25,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <br/><br/>
     I have editorial roles at the following journals:
     <ul>
-        <li><a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a> (JAERE)</li>
-        <li><a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a> (AJAE)</li>
+        <li><a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the American Association of Environmental Economists</a></li>
+        <li><a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a></li>
         <li><a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a></li>
         <li><a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a></li>
-        <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li> (JWE)
+        <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li>
     </ul>
     For the next few years I'll be serving as an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE)(2022-2024) and co-host <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
     <br/><br/>
