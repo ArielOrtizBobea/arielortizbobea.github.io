@@ -84,7 +84,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - Ortiz-Bobea, A., “[The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047),” **American Journal of Agricultural Economics** (2020)
   - [[code + data](https://doi.org/10.6077/2dhd-f934)]
-
+  - [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
 
 ## 2019
 
