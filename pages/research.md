@@ -10,7 +10,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*)
 - "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
-- "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*)
+- "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 - "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
 - “Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade” (with Jeisson Prieto) (*in preparation*)
 
@@ -29,8 +29,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]
 
 - Gammans, M., A. Ortiz-Bobea and P. Mérel “[Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)”, **American Journal of Agricultural Economics** (2024). (accepted)
+  - [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
 
 - Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun “[A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142)”, **Environmental Research Letters** (2024).
+  - [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
+
 
 ## 2023
 
