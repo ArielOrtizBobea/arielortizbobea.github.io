@@ -40,6 +40,18 @@
   googlescholar: 4Po6Kv4AAAAJ&hl
   orcid: 000-0001-9227-6829
 
+- name: Ayşegül Kılınç
+  role: PhD student, Natural Resources # Will appear next to name
+  image: assets/theme/images/people/ak2754.jpg
+  description: >
+    Ayşegül Kılınç is a PhD student and Fulbright grantee in Natural Resources and the Environment at Cornell University. Her research interests focus on the global implications and
+    dynamic environmental and economic effects of climate policies, particularly carbon border adjustments. She aims to analyze how these policies affect greenhouse gas emissions
+    trajectories, international trade flows, sectoral production patterns, and decarbonization strategies. Prior to Cornell, Ayşegül worked in various sustainability roles in both the corporate
+    sector and consultancy. She holds an MS in Earth System Science and a BS in Environmental Engineering from Middle East Technical University.
+  email: ak2754@cornell.edu
+
+
+
 - name: Jerzy Jaromczyk
   role: PhD student, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
