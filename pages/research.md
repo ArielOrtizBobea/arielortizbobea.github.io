@@ -101,15 +101,15 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## 2017
 
-- Ortiz-Bobea, A. and J. Tack, “[Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](),” **Environmental Research Letters** 13:12 (2018)
+- Ortiz-Bobea, A. and J. Tack, “[Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta),” **Environmental Research Letters** 13:12 (2018)
 
-- Gammans, M., P. Mérel and A. Ortiz-Bobea, “[The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](),” **Environmental Research Letters** 12:5 (2017)
+- Gammans, M., P. Mérel and A. Ortiz-Bobea, “[The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c),” **Environmental Research Letters** 12:5 (2017)
 
-- Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent, “[Using the Delphi method to value protection of the Amazon rainforest](),” **Ecological Economics** 131 (2017) 475–484
+- Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent, “[Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028),” **Ecological Economics** 131 (2017) 475–484
 
 ## 2013
 
-- Ortiz-Bobea, A. and R.E. Just, “[Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](),” **American Journal of Agricultural Economics** 95:2 (2013) 244–251
+- Ortiz-Bobea, A. and R.E. Just, “[Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035),” **American Journal of Agricultural Economics** 95:2 (2013) 244–251
 
 
 
