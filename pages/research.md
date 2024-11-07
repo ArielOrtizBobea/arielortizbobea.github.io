@@ -41,29 +41,29 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## 2022
 
-- Li, Z. and A. Ortiz-Bobea, “On the Timing of Relevant Weather Conditions in Agriculture” Journal of the Agricultural and Applied Economics Association 1 (2022) 180–195 
-o	Code and data: here
+- Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” Journal of the Agricultural and Applied Economics Association 1 (2022) 180–195 
+[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-- Blom, S., A. Ortiz-Bobea and J. Hoddinott, “Temperature and children’s Nutrition: evidence from West Africa”, Journal of Environmental Economics and Management 155 (2022) 102698
+- Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698
 
 ## 2021
 
-- Ortiz-Bobea, A., “The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture,” Handbook of Agricultural Economics 5 (2021) 3981–4073
-o	Code and data: here
+- Ortiz-Bobea, A., “[The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025),” **Handbook of Agricultural Economics** 5 (2021) 3981–4073
+[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
 
-- Merél, P., A. Ortiz-Bobea and E. Paroissien, “How big is the ‘lemons’ problem? Historical evidence from French wines,” European Economic Review 138 (2021)
-o	Press release here
+- Merél, P., A. Ortiz-Bobea and E. Paroissien, “[How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824),” **European Economic Review** 138 (2021)
+[[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
 
-- Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate,” Climatic Change 166:34 (2021)
+- Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “[A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8),” **Climatic Change** 166:34 (2021)
 
-- Ortiz-Bobea, A., T.R. Ault, C.M. Carrillo, R.G. Chambers and D.B. Lobell, “Anthropogenic climate change has slowed global agricultural productivity growth,” **Nature Climate Change** 11 (2021) 306–312
-[[code + data]()] [press release]() [video abstract]()
+- Ortiz-Bobea, A., T.R. Ault, C.M. Carrillo, R.G. Chambers and D.B. Lobell, “[Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1),” **Nature Climate Change** 11 (2021) 306–312
+[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)]
 
-- Plastina A., S. Lence and A. Ortiz-Bobea, “How weather affects the decomposition of Total Factor Productivity in U.S. agriculture,” Agricultural Economics 52:2 (2021) 215–234
+- Plastina A., S. Lence and A. Ortiz-Bobea, “[How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615),” **Agricultural Economics** 52:2 (2021) 215–234
 
 ## 2020
 
-- Addoum, J., D. Ng and A. Ortiz-Bobea, “Temperature Shocks and Establishment Sales,” Review of Financial Studies 33:3 (2020) 1331–1366.
+- Addoum, J., D. Ng and A. Ortiz-Bobea, “[Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126),” **Review of Financial Studies** 33:3 (2020) 1331–1366.
 
 - Ortiz-Bobea, A., “The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture,” American Journal of Agricultural Economics (2020)
 o	Code and data here
