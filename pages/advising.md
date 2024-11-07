@@ -13,7 +13,7 @@ I advise graduate students in various academic fields at Cornell:
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
 - [Natural Resources](https://cals.cornell.edu/natural-resources-environment/degrees-programs/graduate) (NRE) 
 
-These programs have different admissions criteria. Please consult the respective websites for more details..
+These programs have different admissions criteria. Please consult the respective websites for more details.
 
 The AEM, PAM and ECON PhD programs are fully funded and admissions decisions are made by a committee and not by individual faculty. The NRE PhD program is externally funded so prspective students typically secure some external support before applying (e.g. Fulbright scholarship).
 
