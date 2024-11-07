@@ -7,7 +7,7 @@ background: /assets/theme/images/landing/home.jpg
 
 **Prospective PhD students:** 
 
-Prof. Ortiz-Bobea can advise graduate students in various academic fields at Cornell: 
+I advise graduate students in various academic fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
 - [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
@@ -15,7 +15,7 @@ Prof. Ortiz-Bobea can advise graduate students in various academic fields at Cor
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The first 3 programs (AEM,PAM, ECON) are fully funded and admissions decisions are made by a committee. prof. Ortiz-Bobea does not make admissions decisions directly. Prospective students for the NRE program typically secure some external funding (e.g. Fulbright scholarship) before admission.
+The AEM, PAM and ECON PhD programs are fully funded and admissions decisions are made by a committee and not by individual faculty. The NRE PhD program is externally funded so prspective students typically secure some external support before applying (e.g. Fulbright scholarship).
 
 **Postdocs:** 
 
