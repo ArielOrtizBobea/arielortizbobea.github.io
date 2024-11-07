@@ -31,11 +31,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <li><a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a></li>
         <li><a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a></li>
     </ul>
-    I also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the Association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>.
+    I also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (2022-2024) and co-host the Association's online seminar for junior scholars <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>. I am also serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027).
     <br/><br/>
-    During 2024-2027 I will be serving as an author of the economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a>.
-    <br/><br/>
-    You can access a recent CV <a href="/assets/theme/cv.pdf" target="_blank">here</a> or my Google Scholar page <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">here</a>.
+    You can access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> or my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
     </div>
   </div>
 </div>
@@ -44,4 +42,4 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     So links are [text](link).
 --->
 
-#My research group focuses on understanding and enhancing how humans cope with environmental #change. We use economics and quantitative methods to rigorously analyze economic and #environmental data to shed light on these pressing problems. Our work often involves #collaborations with non-economists including natural and physical scientists. We strive to #conduct work that is relevant not only to other academics (economists and non-economists) but #also to policy and decision makers in industry and government around the world.
+My research group focuses on understanding and enhancing how humans cope with environmental change. We use economics and quantitative methods to rigorously analyze economic and environmental data to shed light on these pressing problems. Our work often involves collaborations with non-economists including natural and physical scientists. We strive to conduct work that is relevant not only to other academics (economists and non-economists) but also to policy and decision makers in industry and government around the world.
