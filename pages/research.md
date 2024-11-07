@@ -14,9 +14,12 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 
+- "[Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb)" (with Gary Lyn, Ivan Rudik and Weiliang Tan) 
+
 - "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
 
 - “Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade” (with Jeisson Prieto) (*in preparation*)
+
 
 ## Publications
 
@@ -98,6 +101,10 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, “[Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343),” **Science Advances** 4:12 (2018)
   - [[code + data](https://doi.org/10.6077/f26v-xz15)] 
   - [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+
+- Ortiz-Bobea, A. "[US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8)." In Climate Smart Agriculture, pp. 161-172. Springer, Cham, 2018.
+
+- Jessoe, K., P. Mérel, and A. Ortiz-Bobea. 2018. “[Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf)." Chapter 16 in P.L. Martin, R.E. Goodhue, and B.D. Wright (eds). California Agriculture: Dimensions and Issues. Giannini Foundation Information Series No. 18-01. Berkeley: University of California: Giannini Foundation and Division of Agriculture and Natural Resources. 
 
 ## 2017
 
