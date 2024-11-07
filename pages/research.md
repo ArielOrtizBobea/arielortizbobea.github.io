@@ -9,9 +9,13 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 ## In Progress
 
 - "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) [[code + data](https://doi.org/10.6077/q59w-tj45)]
+
 - "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
+
 - "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
+
 - "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
+
 - “Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade” (with Jeisson Prieto) (*in preparation*)
 
 ## Publications
@@ -51,7 +55,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” **Journal of the Agricultural and Applied Economics Association** 1 (2022) 180–195 
   - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-
 - Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698
   - [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
 
@@ -62,11 +65,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] 
   - [[preprint](https://arxiv.org/abs/2105.12044)]
 
-
 - Merél, P., A. Ortiz-Bobea and E. Paroissien, “[How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824),” **European Economic Review** 138 (2021)
   - [[code + data](https://doi.org/10.6077/zqcs-2544)]
   - [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
-
 
 - Turvey, C., J. Du, Y. He, A. Ortiz-Bobea, “[A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8),” **Climatic Change** 166:34 (2021)
 
@@ -74,7 +75,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
   - [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
   - [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
   - [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)]
-
 
 - Plastina A., S. Lence and A. Ortiz-Bobea, “[How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615),” **Agricultural Economics** 52:2 (2021) 215–234
 
@@ -91,7 +91,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault, “[Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75)”, **Environmental Research Letters** 14:6 (2019)
   - [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
 
-
 - H. Wang and A. Ortiz-Bobea, “[Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4),” **Agricultural and Resource Economics Review** (2019) 1–23.
 
 ## 2018
@@ -99,7 +98,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, “[Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343),” **Science Advances** 4:12 (2018)
   - [[code + data](https://doi.org/10.6077/f26v-xz15)] 
   - [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
-
 
 ## 2017
 
