@@ -18,7 +18,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <div class="container">
   <div class="row">
     <div class="text-center col-md-auto">
-        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
+        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 400px"/>
       <br/>  <br/>
       <p class='text-start'>
         <b> Contact: <br/> 
