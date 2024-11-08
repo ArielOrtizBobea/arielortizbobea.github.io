@@ -18,7 +18,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <div class="container">
   <div class="row">
     <div class="text-center col-md-auto">
-        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 410px"/>
+        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 430px"/>
       <p class='text-start'>
         <!--
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
