@@ -18,7 +18,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <div class="container">
   <div class="row">
     <div class="col-sm">
-        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 400px"/>
+        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 300px"/>
     </div>
     <div class="col-sm">
       I'm an Associate Professor of Applied Economics and Policy at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also a Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>. My research group seeks to advance how we adapt to environmental change. My recent work focuses on estimating the impacts of climate change and extreme weather on agriculture and other sectors.     
