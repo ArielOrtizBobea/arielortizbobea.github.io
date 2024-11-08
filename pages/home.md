@@ -27,7 +27,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       <br/><br/>
       I'm currently an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE) (2022-2024) and co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
       <br/><br/>
-      Access a recent <a href="/assets/theme/cv.pdf" target="_blank">CV</a> or my <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">Google Scholar</a> profile.
+      [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>]
     </div>
   </div>
 </div>
