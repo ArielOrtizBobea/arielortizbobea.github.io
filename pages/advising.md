@@ -5,7 +5,7 @@ permalink: /advising/
 background: /assets/theme/images/landing/advising.png
 ---
 
-**Prospective PhD students:** 
+## Prospective PhD students
 
 I advise graduate students in various academic fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
@@ -17,14 +17,14 @@ These programs have different admissions criteria. Please consult the respective
 
 The AEM, PAM and ECON PhD programs are fully funded and admissions decisions are made by a committee and not by individual faculty. The NRE PhD program is largely externally funded; prospective students typically secure some external support before applying (e.g. Fulbright scholarship).
 
-**Postdocs:** 
+## Postdocs
 
 Coming soon
 
-**Predocs:** 
+## Predocs
 
 Coming soon
 
-**Visitors**
+## Visitors
 
 Coming soon
