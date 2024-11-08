@@ -21,10 +21,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 400px"/>
       <br/>  <br/>
       <p class='text-start'>
-        <b> Contact: </b> <br/> 
-        office: 439 Warren Hall<br/> 
-        email:  ao332@cornell.edu<br/>
-        phone:  607.255.0220<br/> 
+        <b> Contact: </b> 439 Warren | ao332@cornell.edu | 607.255.0220
        </p>
     </div>
     <div class="col">
