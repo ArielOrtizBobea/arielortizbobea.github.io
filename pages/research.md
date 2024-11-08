@@ -1,5 +1,5 @@
 ---
-title: Research
+title: research
 background: /assets/theme/images/landing/research.png
 permalink: /research/
 ---
