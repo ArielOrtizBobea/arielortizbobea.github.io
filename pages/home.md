@@ -36,7 +36,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     So links are [text](link).
 --->
 <br/>
-**Contact information** <br/> 
+  **Contact:** <br/> 
   office: 439 Warren Hall<br/> 
-  phone: 607-255-0220<br/> 
-  email: ao332@cornell.edu<br/> 
+  email:  ao332@cornell.edu<br/>
+  phone:  607-255-0220<br/> 
