@@ -37,6 +37,6 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 --->
 <br/>
 **Contact information** <br/> 
-Office: 439 Warren Hall, Ithaca, NY 14853<br/> 
-Phone:  607-255-0220<br/> 
-E-mail: ao332@cornell.edu
+  office: 439 Warren Hall<br/> 
+  phone: 607-255-0220<br/> 
+  email: ao332@cornell.edu<br/> 
