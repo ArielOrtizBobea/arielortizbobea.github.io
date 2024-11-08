@@ -41,6 +41,4 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <!-- This is Markdown 
     So links are [text](link).
 --->
-<br/><br/>
-
 My research group seeks to advance how humans adapt to environmental change. We contribute to the economic and scientific knowledge base with the goal of improving policy and decision making in industry and government around the world. This work often involves collaborations across disciplines beyond economics.
