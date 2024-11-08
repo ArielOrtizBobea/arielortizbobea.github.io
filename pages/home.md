@@ -43,4 +43,4 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 --->
 <br/><br/>
 
-My group seeks to enhance how humans adapt to environmental change. We strive to contribute to scientific knowledge that improves policy and decision making in industry and government around the world. We use economics and quantitative methods to shed light on pressing sustainability problems. Our work often involves collaborations across disciplines beyond economics.
+My research group seeks to advance how humans adapt to environmental change. We contribute to scientific knowledge that improves policy and decision making in industry and government around the world. We use economics and quantitative methods to shed light on pressing sustainability problems. This work often involves collaborations across disciplines beyond economics.
