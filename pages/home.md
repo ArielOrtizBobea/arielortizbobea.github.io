@@ -21,8 +21,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 400px"/>
       <br/>  <br/>
       <p class='text-start'>
-        <b> Contact: </b> 439 Warren | ao332@cornell.edu | 607.255.0220
-       </p>
+        <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto:ao332@cornell.edu">mailto:ao332@cornell.edu</a> | 607.255.0220
+        </p>
     </div>
     <div class="col">
       I'm Associate Professor of Applied Economics and Policy at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>. My research group seeks to advance how humans adapt to environmental change. My recent work focuses on estimating the impacts of climate change and extreme weather on agriculture and other sectors.     
