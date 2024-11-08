@@ -8,11 +8,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Select work in progress
 
-- "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) [[code + data](https://doi.org/10.6077/q59w-tj45)]
+- "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) <br/> [[code + data](https://doi.org/10.6077/q59w-tj45)]
 
 - "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
 
-- "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
+- "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 
 - "[Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb)" (with Gary Lyn, Ivan Rudik and Weiliang Tan) 
 
@@ -43,14 +43,14 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - Barrett, C., A. Ortiz-Bobea and T. Pham, “[Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319)”, **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
 
-- Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes, “[A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444)”. In **Proceedings of the AAAI conference on artificial intelligence** (2022) Vol. 36, No. 11, pp. 11873-11881. [[code + data](https://github.com/JunwenBai/GNN-RNN)]
+- Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes, “[A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444)”. In **Proceedings of the AAAI conference on artificial intelligence** (2022) Vol. 36, No. 11, pp. 11873-11881. <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
 
 
 ### 2022
 
 - Li, Z. and A. Ortiz-Bobea, “[On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21)” **Journal of the Agricultural and Applied Economics Association** 1 (2022) 180–195. <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-- Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698. [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
+- Blom, S., A. Ortiz-Bobea and J. Hoddinott, “[Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698)”, **Journal of Environmental Economics and Management** 155 (2022) 102698. <br/> [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
 
 
 ### 2021
