@@ -24,7 +24,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact: </b> <br/> 
         office: 439 Warren Hall<br/> 
         email:  ao332@cornell.edu<br/>
-        phone:  607-255-0220<br/> 
+        phone:  607.255.0220<br/> 
        </p>
     </div>
     <div class="col">
