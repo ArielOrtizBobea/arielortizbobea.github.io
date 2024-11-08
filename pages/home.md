@@ -17,8 +17,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 -->
 <div class="container">
   <div class="row">
-    <div class="col-sm-5">
-        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 350px"/>
+    <div class="text-center col-sm-5">
+        <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 300px"/>
     </div>
     <div class="col-sm-7">
       I'm Associate Professor of Applied Economics and Policy at the  <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb Brooks School of Public Policy</a> at Cornell University. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>. My research group seeks to advance how humans adapt to environmental change. My recent work focuses on estimating the impacts of climate change and extreme weather on agriculture and other sectors.     
@@ -27,7 +27,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       <br/><br/>
       I'm currently an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE) (2022-2024) and co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
       <br/><br/>
-      [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>] []
+      <p class='text-center'> 
+            [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>] []
+      </p>
     </div>
   </div>
 </div>
