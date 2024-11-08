@@ -36,4 +36,6 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     So links are [text](link).
 --->
 <br/>
- 
+Office: 439 Warren Hall, Ithaca, NY 14853
+Phone: 607-255-0220
+E-mail: ao332@cornell.edu
