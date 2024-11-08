@@ -15,7 +15,7 @@ I advise graduate students in various academic fields at Cornell:
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The AEM, PAM and ECON PhD programs are fully funded and admissions decisions are made by a committee and not by individual faculty. The NRE PhD program is largely externally funded; prospective students typically secure some external support before applying (e.g. Fulbright scholarship).
+The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. The NRE PhD program is largely externally funded; prospective students typically secure some external support before applying (e.g. Fulbright scholarship).
 
 ## Postdocs
 
