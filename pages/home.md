@@ -20,11 +20,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <div class="text-center col-sm-5">
         <img src="/assets/theme/images/landing/aob1.jpg" alt="MarineGEO circle logo" style="width: 300px"/>
       <br/>  <br/>
-      <p class='text-left'>
-      **Contact:** <br/> 
-      office: 439 Warren Hall<br/> 
-      email:  ao332@cornell.edu<br/>
-      phone:  607-255-0220<br/> 
+      <p class='text-start'>
+        **Contact:** <br/> 
+        office: 439 Warren Hall<br/> 
+        email:  ao332@cornell.edu<br/>
+        phone:  607-255-0220<br/> 
        </p>
     </div>
     <div class="col-sm-7">
