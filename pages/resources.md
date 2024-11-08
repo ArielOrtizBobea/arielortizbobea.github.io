@@ -1,5 +1,5 @@
 ---
-title: resources
+title: Resources
 permalink: /resources/
 background: /assets/theme/images/landing/home.jpg
 ---

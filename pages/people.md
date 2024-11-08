@@ -1,6 +1,6 @@
 ---
 layout: team
-title: people
+title: People
 background: /assets/theme/images/landing/people.png
 #description: Who we are
 permalink: /people/

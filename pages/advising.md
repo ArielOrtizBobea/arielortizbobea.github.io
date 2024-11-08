@@ -1,5 +1,5 @@
 ---
-title: join me
+title: Join us
 #description: Description that will appear below the title in the banner
 permalink: /advising/
 background: /assets/theme/images/landing/advising.png
