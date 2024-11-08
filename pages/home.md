@@ -34,7 +34,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       <br/><br/>
       I'm currently an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027). I'm also a Board Director of the <a href="https://www.aere.org/board-of-directors" target="_blank">American Association of Environemntal Economists</a> (AERE) (2022-2024) and co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
       <br/><br/>
-      <p class='text-center'> 
+      <p class='text-start'> 
             [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] 
             [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>]
       </p>
@@ -45,8 +45,3 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <!-- This is Markdown 
     So links are [text](link).
 --->
-<br/>
-  **Contact:** <br/> 
-  office: 439 Warren Hall<br/> 
-  email:  ao332@cornell.edu<br/>
-  phone:  607-255-0220<br/> 
