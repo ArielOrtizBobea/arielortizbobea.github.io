@@ -26,8 +26,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         -->
         [contact | 439 warren | ao332@cornell.edu | 607.255.0220]
          <p class='text-start'> 
-            [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] 
             [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>]
+            [<a href="/assets/theme/cv.pdf" target="_blank">cv</a>] 
       </p>
         </p>
     </div>
