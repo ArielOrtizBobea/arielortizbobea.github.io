@@ -6,7 +6,7 @@ permalink: /research/
 
 Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAAJ) page.
 
-## In Progress
+## Select work in progress
 
 - "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) [[code + data](https://doi.org/10.6077/q59w-tj45)]
 
