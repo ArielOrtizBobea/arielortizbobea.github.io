@@ -24,7 +24,12 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
         -->
-        439 warren hall | ao332@cornell.edu | 607.255.0220  <br/> <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> | <a href="/assets/theme/cv.pdf" target="_blank">cv</a>        
+        439 warren hall | ao332@cornell.edu | 607.255.0220  <br/> 
+        <a href="/assets/theme/cv.pdf" target="_blank">cv</a> | 
+        <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> |
+        <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank">bluesky</a> | 
+        <a href="https://x.com/ArielOrtizBobea" target="_blank">twitter</a> | 
+        <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637/ " target="_blank">linkedin</a> 
         </p>
     </div>
     <div class="col">
