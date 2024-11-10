@@ -32,10 +32,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf), **Annals of the New York Academy of Sciences** (2024). (forthcoming). <br/> 
 [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
    
-- Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747), **Science** (2024) Vol 385, No. 6713. <br/>  
-[[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)] 
-[[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]  
-
+- Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747), **Science** (2024) Vol 385, No. 6713. <br/> [[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)] [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]  
 
 - Gammans, M., A. Ortiz-Bobea and P. Mérel [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491), **American Journal of Agricultural Economics** (2024). <br/> 
 [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
@@ -66,7 +63,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 ### 2021
 
 - Ortiz-Bobea, A., [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025), **Handbook of Agricultural Economics** 5 (2021) 3981–4073. <br/> 
-
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
 
 - Merél, P., A. Ortiz-Bobea and E. Paroissien, [How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824), **European Economic Review** 138 (2021). <br/> 
