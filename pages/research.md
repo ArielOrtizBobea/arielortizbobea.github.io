@@ -8,17 +8,17 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Select work in progress
 
-- "[Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159)" (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) <br/> [[code + data](https://doi.org/10.6077/q59w-tj45)]
+- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) (with Robert G. Chambers, Yurou He and David B. Lobell) (*revisions requested*) <br/> [[code + data](https://doi.org/10.6077/q59w-tj45)]
 
-- "[The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)" (with Zhiyun Li and Wendong Zang) (*under review*)
+- [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) (with Zhiyun Li and Wendong Zang) (*under review*)
 
-- "The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
+- The impact of extreme heat on farm finances: farm-level evidence from Kansas" (with Osama Sajid and Jenny Ifft) (*under review*) <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 
-- "[Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb)" (with Gary Lyn, Ivan Rudik and Weiliang Tan) 
+- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) (with Gary Lyn, Ivan Rudik and Weiliang Tan) 
 
-- "Rising productivity is the main driver of agricultural greenhouse gas emission reduction" (with Simone Pieralli) (*in preparation*)
+- Rising productivity is the main driver of agricultural greenhouse gas emission reduction (with Simone Pieralli) (*in preparation*)
 
-- “Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade” (with Jeisson Prieto) (*in preparation*)
+- Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade (with Jeisson Prieto) (*in preparation*)
 
 
 ## Publications
