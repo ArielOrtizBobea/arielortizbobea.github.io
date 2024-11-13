@@ -2,7 +2,7 @@
 layout: home
 title: Home
 #description: Associate Professor of Applied Economics and Policy
-background: /assets/theme/images/landing/home2.png
+background: /assets/theme/images/landing/campus.png
 permalink: /
 ---
 
