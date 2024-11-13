@@ -87,9 +87,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2020
 
-- Addoum, J., D. Ng and A. Ortiz-Bobea, [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126), **Review of Financial Studies** 33:3 (2020) 1331–1366.
+- [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Addoum, J., D. Ng and A. Ortiz-Bobea <br/> **Review of Financial Studies** 
 
-- Ortiz-Bobea, A., [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047), **American Journal of Agricultural Economics** (2020). <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
+- [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ortiz-Bobea, A. <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
 
 ### 2019
 
