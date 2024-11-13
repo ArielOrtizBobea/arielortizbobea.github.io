@@ -61,10 +61,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2022
 
-- Li, Z. and A. Ortiz-Bobea, [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) **Journal of the Agricultural and Applied Economics Association** 1 (2022) 180–195. <br/> 
-[[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
+- [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) **Journal of the Agricultural and Applied Economics Association** <br/>  Li, Z. and A. Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-- Blom, S., A. Ortiz-Bobea and J. Hoddinott, [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698), **Journal of Environmental Economics and Management** 155 (2022) 102698. <br/> 
+- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698), **Journal of Environmental Economics and Management** <br/> Blom, S., A. Ortiz-Bobea and J. Hoddinott <br/>  
 [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
 
 
