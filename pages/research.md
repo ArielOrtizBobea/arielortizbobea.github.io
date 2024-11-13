@@ -8,19 +8,21 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Select work in progress
 
-- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) <br/> (with Robert G. Chambers, Yurou He and David B. Lobell) <br/> (*revisions requested - PNAS*) <br/> 
+- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) (*R&R at PNAS*) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> 
 [[code + data](https://doi.org/10.6077/q59w-tj45)]
 
-- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> (with Gary Lyn, Ivan Rudik and Weiliang Tan) <br/> (*revisions requested - JPE Macro*)
+- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) (*revisions requested - JPE Macro*) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> 
 
-- [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) <br/> (with Zhiyun Li and Wendong Zang) (*under review*)
+- [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) (*under review*) <br/> Zhiyun Li, Wendong Zang and Ariel Ortiz-Bobea
 
-- The impact of extreme heat on farm finances: farm-level evidence from Kansas (with Osama Sajid and Jenny Ifft) (*under review*) <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] 
+- The impact of extreme heat on farm finances: farm-level evidence from Kansas (*under review*)<br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] 
 [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)]
 
-- Rising productivity is the main driver of agricultural greenhouse gas emission reduction (with Simone Pieralli) (*in preparation*)
+- Rising productivity is the main driver of agricultural greenhouse gas emission reduction (*in preparation*)
+<br/> Ariel Ortiz-Bobea and Simone Pieralli
 
-- Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade (with Jeisson Prieto) (*in preparation*)
+- Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade (*in preparation*)
+<br/> Jeisson Prieto and Ariel Ortiz-Bobea 
 
 
 ## Publications
