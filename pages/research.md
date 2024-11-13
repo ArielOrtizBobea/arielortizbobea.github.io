@@ -92,9 +92,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2019
 
-- Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault, [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75)”, **Environmental Research Letters** 14:6 (2019).<br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
+- [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
 
-- H. Wang and A. Ortiz-Bobea, [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4),” **Agricultural and Resource Economics Review** (2019) 1–23.
+- [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4) <br/> H. Wang and A. Ortiz-Bobea <br/> **Agricultural and Resource Economics Review**
 
 ### 2018
 
