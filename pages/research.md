@@ -63,16 +63,15 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) <br/> **Journal of the Agricultural and Applied Economics Association** <br/>  Zhiyun Li and Ariel Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/>  
-[[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
+- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/> [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
 
 
 ### 2021
 
-- [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025) Ortiz-Bobea, A. <br/> **Handbook of Agricultural Economics** <br/> 
+- [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025) <br/> Ortiz-Bobea, A. <br/> **Handbook of Agricultural Economics** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
 
-- [How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824) <br/> Merél, P., A. Ortiz-Bobea and E. Paroissien <br/> **European Economic Review** <br/> [[code + data](https://doi.org/10.6077/zqcs-2544)] 
+- [How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824) <br/> Pierre Merél, Ariel Ortiz-Bobea and Emmanuel Paroissien <br/> **European Economic Review** <br/> [[code + data](https://doi.org/10.6077/zqcs-2544)] 
 [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
 
 - [A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8) <br/> Turvey, C., J. Du, Y. He, A. Ortiz-Bobea <br/> **Climatic Change**
