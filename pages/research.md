@@ -60,7 +60,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Joshua Fan, Junwen Bai, Zhiyun Li, Ariel Ortiz-Bobea and Carla P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)] [[award](https://www.climatechange.ai/papers/neurips2021/29)]
 
-
 ### 2022
 
 - [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) <br/> **Journal of the Agricultural and Applied Economics Association** <br/>  Zhiyun Li and Ariel Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
