@@ -27,6 +27,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         439 warren | ao332@cornell.edu | 607.255.0220  <br/> 
         <a href="/assets/theme/cv.pdf" target="_blank">cv</a> | 
         <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> |
+        <a href="https://github.com/arielortizbobea" target="_blank">github</a> |
         <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank">bluesky</a> | 
         <a href="https://x.com/ArielOrtizBobea" target="_blank">twitter</a> | 
         <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637/ " target="_blank">linkedin</a> 
