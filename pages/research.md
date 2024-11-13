@@ -54,10 +54,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 <br/> Addoum, J., D. Ng and A. Ortiz-Bobea 
 <br/> **Journal of Financial Economics**
 
-- Barrett, C., A. Ortiz-Bobea and T. Pham, [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319), **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
+- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Barrett, C., A. Ortiz-Bobea and T. Pham <br/>  **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
 
-- Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes, [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444). In **Proceedings of the AAAI conference on artificial intelligence** (2022) Vol. 36, No. 11, pp. 11873-11881. <br/> 
-[[code + data](https://github.com/JunwenBai/GNN-RNN)]
+- [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes <br/> In **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
 
 
 ### 2022
