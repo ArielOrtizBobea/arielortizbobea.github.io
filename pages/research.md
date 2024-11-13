@@ -29,23 +29,35 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2024
 
--  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) <br/> Wilcox, S.W., D.R. Just and A. Ortiz-Bobea <br/> **Land Economics** (2025)
+-  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
+<br/> Wilcox, S.W., D.R. Just and A. Ortiz-Bobea 
+<br/> **Land Economics**
 
-- [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf) <br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters  **Annals of the New York Academy of Sciences** (2024) <br/> 
-[[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
+- [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf) 
+<br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters  
+<br/> **Annals of the New York Academy of Sciences**  
+<br/> [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
    
--  [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747) <br/> Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell <br/> **Science** (2024) Vol 385, No. 6713. <br/> [[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)] [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]  
+-  [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747) 
+<br/> Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell 
+<br/> **Science**  <br/> [[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)] [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]  
 
--  [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)<br/>  Gammans, M., A. Ortiz-Bobea and P. Mérel <br/>  **American Journal of Agricultural Economics** (2024) <br/> 
+-  [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)
+<br/>  Matthew Gammans, Ariel Ortiz-Bobea and Pierre Mérel 
+<br/>  **American Journal of Agricultural Economics** <br/> 
 [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
 
-- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters** (2024). <br/> 
-[[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
+- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) 
+<br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  
+<br/> **Environmental Research Letters**
+<br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
 
 
 ### 2023
 
-- Addoum, J., D. Ng and A. Ortiz-Bobea, [Temperature Shocks and Industry Earnings News](https://doi.org/10.1016/j.jfineco.2023.07.002), **Journal of Financial Economics** (2023) Vol 150, No. 1, pp.1-45.
+- [Temperature Shocks and Industry Earnings News](https://doi.org/10.1016/j.jfineco.2023.07.002) 
+<br/> Addoum, J., D. Ng and A. Ortiz-Bobea 
+<br/> **Journal of Financial Economics**
 
 - Barrett, C., A. Ortiz-Bobea and T. Pham, [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319), **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
 
