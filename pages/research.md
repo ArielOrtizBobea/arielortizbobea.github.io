@@ -82,7 +82,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)] 
 [[discussion](https://www.nature.com/articles/s41558-021-01017-6)]
 
-- , [How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615) <br/> Plastina A., S. Lence and A. Ortiz-Bobea <br/> **Agricultural Economics** 
+- [How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615) <br/> Plastina A., S. Lence and A. Ortiz-Bobea <br/> **Agricultural Economics** 
 
 ### 2020
 
@@ -98,20 +98,20 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2018
 
-- Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers, [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343), **Science Advances** 4:12 (2018). <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
-- Ortiz-Bobea, A. [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8). In **Climate Smart Agriculture**, pp. 161-172. Springer, Cham, 2018.
+- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ortiz-Bobea, A. <br/>  **Climate Smart Agriculture**
 
 - Jessoe, K., P. Mérel, and A. Ortiz-Bobea. 2018. [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf). Chapter 16 in P.L. Martin, R.E. Goodhue, and B.D. Wright (eds). **California Agriculture: Dimensions and Issues**. Giannini Foundation Information Series No. 18-01. Berkeley: University of California: Giannini Foundation and Division of Agriculture and Natural Resources. 
 
 ### 2017
 
-- Ortiz-Bobea, A. and J. Tack, [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta), **Environmental Research Letters** 13:12 (2018)
+- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta) <br/> Ortiz-Bobea, A. and J. Tack <br/> **Environmental Research Letters** 
 
-- Gammans, M., P. Mérel and A. Ortiz-Bobea, [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c), **Environmental Research Letters** 12:5 (2017)
+- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c) <br/> Gammans, M., P. Mérel and A. Ortiz-Bobea <br/> **Environmental Research Letters**
 
-- Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent, [Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028), **Ecological Economics** 131 (2017) 475–484
+- [Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028) <br/> Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent <br/> **Ecological Economics**
 
 ### 2013
 
-- Ortiz-Bobea, A. and R.E. Just, [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035), **American Journal of Agricultural Economics** 95:2 (2013) 244–251
+- [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ortiz-Bobea, A. and R.E. Just <br/>  **American Journal of Agricultural Economics**
