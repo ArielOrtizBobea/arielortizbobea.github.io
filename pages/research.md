@@ -52,7 +52,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [Temperature Shocks and Industry Earnings News](https://doi.org/10.1016/j.jfineco.2023.07.002) 
 <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea 
-<br/> **Journal of Financial Economics**
+<br/> **Journal of Financial Economics** 
+<br/> [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480695)] [[award](https://www.icpmnetwork.com/previous-year-winners/)]
 
 - [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
 
@@ -86,7 +87,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2020
 
-- [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea <br/> **Review of Financial Studies** 
+- [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea <br/> **Review of Financial Studies**
 
 - [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
 
