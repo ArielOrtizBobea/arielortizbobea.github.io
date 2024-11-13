@@ -54,16 +54,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 <br/> Addoum, J., D. Ng and A. Ortiz-Bobea 
 <br/> **Journal of Financial Economics**
 
-- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Barrett, C., A. Ortiz-Bobea and T. Pham <br/>  **Review of Environmental Economics and Policy** (2023) Vol 17, No. 2, pp. 195-216.
+- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Barrett, C., A. Ortiz-Bobea and T. Pham <br/>  **Review of Environmental Economics and Policy**
 
-- [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and & C.P. Gomes <br/> In **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
+- [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and C.P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
 
 
 ### 2022
 
-- [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) **Journal of the Agricultural and Applied Economics Association** <br/>  Li, Z. and A. Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
+- [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) <br/> **Journal of the Agricultural and Applied Economics Association** <br/>  Zhiyun Li and Ariel Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
 
-- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698), **Journal of Environmental Economics and Management** <br/> Blom, S., A. Ortiz-Bobea and J. Hoddinott <br/>  
+- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/>  
 [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
 
 
