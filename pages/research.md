@@ -76,7 +76,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8) <br/> Calum Turvey, Jiajun Du, Yurou He, Ariel Ortiz-Bobea <br/> **Climatic Change**
 
-- [Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1) <br/> Ariel Ortiz-Bobea, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers and Ddavid B. Lobell <br/> **Nature Climate Change** <br/> 
+- [Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1) <br/> Ariel Ortiz-Bobea, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers and David B. Lobell <br/> **Nature Climate Change** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
 [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
 [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)] 
@@ -98,7 +98,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2018
 
-- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ariel Ortiz-Bobea, A., Erwin Knippenberg and Robert G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ariel Ortiz-Bobea, Erwin Knippenberg and Robert G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
 - [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ariel Ortiz-Bobea <br/>  Chapter in **Climate Smart Agriculture**
 
