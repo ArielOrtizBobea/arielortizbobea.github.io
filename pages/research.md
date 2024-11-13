@@ -102,7 +102,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ortiz-Bobea, A. <br/>  Chapter in **Climate Smart Agriculture**
 
-- [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Jessoe, K., P. Mérel, and A. Ortiz-Bobea <br/> Chapter in **California Agriculture: Dimensions and Issues**
+- [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Jessoe, K., P. Mérel, and A. Ortiz-Bobea <br/> test Chapter in **California Agriculture: Dimensions and Issues**
 
 ### 2017
 
