@@ -11,7 +11,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 - [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) (*R&R at PNAS*) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> 
 [[code + data](https://doi.org/10.6077/q59w-tj45)]
 
-- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) (*revisions requested - JPE Macro*) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> 
+- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) (*r&r at JPE Macro*) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> 
 
 - [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) (*under review*) <br/> Zhiyun Li, Wendong Zang and Ariel Ortiz-Bobea
 
@@ -34,9 +34,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 <br/> **Land Economics**
 
 - [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf) 
-<br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters  
-<br/> **Annals of the New York Academy of Sciences**  
-<br/> [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
+<br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters  <br/> **Annals of the New York Academy of Sciences** <br/> [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
    
 -  [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747) 
 <br/> Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell 
@@ -47,10 +45,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 <br/>  **American Journal of Agricultural Economics** <br/> 
 [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
 
-- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) 
-<br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  
-<br/> **Environmental Research Letters**
-<br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
+- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
 
 
 ### 2023
