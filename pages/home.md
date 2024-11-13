@@ -24,8 +24,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
         -->
-        439 warren | <a href="mailto:ao332@cornell.edu" target="_blank">ao332@cornell.edu</a>   | 607.255.0220 <br/>
-         a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> |
+        439 warren | <a href="mailto:ao332@cornell.edu" target="_blank">ao332@cornell.edu</a> | 607.255.0220 <br/>
+        <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> |
         <a href="https://github.com/arielortizbobea" target="_blank">github</a> |
         <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank">bluesky</a> | 
         <a href="https://x.com/ArielOrtizBobea" target="_blank">twitter</a> | 
