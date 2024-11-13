@@ -27,11 +27,12 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Publications
 
-### 2024
-
+### 2025
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
 <br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea 
 <br/> **Land Economics**
+
+### 2024
 
 - [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf) 
 <br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters  <br/> **Annals of the New York Academy of Sciences** <br/> [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
