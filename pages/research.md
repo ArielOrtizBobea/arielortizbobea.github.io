@@ -30,7 +30,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 ### 2024
 
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
-<br/> Wilcox, S.W., D.R. Just and A. Ortiz-Bobea 
+<br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea 
 <br/> **Land Economics**
 
 - [New York State Climate Impacts Assessment 03 Agriculture](https://nysclimateimpacts.org/wp-content/uploads/2024/02/Assessment-ch3-agriculture-01-31-24.pdf) 
@@ -51,12 +51,12 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 ### 2023
 
 - [Temperature Shocks and Industry Earnings News](https://doi.org/10.1016/j.jfineco.2023.07.002) 
-<br/> Addoum, J., D. Ng and A. Ortiz-Bobea 
+<br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea 
 <br/> **Journal of Financial Economics**
 
-- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Barrett, C., A. Ortiz-Bobea and T. Pham <br/>  **Review of Environmental Economics and Policy**
+- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
 
-- [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Fan, J., J. Bai, Z. Li, A. Ortiz-Bobea and C.P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
+- [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Joshua Fan, Junwen Bai, Zhiyun Li, Ariel Ortiz-Bobea and Carla P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)]
 
 
 ### 2022
@@ -68,50 +68,50 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ### 2021
 
-- [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025) <br/> Ortiz-Bobea, A. <br/> **Handbook of Agricultural Economics** <br/> 
+- [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025) <br/> Ariel Ortiz-Bobea <br/> **Handbook of Agricultural Economics** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
 
 - [How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824) <br/> Pierre Merél, Ariel Ortiz-Bobea and Emmanuel Paroissien <br/> **European Economic Review** <br/> [[code + data](https://doi.org/10.6077/zqcs-2544)] 
 [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)]
 
-- [A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8) <br/> Turvey, C., J. Du, Y. He, A. Ortiz-Bobea <br/> **Climatic Change**
+- [A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8) <br/> Calum Turvey, Jiajun Du, Yurou He, Ariel Ortiz-Bobea <br/> **Climatic Change**
 
-- [Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1) <br/> Ortiz-Bobea, A., T.R. Ault, C.M. Carrillo, R.G. Chambers and D.B. Lobell <br/> **Nature Climate Change** <br/> 
+- [Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1) <br/> Ariel Ortiz-Bobea, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers and Ddavid B. Lobell <br/> **Nature Climate Change** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
 [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
 [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)] 
 [[discussion](https://www.nature.com/articles/s41558-021-01017-6)]
 
-- [How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615) <br/> Plastina A., S. Lence and A. Ortiz-Bobea <br/> **Agricultural Economics** 
+- [How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615) <br/> Alejandro Plastina, Sergio Lence and Ariel Ortiz-Bobea <br/> **Agricultural Economics** 
 
 ### 2020
 
-- [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Addoum, J., D. Ng and A. Ortiz-Bobea <br/> **Review of Financial Studies** 
+- [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea <br/> **Review of Financial Studies** 
 
-- [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ortiz-Bobea, A. <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
+- [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
 
 ### 2019
 
-- [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ortiz-Bobea, A., H. Wang, C. Carrillo and T.R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
+- [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ariel Ortiz-Bobea, Haoying Wang, Carlos Carrillo and Toby R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
 
-- [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4) <br/> H. Wang and A. Ortiz-Bobea <br/> **Agricultural and Resource Economics Review**
+- [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4) <br/> Haoying Wang and Ariel Ortiz-Bobea <br/> **Agricultural and Resource Economics Review**
 
 ### 2018
 
-- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ariel Ortiz-Bobea, A., Erwin Knippenberg and Robert G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
-- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ortiz-Bobea, A. <br/>  Chapter in **Climate Smart Agriculture**
+- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ariel Ortiz-Bobea <br/>  Chapter in **Climate Smart Agriculture**
 
-- [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Jessoe, K., P. Mérel, and A. Ortiz-Bobea <br/> test Chapter in **California Agriculture: Dimensions and Issues**
+- [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Katrina Jessoe, Pierre Mérel and Ariel Ortiz-Bobea <br/> Chapter in **California Agriculture: Dimensions and Issues**
 
 ### 2017
 
-- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta) <br/> Ortiz-Bobea, A. and J. Tack <br/> **Environmental Research Letters** 
+- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
 
-- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c) <br/> Gammans, M., P. Mérel and A. Ortiz-Bobea <br/> **Environmental Research Letters**
+- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
 
 - [Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028) <br/> Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent <br/> **Ecological Economics**
 
 ### 2013
 
-- [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ortiz-Bobea, A. and R.E. Just <br/>  **American Journal of Agricultural Economics**
+- [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
