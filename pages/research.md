@@ -100,9 +100,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ortiz-Bobea, A., E. Knippenberg and R.G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
 
-- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ortiz-Bobea, A. <br/>  **Climate Smart Agriculture**
+- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ortiz-Bobea, A. <br/>  Chapter in **Climate Smart Agriculture**
 
-- Jessoe, K., P. Mérel, and A. Ortiz-Bobea. 2018. [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf). Chapter 16 in P.L. Martin, R.E. Goodhue, and B.D. Wright (eds). **California Agriculture: Dimensions and Issues**. Giannini Foundation Information Series No. 18-01. Berkeley: University of California: Giannini Foundation and Division of Agriculture and Natural Resources. 
+- [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Jessoe, K., P. Mérel, and A. Ortiz-Bobea <br/> Chapter in **California Agriculture: Dimensions and Issues**
 
 ### 2017
 
