@@ -1,3 +1,5 @@
+- text: Home
+  href: /home/
 - text: Research
   href: /research/
 - text: People
@@ -6,5 +8,7 @@
   href: /teaching/
 - text: Join us
   href: /advising/
+- text: CV (PDF)
+  href: /assets/theme/cv.pdf
 #- text: Resources
 #  href: /resources/
