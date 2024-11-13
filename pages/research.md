@@ -13,13 +13,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **R&R at JPE Macro**
 
-- [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) (*under review*) <br/> Zhiyun Li, Wendong Zang and Ariel Ortiz-Bobea
+- [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) <br/> Zhiyun Li, Wendong Zang and Ariel Ortiz-Bobea <br/> **under review**
 
 - The impact of extreme heat on farm finances: farm-level evidence from Kansas <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **under review**
 
-- Rising productivity is the main driver of agricultural greenhouse gas emission reduction <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> <br/> **in preparation**
+- Rising productivity is the main driver of agricultural greenhouse gas emission reduction <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **in preparation**
 
+<!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
+-->
+
 
 
 ## Publications
