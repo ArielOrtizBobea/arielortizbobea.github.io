@@ -7,7 +7,7 @@ background: /assets/theme/images/landing/advising.png
 
 ## Prospective PhD students
 
-I advise graduate students in various academic fields at Cornell: 
+I am currently open to advising graduate students in various academic fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
 - [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
@@ -15,7 +15,9 @@ I advise graduate students in various academic fields at Cornell:
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. The NRE PhD program is largely externally funded; prospective students typically secure some external support before applying (e.g. Fulbright scholarship).
+The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. As a result, it is not necessary to reach out to me before applying. I am happy to discuss your fit before applying but note I have no influence in admissions.
+
+In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
 
 ## Postdocs
 
