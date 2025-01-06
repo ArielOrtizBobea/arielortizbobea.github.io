@@ -37,7 +37,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       <br/><br/>
       I have editorial responsabilities at various academic journals including the <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>, the <a href="https://onlinelibrary.wiley.com/page/journal/14678276/homepage/editorial-board" target="_blank">American Journal of Agricultural Economics</a>, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a> and the <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
       <br/><br/>
-      I'm currently an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027) and I'm also co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, AERE's online seminar for junior scholars. 
+      I'm currently an author of the Economics chapter of the <a href="https://www.globalchange.gov/nca6" target="_blank">Sixth National Climate Assessment</a> (2024-2027) and a co-host of the <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a> online seminar for junior scholars. 
       <br/><br/>
       <!--
       <p class='text-start'> 
