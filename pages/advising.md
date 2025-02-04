@@ -21,7 +21,7 @@ In contrast, the NRE PhD program is largely externally funded. Prospective stude
 
 ## Postdocs
 
-Coming soon
+- [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/29631) working on natural resource drivers of US agricultural productivity (expected start date: July 2025)
 
 ## Predocs
 
@@ -29,4 +29,4 @@ Coming soon
 
 ## Visitors
 
-Coming soon
+I can sometimes host faculty and graduate students working on similar issues. If interested, please email me with a clear plan stating your goals, financial support and tineline.
