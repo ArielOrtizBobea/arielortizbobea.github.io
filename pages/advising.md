@@ -29,4 +29,4 @@ Coming soon
 
 ## Visitors
 
-I can sometimes host faculty and graduate students working on similar issues. If interested, please email me with a clear plan stating your goals, financial support and tineline.
+I can sometimes host faculty and graduate students working on similar issues. If interested, please email me with a clear plan stating your goals, financial support and timeline.
