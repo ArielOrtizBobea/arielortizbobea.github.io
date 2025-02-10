@@ -8,8 +8,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 ## Select work in progress
 
-- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **revisions requested - PNAS**  <br/> 
-[[code + data](https://doi.org/10.6077/q59w-tj45)]
+- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://arxiv.org/abs/2405.08159) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **accepted - PNAS**  <br/> 
+[[code + data](https://doi.org/10.6077/q59w-tj45)][[preprint](https://arxiv.org/abs/2405.08159)][press release TBA]
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
 
