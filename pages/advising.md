@@ -7,7 +7,7 @@ background: /assets/theme/images/landing/advising.png
 
 ## Prospective PhD students
 
-I am currently open to advising graduate students in various academic fields at Cornell: 
+I advise graduate students in various academic fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
 - [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
@@ -22,10 +22,6 @@ In contrast, the NRE PhD program is largely externally funded. Prospective stude
 ## Postdocs
 
 - [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/29631) working on natural resource drivers of US agricultural productivity (expected start date: July 2025)
-
-## Predocs
-
-Coming soon
 
 ## Visitors
 
