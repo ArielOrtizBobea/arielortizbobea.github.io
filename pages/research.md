@@ -27,7 +27,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 ### 2025
 
 - [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> A. Ortiz-Bobea, R.G. Chambers, Y. He and D.B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
-[[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [1](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/)]
+[[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage [1](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/)]
 
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
 <br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea 
