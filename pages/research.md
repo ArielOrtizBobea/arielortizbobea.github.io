@@ -14,7 +14,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - [The impact of large-scale solar development on farmland values: Evidence from New York State](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) <br/> Zhiyun Li, Wendong Zang and Ariel Ortiz-Bobea <br/> **revisions requested - Land Economics**
 
-- Rising productivity is the main driver of agricultural greenhouse gas emission reduction <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **under review** 
+- Rising productivity is the leading driver slowing growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **under review** 
 
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
