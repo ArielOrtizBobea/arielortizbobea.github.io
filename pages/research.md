@@ -16,7 +16,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAA
 
 - Rising productivity is the leading driver slowing growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **under review** 
 
-- Extreme heat reduces dairy milk yield, fat and protein <br/> Jeisson Prieto, Ziyi Li, Kristan F. Reed, Christopher A. Wolf, Ariel Ortiz-Bobea <br/> **in preparation** 
+- Extreme heat reduces dairy milk yield, fat and protein <br/> Jeisson Prieto, Ziyi Li, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/> **in preparation** 
 
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
