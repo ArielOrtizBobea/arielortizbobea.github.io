@@ -45,7 +45,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       <!--
       <p class='text-start'> 
             [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] 
-            [<a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a>]
+            [<a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank">google scholar</a>]
       </p>
       --->
     </div>

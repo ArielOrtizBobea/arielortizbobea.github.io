@@ -4,7 +4,7 @@ background: /assets/theme/images/landing/research.png
 permalink: /research/
 ---
 
-Access my [Google Scholar](https://scholar.google.com/citations?user=kEZ0ezkAAAAJ) page.
+Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl) page.
 
 ## Select work in progress
 
