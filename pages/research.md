@@ -27,10 +27,10 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2025
 
 - [Impacts of Large-Scale Solar-Enabling Legislation on Farmland Values](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012) 
-<br/> Z. Li, W. Zang and A. Ortiz-Bobea 
-<br/> **Land Economics** (conditionally accepted)
+<br/> Zhiyun Li, Wendgong Zang and Ariel Ortiz-Bobea 
+<br/> **Land Economics (conditionally accepted)**
 
-- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> A. Ortiz-Bobea, R.G. Chambers, Y. He and D.B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
+- [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
 [[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
 
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
@@ -61,7 +61,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 <br/> **Journal of Financial Economics** 
 <br/> [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480695)] [[award](https://www.icpmnetwork.com/previous-year-winners/)]
 
-- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
+- [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris B. Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
 
 - [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Joshua Fan, Junwen Bai, Zhiyun Li, Ariel Ortiz-Bobea and Carla P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)] [[award](https://www.climatechange.ai/papers/neurips2021/29)]
 
