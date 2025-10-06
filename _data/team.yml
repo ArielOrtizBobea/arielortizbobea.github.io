@@ -32,7 +32,7 @@
   github: joshuafan
 
 - name: Yurou He
-  role: PhD student, Applied Economics and Management # Will appear next to name
+  role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/yh878.png
   description: >
     Yurou He is a Ph.D. student at the Charles H. Dyson School of Applied Economics and Management. She studies the impacts 
@@ -46,7 +46,7 @@
   orcid: 000-0001-9227-6829
 
 - name: Jerzy Jaromczyk
-  role: PhD student, Applied Economics and Management # Will appear next to name
+  role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
   description: >
     Jerzy Jaromczyk is a Ph.D. student in Applied Economics and Management at Cornell University interested in researching 
@@ -57,7 +57,7 @@
   email: jerzyj@cornell.edu
 
 - name: Jeisson Prieto
-  role: PhD student, Applied Economics and Management # Will appear next to name
+  role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jp2276.png # Can be external link
   description: > # Can be Markdown
     Jeisson Prieto is a third-year Ph.D. student in Applied Economics and Management at Cornell University. 
