@@ -16,7 +16,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Li, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
 
-- Creative Destruction or Lasting Decline? Evidence from U.S. Post-Disaster Recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
+- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea and David B. Lobell
 
