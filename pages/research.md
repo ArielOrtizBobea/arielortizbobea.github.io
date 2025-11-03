@@ -24,6 +24,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - Unpacking the drivers of US agricultural greenhouse gas emissions <br/> Bob Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
+- Harnessing satellite data for the next generation of agri-environmental policies <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger
+
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
 -->
