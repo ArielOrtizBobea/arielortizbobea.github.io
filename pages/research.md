@@ -8,23 +8,26 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ## Work in progress
 
-- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
 
-- [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **revisions requested - AJAE**
-
-- Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **accepted - Science Advances** 
-
-- Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
-
-- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea and David B. Lobell
 
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
 
+- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
+
 - Unpacking the drivers of US agricultural greenhouse gas emissions <br/> Robert G. Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
+- Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
+
 - Harnessing satellite data for the next generation of agri-environmental policies <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger
+<br/> **revisions requested - Environmental Research Letters** 
+
+- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
+
+- [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **revisions requested - AJAE**
+
+- Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **accepted - Science Advances** 
 
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
