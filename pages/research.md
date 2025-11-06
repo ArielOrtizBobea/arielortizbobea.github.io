@@ -6,9 +6,7 @@ permalink: /research/
 
 Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAAJ) page.
 
-## Work in progress
-
-
+## Work in progress + working papers
 
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea and David B. Lobell
 
@@ -28,6 +26,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **revisions requested - AJAE**
 
 - Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **accepted - Science Advances** 
+
 
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
