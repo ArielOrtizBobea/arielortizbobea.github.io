@@ -14,7 +14,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **accepted - Science Advances** 
 
-- Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Li, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
+- Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
@@ -22,7 +22,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
 
-- Unpacking the drivers of US agricultural greenhouse gas emissions <br/> Bob Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
+- Unpacking the drivers of US agricultural greenhouse gas emissions <br/> Robert G. Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
 - Harnessing satellite data for the next generation of agri-environmental policies <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger
 
