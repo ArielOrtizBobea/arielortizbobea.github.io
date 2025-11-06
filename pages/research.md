@@ -12,11 +12,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
 
-- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
-
 - Unpacking the drivers of US agricultural greenhouse gas emissions <br/> Robert G. Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
-- Heat stress reduces milk fat and protein, amplifying yield losses <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea
+- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
+
+- Heat stress reduces US milk quality, doubling dairy revenue losses <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **under review**
 
 - Harnessing satellite data for the next generation of agri-environmental policies <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger
 <br/> **revisions requested - Environmental Research Letters** 
