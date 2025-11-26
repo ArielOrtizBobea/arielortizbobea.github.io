@@ -16,7 +16,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
-- Accounting for quality more than doubles estimate of heat damage to US milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **in preparation**
+- Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **in preparation**
 
 - Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **revisions requested - Networks and Spatial Economics**
 
