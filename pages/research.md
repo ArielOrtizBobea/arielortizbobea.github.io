@@ -57,7 +57,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 [[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
-    <span style="color:#555555;">
+    <span style="color:#4a5a6a">
     Increasing agricultural productivity is a gradual process with significant time lags between research and development (R&D) investment and the resulting gains. We estimate the response of US agricultural Total Factor Productivity to both R&D investment and weather and quantify the public R&D spending required to offset the emerging impacts of climate change. We find that offsetting the climate-induced productivity slowdown by 2050 will require R&D spending over 2021 to 2050 to grow at 5.2 to 7.8% per year under a fixed spending growth scenario or by an additional $2.2 to $3.8B per year under a fixed supplement spending scenario (in addition to the current spending of ~$5B per year). This amounts to an additional $208 to $434B or $65 to $113B over the period, respectively, and would be comparable in ambition to the public R&D spending growth that followed the two World Wars.
     </span>
     <!--
