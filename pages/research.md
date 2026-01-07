@@ -36,6 +36,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2026
 
 - Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **in press - Science Advances** 
+ <!--
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
@@ -45,7 +46,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+-->
 - [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters** 
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
