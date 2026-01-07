@@ -36,17 +36,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2026
 
 - Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **in press - Science Advances** 
- <!--
+    <!--
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Agriculture, forestry and other land use contribute about a fifth of total anthropogenic greenhouse gases (GHG) emissions. Mitigation efforts have emphasized “decoupling” that sustains production while lowering emissions per unit of output. However, the underlying decoupling mechanisms have not been fully characterized. We rely on a mathematical identity to decompose agricultural GHG emissions growth (ΔE) into 3 parts: output (ΔY), emissions per unit of input (ΔE/X) and output per unit of input (ΔY/X) or Total Factor Productivity (TFP). We then rely on official country-level data to quantify the historical contribution of these components. Over 1961-2021, we find that TFP growth —which captures the sector’s ability to produce more output per unit of measured input— has consistently remained one of the main sources of GHG emissions reduction within farms. Further decomposition reveals a key role for rising land productivity in reducing emission intensity. 
     </span>
-    <!--
-    ![image info](./PCtrade.jpeg)
-    -->
     </details>
--->
+    -->
+
+
 - [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters** 
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
