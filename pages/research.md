@@ -46,7 +46,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)]
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
-    Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York state. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect on farmland in regions with higher electricity prices (ca. 20%)suggesting SRP’s impact varies by location and time.
+    Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York state. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect on farmland in regions with higher electricity prices (~20%)suggesting SRP’s impact varies by location and time.
     <!--
     ![image info](./PCtrade.jpeg)
     -->
