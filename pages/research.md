@@ -46,7 +46,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)]
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
+    <span style="color:#777777">
     Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York state. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect on farmland in regions with higher electricity prices (~20%) suggesting SRP’s impact varies by location and time.
+     </span>
     <!--
     ![image info](./PCtrade.jpeg)
     -->
@@ -69,8 +71,10 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) <br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea <br/> **Land Economics**
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
+    <span style="color:#888888">
     Research on agricultural prices and deforestation has mostly focused on cash crops and export-oriented commodities. We develop a theoretical framework to illustrate how a staple food price shock can lead to deforestation through various channels. We explore our theoretical predictions with data from Cambodia and use a shift-share instrumental variables strategy. We find that shocks to the price of rice explain most of Cambodia’s recent deforestation. To shed light on mechanisms, we use household data to study land use behavior and welfare. Our findings suggest that staple food prices have a more important role in driving deforestation than previously thought.
-    <!--
+     </span>
+     <!--
     ![image info](./PCtrade.jpeg)
     -->
     </details>
