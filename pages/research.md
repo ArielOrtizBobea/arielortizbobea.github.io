@@ -43,8 +43,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks, agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation.
-   </span>
-    <!--
+    </span>
+    <img src="/assets/theme/images/papers/2026a.png" alt="MarineGEO circle logo" style="width: 400px"/>      
+    <!--    
     ![image info](./PCtrade.jpeg)
     -->
     </details>
