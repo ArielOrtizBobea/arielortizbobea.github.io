@@ -64,10 +64,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
 
 
--  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) 
-<br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea 
-<br/> **Land Economics**
- <details markdown="1">
+-  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) <br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea <br/> **Land Economics**
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     Research on agricultural prices and deforestation has mostly focused on cash crops and export-oriented commodities. We develop a theoretical framework to illustrate how a staple food price shock can lead to deforestation through various channels. We explore our theoretical predictions with data from Cambodia and use a shift-share instrumental variables strategy. We find that shocks to the price of rice explain most of Cambodia’s recent deforestation. To shed light on mechanisms, we use household data to study land use behavior and welfare. Our findings suggest that staple food prices have a more important role in driving deforestation than previously thought.
     <!--
