@@ -75,6 +75,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     -->
     </details>
 
+
 ### 2024
 
 - [New York State Climate Impacts Assessment Chapter 03: Agriculture](http://doi.org/10.1111/nyas.15192) 
