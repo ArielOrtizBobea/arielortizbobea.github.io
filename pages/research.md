@@ -84,17 +84,55 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - [New York State Climate Impacts Assessment Chapter 03: Agriculture](http://doi.org/10.1111/nyas.15192) 
 <br/> Aller, D.,  A.M. Chatrchyan, A. Calixto, J. Cummings, A. Ortiz-Bobea, G. Peck, J. Schouten, B. Weikert, E. Wolters, A. Stevens  <br/> **Annals of the New York Academy of Sciences** <br/> [[press release](https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions)]
-   
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Agriculture is a vital industry in New York State, which ranks among the top-producing states for dairy, fruits, and several other commodities. As agriculture depends on the weather and specific climatic conditions, this sector faces extraordinary challenges as New York's climate changes. This chapter explores the many impacts of a changing climate on agriculture, the ways these impacts interact with other challenges that New York farmers and farmworkers face, and opportunities for the agriculture industry to adapt and build resilience.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+
+
 -  [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747) 
 <br/> Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell 
 <br/> **Science**  <br/> [[press release](https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/)] [[op ed / blog](https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture)]  
+    <details markdown="1">
+    <summary markdown="span">Editor's summary</summary>
+    <span style="color:#AAAAAA">
+    Intensive agriculture creates multiple environmental challenges, including runoff of excess nutrients, use of chemical pesticides, biodiversity loss, and greenhouse gas emissions. Curbing these negative effects of agriculture while feeding a growing global population is already a massive challenge and one that will likely be exacerbated by climate change. Yang et al. reviewed the research on interactions between climate change and agriculture’s environmental impacts and found that most of this work suggests even greater challenges to come. —Bianca Lopez
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
 
 -  [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)
 <br/>  Matthew Gammans, Ariel Ortiz-Bobea and Pierre Mérel 
 <br/>  **American Journal of Agricultural Economics** <br/> 
 [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    A warming climate expands the frost-free season, plausibly allowing for increased cropping intensity in temperate regions. This paper assesses the potential of multiple cropping to offset the projected negative effects of climate change on agricultural yields in the United States. We use cross-sectional variation in observed land cover, soil characteristics, and climate to estimate farmers' propensity to double-crop winter wheat with soybeans. Our estimates imply that under current economic conditions, a 3°C warming would result in an increase of 2.1 percentage points in the share of current soybean area double cropped, primarily driven by expansions in cooler regions. A fixed-effects panel model of county yields further indicates that yields of double-cropped soybeans are about 12% lower than those of single-cropped soybeans. Accounting for changes in cropping intensity and attendant effects on soybean yields, we project that at current prices, a 3°C warming would induce a shift in cropping intensity that increases revenue from soy systems by 1.3% overall, offsetting only a small fraction of the revenue impacts of predicted yield declines.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+
 
 - [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Projected increases in food demand driven by population growth coupled with heightened agricultural vulnerability to climate change jointly pose severe threats to global food security in the coming decades, especially for developing nations. By providing real-time and low-cost observations, satellite remote sensing has been widely employed to estimate crop yield across various scales. Most such efforts are based on statistical approaches that require large amounts of ground measurements for model training/calibration, which may be challenging to obtain on a large scale in developing countries that are most food-insecure and climate-vulnerable. In this paper, we develop a generalizable framework that is mechanism-guided and practically parsimonious for crop yield estimation. We then apply this framework to estimate crop yield for two crops (corn and wheat) in two contrasting regions, the US Corn Belt US-CB, and India’s Indo–Gangetic plain Wheat Belt IGP-WB, respectively. This framework is based on the mechanistic light reactions (MLR) model utilizing remotely sensed solar-induced chlorophyll fluorescence (SIF) as a major input. We compared the performance of MLR to two commonly used machine learning (ML) algorithms: artificial neural network and random forest. We found that MLR-SIF has comparable performance to ML algorithms in US-CB, where abundant and high-quality ground measurements of crop yield are routinely available (for model calibration). In IGP-WB, MLR-SIF significantly outperforms ML algorithms. These results demonstrate the potential advantage of MLR-SIF for yield estimation in developing countries where ground truth data is limited in quantity and quality. In addition, high-resolution and crop-specific satellite SIF is crucial for accurate yield estimation. Therefore, harnessing the mechanism-guided MLR-SIF and rapidly growing satellite SIF measurements (with high resolution and crop-specificity) hold promise to enhance food security in developing countries towards more effective responses to food crises, agricultural policies, and more efficient commodity pricing.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
 
 
 ### 2023
@@ -103,10 +141,39 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea 
 <br/> **Journal of Financial Economics** 
 <br/> [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480695)] [[award](https://www.icpmnetwork.com/previous-year-winners/)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Climate scientists project rising average temperatures and increasing frequency of temperature extremes. We study how extreme temperatures affect corporate profitability across different industries and whether sell-side analysts understand these relationships. We combine granular daily data on temperatures across the continental U.S. with locations of public companies’ establishments and build a panel of quarterly firm-level temperature exposures. Extreme temperatures significantly impact earnings in over 40% of industries, with bi-directional effects that harm some industries while others benefit. Analysts and investors do not immediately react to observable intra-quarter temperature shocks, though earnings forecasts account for temperature effects by quarter-end in many industries.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+
 
 - [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris B. Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    This paper reviews the feedback between structural transformation and agriculture, on the one hand, and climate and the natural environment, on the other. The long-standing, dominant economic development narrative largely ignores nature’s influence on factor productivity and stocks, even as it increasingly illustrates how agricultural technological change and economic growth affect nature. We articulate some of the missing linkages and pose key policy research questions concerning structural transformation and the complex feedback among agriculture, nature, and economic growth processes, especially in low-income agrarian economies.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
 
 - [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Joshua Fan, Junwen Bai, Zhiyun Li, Ariel Ortiz-Bobea and Carla P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)] [[award](https://www.climatechange.ai/papers/neurips2021/29)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Climate change is posing new challenges to crop-related concerns, including food insecurity, supply stability, and economic planning. Accurately predicting crop yields is crucial for addressing these challenges. However, this prediction task is exceptionally complicated since crop yields depend on numerous factors such as weather, land surface, and soil quality, as well as their interactions. In recent years, machine learning models have been successfully applied in this domain. However, these models either restrict their tasks to a relatively small region, or only study over a single or few years, which makes them hard to generalize spatially and temporally. In this paper, we introduce a novel graph-based recurrent neural network for crop yield prediction, to incorporate both geographical and temporal knowledge in the model, and further boost predictive power. Our method is trained, validated, and tested on over 2000 counties from 41 states in the US mainland, covering years from 1981 to 2019. As far as we know, this is the first machine learning method that embeds geographical knowledge in crop yield prediction and predicts crop yields at the county level nationwide. We also laid a solid foundation by comparing our model on a nationwide scale with other well-known baseline methods, including linear models, tree-based models, and deep learning methods. Experiments show that our proposed method consistently outperforms the existing state-of-the-art methods on various metrics, validating the effectiveness of geospatial and temporal information.
+   </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+
 
 ### 2022
 
