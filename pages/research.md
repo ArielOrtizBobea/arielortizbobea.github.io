@@ -44,17 +44,13 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - [Impacts of Large-Scale Solar-Enabling Legislation on Farmland Values](https://doi.org/10.3368/le.102.2.022625-0013R) 
 <br/> Zhiyun Li, Wendgong Zang and Ariel Ortiz-Bobea <br/> **Land Economics** <br/> 
 [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)]
-    <details markdown="1">
-    <summary markdown="span">Abstract</summary>
-    Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York state. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect on farmland in regions with higher electricity prices (ca. 20%), suggesting SRP’s impact varies by location and time.
-    <!--
-    You can add text within a collapsed section. 
-    You can add an image or a code block, too.
-    ![image info](./PCtrade.jpeg)
-    -->
-    </details>
+<details>
+<summary><em>Abstract</em></summary>
 
-    
+  Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York State. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect in regions with higher electricity prices (≈20%), indicating spatial and temporal heterogeneity in SRP impacts.
+  </details>
+
+
 - [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
 [[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
 
