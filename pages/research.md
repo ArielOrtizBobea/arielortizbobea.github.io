@@ -44,6 +44,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <span style="color:#AAAAAA">
     Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks, agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation.
     </span>
+    <!--  
     <img src="/assets/theme/images/papers/2026a.png" alt="MarineGEO circle logo" style="width: 400px"/>      
     <!--    
     ![image info](./PCtrade.jpeg)
@@ -74,8 +75,10 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <span style="color:#AAAAAA">
     Increasing agricultural productivity is a gradual process with significant time lags between research and development (R&D) investment and the resulting gains. We estimate the response of US agricultural Total Factor Productivity to both R&D investment and weather and quantify the public R&D spending required to offset the emerging impacts of climate change. We find that offsetting the climate-induced productivity slowdown by 2050 will require R&D spending over 2021 to 2050 to grow at 5.2 to 7.8% per year under a fixed spending growth scenario or by an additional $2.2 to $3.8B per year under a fixed supplement spending scenario (in addition to the current spending of ~$5B per year). This amounts to an additional $208 to $434B or $65 to $113B over the period, respectively, and would be comparable in ambition to the public R&D spending growth that followed the two World Wars.
     </span>
+    <!--
     <img src="/assets/theme/images/papers/2025b.png" alt="temp" style="width: 400px"/>      
     [image info](/assets/theme/images/papers/2025b.png)
+    -->
     </details>
 
 
