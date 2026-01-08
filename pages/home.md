@@ -25,7 +25,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <br/>  <br/>
         -->
         450B warren | <a href="mailto:ao332@cornell.edu" target="_blank">ao332@cornell.edu</a> | 607.255.0220 <br/>
-        <a href="https://scholar.google.com/citations?user=kEZ0ezkAAAAJ&hl=en" target="_blank">google scholar</a> |
+        <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank">google scholar</a> |
         <a href="https://github.com/arielortizbobea" target="_blank">github</a> |
         <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank">bluesky</a> | 
         <a href="https://x.com/ArielOrtizBobea" target="_blank">twitter</a> | 
