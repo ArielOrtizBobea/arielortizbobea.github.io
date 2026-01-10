@@ -39,18 +39,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 
 - [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters**
-     <!--  
-    <details markdown="1">
-    <summary markdown="span">Abstract</summary>
-    <span style="color:#AAAAAA">
-    Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks, agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation.
-    </span>
-  
-    <img src="/assets/theme/images/papers/2026a.png" alt="MarineGEO circle logo" style="width: 400px"/>      
-    <!--    
-    ![image info](./PCtrade.jpeg)
-    -->
-    </details>
 
 
 ### 2025
@@ -67,7 +55,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
- <br/>
+    <div style="height:6px;"></div>
 
 - [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
 [[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
@@ -81,7 +69,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     [image info](/assets/theme/images/papers/2025b.png)
     -->
     </details>
- <br/>
+    <div style="height:6px;"></div>
 
 -  [The Role of Staple Food Prices in Deforestation: Evidence from Cambodia](https://doi.org/10.3368/le.101.1.100423-0097R) <br/> Steven W. Wilcox, David R. Just and Ariel Ortiz-Bobea <br/> **Land Economics** 
     <details markdown="1">
@@ -93,7 +81,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div>
 
 ### 2024
 
