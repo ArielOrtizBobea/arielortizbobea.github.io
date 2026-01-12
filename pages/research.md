@@ -21,9 +21,28 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **revisions requested - Networks and Spatial Economics**
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    We  develop  a  dynamic-spatial  equilibrium  model  to  quantify  the  economice effects of climate change with a focus on the United States.  We find that climatechange  reduces  US  welfare  by  4%  and  global  welfare  by  over  20%.   Market-based adaptation through trade and labor reallocation increases US welfare, butwith  substantial  spatial  heterogeneity.   Adaptation  through  labor  reallocationand trade are complementary:  together they boost welfare  by 50% more thantheir individual effects.  We additionally develop a new dynamic envelope theo-rem method for measuring welfare impacts in reduced form and to validate ourquantitative model.  We find that welfare distributions from our two approachesare  consistent,  indicating  that  our  quantitative  model  captures  the  first-orderfactors for measuring the distributional impacts of climate change.  The level anddistribution of the economic impacts of climate change depends the sectoral andspatial structure of the economy, and the extent to which different markets canadapt.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **resubmitted - AJAE**
-
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Our understanding of how extreme heat affects US agriculture is largely based on the analysis of yields or productivity using aggregate data. Using a unique 40-year farm-level panel from the Kansas Farm Management Association (KFMA) tracking nearly 7,000 farms across the state, we examine how extreme heat affects farm income and quantify the extent to which farmers buffer income losses through on-farm adaptive strategies and government support programs. We find that a 1°C warming reduces gross and net farm income approximately $10,200 and $7,300 for the median farm, or by 3 percent and 11 percent, respectively. Several types of expenses, such as fuel and machinery repairs, decrease in response to extreme heat. Crop insurance payments offset about 10% and inventory adjustments offset about 14% of the total potential income loss. Irrigation buffers nearly one-third to one-half of the net income loss associated with extreme heat. Together, these results highlight the role of both farm management decisions and the federal farm safety net in reducing the financial vulnerability of farms to extreme heat.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 <!--
 - Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
