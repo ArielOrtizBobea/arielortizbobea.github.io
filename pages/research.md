@@ -277,31 +277,151 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2020
 
 - [Temperature Shocks and Establishment Sales](https://doi.org/10.1093/rfs/hhz126) <br/> Jawad Addoum, David Ng and Ariel Ortiz-Bobea <br/> **Review of Financial Studies**
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Combining granular daily data on temperatures across the continental United States with detailed establishment data from 1990 to 2015, we study the causal impact of temperature shocks on establishment sales and productivity. Using a large sample yielding precise estimates, we do not find evidence that temperature exposures significantly affect establishment-level sales or productivity, including among industries traditionally classified as “heat sensitive.” At the firm level, we find that temperature exposures aggregated across firm establishments are generally unrelated to sales, productivity, and profitability. Our results support existing findings of a tenuous relation between temperature and aggregate economic growth in rich countries.    
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    The Ricardian approach is a popular hedonic method for analyzing climate change impacts on agriculture. The approach typically relies on a cross-sectional regression of farmland asset prices on fixed climate variables, making it particularly vulnerable to omitted variables. I conduct a long-spanning Ricardian analysis of farmland prices in the eastern United States (1950–2012) and find a convergence of evidence indicating that large estimates of climate change damages for recent cross-sections (>1970s), also found in the literature, can be explained by the growing influence of omitted factors extraneous to the agricultural sector. I propose and evaluate a simple strategy to circumvent such nonfarm influences in the form of a Ricardian model based on cash rents (2009–2016), which better reflect agricultural profitability and do not capitalize expected land use changes. The new damage estimates on nonirrigated cropland and pasture rents are more optimistic and cannot be distinguished from zero. However, estimates remain imprecise under extreme climate change scenarios pointing to a cautionary long-term outlook for United States agriculture. The findings are robust to multiple checks and alternative explanations.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2019
 
 - [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ariel Ortiz-Bobea, Haoying Wang, Carlos Carrillo and Toby R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Understanding the climatic drivers of present-day agricultural yields is critical for prioritizing adaptation strategies to climate change. However, unpacking the contribution of different environmental stressors remains elusive in large-scale observational settings in part because of the lack of an extensive long-term network of soil moisture measurements and the common seasonal concurrence of droughts and heat waves. In this study, we link state-of-the-art land surface model data and fine-scale weather information with a long panel of county-level yields for six major US crops (1981–2017) to unpack their historical and future climatic drivers. To this end, we develop a statistical approach that flexibly characterizes the distinct intra-seasonal yield sensitivities to high-frequency fluctuations of soil moisture and temperature. In contrast with previous statistical evidence, we directly elicit an important role of water stress in explaining historical yields. However, our models project the direct effect of temperature—which we interpret as heat stress—remains the primary climatic driver of future yields under climate change.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4) <br/> Haoying Wang and Ariel Ortiz-Bobea <br/> **Agricultural and Resource Economics Review**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    This study examines the market drivers of corn monocropping in the U.S. Midwest by empirically analyzing crop rotation responses to market fluctuation from 2005 to 2014 and the price shock induced by the recent biofuel mandate. We find that the expected market returns for crops have a significant impact on farmers' decisions about monocropping. We also find that corn monocropping is loosely associated with the presence of nearby ethanol plants. This study illustrates the emerging use of high-resolution land cover data to tackle critical agribusiness and agro-environmental policy questions that remain elusive with aggregate data.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2018
 
-- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](http://advances.sciencemag.org/content/4/12/eaat4343) <br/> Ariel Ortiz-Bobea, Erwin Knippenberg and Robert G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+- [Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization](https://doi.org/10.1126/sciadv.aat4343) <br/> Ariel Ortiz-Bobea, Erwin Knippenberg and Robert G. Chambers <br/>  **Science Advances** <br/> [[code + data](https://doi.org/10.6077/f26v-xz15)] [[press release](https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    A pressing question for climate change adaptation is whether ongoing transformations of the agricultural sector affect its ability to cope with climatic variations. We examine this question in the United States, where major increases in productivity have fueled most of agricultural production growth over the past half-century. To quantify the evolving climate sensitivity of the sector and identify its sources, we combine state-level measures of agricultural productivity with detailed climate data for 1960–2004. We find that agriculture is growing more sensitive to climate in Midwestern states for two distinct but compounding reasons: a rising climatic sensitivity of nonirrigated cereal and oilseed crops and a growing specialization in crop production. In contrast, other regions specialize in less climate-sensitive production such as irrigated specialty crops or livestock. Results suggest that reducing vulnerability to climate change should consider the role of policies in inducing regional specialization.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
-- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://link.springer.com/chapter/10.1007/978-3-319-61194-5_8) <br/> Ariel Ortiz-Bobea <br/>  Chapter in **Climate Smart Agriculture**
+- [US Maize Yield Growth and Countervailing Climate Change Impacts](https://doi.org/10.1007/978-3-319-61194-5_8) <br/> Ariel Ortiz-Bobea <br/>  Chapter in **Climate Smart Agriculture**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Over the past several decades, maize yields in the US Midwest have risen at about 17% per decade as a result of steady technological progress. Although the trend is expected to remain positive, climate change is expected to have an increasing countervailing effect. In this chapter, I compute the yield growth rates necessary to fully offset the potential negative effects of a warming climate. Relying on a statistical model allowing for nonlinear effects of temperature on yield, I find that maize yields would decrease by −4.2, −21.8 and −46.1% around the trend, under uniform warming scenarios of 1 °C, 3 °C and 5 °C, respectively. I find that an increase of 6.6%/decade in maize yields is required to fully offset the detrimental effects of a severe but still plausible 3 °C warming in the next three decades. This indicates that future maize yield trends could – all else equal – be substantially curtailed due to the climate change. This case study illustrates how agricultural policy analysts can assess the magnitude of potential climate change impacts relative to historical yield trends to help identify targets for agricultural research.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Katrina Jessoe, Pierre Mérel and Ariel Ortiz-Bobea <br/> Chapter in **California Agriculture: Dimensions and Issues**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Recent climate projections indicate an unambiguous warming across California and all seasons over the 21st century. Projections regarding the amount of precipitation are less clear, but it is likely that rising temperatures will reduce mountain snowpack, which provides critical natural water storage for irrigated agriculture. Changes in the timing, and potentially the quantity, of runoff will likely disrupt surface water distribution, placing agricultural operations at risk. Climate variability is also predicted to increase with more frequent occurrence of droughts.
+    
+    Climate change is expected to reduce yields of major field crops, including cotton and wheat. Impacts on fruit and nut crops appear unclear, and highly dependent on the crop considered and the modeling approach used. One prominent study predicts stagnating yields for almonds and table grapes and declining yields for strawberries and cherries by mid-century. The suitability of California regions for premium wine grape production could also be negatively affected by climate change.
+    
+    Animals will also be affected by rising temperatures, with milk yields likely declining due to heat stress. Workers tend to be less productive at low (under 55°F) and high (over 100°F) temperatures. Agriculture could adapt, moving dairy cows to cooler regions, but perhaps raising the cost of feed procurement. Farm workers could work at night, necessitating lighting systems and perhaps premium wages.
+    
+    To combat climate change, the state has enacted a series of important legislation, starting with the 2006 Global Warming Solutions Act. While it is unclear whether California will succeed in changing the path of global climate, it is likely that constraints on greenhouse gas emissions in California will come at a cost. California farms may be affected by the state's climate policies through higher energy prices and lower processing capacity, as food-processing plants are covered by the state's cap-and-trade program and may lose competitiveness relative to unregulated regions. The dairy and livestock sector, the main contributor to agricultural greenhouse gas emissions in California, is also expected to reduce its methane emissions greatly in the near future.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2017
 
 - [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    
+    
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    
+    
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028) <br/> Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent <br/> **Ecological Economics**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    
+    
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2013
 
 - [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
+   <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    
+    
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
