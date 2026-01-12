@@ -96,7 +96,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div>
 
 -  [Climate change exacerbates the environmental impacts of agriculture](https://doi.org/10.1126/science.adn3747) 
 <br/> Yang, Y., D. Tilman, Z. Jin, P. Smith, C.B. Barrett, Y. Zhu, J. Burney, P. D’Odorico, P. Fantke, J. Fargione, J.C. Finlay, M.C. Rulli, L. Sloat, K. Jan van Groenigen, P.C. West, L. Ziska, A.M. Michalak, M. Clark, J. Colquhoun, T. Garg, K.A. Garrett, C. Geels, R.R. Hernandez, M. Herrero, W. Hutchison, M. Jain, J.M. Jungers, B. Liu, N.D. Mueller, A. Ortiz-Bobea, J. Schewe, J. Song, J. Verheyen, P. Vitousek, Y. Wada, L. Xia, X. Zhang, M. Zhuang, D.B. Lobell 
@@ -110,6 +110,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
+    <div style="height:6px;"></div>
 
 -  [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)
 <br/>  Matthew Gammans, Ariel Ortiz-Bobea and Pierre Mérel 
@@ -124,7 +125,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div> 
 
 - [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
     <details markdown="1">
@@ -136,7 +137,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div>
 
 ### 2023
 
@@ -153,7 +154,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div>
 
 - [Structural Transformation, Agriculture, Climate, and the Environment](https://www.journals.uchicago.edu/doi/10.1086/725319) <br/> Chris B. Barrett, Ariel Ortiz-Bobea and Trinh Pham <br/>  **Review of Environmental Economics and Policy**
     <details markdown="1">
@@ -165,25 +166,45 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     ![image info](./PCtrade.jpeg)
     -->
     </details>
+    <div style="height:6px;"></div>
 
 - [A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction](https://ojs.aaai.org/index.php/AAAI/article/view/21444) <br/>  Joshua Fan, Junwen Bai, Zhiyun Li, Ariel Ortiz-Bobea and Carla P. Gomes <br/> **Proceedings of the AAAI conference on artificial intelligence** <br/> [[code + data](https://github.com/JunwenBai/GNN-RNN)] [[award](https://www.climatechange.ai/papers/neurips2021/29)]
     <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Climate change is posing new challenges to crop-related concerns, including food insecurity, supply stability, and economic planning. Accurately predicting crop yields is crucial for addressing these challenges. However, this prediction task is exceptionally complicated since crop yields depend on numerous factors such as weather, land surface, and soil quality, as well as their interactions. In recent years, machine learning models have been successfully applied in this domain. However, these models either restrict their tasks to a relatively small region, or only study over a single or few years, which makes them hard to generalize spatially and temporally. In this paper, we introduce a novel graph-based recurrent neural network for crop yield prediction, to incorporate both geographical and temporal knowledge in the model, and further boost predictive power. Our method is trained, validated, and tested on over 2000 counties from 41 states in the US mainland, covering years from 1981 to 2019. As far as we know, this is the first machine learning method that embeds geographical knowledge in crop yield prediction and predicts crop yields at the county level nationwide. We also laid a solid foundation by comparing our model on a nationwide scale with other well-known baseline methods, including linear models, tree-based models, and deep learning methods. Experiments show that our proposed method consistently outperforms the existing state-of-the-art methods on various metrics, validating the effectiveness of geospatial and temporal information.
-   </span>
+    </span>
      <!--
     ![image info](./PCtrade.jpeg)
     -->
     </details>
-
+    <div style="height:6px;"></div>
 
 ### 2022
 
 - [On the Timing of Relevant Weather Conditions in Agriculture]( https://doi.org/10.1002/jaa2.21) <br/> **Journal of the Agricultural and Applied Economics Association** <br/>  Zhiyun Li and Ariel Ortiz-Bobea <br/> [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2882)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    A growing literature is analyzing the effects of weather on agricultural outcomes. In these studies, constructing weather variables requires researchers to define a “season,” a period over which weather conditions are considered relevant to the outcome. We explore the consequences of assuming an incorrect season in such analyses. We show in simulations that imposing an incorrect season introduces nonclassical measurement error in weather regressors, bias in unknown directions. We propose an approach to recover the “true” underlying season and apply it to a US state-level panel of agricultural Total Factor Productivity. We find that accounting for seasonality can lead to substantially different estimates.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/> [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
-
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Extreme heat shocks are increasingly linked to poor economic and health outcomes. This paper constructs hour-degree bins of temperature exposure to assess the effects of extreme heat on early child nutrition, a health outcome correlated with educational attainment and income in adulthood. Linking 15 rounds of repeated cross-section data from five West African countries to geo-coded weather data, we find that extreme heat exposure increases the prevalence of both chronic and acute malnutrition. We find that a 2 °C rise in temperature will increase the prevalence of stunting by 7.4 percentage points, reversing the progress made on improving nutrition during our study period.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2021
 
