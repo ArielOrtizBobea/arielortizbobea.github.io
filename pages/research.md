@@ -372,12 +372,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ### 2017
 
-- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](http://iopscience.iop.org/article/10.1088/1748-9326/aae9b8/meta) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
+- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](https://doi.org/10.1088/1748-9326/aae9b8) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
-    
-    
+    Predictions of future food supply under climate change rely on projected crop yield trends, which are typically based upon retrospective empirical analyses of historical yield gains. However, the estimation of these trends is difficult given the evolving impact of agricultural technologies and confounding influences such as weather. Here, we evaluate the effect of climate change on United States (US) maize yields in light of the productivity gains associated with the period of rapid adoption of genetically engineered (GE) seeds. We find that yield gains on the order of those experienced during the adoption of GE maize are needed to offset climate change impacts under the business-as-usual scenario, and that smaller gains, such as those associated with the pre-GE era in the 1980s and early 90s, would likely imply yield reductions below current levels. Although this study cannot identify the biophysical drivers of past and future maize yields, it helps contextualize the yield growth requirements necessary to counterbalance projected yield losses under climate change. Outside of the US, our findings have important implications for regions lagging in the adoption of new technologies which could help offset the detrimental effects of climate change.    
     </span>
      <!--
     ![image info](./PCtrade.jpeg)
@@ -385,12 +384,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](http://iopscience.iop.org/article/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
+- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](https://doi.org/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
-    
-    
+    In several world regions, climate change is predicted to negatively affect crop productivity. The recent statistical yield literature emphasizes the importance of flexibly accounting for the distribution of growing-season temperature to better represent the effects of warming on crop yields. We estimate a flexible statistical yield model using a long panel from France to investigate the impacts of temperature and precipitation changes on wheat and barley yields. Winter varieties appear sensitive to extreme cold after planting. All yields respond negatively to an increase in spring–summer temperatures and are a decreasing function of precipitation about historical precipitation levels. Crop yields are predicted to be negatively affected by climate change under a wide range of climate models and emissions scenarios. Under warming scenario RCP8.5 and holding growing areas and technology constant, our model ensemble predicts a 21.0% decline in winter wheat yield, a 17.3% decline in winter barley yield, and a 33.6% decline in spring barley yield by the end of the century. Uncertainty from climate projections dominates uncertainty from the statistical model. Finally, our model predicts that continuing technology trends would counterbalance most of the effects of climate change.    
     </span>
      <!--
     ![image info](./PCtrade.jpeg)
@@ -402,8 +400,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
-    
-    
+    Valuing global environmental public goods can serve to mobilize international resources for their protection. While stated-preference valuation methods have been applied extensively to public goods valuation in individual countries, applications to global public goods with surveys in multiple countries are scarce due to complex and costly implementation. Benefit transfer is effectively infeasible when there are few existing studies valuing similar goods. The Delphi method, which relies on expert opinion, offers a third alternative. We explore this method for estimating the value of protecting the Amazon rainforest, by asking more than 200 environmental valuation experts from 37 countries on four continents to predict the outcome of a contingent valuation survey to elicit willingness-to-pay (WTP) for Amazon forest protection by their own countries' populations. The average annual per-household values of avoiding a 30% forest loss in the Amazon by 2050, assessed by experts, vary from a few dollars in low-income Asian countries, to a high near $100 in Canada, Germany and Norway. The elasticity with respect to average (PPP-adjusted) per-household incomes is close to unity. Results from the Delphi study match remarkably well those from a recent population stated-preference survey in Canada and the United States, using a similar valuation scenario.
     </span>
      <!--
     ![image info](./PCtrade.jpeg)
@@ -414,14 +411,3 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2013
 
 - [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
-   <details markdown="1">
-    <summary markdown="span">Abstract</summary>
-    <span style="color:#AAAAAA">
-    
-    
-    </span>
-     <!--
-    ![image info](./PCtrade.jpeg)
-    -->
-    </details>
-    <div style="height:6px;"></div>
