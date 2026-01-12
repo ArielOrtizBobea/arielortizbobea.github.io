@@ -357,11 +357,11 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Recent climate projections indicate an unambiguous warming across California and all seasons over the 21st century. Projections regarding the amount of precipitation are less clear, but it is likely that rising temperatures will reduce mountain snowpack, which provides critical natural water storage for irrigated agriculture. Changes in the timing, and potentially the quantity, of runoff will likely disrupt surface water distribution, placing agricultural operations at risk. Climate variability is also predicted to increase with more frequent occurrence of droughts.
-    
+    <span style="color:#AAAAAA">
     Climate change is expected to reduce yields of major field crops, including cotton and wheat. Impacts on fruit and nut crops appear unclear, and highly dependent on the crop considered and the modeling approach used. One prominent study predicts stagnating yields for almonds and table grapes and declining yields for strawberries and cherries by mid-century. The suitability of California regions for premium wine grape production could also be negatively affected by climate change.
-    
+    <span style="color:#AAAAAA">
     Animals will also be affected by rising temperatures, with milk yields likely declining due to heat stress. Workers tend to be less productive at low (under 55°F) and high (over 100°F) temperatures. Agriculture could adapt, moving dairy cows to cooler regions, but perhaps raising the cost of feed procurement. Farm workers could work at night, necessitating lighting systems and perhaps premium wages.
-    
+    <span style="color:#AAAAAA">
     To combat climate change, the state has enacted a series of important legislation, starting with the 2006 Global Warming Solutions Act. While it is unclear whether California will succeed in changing the path of global climate, it is likely that constraints on greenhouse gas emissions in California will come at a cost. California farms may be affected by the state's climate policies through higher energy prices and lower processing capacity, as food-processing plants are covered by the state's cap-and-trade program and may lose competitiveness relative to unregulated regions. The dairy and livestock sector, the main contributor to agricultural greenhouse gas emissions in California, is also expected to reduce its methane emissions greatly in the near future.
     </span>
      <!--
