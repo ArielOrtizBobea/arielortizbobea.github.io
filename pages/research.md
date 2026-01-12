@@ -210,19 +210,69 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - [The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture](https://www.sciencedirect.com/science/article/pii/S1574007221000025) <br/> Ariel Ortiz-Bobea <br/> **Handbook of Agricultural Economics** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2856)] [[preprint](https://arxiv.org/abs/2105.12044)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Agriculture is arguably the most climate-sensitive sector of the economy. Growing concerns about anthropogenic climate change have increased research interest in assessing its potential impact on the sector and in identifying policies and adaptation strategies to help the sector cope with a changing climate. This chapter provides an overview of advancements in the analysis of climate change impacts and adaptation in agriculture with an emphasis on methods. The chapter provides an overview of research efforts addressing key conceptual and empirical challenges. The chapter also discusses practical matters about conducting research in this area and provides reproducible R code to perform common tasks of data preparation and model estimation in this literature. The chapter provides a hands-on introduction to new researchers in this area.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [How big is the ‘lemons’ problem? Historical evidence from French wines](https://doi.org/10.1016/j.euroecorev.2021.103824) <br/> Pierre Merél, Ariel Ortiz-Bobea and Emmanuel Paroissien <br/> **European Economic Review** <br/> [[code + data](https://doi.org/10.6077/zqcs-2544)] 
 [[press release](https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums)] [[award](https://wine-economics.org/about/awards/christophe-baron-prize/)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    This paper provides empirical evidence on the welfare losses associated with asymmetric information about product quality in a competitive market. When consumers cannot observe product characteristics at the time of purchase, atomistic producers have no incentive to supply costly quality. We compare wine prices across administrative districts around the enactment of historic regulations aimed at certifying the quality of more than 250 French appellation wines to identify welfare losses from asymmetric information. We estimate that these losses amount to more than 7% of total market value, suggesting an important role for credible certification schemes.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate](https://doi.org/10.1007/s10584-021-03135-8) <br/> Calum Turvey, Jiajun Du, Yurou He, Ariel Ortiz-Bobea <br/> **Climatic Change**
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    In this paper, we evaluate a single-index polymorphic production function that relates agricultural output to temperature and precipitation. The advantage of this new approach to measuring agricultural vulnerability under climatic change is that a single-index measure of vulnerability can capture a range of climate responses including plateau effects. The approach identifies plateau effects in the crop yield-weather relationship and provides overall fits consistent with higher-order polynomial fitting. We apply the technique to corn, soybeans, wheat, and cotton at the USA county level. We illustrate its computation and use as a critical policy variable.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Anthropogenic climate change has slowed global agricultural productivity growth](https://doi.org/10.1038/s41558-021-01000-1) <br/> Ariel Ortiz-Bobea, Toby R. Ault, Carlos M. Carrillo, Robert G. Chambers and David B. Lobell <br/> **Nature Climate Change** <br/> 
 [[code + data](https://archive.ciser.cornell.edu/reproduction-packages/2840)] 
 [[press release](https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth)] 
 [[video abstract](https://www.youtube.com/watch?v=zsZ6vHO6xAA)] 
 [[discussion](https://www.nature.com/articles/s41558-021-01017-6)]
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    Agricultural research has fostered productivity growth, but the historical influence of anthropogenic climate change (ACC) on that growth has not been quantified. We develop a robust econometric model of weather effects on global agricultural total factor productivity (TFP) and combine this model with counterfactual climate scenarios to evaluate impacts of past climate trends on TFP. Our baseline model indicates that ACC has reduced global agricultural TFP by about 21% since 1961, a slowdown that is equivalent to losing the last 7 years of productivity growth. The effect is substantially more severe (a reduction of ~26–34%) in warmer regions such as Africa and Latin America and the Caribbean. We also find that global agriculture has grown more vulnerable to ongoing climate change.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [How weather affects the decomposition of Total Factor Productivity in U.S. agriculture](https://doi.org/10.1111/agec.12615) <br/> Alejandro Plastina, Sergio Lence and Ariel Ortiz-Bobea <br/> **Agricultural Economics** 
+    <details markdown="1">
+    <summary markdown="span">Abstract</summary>
+    <span style="color:#AAAAAA">
+    This study illustrates and quantifies how overlooking the impact of weather shocks can affect the measurement and decomposition of agricultural total factor productivity (TFP) change. The underlying technology is represented by a flexible input distance function with quasi-fixed inputs estimated with Bayesian methods. Using agricultural production and weather data for 16 states in the Pacific Region, Central Region, and Southern Plains of the United States, we estimate TFP change as the direct sum of multiple components, including a net weather effect. To assess the role of weather, we conduct a comparative analysis based on two distinct sets of input and output variables. A traditional set of variables that ignore weather variations, and a new set of “weather-filtered” variables that represent input and output levels that would have been chosen under average weather conditions. From this comparative analysis, we derive biases in the decomposition of TFP growth from the omission of weather shocks. We find that weather shocks accelerated productivity growth in 12 out of 16 states by the equivalent of 11.4% of their group-average TFP growth, but slowed down productivity by the equivalent of 6.5% of the group-average TFP growth in the other four states (located in the Northern-most part of the country). We also find substantial biases in the estimated contribution of technical change, scale effects, technical efficiency change, and output allocation effects to TFP growth (varying in magnitude and direction across regions) when weather effects are excluded from the model. This is the first study to present estimates of those biases based on a counterfactual analysis. One major implication from our study is that the official USDA's measures of TFP change would appear to overestimate the rate of productivity growth in U.S. agriculture stemming from technical change, market forces, agricultural policies, and other nonweather drivers.
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 ### 2020
 
