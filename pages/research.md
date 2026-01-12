@@ -33,7 +33,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **resubmitted - AJAE**
-    <details markdown="1">
+ <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Our understanding of how extreme heat affects US agriculture is largely based on the analysis of yields or productivity using aggregate data. Using a unique 40-year farm-level panel from the Kansas Farm Management Association (KFMA) tracking nearly 7,000 farms across the state, we examine how extreme heat affects farm income and quantify the extent to which farmers buffer income losses through on-farm adaptive strategies and government support programs. We find that a 1°C warming reduces gross and net farm income approximately $10,200 and $7,300 for the median farm, or by 3 percent and 11 percent, respectively. Several types of expenses, such as fuel and machinery repairs, decrease in response to extreme heat. Crop insurance payments offset about 10% and inventory adjustments offset about 14% of the total potential income loss. Irrigation buffers nearly one-third to one-half of the net income loss associated with extreme heat. Together, these results highlight the role of both farm management decisions and the federal farm safety net in reducing the financial vulnerability of farms to extreme heat.
@@ -58,7 +58,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 
 - [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters**
-    <details markdown="1">
+<details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks, agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation.
@@ -68,8 +68,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     -->
     </details>
     <div style="height:6px;"></div>
-
-
 
 
 ### 2025
