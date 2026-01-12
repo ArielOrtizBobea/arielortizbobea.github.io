@@ -289,7 +289,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     The Ricardian approach is a popular hedonic method for analyzing climate change impacts on agriculture. The approach typically relies on a cross-sectional regression of farmland asset prices on fixed climate variables, making it particularly vulnerable to omitted variables. I conduct a long-spanning Ricardian analysis of farmland prices in the eastern United States (1950–2012) and find a convergence of evidence indicating that large estimates of climate change damages for recent cross-sections (>1970s), also found in the literature, can be explained by the growing influence of omitted factors extraneous to the agricultural sector. I propose and evaluate a simple strategy to circumvent such nonfarm influences in the form of a Ricardian model based on cash rents (2009–2016), which better reflect agricultural profitability and do not capitalize expected land use changes. The new damage estimates on nonirrigated cropland and pasture rents are more optimistic and cannot be distinguished from zero. However, estimates remain imprecise under extreme climate change scenarios pointing to a cautionary long-term outlook for United States agriculture. The findings are robust to multiple checks and alternative explanations.
@@ -303,7 +303,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2019
 
 - [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ariel Ortiz-Bobea, Haoying Wang, Carlos Carrillo and Toby R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Understanding the climatic drivers of present-day agricultural yields is critical for prioritizing adaptation strategies to climate change. However, unpacking the contribution of different environmental stressors remains elusive in large-scale observational settings in part because of the lack of an extensive long-term network of soil moisture measurements and the common seasonal concurrence of droughts and heat waves. In this study, we link state-of-the-art land surface model data and fine-scale weather information with a long panel of county-level yields for six major US crops (1981–2017) to unpack their historical and future climatic drivers. To this end, we develop a statistical approach that flexibly characterizes the distinct intra-seasonal yield sensitivities to high-frequency fluctuations of soil moisture and temperature. In contrast with previous statistical evidence, we directly elicit an important role of water stress in explaining historical yields. However, our models project the direct effect of temperature—which we interpret as heat stress—remains the primary climatic driver of future yields under climate change.
@@ -315,7 +315,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [Market-Driven Corn Monoculture in the US Midwest](https://doi.org/10.1017/age.2019.4) <br/> Haoying Wang and Ariel Ortiz-Bobea <br/> **Agricultural and Resource Economics Review**
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     This study examines the market drivers of corn monocropping in the U.S. Midwest by empirically analyzing crop rotation responses to market fluctuation from 2005 to 2014 and the price shock induced by the recent biofuel mandate. We find that the expected market returns for crops have a significant impact on farmers' decisions about monocropping. We also find that corn monocropping is loosely associated with the presence of nearby ethanol plants. This study illustrates the emerging use of high-resolution land cover data to tackle critical agribusiness and agro-environmental policy questions that remain elusive with aggregate data.
@@ -341,7 +341,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [US Maize Yield Growth and Countervailing Climate Change Impacts](https://doi.org/10.1007/978-3-319-61194-5_8) <br/> Ariel Ortiz-Bobea <br/>  Chapter in **Climate Smart Agriculture**
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Over the past several decades, maize yields in the US Midwest have risen at about 17% per decade as a result of steady technological progress. Although the trend is expected to remain positive, climate change is expected to have an increasing countervailing effect. In this chapter, I compute the yield growth rates necessary to fully offset the potential negative effects of a warming climate. Relying on a statistical model allowing for nonlinear effects of temperature on yield, I find that maize yields would decrease by −4.2, −21.8 and −46.1% around the trend, under uniform warming scenarios of 1 °C, 3 °C and 5 °C, respectively. I find that an increase of 6.6%/decade in maize yields is required to fully offset the detrimental effects of a severe but still plausible 3 °C warming in the next three decades. This indicates that future maize yield trends could – all else equal – be substantially curtailed due to the climate change. This case study illustrates how agricultural policy analysts can assess the magnitude of potential climate change impacts relative to historical yield trends to help identify targets for agricultural research.
@@ -353,17 +353,17 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [Climate Change and California Agriculture](https://s.giannini.ucop.edu/uploads/giannini_public/56/a1/56a1a83d-16d2-4f0d-85df-35be6ed1dafc/climatechange.pdf) <br/> Katrina Jessoe, Pierre Mérel and Ariel Ortiz-Bobea <br/> Chapter in **California Agriculture: Dimensions and Issues**
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
-    <span style="color:#AAAAAA">
+    <div style="color:#AAAAAA">
     Recent climate projections indicate an unambiguous warming across California and all seasons over the 21st century. Projections regarding the amount of precipitation are less clear, but it is likely that rising temperatures will reduce mountain snowpack, which provides critical natural water storage for irrigated agriculture. Changes in the timing, and potentially the quantity, of runoff will likely disrupt surface water distribution, placing agricultural operations at risk. Climate variability is also predicted to increase with more frequent occurrence of droughts.
-    <span style="color:#AAAAAA">
+
     Climate change is expected to reduce yields of major field crops, including cotton and wheat. Impacts on fruit and nut crops appear unclear, and highly dependent on the crop considered and the modeling approach used. One prominent study predicts stagnating yields for almonds and table grapes and declining yields for strawberries and cherries by mid-century. The suitability of California regions for premium wine grape production could also be negatively affected by climate change.
-    <span style="color:#AAAAAA">
+
     Animals will also be affected by rising temperatures, with milk yields likely declining due to heat stress. Workers tend to be less productive at low (under 55°F) and high (over 100°F) temperatures. Agriculture could adapt, moving dairy cows to cooler regions, but perhaps raising the cost of feed procurement. Farm workers could work at night, necessitating lighting systems and perhaps premium wages.
-    <span style="color:#AAAAAA">
+    
     To combat climate change, the state has enacted a series of important legislation, starting with the 2006 Global Warming Solutions Act. While it is unclear whether California will succeed in changing the path of global climate, it is likely that constraints on greenhouse gas emissions in California will come at a cost. California farms may be affected by the state's climate policies through higher energy prices and lower processing capacity, as food-processing plants are covered by the state's cap-and-trade program and may lose competitiveness relative to unregulated regions. The dairy and livestock sector, the main contributor to agricultural greenhouse gas emissions in California, is also expected to reduce its methane emissions greatly in the near future.
-    </span>
+    </div>
      <!--
     ![image info](./PCtrade.jpeg)
     -->
@@ -373,7 +373,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2017
 
 - [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](https://doi.org/10.1088/1748-9326/aae9b8) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Predictions of future food supply under climate change rely on projected crop yield trends, which are typically based upon retrospective empirical analyses of historical yield gains. However, the estimation of these trends is difficult given the evolving impact of agricultural technologies and confounding influences such as weather. Here, we evaluate the effect of climate change on United States (US) maize yields in light of the productivity gains associated with the period of rapid adoption of genetically engineered (GE) seeds. We find that yield gains on the order of those experienced during the adoption of GE maize are needed to offset climate change impacts under the business-as-usual scenario, and that smaller gains, such as those associated with the pre-GE era in the 1980s and early 90s, would likely imply yield reductions below current levels. Although this study cannot identify the biophysical drivers of past and future maize yields, it helps contextualize the yield growth requirements necessary to counterbalance projected yield losses under climate change. Outside of the US, our findings have important implications for regions lagging in the adoption of new technologies which could help offset the detrimental effects of climate change.    
@@ -385,7 +385,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](https://doi.org/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     In several world regions, climate change is predicted to negatively affect crop productivity. The recent statistical yield literature emphasizes the importance of flexibly accounting for the distribution of growing-season temperature to better represent the effects of warming on crop yields. We estimate a flexible statistical yield model using a long panel from France to investigate the impacts of temperature and precipitation changes on wheat and barley yields. Winter varieties appear sensitive to extreme cold after planting. All yields respond negatively to an increase in spring–summer temperatures and are a decreasing function of precipitation about historical precipitation levels. Crop yields are predicted to be negatively affected by climate change under a wide range of climate models and emissions scenarios. Under warming scenario RCP8.5 and holding growing areas and technology constant, our model ensemble predicts a 21.0% decline in winter wheat yield, a 17.3% decline in winter barley yield, and a 33.6% decline in spring barley yield by the end of the century. Uncertainty from climate projections dominates uncertainty from the statistical model. Finally, our model predicts that continuing technology trends would counterbalance most of the effects of climate change.    
@@ -397,7 +397,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [Using the Delphi method to value protection of the Amazon rainforest](https://doi.org/10.1016/j.ecolecon.2016.09.028) <br/> Strand, J., R.T. Carson, S. Navrud, A. Ortiz-Bobea and J.R. Vincent <br/> **Ecological Economics**
-   <details markdown="1">
+    <details markdown="1">
     <summary markdown="span">Abstract</summary>
     <span style="color:#AAAAAA">
     Valuing global environmental public goods can serve to mobilize international resources for their protection. While stated-preference valuation methods have been applied extensively to public goods valuation in individual countries, applications to global public goods with surveys in multiple countries are scarce due to complex and costly implementation. Benefit transfer is effectively infeasible when there are few existing studies valuing similar goods. The Delphi method, which relies on expert opinion, offers a third alternative. We explore this method for estimating the value of protecting the Amazon rainforest, by asking more than 200 environmental valuation experts from 37 countries on four continents to predict the outcome of a contingent valuation survey to elicit willingness-to-pay (WTP) for Amazon forest protection by their own countries' populations. The average annual per-household values of avoiding a 30% forest loss in the Amazon by 2050, assessed by experts, vary from a few dollars in low-income Asian countries, to a high near $100 in Canada, Germany and Norway. The elasticity with respect to average (PPP-adjusted) per-household incomes is close to unity. Results from the Delphi study match remarkably well those from a recent population stated-preference survey in Canada and the United States, using a similar valuation scenario.
