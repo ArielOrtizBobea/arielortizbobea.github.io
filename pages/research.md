@@ -22,7 +22,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
     <details markdown="1">
-    <summary markdown="span">Abstract</summary>
+    <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
     We develop a dynamic-spatial equilibrium model to quantify the economic effects of climate change with a focus on the United States.  We find that climate change reduces US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade and labor reallocation increases US welfare, but with substantial spatial heterogeneity. Adaptation through labor reallocation and trade are complementary: together they boost welfare by 50% more than their individual effects. We additionally develop a new dynamic envelope theorem method for measuring welfare impacts in reduced form and to validate our quantitative model. We find that welfare distributions from our two approaches are consistent, indicating that our quantitative model captures the first-order factors for measuring the distributional impacts of climate change. The level and distribution of the economic impacts of climate change depends the sectoral and spatial structure of the economy, and the extent to which different markets can adapt.
     </span>
@@ -66,7 +66,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 <br/> Zhiyun Li, Wendgong Zang and Ariel Ortiz-Bobea <br/> **Land Economics** <br/> 
 [[preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012)]
     <details markdown="1">
-    <summary markdown="span">Abstract</summary>
+    <summary markdown="span">astract</summary>
     <span style="color:#AAAAAA">
     Legislation promoting large-scale solar could potentially elevate farmland prices. Using approximately 12,000 farmland transactions (2007–2021), we study the impact of the 2015 Shared Renewable Program and relevant policies in New York state. We find that large solar-suitable parcels within two miles of substations sold for 15%–18% more than comparable parcels farther away after the program's implementation. This effect is absent for parcels unsuitable for solar yet desirable for housing, suggesting it is unrelated to housing pressure. We also find a stronger effect on farmland in regions with higher electricity prices (~20%) suggesting SRP’s impact varies by location and time.
     </span>
