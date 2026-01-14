@@ -8,11 +8,13 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ## Work in progress + working papers
 
+- The effect of heat shocks on agricultural loan repayment <br/> Jerzy Jaromczyk, Jenny Ifft and Ariel Ortiz-Bobea
+
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea, Yurou He and David B. Lobell
 
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
 
-- Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Robert G. Chambers, Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
+- Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
