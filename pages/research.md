@@ -17,6 +17,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    Why do some cities rebound after destructive disasters while others stagnate or de cline? Linking over one thousand wildfires that occurred across the United States to parcel-level tax assessments, we estimate land and building value dynamics in burned and surrounding areas. On average, wildfires reduce land and building values in the long run, but impacts vary systematically with pre-disaster local productivity. Ranked within counties, parcels in low productivity areas suffer persistent losses, middle-ranked areas recover quickly, and upper-ranked areas undergo “creative destruction,” experiencing sustained gains. Nearby unburned areas exhibit similar growth or decline trajectories due to spillovers from burned areas, with effects persisting for more than a decade. Depending on the quality of rebuilding, disasters can hinder, restore, or accelerate growth, underscoring the importance of spillovers and coordinated investment policies in shaping urban resilience.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **under review**
     <details markdown="1">
