@@ -19,6 +19,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
 
 - Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **under review**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    Studies analyzing the impact of climate change on agriculture mostly emphasize effects on production quantity, overlooking potential impacts on quality and nutritional content. We explore this question in the context of U.S. milk production which represents about 20% of national animal products. We link individual lactation records for over 6.5 million cows over 2007-2016 with high-resolution weather data to estimate the nonlinear effects of heat on both milk yield and quality (composition in fat and protein). While milk yield declines sharply only when the Temperature-Humidity Index (THI) exceeds 70 (primarily in the summer), milk quality decreases steadily with rising THI (throughout the year). Combining these findings indicates that estimates of heat damages that ignore quality effects –the standard in the literature– underestimate total losses by at least a factor of two. We also find that the sensitivity of both milk yield and quality to heat varies little with cow age, farm size, region of the country, or period in the sample, suggesting there has been little progress in adapting U.S. dairy systems to a warming climate. 
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **revisions requested - Networks and Spatial Economics**
 
