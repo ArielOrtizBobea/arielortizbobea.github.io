@@ -471,3 +471,13 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2013
 
 - [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
+<details markdown="1">
+    <summary markdown="span">first paragraph</summary>
+    <span style="color:#AAAAAA">
+    While a major focus of econometric climate impact assessments on agriculture has been prediction of overall impacts, future research should identify impact mechanisms and adaptation possibilities. Clarifying speciﬁc adaptation possibilities facilitates not only the assessment of potential welfare impacts, but also offers the possibility of evaluating policies for improved adaptation. This depends on capturing mechanisms that provide farmers’ abilities to adapt to new climatic constraints in counter-factual conditions
+    </span>
+     <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
