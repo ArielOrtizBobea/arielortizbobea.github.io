@@ -91,9 +91,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters** 
     <details markdown="1">
-    <summary markdown="span">abstract</summary>
+    <summary markdown="span">first paragraph</summary>
     <span style="color:#AAAAAA">
-    Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges [1, 2]. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks [3], agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions [4]. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens [5, 6]. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time [4]. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation [7, 8].
+    Current agri-environmental policies are failing to match the scale, complexity, and urgency of today’s environmental challenges. Despite a proliferation of regulations and laws, agri-environmental payment schemes, and policy frameworks, agriculture remains a leading driver of biodiversity loss, soil degradation, nutrient pollution, and greenhouse-gas emissions. Agri-environmental policies are frequently criticized for falling short of their environmental objectives, misallocating public funds, constraining farmers’ agency, and generating substantial administrative burdens. A transformation of policy instruments is needed to overcome persistent challenges that include designing policy instruments that effectively align the incentives of all actors, ensuring robust monitoring and enforcement of compliance, managing trade-offs across environmental and economic goals, and establishing mechanisms for adaptive learning and performance improvement over time. In this paper, we aim to show how recent advances in Earth observation technologies can contribute to such a transformation.
     </span>
     <!--
     ![image info](./PCtrade.jpeg)
@@ -471,7 +471,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 ### 2013
 
 - [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
-<details markdown="1">
+    <details markdown="1">
     <summary markdown="span">first paragraph</summary>
     <span style="color:#AAAAAA">
     While a major focus of econometric climate impact assessments on agriculture has been prediction of overall impacts, future research should identify impact mechanisms and adaptation possibilities. Clarifying speciﬁc adaptation possibilities facilitates not only the assessment of potential welfare impacts, but also offers the possibility of evaluating policies for improved adaptation. This depends on capturing mechanisms that provide farmers’ abilities to adapt to new climatic constraints in counter-factual conditions
