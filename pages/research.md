@@ -76,8 +76,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ### 2026
 
-- Unpacking the growth of global agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **in press - Science Advances** <br/> 
-[[code + data](https://doi.org/10.6077/AT7YVU)]
+- [Unpacking the growth of global agricultural greenhouse gas emissions](https://doi.org/10.1126/sciadv.aeb8653) <br/> Ariel Ortiz-Bobea and Simone Pieralli <br/> **Science Advances** <br/> 
+[[press release]]() [[code + data](https://doi.org/10.6077/AT7YVU)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
