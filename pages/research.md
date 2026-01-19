@@ -41,6 +41,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **revisions requested - Networks and Spatial Economics**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    This paper investigates the role of extreme climate as a push factor for family reunification migration. We leverage a novel data set on Mexican agricultural workers in the United States with detailed family separation history and family characteristics. Furthermore, we use a data-driven approach to identify the optimal weather window – one that minimizes prediction error measured in the out of sample root mean squared error compared to the traditional method. We unveil evidence showing that shifts in agricultural productivity induced by changes in extreme climatic conditions during optimal weather windows in Mexican states contributed to the decision of family reunification migration, while more conventional weather windows (e.g., annual averages) fail to provide a consistent assessment.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
     <details markdown="1">
