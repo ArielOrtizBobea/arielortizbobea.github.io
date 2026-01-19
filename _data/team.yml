@@ -20,17 +20,6 @@
   github: ArielOrtizBobea
   orcid: 0000-0003-4482-6843
 
-- name: Joshua Fan 
-  role: PhD student, Computer Science # Will appear next to name
-  image: assets/theme/images/people/jyf6.jpg
-  description: > 
-    My research focuses on developing machine learning techniques for challenging problems in sustainability and agriculture. 
-    My work has numerous applications including crop yield forecasting, carbon cycle modeling, vegetation monitoring, and detecting fish 
-    farms in the Amazon using satellite imagery. I work with experts in agricultural economics, crop science, plant genetics, and ecology,
-    to develop innovative AI solutions that can benefit their fields.
-  email: jyf6@cornell.edu
-  github: joshuafan
-
 - name: Yurou He
   role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/yh878.png
@@ -85,6 +74,12 @@
 - name: <h3>Alumni</h3> 
 
 # Here the alumni starts
+
+- name: Joshua Fan
+  role: PhD student, Computer Science (2026)
+  image: assets/theme/images/people/jyf6.jpg
+  description: >
+    Soon [Software Engineer](https://joshuafan.github.io) at Google
 
 - name: Qingli Fan
   role: PhD student, Economics (2025)
