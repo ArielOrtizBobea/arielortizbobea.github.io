@@ -12,9 +12,9 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
 
-- The effect of heat shocks on agricultural loan repayment <br/> Jerzy Jaromczyk, Jenny Ifft and Ariel Ortiz-Bobea <br/> **manuscript in preparation**
+- The effect of heat shocks on agricultural loan repayment <br/> Jerzy Jaromczyk, Jenny Ifft and Ariel Ortiz-Bobea <br/> **in preparation**
 
-- Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **manuscript in preparation**
+- Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **in preparation**
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
     <details markdown="1">
