@@ -53,6 +53,16 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [Weather-driven US milk yield losses and economic damages revealed by 9 million cows](https://doi.org/10.21203/rs.3.rs-8227805/v1) <br/> Eukyoung Choi, Frances Davenport, Ziyi Lin, Ariel Ortiz-Bobea, Kristan Reed, Ermias Kebreab and Nathaniel Mueller
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    Climate change threatens dairy production, yet a full understanding of these risks remains limited by a combination of coarse yield data and simplified models. Here we combine 155 million test-day milk records from 9 million US cows from 2000–2024 with a causality aware machine learning framework to quantify yield responses to temperature, radiation, humidity, and wind. We find that nighttime heat is the dominant driver of milk yield declines. Nationwide, heat stress reduced yield per cow per test-day by –2.5%, compared with –1.0% from cold stress. Yield reductions were most intensive from late-summer heat and springtime cold, which were –4.3% and –1.5%, respectively. Combined heat and cold stress resulted in an annual economic loss of $871 million, which corresponds to 2.3% of national milk revenue. Our study establishes the nonlinear nature of yield sensitivity to multiple weather stressors and reveals opportunities to enhance yields in US dairy systems.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
     <details markdown="1">
