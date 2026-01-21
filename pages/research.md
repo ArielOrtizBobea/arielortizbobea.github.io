@@ -16,8 +16,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 - Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **in preparation**
 
-- [[Weather-driven US milk yield losses and economic damages revealed by 9 million cows](https://doi.org/10.21203/rs.3.rs-8227805/v1)] <br/> Eukyoung Choi, Frances Davenport, Ziyi Lin, Ariel Ortiz-Bobea, Kristan Reed, Ermias Kebreab and Nathaniel Mueller
-
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
     <details markdown="1">
     <summary markdown="span">abstract</summary>
@@ -53,6 +51,8 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     -->
     </details>
     <div style="height:6px;"></div>
+
+- [Weather-driven US milk yield losses and economic damages revealed by 9 million cows](https://doi.org/10.21203/rs.3.rs-8227805/v1) <br/> Eukyoung Choi, Frances Davenport, Ziyi Lin, Ariel Ortiz-Bobea, Kristan Reed, Ermias Kebreab and Nathaniel Mueller
 
 - [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
     <details markdown="1">
