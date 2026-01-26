@@ -40,18 +40,6 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **resubmitted - Networks and Spatial Economics**
-    <details markdown="1">
-    <summary markdown="span">abstract</summary>
-    <span style="color:#AAAAAA">
-    This paper investigates the role of extreme climate as a push factor for family reunification migration. We leverage a novel data set on Mexican agricultural workers in the United States with detailed family separation history and family characteristics. Furthermore, we use a data-driven approach to identify the optimal weather window – one that minimizes prediction error measured in the out of sample root mean squared error compared to the traditional method. We unveil evidence showing that shifts in agricultural productivity induced by changes in extreme climatic conditions during optimal weather windows in Mexican states contributed to the decision of family reunification migration, while more conventional weather windows (e.g., annual averages) fail to provide a consistent assessment.
-    </span>
-    <!--
-    ![image info](./PCtrade.jpeg)
-    -->
-    </details>
-    <div style="height:6px;"></div>
-
 - [Weather-driven US milk yield losses and economic damages revealed by 9 million cows](https://doi.org/10.21203/rs.3.rs-8227805/v1) <br/> Eukyoung Choi, Frances Davenport, Ziyi Lin, Ariel Ortiz-Bobea, Kristan Reed, Ermias Kebreab and Nathaniel Mueller <br/>  **under review**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
@@ -69,6 +57,18 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
     We develop a dynamic-spatial equilibrium model to quantify the economic effects of climate change with a focus on the United States.  We find that climate change reduces US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade and labor reallocation increases US welfare, but with substantial spatial heterogeneity. Adaptation through labor reallocation and trade are complementary: together they boost welfare by 50% more than their individual effects. We additionally develop a new dynamic envelope theorem method for measuring welfare impacts in reduced form and to validate our quantitative model. We find that welfare distributions from our two approaches are consistent, indicating that our quantitative model captures the first-order factors for measuring the distributional impacts of climate change. The level and distribution of the economic impacts of climate change depends the sectoral and spatial structure of the economy, and the extent to which different markets can adapt.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
+
+- Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **resubmitted - Networks and Spatial Economics**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    This paper investigates the role of extreme climate as a push factor for family reunification migration. We leverage a novel data set on Mexican agricultural workers in the United States with detailed family separation history and family characteristics. Furthermore, we use a data-driven approach to identify the optimal weather window – one that minimizes prediction error measured in the out of sample root mean squared error compared to the traditional method. We unveil evidence showing that shifts in agricultural productivity induced by changes in extreme climatic conditions during optimal weather windows in Mexican states contributed to the decision of family reunification migration, while more conventional weather windows (e.g., annual averages) fail to provide a consistent assessment.
     </span>
     <!--
     ![image info](./PCtrade.jpeg)
