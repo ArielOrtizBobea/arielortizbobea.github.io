@@ -40,7 +40,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **revisions requested - Networks and Spatial Economics**
+- Climate Change as a Determinant of Migrant Family Reunification <br/> Brian H. Park, Arnab K. Basu, Nancy H. Chau, Filiz Garip and Ariel Ortiz-Bobea <br/>  **resubmitted - Networks and Spatial Economics**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
