@@ -4,6 +4,9 @@ title: Join me
 permalink: /advising/
 background: /assets/theme/images/landing/advising.png
 ---
+## Postdocs
+
+- [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/31576) working on quantifying the private value of soil health improvements in U.S. agricutlure (Apply by Feb 15, 2006. Expected start date in Spring/Summer of 2026)
 
 ## Prospective PhD students
 
@@ -18,10 +21,6 @@ These programs have different admissions criteria. Please consult the respective
 The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. As a result, it is not necessary to reach out to me before applying. I am happy to discuss your fit before applying but note I have no influence in admissions.
 
 In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
-
-## Postdocs
-
-- [Postdoctoral Associate position]() working on quantifying the private value of soil health improvements in U.S. agricutlure (coming soon; ex[ected start date: Spring of 2026])
 
 ## Visitors
 
