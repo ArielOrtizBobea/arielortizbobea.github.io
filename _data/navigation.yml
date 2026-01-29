@@ -1,14 +1,14 @@
-- text: Home
+- text: home
   href: /
-- text: Research
+- text: research
   href: /research/
-- text: Teaching
+- text: teaching
   href: /teaching/
-- text: People
+- text: people
   href: /people/
-- text: Join me
+- text: join me
   href: /advising/
-- text: CV (PDF)
+- text: cv (pdf)
   href: /assets/theme/cv.pdf
 #- text: Resources
 #  href: /resources/

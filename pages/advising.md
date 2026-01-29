@@ -4,13 +4,13 @@ title: Join me
 permalink: /advising/
 background: /assets/theme/images/landing/advising.png
 ---
-## Postdocs
+## postdocs
 
 - [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/31576) working on quantifying the private value of soil health improvements in U.S. agricutlure (Apply by Feb 15, 2006. Expected start date in Spring/Summer of 2026)
 
-## Prospective PhD students
+## PhD students
 
-I advise graduate students in various academic fields at Cornell: 
+I can advise grad students in various fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
 - [Public Policy](https://publicpolicy.cornell.edu/phd/) (PAM)
 - [Economics](https://economics.cornell.edu/prospective-incoming-grad-students) (ECON)
@@ -18,7 +18,7 @@ I advise graduate students in various academic fields at Cornell:
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. As a result, it is not necessary to reach out to me before applying. I am happy to discuss your fit before applying but note I have no influence in admissions.
+The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. When applying to thos e programs just mention your interest in working with me in your application. No need to contact me directly.
 
 In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
 

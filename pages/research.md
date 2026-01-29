@@ -6,7 +6,7 @@ permalink: /research/
 
 Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAAJ) page.
 
-## Work in progress + working papers
+## work in progress + working papers
 
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea, Yurou He and David B. Lobell
 
@@ -94,7 +94,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 
 
-## Publications
+## publications
 
 ### 2026
 
