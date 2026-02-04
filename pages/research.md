@@ -196,7 +196,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 -  [Double cropping as an adaptation to climate change in the United States](https://doi.org/10.1111/ajae.12491)
 <br/>  Matthew Gammans, Ariel Ortiz-Bobea and Pierre Mérel 
-<br/>  **American Journal of Agricultural Economics** <br/> 
+<br/>  **American Journal of Agricultural Economics (AJAE)** <br/> 
 [[press release](https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
@@ -370,7 +370,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
+- [The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture](https://doi.org/10.1093/ajae/aaz047) <br/>  Ariel Ortiz-Bobea <br/> **American Journal of Agricultural Economics (AJAE)**  <br/> [[code + data](https://doi.org/10.6077/2dhd-f934)] [[award](https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -492,7 +492,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ### 2013
 
-- [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics**
+- [Modeling the Structure of Adaptation in Climate Change Impact Assessment for Agriculture](https://doi.org/10.1093/ajae/aas035) <br/> Ariel Ortiz-Bobea and Richard E. Just <br/>  **American Journal of Agricultural Economics (AJAE)**
     <details markdown="1">
     <summary markdown="span">first paragraph</summary>
     <span style="color:#AAAAAA">
