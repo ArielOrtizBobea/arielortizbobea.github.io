@@ -28,7 +28,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **under review**
+- Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **revisions requested - Environmental Research Letters**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -76,7 +76,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **resubmitted - AJAE**
+- [The impact of extreme heat on farm finances: farm-level evidence from Kansas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435) <br/> Osama Sajid, Jenny Ifft and Ariel Ortiz-Bobea <br/> [[press release](https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses)] [[policy brief](https://business.edf.org/insights/extreme-heat-financial-farm-kansas/)] <br/> **revisions requested r2 - AJAE**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
