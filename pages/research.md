@@ -276,7 +276,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/> [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
+- [Temperature and children’s Nutrition: evidence from West Africa](https://doi.org/10.1016/j.jeem.2022.102698) <br/> **Journal of Environmental Economics and Management (JEEM)** <br/> Sylvia Blom, Ariel Ortiz-Bobea and John Hoddinott <br/> [[press release](https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
