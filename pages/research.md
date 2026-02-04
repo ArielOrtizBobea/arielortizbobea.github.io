@@ -140,7 +140,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     <div style="height:6px;"></div>
 
 - [Large increases in public R&D investment are needed to avoid declines of US agricultural productivity](https://doi.org/10.1073/pnas.2411010122) <br/> Ariel Ortiz-Bobea, Robert G. Chambers, Yurou He and David B. Lobell  <br/> **Proceedings of the National Academy of Sciences (PNAS)**  <br/> 
-[[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://open.spotify.com/show/4ytA2tW5YKzE6xrKmg3FNG#login)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
+[[press release](https://news.cornell.edu/stories/2025/03/large-scale-investment-research-needed-maintain-us-agriculture)] [[podcast](https://www.buzzsprout.com/2373111/episodes/16780122-ariel-ortiz-bobea-on-the-need-for-increasing-public-investment-in-agricultural-r-d)] [[code + data](https://doi.org/10.6077/q59w-tj45)] [[preprint](https://arxiv.org/abs/2405.08159)] [coverage: [Grist](https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/) [AP](https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
