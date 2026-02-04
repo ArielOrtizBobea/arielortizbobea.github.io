@@ -28,7 +28,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **revisions requested - Environmental Research Letters**
+- Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **revisions requested - Environmental Research Letters (ERL)**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -111,7 +111,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters** 
+- [Harnessing satellite data for the next generation of agri-environmental policies](https://doi.org/10.1088/1748-9326/ae2d77) <br/> David Wuepper, Jan Dirk Wegner, Nikolina Mileva, Jean Bouchat, Shijuan Chen, Ariel Ortiz-Bobea, Robert Finger <br/> **Environmental Research Letters (ERL)** 
     <details markdown="1">
     <summary markdown="span">first paragraph</summary>
     <span style="color:#AAAAAA">
@@ -209,7 +209,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div> 
 
-- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
+- [A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)](https://doi.org/10.1088/1748-9326/ad3142) <br/>  Kira, O., J. Wen, J. Han, A.J. McDonald, C.B. Barrett, A. Ortiz-Bobea, Y. Liu, L. You, N. Mueller,  Y. Sun  <br/> **Environmental Research Letters (ERL)** <br/> [[press release](https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -384,7 +384,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ### 2019
 
-- [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ariel Ortiz-Bobea, Haoying Wang, Carlos Carrillo and Toby R. Ault <br/> **Environmental Research Letters** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
+- [Unpacking the climatic drivers of U.S. agricultural yields](https://iopscience.iop.org/article/10.1088/1748-9326/ab1e75) <br/> Ariel Ortiz-Bobea, Haoying Wang, Carlos Carrillo and Toby R. Ault <br/> **Environmental Research Letters (ERL)** <br/> [[press release](https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say)]
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -454,7 +454,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ### 2017
 
-- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](https://doi.org/10.1088/1748-9326/aae9b8) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters** 
+- [Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?](https://doi.org/10.1088/1748-9326/aae9b8) <br/> Ariel Ortiz-Bobea and Jesse Tack <br/> **Environmental Research Letters (ERL)** 
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
@@ -466,7 +466,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](https://doi.org/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters**
+- [The Impact of Climate Change on Cereal Yields: Statistical Evidence from France](https://doi.org/10.1088/1748-9326/aa6b0c) <br/> Matthew Gammans, Pierre Mérel and Ariel Ortiz-Bobea <br/> **Environmental Research Letters (ERL)**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
