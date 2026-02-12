@@ -33,7 +33,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-      I'm an Associate Professor of Applied Economics and Policy at Cornell University with appointments in the <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> and serve on the <a href="https://researchservices.cornell.edu/resources/research-integrity-council" target="_blank">Cornell Research Integrity Council. 
+      I'm an Associate Professor of Applied Economics and Policy at Cornell University with appointments in the <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> and serve on the <a href="https://researchservices.cornell.edu/resources/research-integrity-council" target="_blank">Cornell Research Integrity Council</a>.
       <br/><br/>
       I'm broadly interested in how people cope and adapt to environmental change. The core of my research program focuses on fundamental agricultural sustainability issues, particularly related to climate change. I also work extensively on non-agricultural topics often when working with students. I often collaborate with non-economists across and beyond our campus.
       <br/><br/>
