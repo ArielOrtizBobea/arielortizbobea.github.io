@@ -33,11 +33,13 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-      I'm an Associate Professor of Applied Economics and Policy at Cornell University with appointments in the <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>. My research group seeks to advance how humans adapt to environmental change. My recent work focuses on estimating the impacts of climate change and extreme weather on agriculture and other sectors.     
+      I'm an Associate Professor of Applied Economics and Policy at Cornell University with appointments in the <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>. I also serve on the Cornell Research Integrity Council. 
+      <br/><br/>
+      I'm broadly interested in how people cope and adapt to environmental change. The core of my research program focuses on agricultural sustainability, particularly related to climate change. I also work extensively on non-agricultural topics often when working with students. 
       <br/><br/>
       I have editorial responsabilities at various academic journals including the <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a> and the <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
       <br/><br/>
-      Until recently, I was part of the author team of the Economics chapter of the Sixth National Climate Assessment.
+      I was part of the author team of the Sixth National Climate Assessment (NCA6) until it was disbanded in April of 2025.
       <!--
       and a co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, a welcoming online seminar for young scholars.
       <br/><br/>
