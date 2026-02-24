@@ -4,7 +4,7 @@ title: join me
 permalink: /advising/
 background: /assets/theme/images/landing/advising.png
 ---
-## postdocs
+## Postdocs
 
 - [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/31576) working on quantifying the private value of soil health improvements in U.S. agricutlure (Apply by Feb 15, 2006. Expected start date in Spring/Summer of 2026)
 
