@@ -69,6 +69,12 @@
     sector and consultancy. She holds an MS in Earth System Science and a BS in Environmental Engineering from Middle East Technical University.
   email: ak2754@cornell.edu
 
+- name: Ruiyi Ouyang
+  role: PhD student, Applied Economics and Managment # Will appear next to name
+  image: assets/theme/images/people/ro259.jpg
+  description: >
+    TBD
+  email: ro259@cornell.edu
 
 # Dont change this to allow category alumni
 - name: <h3>Alumni</h3> 
