@@ -52,7 +52,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested - JPE Macro**
+- [Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium](https://osf.io/preprints/socarxiv/usghb) <br/> Ivan Rudik, Gary Lyn, Weiliang Tan and Ariel Ortiz-Bobea <br/> **revisions requested (R1) - JPE Macro**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
