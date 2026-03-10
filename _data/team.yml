@@ -69,12 +69,20 @@
     sector and consultancy. She holds an MS in Earth System Science and a BS in Environmental Engineering from Middle East Technical University.
   email: ak2754@cornell.edu
 
-#- name: Ruiyi Ouyang
-#  role: PhD student, Applied Economics and Managment # Will appear next to name
-#  image: assets/theme/images/people/ro259.jpg
-#  description: >
-#    TBD
-#  email: ro259@cornell.edu
+- name: Ruiyi Ouyang
+  role: PhD student, Applied Economics and Managment
+  image: assets/theme/images/people/ro259.jpg
+  description: >
+    Ruiyi Ouyang is a PhD student at the Charles H. Dyson School of Applied Economics and Management at Cornell University. His 
+    research focuses on natural disasters and climate change. In particular, he studies consumer responses to natural disasters such 
+    as hurricanes using high-frequency scanner data. He is also interested in how climate change affects farm-level revenue, profits, 
+    and adaptation strategies. His work aims to integrate forecasting systems with the traditional envelope-theorem framework used in 
+    the climate economics literature to better understand how human behavior responds to climate change. Prior to his doctoral studies, 
+    Ruiyi earned a Master of Science in Applied Economics and Management from Cornell University. He also holds a Bachelor of Arts in 
+    Economics and Mathematics from the University of North Carolina at Greensboro.
+
+  email: ro259@cornell.edu
+  linkedin: https://www.linkedin.com/in/ruiyi-ouyang-880059267/
 
 # Dont change this to allow category alumni
 - name: <h3>Alumni</h3> 
