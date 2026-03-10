@@ -19,6 +19,15 @@
   googlescholar: MALB7wEAAAAJ
   github: ArielOrtizBobea
   orcid: 0000-0003-4482-6843
+  
+#- name: Tzu-Hui Chen
+ # role: Posdoctoral Associate, Applied Economics and Management # Will appear next to name
+ # image: assets/theme/images/people/tzuhuichen.png
+ # description: >
+ #   TBC.
+ # email: xxx@cornell.edu
+ # googlescholar: xxxxx
+ # orcid: xxxx
 
 - name: Yurou He
   role: PhD candidate, Applied Economics and Management # Will appear next to name
