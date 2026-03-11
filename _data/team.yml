@@ -27,6 +27,7 @@
  # email: xxx@cornell.edu
  # googlescholar: xxxxx
  # orcid: xxxx
+ # linkedin: tzu-hui-j-chen
 
 - name: Yurou He
   role: PhD candidate, Applied Economics and Management # Will appear next to name
@@ -42,7 +43,7 @@
   googlescholar: 4Po6Kv4AAAAJ&hl
   orcid: 000-0001-9227-6829
   linkedin: yurouhe
-  
+
 - name: Jerzy Jaromczyk
   role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg

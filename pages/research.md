@@ -8,13 +8,14 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 
 ## Work in progress + working papers
 
+
+<!--
 - The persistence of climate shocks on global agricultural productivity <br/> Ariel Ortiz-Bobea, Yurou He and David B. Lobell
-
+- Navigating shallow waters: How water level fluctuations in the Panama Canal disrupt maritime trade <br/> Jeisson Prieto and Ariel Ortiz-Bobea <br/> **in preparation**
 - The economics of crop failure <br/> Ariel Ortiz-Bobea and Pierre Mérel
-
 - The effect of heat shocks on agricultural loan repayment <br/> Jerzy Jaromczyk, Jenny Ifft and Ariel Ortiz-Bobea <br/> **in preparation**
-
 - Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **in preparation**
+-->
 
 - Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
     <details markdown="1">
