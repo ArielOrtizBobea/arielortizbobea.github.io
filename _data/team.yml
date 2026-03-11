@@ -41,7 +41,8 @@
   email: yh878@cornell.edu
   googlescholar: 4Po6Kv4AAAAJ&hl
   orcid: 000-0001-9227-6829
-
+  linkedin: yurouhe
+  
 - name: Jerzy Jaromczyk
   role: PhD candidate, Applied Economics and Management # Will appear next to name
   image: assets/theme/images/people/jj443.jpg
@@ -52,6 +53,8 @@
     a private firm developing index-based insurance products. He holds a Bachelors of Science in Finance from Xavier 
     University in Cincinnati, Ohio and a Masters of Science in Agricultural Economics from the University of Kentucky.
   email: jerzyj@cornell.edu
+  linkedin: jerzyj
+  googlescholar: QHx4o-0AAAAJ&hl
 
 - name: Jeisson Prieto
   role: PhD candidate, Applied Economics and Management # Will appear next to name
@@ -76,6 +79,7 @@
     trajectories, international trade flows, sectoral production patterns, and decarbonization strategies. Prior to Cornell, Ayşegül worked in various sustainability roles in both the corporate
     sector and consultancy. She holds an MS in Earth System Science and a BS in Environmental Engineering from Middle East Technical University.
   email: ak2754@cornell.edu
+  linkedin: aysegul-kilinc-ak2754
 
 - name: Ruiyi Ouyang
   role: PhD student, Applied Economics and Managment
@@ -88,7 +92,6 @@
     the climate economics literature to better understand how human behavior responds to climate change. Prior to his doctoral studies, 
     Ruiyi earned a Master of Science in Applied Economics and Management from Cornell University. He also holds a Bachelor of Arts in 
     Economics and Mathematics from the University of North Carolina at Greensboro.
-
   email: ro259@cornell.edu
   linkedin: ruiyi-ouyang-880059267
 
