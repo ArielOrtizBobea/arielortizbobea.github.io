@@ -18,13 +18,13 @@ I can advise grad students in various fields at Cornell:
 
 These programs have different admissions criteria. Please consult the respective websites for more details.
 
-The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. When applying to thos e programs just mention your interest in working with me in your application. No need to contact me directly.
+The AEM, PAM and ECON PhD programs are fully funded and admission decisions are made by a committee and not by individual faculty. When applying to those programs just mention your interest in working with me in your application. No need to contact me directly.
 
 In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
 
 ## M.S. students
 
-I sometimes advise students in our [AEM MS program](https://dyson.cornell.edu/programs/graduate/ms/). This is a 2-year research-oriented program that requires a thesis. I expect students to come up with their own research ideas independently. The program is well suited for students potentially interested in completing a PhD.
+I sometimes advise students in our [AEM MS program](https://dyson.cornell.edu/programs/graduate/ms/). This is a 2-year research-oriented program that requires a thesis. I expect students to come up with their own research ideas independently. This program is well suited for students potentially interested in completing a PhD.
 
 ## Visitors
 
