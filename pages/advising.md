@@ -22,6 +22,10 @@ The AEM, PAM and ECON PhD programs are fully funded and admission decisions are 
 
 In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
 
+## MS students
+
+I sometimes advise students in our [AEM MS program](https://dyson.cornell.edu/programs/graduate/ms/). This is a 2-year research-oriented program that requires a thesis. I expect students to come up with their own research ideas independently. The program is well suited for students potentially interested in completing a PhD.
+
 ## Visitors
 
 I can sometimes host faculty and PhD candidates working on similar issues. If interested, please email me with a plan stating 1- your goals and why my group is a good match, 2- financial support and 3- a timeline.
