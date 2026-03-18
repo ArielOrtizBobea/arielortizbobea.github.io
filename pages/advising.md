@@ -8,7 +8,7 @@ background: /assets/theme/images/landing/advising.png
 
 - [Postdoctoral Associate position](https://academicjobsonline.org/ajo/jobs/31576) working on quantifying the private value of soil health improvements in U.S. agricutlure (Apply by Feb 15, 2006. Expected start date in Spring/Summer of 2026)
 
-## PhD students
+## Ph.D. students
 
 I can advise grad students in various fields at Cornell: 
 - [Applied Economics and Management](https://dyson.cornell.edu/programs/graduate/phd/) (AEM)
@@ -22,7 +22,7 @@ The AEM, PAM and ECON PhD programs are fully funded and admission decisions are 
 
 In contrast, the NRE PhD program is largely externally funded. Prospective students typically secure external support (e.g. Fulbright scholarship) before reaching out to me to discuss fit.
 
-## MS students
+## M.S. students
 
 I sometimes advise students in our [AEM MS program](https://dyson.cornell.edu/programs/graduate/ms/). This is a 2-year research-oriented program that requires a thesis. I expect students to come up with their own research ideas independently. The program is well suited for students potentially interested in completing a PhD.
 
