@@ -111,41 +111,59 @@
   role: PhD student, Computer Science (2026)
   image: assets/theme/images/people/jyf6.jpg
   description: >
-    → [Software Engineer](https://joshuafan.github.io) at Google
+    → [Software Engineer](https://joshuafan.github.io) at Google (first placement)
 
 - name: Qingli Fan
   role: PhD student, Economics (2025)
   image: assets/theme/images/people/qf38.jpg
   description: >
-    → [Economist](https://economics.cornell.edu/qingli-fan) at Google
+    → [Economist](https://economics.cornell.edu/qingli-fan) at Google (first placement)
 
 - name: Zhiyun Li 
   role: PhD student, Applied Economics and Management (2023)
   image: assets/theme/images/people/Zhiyun.jpg
   description: >
-    → [Climate Economist](https://www.anderson.ucla.edu/about/centers/ucla-anderson-forecast/about-us/zhiyun-li) at UCLA Anderson
+    → [Climate Economist](https://www.anderson.ucla.edu/about/centers/ucla-anderson-forecast/about-us/zhiyun-li) at UCLA Anderson (first placement)
 
 - name: Osama Sajid
   role: Postdoc (2021-2023)
   image: assets/theme/images/people/Osama.jpg
   description: >
-    → [Socio-Economic Specialist](https://ca.linkedin.com/in/osama-sajid-ph-d-857540116) at Hatfield
+    → [Socio-Economic Specialist](https://ca.linkedin.com/in/osama-sajid-ph-d-857540116) at Hatfield (first placement)
 
 - name: Maria Gerulis 
   role: Postdoc (2022-2023)
   image: assets/theme/images/people/Maria.jpg
   description: >
-    → [Postdoc](https://sites.google.com/view/mariagerullis/home?authuser=0) at Goettingen University
+    → [Postdoc](https://sites.google.com/view/mariagerullis/home?authuser=0) at Goettingen University (first placement)
+
+- name: Samuel Porter
+  role: MS Student, Applied Economics and Management (2021)
+  image: assets/theme/images/people/samuel.jpg
+  description: >
+    → [Agricultural Economist](https://www.linkedin.com/in/samuel-l-porter/) at Minnesota Farmers Union
+
+- name: Ithipong (Billy) Assaranurak
+  role: MS Student, Applied Economics and Management (2019)
+  image: assets/theme/images/people/billy.jpeg
+  description: >
+    → [Data Scientist](https://www.linkedin.com/in/ithipong-assaranurak/) at Government Big Data Institute of Thailand (first placement)
+
+- name: Matthew Utterback
+  role: MS Student, Applied Economics and Management (2018)
+  image: assets/theme/images/people/matt.jpeg
+  description: >
+    → [Economist](https://www.linkedin.com/in/matthew-l-utterback/) at Transportation Security Administration (first placement)
+
+- name: Justin (Qingrun) Meng
+  role: MS Student, Applied Economics and Management (2017)
+  image: assets/theme/images/people/justin.jpeg
+  description: >
+    → [Analyst](https://www.linkedin.com/in/qingrunmeng/) at Analysis Group (first placement)
 
 - name: Haoying Wang
   role: Postdoc (2014-2017)
   image: assets/theme/images/people/Haoying.png
   description: >
-    → [Associate Professor](https://sites.google.com/site/halkingwang/) at New Mexico Tech
-
-- name: Samuel Porter
-  role: MS student, Applied Economics and Management (2021)
-  image: assets/theme/images/people/samuel.jpg
-  description: >
-    → [Agricultural Economist](https://www.linkedin.com/in/samuel-l-porter/) at Minnesota Farmers Union
+    → [Assistant Professor](https://sites.google.com/site/halkingwang/) at New Mexico Tech (first placement)
 
