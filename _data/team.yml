@@ -101,6 +101,12 @@
 
 # Here the alumni starts
 
+- name: Zhuoyan Han
+  role: MS student, Applied Economics and Management (2026)
+  image: assets/theme/images/people/zh452.jpg
+  description: >
+    → [PhD Student in Hotel Administration](https://dyson.cornell.edu/programs/graduate/graduate-student-directory/) at Cornell 
+
 - name: Joshua Fan
   role: PhD student, Computer Science (2026)
   image: assets/theme/images/people/jyf6.jpg
