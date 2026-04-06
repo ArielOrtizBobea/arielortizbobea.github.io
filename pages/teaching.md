@@ -11,3 +11,5 @@ I teach the following courses:
 - AEM 6851: Advanced Empirical Methods for Applied Economists (Spring 2027)
 - AEM 7010: Doing Applied Economics Research: Practical Skills (Spring 2026)
 
+< changes coming soon >
+
