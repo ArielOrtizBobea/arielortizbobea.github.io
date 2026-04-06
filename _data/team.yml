@@ -20,7 +20,7 @@
   github: ArielOrtizBobea
   orcid: 0000-0003-4482-6843
 
-#- name: Tzu-Hui Chen
+- name: Tzu-Hui Chen
   role: Posdoctoral Associate, Applied Economics and Management (Summer 2026) # Will appear next to name
   image: assets/theme/images/people/tzuhuichen.jpg
   description: >
@@ -34,7 +34,7 @@
   orcid: 0009-0003-4706-0713
   linkedin: tzu-hui-j-chen
 
-#- name: Shuo Yu 
+- name: Shuo Yu 
   role: Posdoctoral Associate, Applied Economics and Management (Summer 2026) # Will appear next to name
   image: assets/theme/images/people/shuoyu.jpeg
   description: >
