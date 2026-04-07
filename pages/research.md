@@ -17,7 +17,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
 - Unpacking the drivers of U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **in preparation**
 -->
 
-- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu
+- Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery <br/> Yurou He, Ariel Ortiz-Bobea and Jiong Wu <br/>  **in preparation**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
