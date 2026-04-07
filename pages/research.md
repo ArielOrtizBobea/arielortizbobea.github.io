@@ -29,6 +29,19 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
+- Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo <br/> Tong Wu, David R. Just, C.-Y. Cynthia Lin Lawell, Ariel Ortiz-Bobea and Jiancheng Zhao <br/>  **revisions requested (R1) - AJAE**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    Sustainable forest management is a complex dynamic problem, and an important issue worldwide.Forests supply the world’s population with a variety of forest products, including renewable products such as fruits, nuts, and maple syrup that can be harvested at more frequent intervals than the trees themselves. When there is both uncertainty and interdependent forest products, the interaction between these two phenomena leads to a complicated set of trade-offs. We develop a nested stochastic dynamic bioeconomic model of optimal forest management under uncertainty for interdependent products that differ in their growth cycles, rates of growth, lengths of growing periods, and potential harvest frequency. Our model enables us to assess the optimality of actual decisions made by forest managers and to develop a dynamic structural econometric model to understand the beliefs and perceptions that underlie and rationalize their management strategies. We apply our model to bamboo forests, which generate two interdependent products: bamboo shoots and bamboo stems. Our model has important implications for the sustainable management of forests worldwide.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
+
+
 - Accounting for quality more than doubles estimated heat damages to U.S. milk production <br/> Jeisson Prieto, Ziyi Lin, Kristan F. Reed, Christopher A. Wolf and Ariel Ortiz-Bobea <br/>  **resubmitted (R2) - Environmental Research Letters (ERL)**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
