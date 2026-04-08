@@ -29,6 +29,18 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
+- Decomposing the growth of historical U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Jeisson Prieto and Simone Pieralli <br/>  **in preparation**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    We decompose state-level U.S. agricultural greenhouse gas emissions growth into output growth, input emission intensity, and total factor productivity (TFP). Combining EPA emissions data with USDA productivity accounts over 1990–2015, we find that TFP growth historically slowed emissions but has recently weakened. Declining input emission intensity, concentrated in the Southeast, has become the dominant mitigating factor. Further decomposition suggests that land productivity gains are more closely linked to emission reductions than labor productivity gains.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
+
 - Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo <br/> Tong Wu, David R. Just, C.-Y. Cynthia Lin Lawell, Ariel Ortiz-Bobea and Jiancheng Zhao <br/>  **revisions requested (R1) - AJAE**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
