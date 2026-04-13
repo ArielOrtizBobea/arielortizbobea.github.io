@@ -4,7 +4,7 @@ background: /assets/theme/images/landing/talks.png
 permalink: /talks/
 ---
 
-## Upcoming and recent talks
+## Upcoming talks
 
 - **The persistence of climate shocks on global agricultural productivity growth** 
 <br/> Venue: EWEPA XIX, Munich, Germany, June 16 - 19, 2026
