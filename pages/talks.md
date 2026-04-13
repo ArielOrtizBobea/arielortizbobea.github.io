@@ -7,8 +7,8 @@ permalink: /talks/
 ## Upcoming talks
 
 - **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
-<br/> Venue: Venue: <span style="color: gray;"> Caribbeans for Climate Spring 2026 Symposium, Virtual, April 17, 2026
-<br/> Presenter: Venue: <span style="color: gray;"> Jeisson Prieto </span>
+<br/> Venue: <span style="color: gray;"> Caribbeans for Climate Spring 2026 Symposium, Virtual, April 17, 2026
+<br/> Presenter: <span style="color: gray;"> Jeisson Prieto </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
 <br/> Venue: <span style="color: gray;"> 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8–9, 2026  </span>
