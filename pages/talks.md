@@ -15,11 +15,11 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
-<br/> Venue: Venue: <span style="color: gray;"> Second Paris-Saclay Conference on Trade and the Environment, Palaiseau, France, June 15 - 16, 2026 </span>
+<br/> Venue: Venue: <span style="color: gray;"> Second Paris-Saclay Conference on Trade and the Environment, Palaiseau, France, June 15 – 16, 2026 </span>
 <br/> Presenter: Venue: <span style="color: gray;"> Jeisson Prieto </span>
 
 - **The persistence of climate shocks on global agricultural productivity growth** 
-<br/> Venue: <span style="color: gray;"> EWEPA XIX, Munich, Germany, June 16 - 19, 2026 </span>
+<br/> Venue: <span style="color: gray;"> EWEPA XIX, Munich, Germany, June 16 – 19, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
@@ -27,7 +27,7 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Unpacking the growth of U.S. agricultural greenhouse gas emissions** 
-<br/> Venue: <span style="color: gray;"> The 7th World Congress of Environmental and Resource Economists (WCERE 2026), Carcavelos–Cascais, Portugal, June 29 - July 3, 2026 </span>
+<br/> Venue: <span style="color: gray;"> The 7th World Congress of Environmental and Resource Economists (WCERE 2026), Carcavelos–Cascais, Portugal, June 29 – July 3, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
@@ -35,15 +35,15 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Modelling global spillovers of public agricultural R&D** 
-<br/> Venue: <span style="color: gray;"> ICABR 30th Conference, Ravello, Italy, July 6 - 10, 2026 </span>
+<br/> Venue: <span style="color: gray;"> ICABR 30th Conference, Ravello, Italy, July 6 – 10, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **TBD** 
-<br/> Venue: <span style="color: gray;"> PERC, Bozeman, Montana, Italy, July 15 - 31, 2026 </span>
+<br/> Venue: <span style="color: gray;"> PERC, Bozeman, Montana, Italy, July 15 – 31, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, Kansas, United States, July 26–28, 2026
+<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, Kansas, United States, July 26 – 28, 2026
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 
