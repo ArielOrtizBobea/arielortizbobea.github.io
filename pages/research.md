@@ -29,6 +29,20 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
+- Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal <br/> Jeisson Prieto, Stefano Galelli, and Ariel Ortiz-Bobea <br/>  **submitted**
+    <details markdown="1">
+    <summary markdown="span">abstract</summary>
+    <span style="color:#AAAAAA">
+    Allocating limited water resources among competing uses is increasingly challenging as climate variability intensifies. Water is typically allocated through administrative rules rather than markets, yet the implicit priorities that guide these decisions are rarely observed or quantified, making it difficult to evaluate whether non-market allocation approximates efficient outcomes. We develop a structural framework to recover these priorities from observed management behavior. We model the planner’s problem as a stochastic dynamic optimization and use the simulated method of moments to estimate preference weights that rationalize historical storage and release patterns. Applied to the Panama Canal Watershed—a multipurpose system supporting navigation, hydropower, and municipal supply—we find that drinking-water reliability and upstream storage management receive the highest priority, while hydropower serves as a flexible adjustment margin. Counterfactual simulations suggest that administrative allocation can broadly serve competing water uses without large reductions in aggregate value, but sustained drought forces increasingly costly trade-offs.
+    </span>
+    <!--
+    ![image info](./PCtrade.jpeg)
+    -->
+    </details>
+    <div style="height:6px;"></div>
+
+
+
 - Decomposing the growth of historical U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Simone Pieralli and Jeisson Prieto <br/>  **submitted**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
