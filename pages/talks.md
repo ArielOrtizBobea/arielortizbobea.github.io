@@ -19,11 +19,11 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Land Assembly: Outsider Bargaining with a Network**
-<br/> Venue: <span style="color: gray;"> The 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8–9, 2026 </span>
+<br/> Venue: <span style="color: gray;"> The 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8 – 9, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Yurou He </span>
 
 - **Land Assembly: Outsider Bargaining with a Network**
-<br/> Venue: <span style="color: gray;"> The 2026 Summer School in Urban Economics, London, United Kingdom, May 11–13, 2026 </span>
+<br/> Venue: <span style="color: gray;"> The 2026 Summer School in Urban Economics, London, United Kingdom, May 11 – 13, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Yurou He </span>
 
 - **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
