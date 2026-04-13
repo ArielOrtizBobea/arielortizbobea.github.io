@@ -59,17 +59,17 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026
+<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **TBD**
-<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026
+<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
 ## Recent talks
 
 - **TBD**
-<br/> Venue: <span style="color: gray;"> SCC76 Annual Meeting Kansas City Fed, Kansas City, KS, March 24, 2026
+<br/> Venue: <span style="color: gray;"> SCC76 Annual Meeting Kansas City Fed, Kansas City, KS, March 24, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
 
