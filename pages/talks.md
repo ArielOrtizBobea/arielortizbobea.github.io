@@ -10,7 +10,7 @@ permalink: /talks/
 <br/> Venue: <span style="color: gray;"> Caribbeans for Climate Spring 2026 Symposium, Virtual, April 17, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jeisson Prieto </span>
 
-- **TBD**
+- **Heat Shocks and Agricultural Loan Repayment**
 <br/> Venue: <span style="color: gray;"> Cornell AEP Seminar, Ithaca, NY, May 8, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
@@ -62,13 +62,13 @@ permalink: /talks/
 <br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
-- **TBD**
+- **Heat Shocks and Agricultural Loan Repayment**
 <br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
 ## Recent talks
 
-- **TBD**
+- **Heat Shocks and Agricultural Loan Repayment**
 <br/> Venue: <span style="color: gray;"> SCC76 Annual Meeting Kansas City Fed, Kansas City, KS, March 24, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
