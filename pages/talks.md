@@ -54,7 +54,7 @@ permalink: /talks/
 <br/> Venue: <span style="color: gray;"> ICABR 30th Conference, Ravello, Italy, July 6 – 10, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
-- **TBD** 
+- **The unmeasured role of water in U.S. agricutlure** 
 <br/> Venue: <span style="color: gray;"> PERC, Bozeman, Montana, Italy, July 15 – 31, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
