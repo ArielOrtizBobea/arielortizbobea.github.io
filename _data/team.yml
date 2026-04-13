@@ -20,19 +20,19 @@
   github: ArielOrtizBobea
   orcid: 0000-0003-4482-6843
 
-#- name: Tzu-Hui Chen
-#  role: Posdoctoral Associate, Applied Economics and Management (Summer 2026) # Will appear next to name
-#  image: assets/theme/images/people/tzuhuichen.jpg
-#  description: >
-#    Tzu-Hui Chen is completing her Ph.D. in Agricultural and Resource Economics at UC Davis. 
-#    Her research spans agricultural, environmental, and health economics, with a focus on the unintended 
-#    consequences of agricultural and environmental policies. Her work uses remote sensing data and applied 
-#    econometric methods to study topics such as the health effects of agrochemical exposure and the 
-#    land-use impacts of biofuel policies.
+- name: Tzu-Hui Chen
+  role: Posdoctoral Associate, Applied Economics and Management (joining July 2026) # Will appear next to name
+  image: assets/theme/images/people/tzuhuichen.jpg
+  description: >
+    Tzu-Hui Chen is completing her Ph.D. in Agricultural and Resource Economics at UC Davis. 
+    Her research spans agricultural, environmental, and health economics, with a focus on the unintended 
+    consequences of agricultural and environmental policies. Her work uses remote sensing data and applied 
+    econometric methods to study topics such as the health effects of agrochemical exposure and the 
+    land-use impacts of biofuel policies.
  # email: xxx@cornell.edu
-#  googlescholar: dc4VCl4AAAAJ&hl
-#  orcid: 0009-0003-4706-0713
-#  linkedin: tzu-hui-j-chen
+  googlescholar: dc4VCl4AAAAJ&hl
+  orcid: 0009-0003-4706-0713
+  linkedin: tzu-hui-j-chen
 
 #- name: Shuo Yu 
 #  role: Posdoctoral Associate, Applied Economics and Management (Summer 2026) # Will appear next to name
