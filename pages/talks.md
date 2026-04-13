@@ -11,7 +11,7 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Jeisson Prieto </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8–9, 2026  </span>
+<br/> Venue: <span style="color: gray;"> 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8 – 9, 2026  </span>
 Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
@@ -23,15 +23,15 @@ Presenter: <span style="color: gray;"> Yurou He  </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> Toronto Meeting on the Economics of Climate Change (TMEC), Toronto, Canada, June 24–26, 2026  </span>
+<br/> Venue: <span style="color: gray;"> Toronto Meeting on the Economics of Climate Change (TMEC), Toronto, Canada, June 24 – 26, 2026  </span>
 Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Unpacking the growth of U.S. agricultural greenhouse gas emissions** 
-<br/> Venue: <span style="color: gray;"> WCERE, Carcavelos–Cascais, Portugal, June 29 - July 3, 2026 </span>
+<br/> Venue: <span style="color: gray;"> The 7th World Congress of Environmental and Resource Economists (WCERE 2026), Carcavelos–Cascais, Portugal, June 29 - July 3, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> The 7th World Congress of Environmental and Resource Economists (WCERE 2026), Carcavelos-Cascais, Portugal, June 29–July 3, 2026  </span>
+<br/> Venue: <span style="color: gray;"> The 7th World Congress of Environmental and Resource Economists (WCERE 2026), Carcavelos-Cascais, Portugal, June 29 – July 3, 2026  </span>
 Presenter: <span style="color: gray;"> Yurou He  </span>
 
 - **Modelling global spillovers of public agricultural R&D** 
