@@ -10,6 +10,10 @@ permalink: /talks/
 <br/> Venue: <span style="color: gray;"> Caribbeans for Climate Spring 2026 Symposium, Virtual, April 17, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jeisson Prieto </span>
 
+- **TBD**
+<br/> Venue: <span style="color: gray;"> Cornell AEP Seminar, Ithaca, NY, May 8, 2026
+<br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
+
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
 <br/> Venue: <span style="color: gray;"> 15th European Meeting of the Urban Economics Association, CREI, Barcelona, Spain, May 8 – 9, 2026  </span>
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
@@ -55,10 +59,18 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
-<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, Kansas, United States, July 26 – 28, 2026
+<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026
 <br/> Presenter: <span style="color: gray;"> Yurou He  </span>
 
+- **TBD**
+<br/> Venue: <span style="color: gray;"> 2026 AAEA Annual Meeting, Kansas City, KS, United States, July 26 – 28, 2026
+<br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
+
 ## Recent talks
+
+- **TBD**
+<br/> Venue: <span style="color: gray;"> SCC76 Annual Meeting Kansas City Fed, Kansas City, KS, March 24, 2026
+<br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
 
 
