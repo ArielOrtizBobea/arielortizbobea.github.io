@@ -11,7 +11,7 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Jeisson Prieto </span>
 
 - **TBD**
-<br/> Venue: <span style="color: gray;"> Cornell AEP Seminar, Ithaca, NY, May 8, 2026
+<br/> Venue: <span style="color: gray;"> Cornell AEP Seminar, Ithaca, NY, May 8, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Jerzy Jaromczyk </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
