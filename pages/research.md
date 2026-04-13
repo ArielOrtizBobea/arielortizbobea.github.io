@@ -29,7 +29,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Decomposing the growth of historical U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Simone Pieralli and Jeisson Prieto <br/>  **in preparation**
+- Decomposing the growth of historical U.S. agricultural greenhouse gas emissions <br/> Ariel Ortiz-Bobea, Simone Pieralli and Jeisson Prieto <br/>  **submitted**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
