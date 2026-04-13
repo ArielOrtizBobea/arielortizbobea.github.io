@@ -6,6 +6,14 @@ permalink: /talks/
 
 ## Upcoming talks
 
+- **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
+<br/> Venue: Venue: <span style="color: gray;"> Caribbeans for Climate Spring 2026 Symposium, Virtual, April 17, 2026
+<br/> Presenter: Venue: <span style="color: gray;"> Jeisson Prieto </span>
+
+- **Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal** 
+<br/> Venue: Venue: <span style="color: gray;"> Second Paris-Saclay Conference on Trade and the Environment, Palaiseau, France, June 15 - 16, 2026
+<br/> Presenter: Venue: <span style="color: gray;"> Jeisson Prieto </span>
+
 - **The persistence of climate shocks on global agricultural productivity growth** 
 <br/> Venue: <span style="color: gray;"> EWEPA XIX, Munich, Germany, June 16 - 19, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
