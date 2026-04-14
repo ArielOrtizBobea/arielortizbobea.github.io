@@ -29,7 +29,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal <br/> Jeisson Prieto, Stefano Galelli, and Ariel Ortiz-Bobea <br/>  **submitted**
+- Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal <br/> Jeisson Prieto, Stefano Galelli and Ariel Ortiz-Bobea <br/>  **submitted**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
