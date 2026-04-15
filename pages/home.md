@@ -33,19 +33,17 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-    Associate Professor in Applied Economics and Policy <br/><br/>
-    Charles H. Dyson School of Applied Economics and Management</a> <br/><br/> 
-    <a href="https://publicpolicy.cornell.edu" target="_blank">
-    Jeb E. Brooks School of Public Policy</a> <br/><br/>
-    Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> <br/><br/>
-    Cornell University <br/><br/>
-    <br/><br/>
-    <br/><br/>
-     Editorial roles:
-     - Editorial council, <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>
-     - Associate Deputy Editor, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>
-     - Editorial Board, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a>
-     - Editorial Advisory Board, <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
+    Associate Professor,Applied Economics and Policy <br/>
+    [Charles H. Dyson School of Applied Economics and Management](https://dyson.cornell.edu)</a> 
+    <br/> <a href="https://publicpolicy.cornell.edu" target="_blank"> Jeb E. Brooks School of Public Policy</a>
+    <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> <br/>
+    <br/> Cornell University
+    <br/>
+     <br/> Editorial roles:
+     <br/> - Editorial council, <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>
+     <br/> - Associate Deputy Editor, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>
+     <br/> - Editorial Board, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a>
+     <br/> - Editorial Advisory Board, <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
       <br/><br/>
       -->
 
