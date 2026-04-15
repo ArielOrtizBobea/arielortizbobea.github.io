@@ -55,7 +55,7 @@ Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAA
     </details>
     <div style="height:6px;"></div>
 
-- Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo <br/> Tong Wu, David R. Just, C.-Y. Cynthia Lin Lawell, Ariel Ortiz-Bobea and Jiancheng Zhao <br/>  **revisions requested (R1) - AJAE**
+- Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo <br/> Tong Wu, David R. Just, C.-Y. Cynthia Lin Lawell, Ariel Ortiz-Bobea and Jiancheng Zhao <br/>  **revisions requested (R1) - Journal of the Agricultural &and Applied Economics Association (JAAEA)**
     <details markdown="1">
     <summary markdown="span">abstract</summary>
     <span style="color:#AAAAAA">
