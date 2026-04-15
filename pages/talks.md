@@ -55,7 +55,7 @@ permalink: /talks/
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **The unmeasured role of water in U.S. agricutlure** 
-<br/> Venue: <span style="color: gray;"> PERC, Bozeman, Montana, Italy, July 15 – 31, 2026 </span>
+<br/> Venue: <span style="color: gray;"> PERC, Bozeman, MT, July 15 – 31, 2026 </span>
 <br/> Presenter: <span style="color: gray;"> Ariel Ortiz-Bobea </span>
 
 - **Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery**
