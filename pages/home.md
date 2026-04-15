@@ -33,16 +33,19 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-    Associate Professor in Applied Economics and Policy
-    Charles H. Dyson School of Applied Economics and Management</a> 
-    <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>
-    Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
-    Cornell University
-      I'm an Associate Professor of Applied Economics and Policy at Cornell University with appointments in the <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> and the <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>. I'm also Faculty Fellow at the <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>.
-      <br/><br/>
-      I'm interested in how people cope and adapt to environmental change. My core of my research program focuses on agricultural sustainability issues. I also work on non-agricultural topics often when working with students. I often collaborate with non-economists across and beyond our campus.
-      <br/><br/>
-      I have editorial responsabilities at various academic journals including the <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a> and the <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
+    Associate Professor in Applied Economics and Policy <br/><br/>
+    Charles H. Dyson School of Applied Economics and Management</a> <br/><br/> 
+    <a href="https://publicpolicy.cornell.edu" target="_blank">
+    Jeb E. Brooks School of Public Policy</a> <br/><br/>
+    Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> <br/><br/>
+    Cornell University <br/><br/>
+    <br/><br/>
+    <br/><br/>
+     Editorial roles:
+     - Editorial council, <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>
+     - Associate Deputy Editor, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>
+     - Editorial Board, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a>
+     - Editorial Advisory Board, <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
       <br/><br/>
       -->
 
