@@ -21,7 +21,7 @@
   orcid: 0000-0003-4482-6843
 
 - name: Tzu-Hui Chen
-  role: Posdoctoral Associate, Applied Economics and Management (joining July 2026) # Will appear next to name
+  role: Posdoctoral Associate, Applied Economics and Management (joining Summer 2026) # Will appear next to name
   image: assets/theme/images/people/tzuhuichen.jpg
   description: >
     Tzu-Hui Chen is completing her Ph.D. in Agricultural and Resource Economics at UC Davis. 
@@ -34,15 +34,18 @@
   orcid: 0009-0003-4706-0713
   linkedin: tzu-hui-j-chen
 
-#- name: Shuo Yu 
-#  role: Posdoctoral Associate, Applied Economics and Management (Summer 2026) # Will appear next to name
-#  image: assets/theme/images/people/shuoyu.jpeg
-#  description: >
-#    Shuo Yu is completing her Ph.D. in Agricultural and Resource Economics at UC Berkeley. Her research focuses on regenerative agriculture, conservation policy, and crop insurance, combining econometric methods with satellite data to study how agricultural and environmental policies affect sustainability and climate adaptation.
+- name: Shuo Yu 
+  role: Posdoctoral Associate, Applied Economics and Management (joining Summer 2026) # Will appear next to name
+  image: assets/theme/images/people/shuoyu.jpeg
+  description: >
+    Shuo Yu is completing her Ph.D. in Agricultural and Resource Economics at UC Berkeley. 
+    Her research focuses on regenerative agriculture, conservation policy, and crop insurance, 
+    combining econometric methods with satellite data to study how agricultural and environmental 
+    policies affect sustainability and climate adaptation.
  # email: xxx@cornell.edu
-#  googlescholar: vC9ztwUAAAAJ&hl
+  googlescholar: vC9ztwUAAAAJ&hl
  # orcid: xxxx
-#  linkedin: shuo-yu-a64143249
+  linkedin: shuo-yu-a64143249
 
 - name: Yurou He
   role: PhD candidate, Applied Economics and Management # Will appear next to name
