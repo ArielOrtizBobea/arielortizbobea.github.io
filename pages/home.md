@@ -33,31 +33,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-    Associate Professor,Applied Economics and Policy <br/>
-    [Charles H. Dyson School of Applied Economics and Management](https://dyson.cornell.edu)</a> 
+    <br/> Associate Professor, Applied Economics and Policy
+    <br/> <a href="https://dyson.cornell.edu" target="_blank"> Charles H. Dyson School of Applied Economics and Management</a>    
     <br/> <a href="https://publicpolicy.cornell.edu" target="_blank"> Jeb E. Brooks School of Public Policy</a>
-    <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a> <br/>
-    <br/> Cornell University
-    <br/>
-     <br/> Editorial roles:
-     <br/> - Editorial council, <a href="https://www.journals.uchicago.edu/journals/jaere/board" target="_blank">Journal of the Association of Environmental and Resource Economists</a>
-     <br/> - Associate Deputy Editor, <a href="https://link.springer.com/journal/10584/editorial-board" target="_blank">Climatic Change</a>
-     <br/> - Editorial Board, <a href="https://publishingsupport.iopscience.iop.org/journals/environmental-research-food-systems/editorial-board/" target="_blank">Environmental Research: Food Systems</a>
-     <br/> - Editorial Advisory Board, <a href="https://wine-economics.org/journal/editors/" target="_blank">Journal of Wine Economics</a>.
-      <br/><br/>
-      -->
-
-      I served on the author team for the Sixth National Climate Assessment (NCA6) until the team was disbanded in April 2025.
-      
-      and a co-host of <a href="https://aere.memberclicks.net/osweet-paper-sessions" target="_blank">AERE@OSWEET</a>, a welcoming online seminar for young scholars.
-      <br/><br/>
-       
-      <!--
-      <p class='text-start'> 
-            [<a href="/assets/theme/cv.pdf" target="_blank">recent cv</a>] 
-            [<a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ" target="_blank">google scholar</a>]
-      </p>
-      --->
+    <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
+    <br/> Cornell University   
     </div>
   </div>
 </div>
