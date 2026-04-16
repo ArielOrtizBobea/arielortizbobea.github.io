@@ -15,11 +15,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 
 <br/> is just space between paragraphs in html
 -->
-<div class="container">
+<div class="container-fluid px-4">
   <div class="row">
     <div class="text-center col-md-auto">
       <p class='text-center'>
-        <img src="/assets/theme/images/landing/aob1.jpg" alt="AOB headshot" style="width: 400px"/>      
+        <img src="/assets/theme/images/landing/aob1.jpg" alt="AOB headshot" style="width: 320px"/>      
         <!--
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
@@ -32,18 +32,18 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637" target="_blank">linkedin</a> 
         </p>
     </div>
-    <div class="col">
+    <div class="col" style="line-height: 1.8;">
     <h5 style="color: #b31b1b; margin-bottom: 6px;">Current Positions and Affiliations</h5>
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
 
-    <h5 style="color: #b31b1b; margin-top: 16px; margin-bottom: 6px;">Editorial</h5>
+    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Editorial</h5>
     Editorial Council, <em>Journal of the Association of Environmental and Resource Economists</em> (JAERE)
     <br/> Associate Deputy Editor, <em>Climatic Change</em>
     <br/> Editorial Board, <em>Environmental Research: Food Systems</em> (ER:FS)
     <br/> Editorial Advisory Board, <em>Journal of Wine Economics</em>
 
-    <h5 style="color: #b31b1b; margin-top: 16px; margin-bottom: 6px;">Research Interests</h5>
+    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Research Interests</h5>
     Agricultural economics, resource economics, environmental economics, climate economics
     </div>
   </div>
