@@ -24,17 +24,19 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
         -->
-        450B warren | <a href="mailto:ao332@cornell.edu" target="_blank">ao332@cornell.edu</a> | 607.255.0220 <br/>
-        <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank">google scholar</a> |
-        <a href="https://github.com/arielortizbobea" target="_blank">github</a> |
-        <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank">bluesky</a> | 
-        <a href="https://x.com/ArielOrtizBobea" target="_blank">twitter</a> | 
-        <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637" target="_blank">linkedin</a> 
+        450B Warren Hall &nbsp;·&nbsp; <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a> &nbsp;·&nbsp; 607.255.0220 <br/>
+        <span style="font-size: 1.4em;">
+        <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank" title="Google Scholar" style="margin: 0 6px;"><i class="fa-brands fa-google-scholar"></i></a>
+        <a href="https://github.com/arielortizbobea" target="_blank" title="GitHub" style="margin: 0 6px;"><i class="fa-brands fa-github"></i></a>
+        <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank" title="Bluesky" style="margin: 0 6px;"><i class="fa-brands fa-bluesky"></i></a>
+        <a href="https://x.com/ArielOrtizBobea" target="_blank" title="X / Twitter" style="margin: 0 6px;"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637" target="_blank" title="LinkedIn" style="margin: 0 6px;"><i class="fa-brands fa-linkedin"></i></a>
+        </span>
         </p>
     </div>
     <div class="col" style="line-height: 1.8;">
     <h5 style="color: #b31b1b; margin-bottom: 6px;">Research Focus</h5>
-    I am an applied economist studying how climate and environmental change reshape economic activity, with a particular focus on agriculture.
+    <p style="font-size: 1.1em;">I am an applied economist studying how climate and environmental change reshape economic activity, with a particular focus on agriculture.</p>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Positions & Affiliations</h5>
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
