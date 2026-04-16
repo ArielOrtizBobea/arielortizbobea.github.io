@@ -2,7 +2,6 @@
 layout: home
 title: home
 #description: Associate Professor of Applied Economics and Policy
-background: /assets/theme/images/landing/campus.jpg
 permalink: /
 ---
 
@@ -24,7 +23,12 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
         -->
-        450B Warren Hall &nbsp;·&nbsp; <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a> &nbsp;·&nbsp; 607.255.0220 <br/>
+        <span style="line-height: 1.7;">
+        450B Warren Hall <br/>
+        <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a> <br/>
+        607.255.0220
+        </span>
+        <br/><br/>
         <span style="font-size: 1.4em;">
         <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank" title="Google Scholar" style="margin: 0 6px;"><i class="fa-brands fa-google-scholar"></i></a>
         <a href="https://github.com/arielortizbobea" target="_blank" title="GitHub" style="margin: 0 6px;"><i class="fa-brands fa-github"></i></a>
