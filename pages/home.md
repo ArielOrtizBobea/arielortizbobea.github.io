@@ -33,24 +33,18 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col" style="line-height: 1.8;">
-    <p style="font-size: 1.05em; margin-bottom: 18px;">I am an applied economist studying how agriculture is being reshaped by climate change and what we can do to adapt.</p>
+    <h5 style="color: #b31b1b; margin-bottom: 6px;">Research Focus</h5>
+    I am an applied economist studying how climate and environmental change reshape economic activity, with a particular focus on agriculture.
 
-    <h5 style="color: #b31b1b; margin-bottom: 6px;">Positions & Affiliations</h5>
+    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Positions & Affiliations</h5>
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
-    <br/> Member, <a href="https://www.oecd.org/en/networks/network-on-agricultural-total-factor-productivity-and-the-environment.html" target="_blank">OECD Network on Agricultural Total Factor Productivity and the Environment</a>
-
-    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Research Interests</h5>
-    Agricultural economics, resource economics, environmental economics, climate economics
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Editorial</h5>
     Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
     <br/> Associate Deputy Editor, <a href="https://link.springer.com/journal/10584" target="_blank"><em>Climatic Change</em></a>
     <br/> Editorial Board, <a href="https://iopscience.iop.org/journal/2976-601X" target="_blank"><em>Environmental Research: Food Systems</em></a>
     <br/> Editorial Advisory Board, <a href="https://www.cambridge.org/core/journals/journal-of-wine-economics" target="_blank"><em>Journal of Wine Economics</em></a>
-
-    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">University Service</h5>
-    Concentration Coordinator, <a href="https://cals.cornell.edu/environment-sustainability" target="_blank">Environment & Sustainability major</a>
     </div>
   </div>
 </div>
