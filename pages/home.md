@@ -33,10 +33,15 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col" style="line-height: 1.8;">
+    <p style="font-size: 1.05em; margin-bottom: 18px;">I am an applied economist studying how agriculture is being reshaped by climate change and what we can do to adapt.</p>
+
     <h5 style="color: #b31b1b; margin-bottom: 6px;">Positions & Affiliations</h5>
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
     <br/> Member, <a href="https://www.oecd.org/en/networks/network-on-agricultural-total-factor-productivity-and-the-environment.html" target="_blank">OECD Network on Agricultural Total Factor Productivity and the Environment</a>
+
+    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Research Interests</h5>
+    Agricultural economics, resource economics, environmental economics, climate economics
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Editorial</h5>
     Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
@@ -45,13 +50,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <br/> Editorial Advisory Board, <a href="https://www.cambridge.org/core/journals/journal-of-wine-economics" target="_blank"><em>Journal of Wine Economics</em></a>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">University Service</h5>
-    <br/> Member, <a href="https://researchservices.cornell.edu/resources/research-integrity-council" target="_blank">Research Integrity Council</a>
-    <br/> Advisory Board Member, <a href="https://facultydevelopment.cornell.edu" target="_blank">Office of Faculty Development and Diversity</a>
     Concentration Coordinator, <a href="https://cals.cornell.edu/environment-sustainability" target="_blank">Environment & Sustainability major</a>
-    
-
-    <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Research Interests</h5>
-    Agricultural economics, resource economics, environmental economics, climate economics
     </div>
   </div>
 </div>
