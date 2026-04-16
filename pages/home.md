@@ -33,7 +33,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col" style="line-height: 1.8;">
-    <h5 style="color: #b31b1b; margin-bottom: 6px;">Current Positions and Affiliations</h5>
+    <h5 style="color: #b31b1b; margin-bottom: 6px;">Positions & Affiliations</h5>
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
     <br/> Member, <a href="https://www.oecd.org/en/networks/network-on-agricultural-total-factor-productivity-and-the-environment.html" target="_blank">OECD Network on Agricultural Total Factor Productivity and the Environment</a>
