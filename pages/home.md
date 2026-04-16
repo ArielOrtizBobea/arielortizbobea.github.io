@@ -33,11 +33,18 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         </p>
     </div>
     <div class="col">
-    <br/> Associate Professor, Applied Economics and Policy
-    <br/> <a href="https://dyson.cornell.edu" target="_blank"> Charles H. Dyson School of Applied Economics and Management</a>    
-    <br/> <a href="https://publicpolicy.cornell.edu" target="_blank"> Jeb E. Brooks School of Public Policy</a>
+    <h5 style="color: #b31b1b; margin-bottom: 6px;">Current Positions and Affiliations</h5>
+    Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
-    <br/> Cornell University   
+
+    <h5 style="color: #b31b1b; margin-top: 16px; margin-bottom: 6px;">Editorial</h5>
+    Editorial Council, <em>Journal of the Association of Environmental and Resource Economists</em> (JAERE)
+    <br/> Associate Deputy Editor, <em>Climatic Change</em>
+    <br/> Editorial Board, <em>Environmental Research: Food Systems</em> (ER:FS)
+    <br/> Editorial Advisory Board, <em>Journal of Wine Economics</em>
+
+    <h5 style="color: #b31b1b; margin-top: 16px; margin-bottom: 6px;">Research Interests</h5>
+    Agricultural economics, resource economics, environmental economics, climate economics
     </div>
   </div>
 </div>
