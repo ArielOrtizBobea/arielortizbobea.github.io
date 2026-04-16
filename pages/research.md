@@ -6,7 +6,7 @@ permalink: /research/
 
 Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAAJ) page.
 
-## Work in progress + working papers
+## In progress
 
 
 <!--

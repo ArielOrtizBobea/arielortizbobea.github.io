@@ -6,7 +6,7 @@ background: /assets/theme/images/landing/campus.jpg
 ---
 ## Postdocs
 
-- No positions open at this time.
+- Follow me on social media for updates on new positions.
 
 ## Ph.D. students
 
