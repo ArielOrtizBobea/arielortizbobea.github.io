@@ -23,10 +23,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <b> Contact </b> | <a href="https://maps.app.goo.gl/3ThMhtKK6GM1LN426">439 Warren</a> | <a href="mailto: ao332@cornell.edu"> email </a> | 607.255.0220
         <br/>  <br/>
         -->
-        <span style="line-height: 1.7;">
-        450B Warren Hall <br/>
-        <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a> <br/>
-        607.255.0220
+        <span style="font-size: 0.9em;">
+        450B Warren Hall &nbsp;·&nbsp; 607.255.0220 <br/>
+        <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
         </span>
         <br/><br/>
         <span style="font-size: 1.4em;">

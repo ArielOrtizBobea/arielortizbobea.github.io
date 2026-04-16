@@ -2,7 +2,7 @@
 title: join me
 #description: Description that will appear below the title in the banner
 permalink: /advising/
-background: /assets/theme/images/landing/advising.png
+background: /assets/theme/images/landing/campus.jpg
 ---
 ## Postdocs
 
