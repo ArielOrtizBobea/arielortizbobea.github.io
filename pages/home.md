@@ -45,9 +45,10 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <br/> Editorial Advisory Board, <a href="https://www.cambridge.org/core/journals/journal-of-wine-economics" target="_blank"><em>Journal of Wine Economics</em></a>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">University Service</h5>
-    Concentration Coordinator, <a href="https://cals.cornell.edu/environment-sustainability" target="_blank">Environment & Sustainability major</a>, Cornell University
-    <br/> Advisory Board Member, <a href="https://facultydevelopment.cornell.edu" target="_blank">Office of Faculty Development and Diversity</a>, Cornell University
-    <br/> Member, <a href="https://researchservices.cornell.edu/resources/research-integrity-council" target="_blank">Research Integrity Council</a>, Cornell University
+    <br/> Member, <a href="https://researchservices.cornell.edu/resources/research-integrity-council" target="_blank">Research Integrity Council</a>
+    <br/> Advisory Board Member, <a href="https://facultydevelopment.cornell.edu" target="_blank">Office of Faculty Development and Diversity</a>
+    Concentration Coordinator, <a href="https://cals.cornell.edu/environment-sustainability" target="_blank">Environment & Sustainability major</a>
+    
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Research Interests</h5>
     Agricultural economics, resource economics, environmental economics, climate economics
