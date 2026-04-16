@@ -1,10 +1,14 @@
 ---
-layout: default
+layout: base
 description: Template for homepage.
 remark: See also page.layout == 'home' in head.html and header.html.
 ---
 
-{{ content }}
+<div class="row">
+  <div class="col-12 mx-auto">
+    {{ content }}
+  </div>
+</div>
     
 {% if site.posts_on_home > 0 %}
   <div class="row cards mt-4">
