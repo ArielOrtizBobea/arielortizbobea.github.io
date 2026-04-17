@@ -1,0 +1,55 @@
+{%- comment -%}
+  Renders a single talk entry. Expects `talk` variable in context.
+  If called with `grouped=true`, the venue/location suffix is hidden
+  (the group header already shows it).
+{%- endcomment -%}
+{%- assign presenter_data = site.data.team | where: "name", talk.presenter | first -%}
+<div class="talk-entry">
+  {%- if talk.thumbnail -%}
+  <div class="talk-thumbnail">
+    {%- if talk.paper -%}
+    <a href="{{ talk.paper }}" target="_blank" rel="noopener"><img src="{{ talk.thumbnail | relative_url }}" alt=""></a>
+    {%- else -%}
+    <img src="{{ talk.thumbnail | relative_url }}" alt="">
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+  <div class="talk-body">
+    <div class="talk-title">
+      {%- if talk.paper -%}
+      <a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>
+      {%- else -%}
+      {{ talk.title }}
+      {%- endif -%}
+    </div>
+    <div class="talk-meta-line">
+      {%- if presenter_data -%}
+      <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter">
+        {%- if presenter_data.image -%}
+        <img src="{{ presenter_data.image | relative_url }}" alt="" class="talk-avatar">
+        {%- endif -%}
+        <span>{{ talk.presenter }}</span>
+      </a>
+      {%- else -%}
+      <span class="talk-presenter">{{ talk.presenter }}</span>
+      {%- endif -%}
+      <span class="talk-meta">
+        &middot;
+        {%- if talk.date_end -%}
+          {%- assign sm = talk.date | date: "%m" -%}
+          {%- assign em = talk.date_end | date: "%m" -%}
+          {%- if sm == em -%}
+          {{ talk.date | date: "%b %-d" }}&ndash;{{ talk.date_end | date: "%-d, %Y" }}
+          {%- else -%}
+          {{ talk.date | date: "%b %-d" }} &ndash; {{ talk.date_end | date: "%b %-d, %Y" }}
+          {%- endif -%}
+        {%- else -%}
+        {{ talk.date | date: "%b %-d, %Y" }}
+        {%- endif -%}
+        {%- unless include.grouped -%}
+        &middot; {{ talk.venue }}, {{ talk.location }}
+        {%- endunless -%}
+      </span>
+    </div>
+  </div>
+</div>

@@ -51,6 +51,32 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   </div>
 </div>
 
+<!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
+<div class="container-fluid px-4" style="margin-top: 36px;">
+  <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
+  <div style="line-height: 1.7;">
+  {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
+  {%- assign sorted = site.data.talks | sort: "date" -%}
+  {%- assign count = 0 -%}
+  {%- for talk in sorted -%}
+    {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+    {%- if t_s >= now_s and count < 3 -%}
+      <div style="margin-bottom: 4px;">
+        <strong>{{ talk.date | date: "%b %-d" }}</strong>
+        &middot;
+        {% if talk.paper %}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
+        <span style="color: #6c757d;">&mdash; {{ talk.presenter }}, {{ talk.venue }}</span>
+      </div>
+      {%- assign count = count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if count == 0 -%}
+  <div style="color: #6c757d;">No upcoming talks scheduled.</div>
+  {%- endif -%}
+  <div style="margin-top: 10px; font-size: 0.9em;"><a href="{{ '/talks/' | relative_url }}">See all talks &rarr;</a></div>
+  </div>
+</div>
+
 <!-- This is Markdown 
     So links are [text](link).
 --->
