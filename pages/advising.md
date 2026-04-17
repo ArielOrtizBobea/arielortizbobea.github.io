@@ -4,6 +4,10 @@ title: join me
 permalink: /advising/
 background: /assets/theme/images/landing/campus.jpg
 ---
+<style>
+h2, h3 { color: #b31b1b; }
+</style>
+
 ## Postdocs
 
 - Follow me on social media for updates on new positions.

@@ -14,24 +14,20 @@
     {%- endif -%}
   </div>
   {%- endif -%}
+  {%- if presenter_data.image -%}
+  <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-avatar-link" title="{{ talk.presenter }}">
+    <img src="{{ presenter_data.image | relative_url }}" alt="{{ talk.presenter }}" class="talk-avatar">
+  </a>
+  {%- endif -%}
   <div class="talk-body">
     <div class="talk-title">
-      {%- if talk.paper -%}
-      <a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>
-      {%- else -%}
-      {{ talk.title }}
-      {%- endif -%}
+      {%- if talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
     </div>
     <div class="talk-meta-line">
       {%- if presenter_data -%}
-      <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter">
-        {%- if presenter_data.image -%}
-        <img src="{{ presenter_data.image | relative_url }}" alt="" class="talk-avatar">
-        {%- endif -%}
-        <span>{{ talk.presenter }}</span>
-      </a>
+      <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter-name">{{ talk.presenter }}</a>
       {%- else -%}
-      <span class="talk-presenter">{{ talk.presenter }}</span>
+      <span class="talk-presenter-name">{{ talk.presenter }}</span>
       {%- endif -%}
       <span class="talk-meta">
         &middot;
@@ -47,7 +43,7 @@
         {{ talk.date | date: "%b %-d, %Y" }}
         {%- endif -%}
         {%- unless include.grouped -%}
-        &middot; {{ talk.venue }}, {{ talk.location }}
+        &nbsp; <i class="fa-solid fa-location-dot talk-loc-icon"></i> {{ talk.venue }}, {{ talk.location }}
         {%- endunless -%}
       </span>
     </div>

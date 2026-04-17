@@ -4,6 +4,10 @@ background: /assets/theme/images/landing/research.png
 permalink: /research/
 ---
 
+<style>
+h2, h3 { color: #b31b1b; }
+</style>
+
 Access my [Google Scholar](https://scholar.google.com/citations?user=MALB7wEAAAAJ) page.
 
 ## In progress

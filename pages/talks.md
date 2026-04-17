@@ -61,20 +61,28 @@ permalink: /talks/
   font-size: 0.9rem;
   line-height: 1.5;
 }
-.talks-page .talk-presenter {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: inherit;
-  text-decoration: none;
-  vertical-align: middle;
+.talks-page .talk-avatar-link {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
 }
-.talks-page .talk-presenter:hover { color: #b31b1b; }
 .talks-page .talk-avatar {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  display: block;
+}
+.talks-page .talk-presenter-name {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+}
+.talks-page .talk-presenter-name:hover { color: #b31b1b; }
+.talks-page .talk-loc-icon {
+  color: #b31b1b;
+  opacity: 0.85;
+  margin-right: 2px;
 }
 .talks-page .talk-meta { color: #6c757d; }
 
