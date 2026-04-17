@@ -1,7 +1,8 @@
 {%- comment -%}
   Renders a single talk entry. Expects `talk` variable in context.
-  If called with `grouped=true`, the venue/location suffix is hidden
-  (the group header already shows it).
+  Optional flags:
+    hide_venue=true     → omit venue/location (used in "By event" view)
+    hide_presenter=true → omit presenter avatar + name (used in "By presenter" view)
 {%- endcomment -%}
 {%- assign presenter_data = site.data.team | where: "name", talk.presenter | first -%}
 <div class="talk-entry">
@@ -14,23 +15,27 @@
     {%- endif -%}
   </div>
   {%- endif -%}
-  {%- if presenter_data.image -%}
-  <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-avatar-link" title="{{ talk.presenter }}">
-    <img src="{{ presenter_data.image | relative_url }}" alt="{{ talk.presenter }}" class="talk-avatar">
-  </a>
-  {%- endif -%}
+  {%- unless include.hide_presenter -%}
+    {%- if presenter_data.image -%}
+    <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-avatar-link" title="{{ talk.presenter }}">
+      <img src="{{ presenter_data.image | relative_url }}" alt="{{ talk.presenter }}" class="talk-avatar">
+    </a>
+    {%- endif -%}
+  {%- endunless -%}
   <div class="talk-body">
     <div class="talk-title">
       {%- if talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
     </div>
     <div class="talk-meta-line">
-      {%- if presenter_data -%}
-      <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter-name">{{ talk.presenter }}</a>
-      {%- else -%}
-      <span class="talk-presenter-name">{{ talk.presenter }}</span>
-      {%- endif -%}
+      {%- unless include.hide_presenter -%}
+        {%- if presenter_data -%}
+        <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter-name">{{ talk.presenter }}</a>
+        {%- else -%}
+        <span class="talk-presenter-name">{{ talk.presenter }}</span>
+        {%- endif -%}
+      {%- endunless -%}
       <span class="talk-meta">
-        &middot;
+        {%- unless include.hide_presenter -%} &middot; {%- endunless -%}
         {%- if talk.date_end -%}
           {%- assign sm = talk.date | date: "%m" -%}
           {%- assign em = talk.date_end | date: "%m" -%}
@@ -42,7 +47,7 @@
         {%- else -%}
         {{ talk.date | date: "%b %-d, %Y" }}
         {%- endif -%}
-        {%- unless include.grouped -%}
+        {%- unless include.hide_venue -%}
         &nbsp; <i class="fa-solid fa-location-dot talk-loc-icon"></i> {{ talk.venue }}, {{ talk.location }}
         {%- endunless -%}
       </span>
