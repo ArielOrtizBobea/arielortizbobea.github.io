@@ -136,8 +136,29 @@ permalink: /talks/
 .talks-page h2 {
   margin-top: 1.5rem;
   font-size: 1.3rem;
+  color: #b31b1b;
 }
 .talks-page h2:first-child { margin-top: 0; }
+
+/* --- Stacked meta (used in "By presenter" view) --- */
+.talks-page .talk-meta-row {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.talks-page .talk-cal-icon {
+  color: #b31b1b;
+  opacity: 0.85;
+  width: 14px;
+  text-align: center;
+}
+.talks-page .talk-meta-row .talk-loc-icon {
+  width: 14px;
+  text-align: center;
+  margin-right: 0;
+}
 </style>
 
 {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
@@ -222,7 +243,7 @@ permalink: /talks/
         </span>
       </div>
       {%- for talk in group.items -%}
-        {% include talk_entry.html hide_venue=true %}
+        {% include talk_entry.html hide_venue=true hide_date=true %}
       {%- endfor -%}
     </div>
   {%- endif -%}
@@ -264,7 +285,7 @@ permalink: /talks/
         </span>
       </div>
       {%- for talk in group.items -%}
-        {% include talk_entry.html hide_venue=true %}
+        {% include talk_entry.html hide_venue=true hide_date=true %}
       {%- endfor -%}
     </div>
   {%- endif -%}
@@ -305,7 +326,7 @@ permalink: /talks/
       {%- for talk in group.items -%}
         {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
         {%- if t_s >= year_ago_s -%}
-          {% include talk_entry.html hide_presenter=true %}
+          {% include talk_entry.html hide_presenter=true stacked_meta=true %}
         {%- endif -%}
       {%- endfor -%}
     </div>

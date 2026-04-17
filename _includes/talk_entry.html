@@ -1,8 +1,10 @@
 {%- comment -%}
   Renders a single talk entry. Expects `talk` variable in context.
   Optional flags:
-    hide_venue=true     → omit venue/location (used in "By event" view)
-    hide_presenter=true → omit presenter avatar + name (used in "By presenter" view)
+    hide_venue=true     → omit venue/location
+    hide_date=true      → omit date
+    hide_presenter=true → omit presenter avatar + name
+    stacked_meta=true   → put date and venue on separate lines, each with an icon
 {%- endcomment -%}
 {%- assign presenter_data = site.data.team | where: "name", talk.presenter | first -%}
 <div class="talk-entry">
@@ -26,16 +28,11 @@
     <div class="talk-title">
       {%- if talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
     </div>
-    <div class="talk-meta-line">
-      {%- unless include.hide_presenter -%}
-        {%- if presenter_data -%}
-        <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter-name">{{ talk.presenter }}</a>
-        {%- else -%}
-        <span class="talk-presenter-name">{{ talk.presenter }}</span>
-        {%- endif -%}
-      {%- endunless -%}
-      <span class="talk-meta">
-        {%- unless include.hide_presenter -%} &middot; {%- endunless -%}
+
+    {%- if include.stacked_meta -%}
+      {%- unless include.hide_date -%}
+      <div class="talk-meta talk-meta-row">
+        <i class="fa-solid fa-calendar-days talk-cal-icon"></i>
         {%- if talk.date_end -%}
           {%- assign sm = talk.date | date: "%m" -%}
           {%- assign em = talk.date_end | date: "%m" -%}
@@ -47,10 +44,47 @@
         {%- else -%}
         {{ talk.date | date: "%b %-d, %Y" }}
         {%- endif -%}
-        {%- unless include.hide_venue -%}
-        &nbsp; <i class="fa-solid fa-location-dot talk-loc-icon"></i> {{ talk.venue }}, {{ talk.location }}
+      </div>
+      {%- endunless -%}
+      {%- unless include.hide_venue -%}
+      <div class="talk-meta talk-meta-row">
+        <i class="fa-solid fa-location-dot talk-loc-icon"></i>
+        {{ talk.venue }}, {{ talk.location }}
+      </div>
+      {%- endunless -%}
+    {%- else -%}
+      <div class="talk-meta-line">
+        {%- assign needs_sep = false -%}
+        {%- unless include.hide_presenter -%}
+          {%- if presenter_data -%}
+          <a href="{{ '/people/' | relative_url }}#{{ talk.presenter | strip | url_encode }}" class="talk-presenter-name">{{ talk.presenter }}</a>
+          {%- else -%}
+          <span class="talk-presenter-name">{{ talk.presenter }}</span>
+          {%- endif -%}
+          {%- assign needs_sep = true -%}
         {%- endunless -%}
-      </span>
-    </div>
+        <span class="talk-meta">
+          {%- unless include.hide_date -%}
+            {%- if needs_sep -%} &middot; {%- endif -%}
+            {%- if talk.date_end -%}
+              {%- assign sm = talk.date | date: "%m" -%}
+              {%- assign em = talk.date_end | date: "%m" -%}
+              {%- if sm == em -%}
+              {{ talk.date | date: "%b %-d" }}&ndash;{{ talk.date_end | date: "%-d, %Y" }}
+              {%- else -%}
+              {{ talk.date | date: "%b %-d" }} &ndash; {{ talk.date_end | date: "%b %-d, %Y" }}
+              {%- endif -%}
+            {%- else -%}
+            {{ talk.date | date: "%b %-d, %Y" }}
+            {%- endif -%}
+            {%- assign needs_sep = true -%}
+          {%- endunless -%}
+          {%- unless include.hide_venue -%}
+            {%- if needs_sep -%}&nbsp; {%- endif -%}
+            <i class="fa-solid fa-location-dot talk-loc-icon"></i> {{ talk.venue }}, {{ talk.location }}
+          {%- endunless -%}
+        </span>
+      </div>
+    {%- endif -%}
   </div>
 </div>
