@@ -1,0 +1,160 @@
+# Talks data file
+#
+# Entries are rendered on /talks/ (and later a teaser on the home page) by
+# filtering on date. No need to manually split "upcoming" vs "recent" — the
+# template computes that from the `date` field at build time.
+#
+# Required fields:  title, presenter, date, venue, location
+# Optional fields:  date_end (multi-day conferences), paper (URL), thumbnail (path)
+#
+# Notes:
+# - `presenter` must match a `name` in _data/team.yml for the avatar to show.
+# - `date` is always the first day (YYYY-MM-DD); add `date_end` only when the
+#   conference spans multiple days.
+# - `venue` + `location` together are the grouping key. Keep them identical
+#   across entries that share a conference, or "group by event" will split them.
+
+# --- Recent ---
+
+- title: "Heat Shocks and Agricultural Loan Repayment"
+  presenter: Jerzy Jaromczyk
+  date: 2026-03-24
+  venue: "SCC76 Annual Meeting Kansas City Fed"
+  location: "Kansas City, KS"
+  # paper:
+  # thumbnail:
+
+# --- Upcoming ---
+
+- title: "Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal"
+  presenter: Jeisson Prieto
+  date: 2026-04-17
+  venue: "Caribbeans for Climate Spring 2026 Symposium"
+  location: "Virtual"
+  # paper:
+  # thumbnail:
+
+- title: "Heat Shocks and Agricultural Loan Repayment"
+  presenter: Jerzy Jaromczyk
+  date: 2026-05-08
+  venue: "Cornell AEP Seminar"
+  location: "Ithaca, NY"
+  # paper:
+  # thumbnail:
+
+- title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
+  presenter: Yurou He
+  date: 2026-05-08
+  date_end: 2026-05-09
+  venue: "15th European Meeting of the Urban Economics Association"
+  location: "CREI, Barcelona, Spain"
+  # paper:
+  # thumbnail:
+
+- title: "Land Assembly: Outsider Bargaining with a Network"
+  presenter: Yurou He
+  date: 2026-05-08
+  date_end: 2026-05-09
+  venue: "15th European Meeting of the Urban Economics Association"
+  location: "CREI, Barcelona, Spain"
+  # paper:
+  # thumbnail:
+
+- title: "Land Assembly: Outsider Bargaining with a Network"
+  presenter: Yurou He
+  date: 2026-05-11
+  date_end: 2026-05-13
+  venue: "2026 Summer School in Urban Economics"
+  location: "London, United Kingdom"
+  # paper:
+  # thumbnail:
+
+- title: "Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal"
+  presenter: Jeisson Prieto
+  date: 2026-06-15
+  date_end: 2026-06-16
+  venue: "Second Paris-Saclay Conference on Trade and the Environment"
+  location: "Palaiseau, France"
+  # paper:
+  # thumbnail:
+
+- title: "The persistence of climate shocks on global agricultural productivity growth"
+  presenter: Ariel Ortiz-Bobea
+  date: 2026-06-16
+  date_end: 2026-06-19
+  venue: "EWEPA XIX"
+  location: "Munich, Germany"
+  # paper:
+  # thumbnail:
+
+- title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
+  presenter: Yurou He
+  date: 2026-06-24
+  date_end: 2026-06-26
+  venue: "Toronto Meeting on the Economics of Climate Change (TMEC)"
+  location: "Toronto, Canada"
+  # paper:
+  # thumbnail:
+
+- title: "Unpacking the growth of U.S. agricultural greenhouse gas emissions"
+  presenter: Ariel Ortiz-Bobea
+  date: 2026-06-29
+  date_end: 2026-07-03
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  location: "Carcavelos–Cascais, Portugal"
+  # paper:
+  # thumbnail:
+
+- title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
+  presenter: Yurou He
+  date: 2026-06-29
+  date_end: 2026-07-03
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  location: "Carcavelos–Cascais, Portugal"
+  # paper:
+  # thumbnail:
+
+- title: "Land Assembly: Outsider Bargaining with a Network"
+  presenter: Yurou He
+  date: 2026-06-29
+  date_end: 2026-07-03
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  location: "Carcavelos–Cascais, Portugal"
+  # paper:
+  # thumbnail:
+
+- title: "Modelling global spillovers of public agricultural R&D"
+  presenter: Ariel Ortiz-Bobea
+  date: 2026-07-06
+  date_end: 2026-07-10
+  venue: "ICABR 30th Conference"
+  location: "Ravello, Italy"
+  # paper:
+  # thumbnail:
+
+- title: "The unmeasured role of water in U.S. agriculture"
+  presenter: Ariel Ortiz-Bobea
+  date: 2026-07-15
+  date_end: 2026-07-31
+  venue: "PERC"
+  location: "Bozeman, MT"
+  # paper:
+  # thumbnail:
+
+- title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
+  presenter: Yurou He
+  date: 2026-07-26
+  date_end: 2026-07-28
+  venue: "2026 AAEA Annual Meeting"
+  location: "Kansas City, KS, United States"
+  # paper:
+  # thumbnail:
+
+- title: "Heat Shocks and Agricultural Loan Repayment"
+  presenter: Jerzy Jaromczyk
+  date: 2026-07-26
+  date_end: 2026-07-28
+  venue: "2026 AAEA Annual Meeting"
+  location: "Kansas City, KS, United States"
+  # paper:
+  # thumbnail:
