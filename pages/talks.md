@@ -140,6 +140,46 @@ permalink: /talks/
 }
 .talks-page h2:first-child { margin-top: 0; }
 
+/* --- Date badge (used in "By date" view) --- */
+.talks-page .talk-date-badge {
+  flex-shrink: 0;
+  width: 52px;
+  min-height: 58px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1;
+}
+.talks-page .talk-date-badge-month {
+  background: #b31b1b;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 4px 2px;
+  text-transform: uppercase;
+}
+.talks-page .talk-date-badge--past .talk-date-badge-month {
+  background: #6c757d;
+}
+.talks-page .talk-date-badge-day {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #212529;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+}
+.talks-page .talk-date-badge--past .talk-date-badge-day {
+  color: #495057;
+}
+
 /* --- Stacked meta (used in "By presenter" view) --- */
 .talks-page .talk-meta-row {
   font-size: 0.9rem;
@@ -185,7 +225,7 @@ permalink: /talks/
   {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
   {%- if t_s >= now_s -%}
     {%- assign any_upcoming = true -%}
-    {% include talk_entry.html %}
+    {% include talk_entry.html date_badge=true %}
   {%- endif -%}
 {%- endfor -%}
 {%- if any_upcoming == false -%}
@@ -199,7 +239,7 @@ permalink: /talks/
   {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
   {%- if t_s < now_s and t_s >= year_ago_s -%}
     {%- assign any_recent = true -%}
-    {% include talk_entry.html %}
+    {% include talk_entry.html date_badge=true %}
   {%- endif -%}
 {%- endfor -%}
 {%- if any_recent == false -%}
@@ -297,39 +337,35 @@ permalink: /talks/
 
 <!-- ========== BY PRESENTER ========== -->
 <div class="talks-by-presenter">
-{%- assign by_presenter = sorted | group_by: "presenter" -%}
-{%- for group in by_presenter -%}
-  {%- assign group_in_window = false -%}
-  {%- for talk in group.items -%}
-    {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
-    {%- if t_s >= year_ago_s -%}
-      {%- assign group_in_window = true -%}
-      {%- break -%}
-    {%- endif -%}
-  {%- endfor -%}
-
-  {%- if group_in_window -%}
-    {%- assign p_data = site.data.team | where: "name", group.name | first -%}
-    <div class="presenter-group">
-      <div class="presenter-group-header">
-        {%- if p_data.image -%}
-        <a href="{{ '/people/' | relative_url }}#{{ group.name | strip | url_encode }}">
-          <img src="{{ p_data.image | relative_url }}" alt="{{ group.name }}" class="presenter-group-avatar">
-        </a>
-        {%- endif -%}
-        {%- if p_data -%}
-        <a href="{{ '/people/' | relative_url }}#{{ group.name | strip | url_encode }}" class="presenter-group-name">{{ group.name }}</a>
-        {%- else -%}
-        <span class="presenter-group-name">{{ group.name }}</span>
-        {%- endif -%}
+{%- for member in site.data.team -%}
+  {%- assign member_talks = sorted | where: "presenter", member.name -%}
+  {%- if member_talks.size > 0 -%}
+    {%- assign has_in_window = false -%}
+    {%- for talk in member_talks -%}
+      {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+      {%- if t_s >= year_ago_s -%}
+        {%- assign has_in_window = true -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- if has_in_window -%}
+      <div class="presenter-group">
+        <div class="presenter-group-header">
+          {%- if member.image -%}
+          <a href="{{ '/people/' | relative_url }}#{{ member.name | strip | url_encode }}">
+            <img src="{{ member.image | relative_url }}" alt="{{ member.name }}" class="presenter-group-avatar">
+          </a>
+          {%- endif -%}
+          <a href="{{ '/people/' | relative_url }}#{{ member.name | strip | url_encode }}" class="presenter-group-name">{{ member.name }}</a>
+        </div>
+        {%- for talk in member_talks -%}
+          {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+          {%- if t_s >= year_ago_s -%}
+            {% include talk_entry.html hide_presenter=true stacked_meta=true %}
+          {%- endif -%}
+        {%- endfor -%}
       </div>
-      {%- for talk in group.items -%}
-        {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
-        {%- if t_s >= year_ago_s -%}
-          {% include talk_entry.html hide_presenter=true stacked_meta=true %}
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
+    {%- endif -%}
   {%- endif -%}
 {%- endfor -%}
 </div>

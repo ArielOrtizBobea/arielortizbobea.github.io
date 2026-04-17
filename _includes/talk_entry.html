@@ -2,12 +2,30 @@
   Renders a single talk entry. Expects `talk` variable in context.
   Optional flags:
     hide_venue=true     → omit venue/location
-    hide_date=true      → omit date
+    hide_date=true      → omit date text
     hide_presenter=true → omit presenter avatar + name
     stacked_meta=true   → put date and venue on separate lines, each with an icon
+    date_badge=true     → render a calendar-style date tile at the start; also suppresses inline date text
 {%- endcomment -%}
 {%- assign presenter_data = site.data.team | where: "name", talk.presenter | first -%}
 <div class="talk-entry">
+  {%- if include.date_badge -%}
+    {%- assign now_s_badge = site.time | date: "%s" | plus: 0 -%}
+    {%- assign t_s_badge = talk.date | date: "%s" | plus: 0 -%}
+    {%- assign day_text = talk.date | date: "%-d" -%}
+    {%- if talk.date_end -%}
+      {%- assign sm = talk.date | date: "%m" -%}
+      {%- assign em = talk.date_end | date: "%m" -%}
+      {%- if sm == em -%}
+        {%- assign end_day = talk.date_end | date: "%-d" -%}
+        {%- assign day_text = day_text | append: "&ndash;" | append: end_day -%}
+      {%- endif -%}
+    {%- endif -%}
+    <div class="talk-date-badge{% if t_s_badge < now_s_badge %} talk-date-badge--past{% endif %}">
+      <div class="talk-date-badge-month">{{ talk.date | date: "%b" | upcase }}</div>
+      <div class="talk-date-badge-day">{{ day_text }}</div>
+    </div>
+  {%- endif -%}
   {%- if talk.thumbnail -%}
   <div class="talk-thumbnail">
     {%- if talk.paper -%}
@@ -30,7 +48,7 @@
     </div>
 
     {%- if include.stacked_meta -%}
-      {%- unless include.hide_date -%}
+      {%- unless include.hide_date or include.date_badge -%}
       <div class="talk-meta talk-meta-row">
         <i class="fa-solid fa-calendar-days talk-cal-icon"></i>
         {%- if talk.date_end -%}
@@ -64,7 +82,7 @@
           {%- assign needs_sep = true -%}
         {%- endunless -%}
         <span class="talk-meta">
-          {%- unless include.hide_date -%}
+          {%- unless include.hide_date or include.date_badge -%}
             {%- if needs_sep -%} &middot; {%- endif -%}
             {%- if talk.date_end -%}
               {%- assign sm = talk.date | date: "%m" -%}
