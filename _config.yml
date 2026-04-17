@@ -18,7 +18,10 @@ rounded_corners: true                   # Enable (default) rounded corners on bo
 # SOCIAL
 social:
   email: ao332@cornell.edu
-  twitter: arielortizbobea
+  googlescholar: MALB7wEAAAAJ           # Google Scholar user ID (from the URL of your profile)
   github: ArielOrtizBobea               # Can also be a github_username/repository
+  bluesky: arielob.bsky.social
+  twitter: ArielOrtizBobea
+  linkedin: https://www.linkedin.com/in/ariel-ortiz-bobea-a904637/
   # mastodon: https://mastodon.social/@mastodon_username
   # facebook: https://www.facebook.com/groups/group_id/
