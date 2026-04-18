@@ -468,7 +468,7 @@
     - Pierre Mérel
   status: "Published"
   year: 2024
-  journal: "American Journal of Agricultural Economics (AJAE)"
+  journal: "American Journal of Agricultural Economics"
   doi: https://doi.org/10.1111/ajae.12491
   abstract: >
     A warming climate expands the frost-free season, plausibly allowing for increased
@@ -487,7 +487,7 @@
     fraction of the revenue impacts of predicted yield declines.
   links:
     - { label: "press release", url: "https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/ajae12491-fig-0001-m.jpg
 
 - title: "A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)"
   authors:
@@ -580,7 +580,7 @@
     missing linkages and pose key policy research questions concerning structural
     transformation and the complex feedback among agriculture, nature, and economic growth
     processes, especially in low-income agrarian economies.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2023reep.jpeg
 
 - title: "A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction"
   authors:
