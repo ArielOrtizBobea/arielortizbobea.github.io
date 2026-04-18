@@ -19,6 +19,33 @@ permalink: /research/
   margin-top: 1.5rem;
 }
 
+/* Year-gutter layout for Publications section */
+.research-page .year-row {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 24px;
+  margin-top: 1.5rem;
+}
+.research-page .year-label {
+  font-size: 1.5rem;
+  color: #b31b1b;
+  font-weight: normal;
+  padding-top: 0.2rem;
+}
+.research-page .year-papers { min-width: 0; }
+@media (max-width: 700px) {
+  .research-page .year-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-top: 0.5rem;
+  }
+  .research-page .year-label {
+    padding-top: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
 .research-page .paper-entry {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
@@ -182,10 +209,14 @@ permalink: /research/
 <h2>Publications</h2>
 {%- assign years = published | map: "year" | uniq | sort | reverse -%}
 {%- for yr in years -%}
-<h3>{{ yr }}</h3>
-{%- assign year_papers = published | where: "year", yr -%}
-{%- for paper in year_papers -%}
-  {% include paper_entry.html %}
-{%- endfor -%}
+<div class="year-row">
+  <div class="year-label">{{ yr }}</div>
+  <div class="year-papers">
+  {%- assign year_papers = published | where: "year", yr -%}
+  {%- for paper in year_papers -%}
+    {% include paper_entry.html %}
+  {%- endfor -%}
+  </div>
+</div>
 {%- endfor -%}
 </div>
