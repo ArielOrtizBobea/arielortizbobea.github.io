@@ -350,7 +350,7 @@
     - { label: "preprint", url: "https://arxiv.org/abs/2405.08159" }
     - { label: "coverage (Grist)", url: "https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/" }
     - { label: "coverage (AP)", url: "https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756" }
-  thumbnail: /assets/theme/images/papers/usagrdneeds.png
+  thumbnail: /assets/theme/images/papers/pnas.2411010122fig04.jpg
 
 - title: "The Role of Staple Food Prices in Deforestation: Evidence from Cambodia"
   authors:
