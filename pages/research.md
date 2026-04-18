@@ -5,15 +5,19 @@ permalink: /research/
 ---
 
 <style>
-.research-page h2,
-.research-page h3 {
+.research-page h2 {
   color: #b31b1b;
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 2rem;
 }
-.research-page h2 { margin-top: 2rem; }
 .research-page h2:first-child { margin-top: 0; }
-.research-page h3 { margin-top: 1.5rem; }
+.research-page h3 {
+  color: #b31b1b;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 1.5rem;
+}
 
 .research-page .paper-entry {
   padding-bottom: 1rem;
@@ -63,7 +67,7 @@ permalink: /research/
   vertical-align: middle;
 }
 .research-page .paper-journal {
-  font-weight: 600;
+  font-style: italic;
   color: #495057;
   vertical-align: middle;
 }
@@ -110,10 +114,11 @@ permalink: /research/
 .research-page .paper-abstract .abstract-thumbnail img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 4px;
   border: 1px solid #dee2e6;
   display: block;
+  background: #fff;
 }
 .research-page .paper-abstract .abstract-text { flex: 1; min-width: 0; }
 .research-page .paper-abstract .abstract-text p { margin-bottom: 0.5rem; }
