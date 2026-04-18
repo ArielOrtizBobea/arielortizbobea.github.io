@@ -72,8 +72,8 @@ permalink: /talks/
   line-height: 0;
 }
 .talks-page .talk-avatar {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -143,41 +143,30 @@ permalink: /talks/
 /* --- Date badge (used in "By date" view) --- */
 .talks-page .talk-date-badge {
   flex-shrink: 0;
-  width: 52px;
-  min-height: 58px;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-  overflow: hidden;
-  background: #fff;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #adb5bd;
+  background: #e9ecef;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
-  line-height: 1;
+  gap: 2px;
+  padding: 4px;
+  line-height: 1.15;
 }
 .talks-page .talk-date-badge-month {
-  background: #b31b1b;
-  color: #fff;
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  padding: 4px 2px;
+  font-size: 1rem;
+  font-weight: 700;
   text-transform: uppercase;
-}
-.talks-page .talk-date-badge--past .talk-date-badge-month {
-  background: #6c757d;
+  letter-spacing: 0.05em;
+  color: #495057;
 }
 .talks-page .talk-date-badge-day {
-  font-size: 1.35rem;
-  font-weight: 600;
+  font-size: 0.85rem;
+  font-weight: 500;
   color: #212529;
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
-}
-.talks-page .talk-date-badge--past .talk-date-badge-day {
-  color: #495057;
+  white-space: nowrap;
 }
 
 /* --- Stacked meta (used in "By presenter" view) --- */
