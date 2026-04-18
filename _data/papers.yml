@@ -640,7 +640,7 @@
     substantially different estimates.
   links:
     - { label: "code + data", url: "https://archive.ciser.cornell.edu/reproduction-packages/2882" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/jaa221-fig-0004-m.jpg
 
 - title: "Temperature and children's Nutrition: evidence from West Africa"
   authors:
@@ -662,7 +662,7 @@
     points, reversing the progress made on improving nutrition during our study period.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2022jeem.png
 
 # ---------- 2021 ----------
 
