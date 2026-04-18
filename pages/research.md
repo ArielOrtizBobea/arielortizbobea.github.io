@@ -148,7 +148,7 @@ permalink: /research/
 .research-page .paper-abstract .abstract-text p { margin-bottom: 0.5rem; }
 .research-page .paper-abstract .abstract-text p:last-child { margin-bottom: 0; }
 .research-page .paper-abstract .abstract-thumbnail {
-  margin-top: 0.75rem;
+  margin: 0.75rem auto 0;
   max-width: 280px;
 }
 .research-page .paper-abstract .abstract-thumbnail img {
