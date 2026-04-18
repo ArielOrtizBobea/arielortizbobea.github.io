@@ -5,14 +5,20 @@ permalink: /research/
 ---
 
 <style>
-.research-page h2 { color: #b31b1b; margin-top: 2rem; font-size: 1.4rem; }
+.research-page h2,
+.research-page h3 {
+  color: #b31b1b;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.research-page h2 { margin-top: 2rem; }
 .research-page h2:first-child { margin-top: 0; }
-.research-page h3 { color: #b31b1b; margin-top: 1.5rem; font-size: 1.1rem; }
+.research-page h3 { margin-top: 1.5rem; }
 
 .research-page .paper-entry {
   display: flex;
   gap: 1.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   align-items: flex-start;
 }
 .research-page .paper-thumbnail {
@@ -31,7 +37,7 @@ permalink: /research/
 .research-page .paper-title {
   font-weight: 600;
   line-height: 1.35;
-  font-size: 1.02rem;
+  font-size: 0.95rem;
   margin-bottom: 0.3rem;
 }
 .research-page .paper-title a { color: inherit; }
@@ -48,17 +54,18 @@ permalink: /research/
 }
 .research-page .paper-authors a:hover { color: #b31b1b; }
 .research-page .paper-meta {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin-bottom: 0.3rem;
 }
 .research-page .paper-status {
   display: inline-block;
   font-size: 0.72rem;
-  font-weight: 700;
-  padding: 2px 8px;
+  font-weight: 600;
+  padding: 1px 7px;
   border-radius: 3px;
-  background: #b31b1b;
-  color: #fff;
+  background: #fff;
+  color: #b31b1b;
+  border: 1px solid #b31b1b;
   margin-right: 8px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -70,12 +77,12 @@ permalink: /research/
   vertical-align: middle;
 }
 .research-page .paper-abstract {
-  margin-top: 0.35rem;
-  margin-bottom: 0.35rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
 }
 .research-page .paper-abstract summary {
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: #6c757d;
   font-weight: 500;
   list-style: none;
@@ -95,7 +102,7 @@ permalink: /research/
 .research-page .paper-abstract summary:hover { color: #b31b1b; }
 .research-page .paper-abstract .abstract-content {
   color: #6c757d;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.55;
   margin-top: 0.4rem;
   padding-left: 0.6rem;
@@ -104,7 +111,7 @@ permalink: /research/
 .research-page .paper-abstract .abstract-content p { margin-bottom: 0.5rem; }
 .research-page .paper-abstract .abstract-content p:last-child { margin-bottom: 0; }
 .research-page .paper-links {
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: #6c757d;
   margin-top: 0.25rem;
 }
