@@ -400,7 +400,7 @@
     and build resilience.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2024nyca.png
 
 - title: "Climate change exacerbates the environmental impacts of agriculture"
   authors:
@@ -533,7 +533,7 @@
     responses to food crises, agricultural policies, and more efficient commodity pricing.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2024erl.png
 
 # ---------- 2023 ----------
 
@@ -560,7 +560,7 @@
   links:
     - { label: "preprint", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480695" }
     - { label: "award", url: "https://www.icpmnetwork.com/previous-year-winners/" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2023jfe.png
 
 - title: "Structural Transformation, Agriculture, Climate, and the Environment"
   authors:
