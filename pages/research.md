@@ -202,9 +202,14 @@ permalink: /research/
 {%- assign published = papers | where: "status", "Published" -%}
 
 <h2>In progress</h2>
-{%- for paper in in_progress -%}
-  {% include paper_entry.html %}
-{%- endfor -%}
+<div class="year-row">
+  <div class="year-label"></div>
+  <div class="year-papers">
+  {%- for paper in in_progress -%}
+    {% include paper_entry.html %}
+  {%- endfor -%}
+  </div>
+</div>
 
 <h2>Publications</h2>
 {%- assign years = published | map: "year" | uniq | sort | reverse -%}
