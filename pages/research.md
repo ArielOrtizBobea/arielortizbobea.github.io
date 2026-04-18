@@ -19,31 +19,41 @@ permalink: /research/
   margin-top: 1.5rem;
 }
 
-/* Year-gutter layout for Publications section */
-.research-page .year-row {
+/* Three-column layout: [year] [number] [paper content] */
+.research-page .papers-grid {
   display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 24px;
+  grid-template-columns: 55px 30px 1fr;
+  column-gap: 18px;
+  row-gap: 0;
   margin-top: 1.5rem;
 }
-.research-page .year-label {
+.research-page .cell-year {
   font-size: 1.5rem;
   color: #b31b1b;
   font-weight: normal;
   padding-top: 0.2rem;
 }
-.research-page .year-papers { min-width: 0; }
+.research-page .cell-num {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  text-align: right;
+  padding-top: 0.5rem;
+}
+.research-page .cell-paper { min-width: 0; }
 @media (max-width: 700px) {
-  .research-page .year-row {
-    grid-template-columns: 1fr;
-    gap: 0;
-    margin-top: 0.5rem;
+  .research-page .papers-grid {
+    display: block;
   }
-  .research-page .year-label {
+  .research-page .cell-year:not(:empty) {
     padding-top: 0;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    font-size: 1.3rem;
   }
+  .research-page .cell-year:empty { display: none; }
+  .research-page .cell-num { display: none; }
+  .research-page .cell-paper { display: block; }
 }
 
 .research-page .paper-entry {
@@ -202,26 +212,30 @@ permalink: /research/
 {%- assign published = papers | where: "status", "Published" -%}
 
 <h2>In progress</h2>
-<div class="year-row">
-  <div class="year-label"></div>
-  <div class="year-papers">
-  {%- for paper in in_progress -%}
+<div class="papers-grid">
+{%- for paper in in_progress -%}
+  <div class="cell-year"></div>
+  <div class="cell-num">{{ forloop.index }}</div>
+  <div class="cell-paper">
     {% include paper_entry.html %}
-  {%- endfor -%}
   </div>
+{%- endfor -%}
 </div>
 
 <h2>Publications</h2>
 {%- assign years = published | map: "year" | uniq | sort | reverse -%}
+{%- assign counter = published.size -%}
+<div class="papers-grid">
 {%- for yr in years -%}
-<div class="year-row">
-  <div class="year-label">{{ yr }}</div>
-  <div class="year-papers">
   {%- assign year_papers = published | where: "year", yr -%}
   {%- for paper in year_papers -%}
-    {% include paper_entry.html %}
+    <div class="cell-year">{%- if forloop.first -%}{{ yr }}{%- endif -%}</div>
+    <div class="cell-num">{{ counter }}</div>
+    <div class="cell-paper">
+      {% include paper_entry.html %}
+    </div>
+    {%- assign counter = counter | minus: 1 -%}
   {%- endfor -%}
-  </div>
-</div>
 {%- endfor -%}
+</div>
 </div>
