@@ -16,7 +16,13 @@ permalink: /research/
 .research-page h3 { margin-top: 1.5rem; }
 
 .research-page .paper-entry {
-  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+.research-page .paper-entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 .research-page .paper-body { min-width: 0; }
 .research-page .paper-title {
@@ -98,8 +104,8 @@ permalink: /research/
 }
 .research-page .paper-abstract .abstract-thumbnail {
   flex-shrink: 0;
-  width: 140px;
-  height: 140px;
+  width: 280px;
+  height: 280px;
 }
 .research-page .paper-abstract .abstract-thumbnail img {
   width: 100%;

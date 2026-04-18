@@ -42,6 +42,13 @@
       <span class="paper-journal">{{ paper.journal }}</span>
       {%- endif -%}
     </div>
+    {%- if paper.links -%}
+    <div class="paper-links">
+      {%- for link in paper.links -%}
+      [<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>]{%- unless forloop.last %} {% endunless -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
     {%- if paper.abstract -%}
     <details class="paper-abstract">
       <summary>{{ paper.abstract_label | default: "abstract" }}</summary>
@@ -58,13 +65,6 @@
         <div class="abstract-text">{{ paper.abstract | markdownify }}</div>
       </div>
     </details>
-    {%- endif -%}
-    {%- if paper.links -%}
-    <div class="paper-links">
-      {%- for link in paper.links -%}
-      [<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>]{%- unless forloop.last %} {% endunless -%}
-      {%- endfor -%}
-    </div>
     {%- endif -%}
   </div>
 </div>
