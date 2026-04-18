@@ -294,7 +294,7 @@
     economic goals, and establishing mechanisms for adaptive learning and performance
     improvement over time. In this paper, we aim to show how recent advances in Earth
     observation technologies can contribute to such a transformation.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2026erl.png
 
 # ---------- 2025 ----------
 
@@ -319,7 +319,7 @@
     time.
   links:
     - { label: "preprint", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2025le.png
 
 - title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity"
   authors:
@@ -459,7 +459,7 @@
   links:
     - { label: "press release", url: "https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/" }
     - { label: "op ed / blog", url: "https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/science.adn3747-fa.jpg
 
 - title: "Double cropping as an adaptation to climate change in the United States"
   authors:
