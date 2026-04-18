@@ -29,6 +29,12 @@ description: Template for team page.
       {{ member.description | markdownify }}
 
       <ul class="list-inline">
+        {% if member.personal_page %}
+          <li class="list-inline-item">
+            <a href="{{ member.personal_page }}" target="_blank" rel="noopener" title="Personal page"><i class="fa-solid fa-globe"></i></a>
+          </li>
+        {% endif %}
+
         {% if member.orcid %}
           <li class="list-inline-item">
             <a href="https://orcid.org/{{ member.orcid }}"><i class="fa-brands fa-orcid"></i></a>

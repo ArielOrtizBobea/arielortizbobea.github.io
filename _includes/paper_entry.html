@@ -1,0 +1,67 @@
+{%- comment -%}
+  Renders a single paper entry. Expects `paper` variable in context.
+  Matches authors against _data/team.yml (name or aliases) to link.
+{%- endcomment -%}
+<div class="paper-entry">
+  {%- if paper.thumbnail -%}
+  <div class="paper-thumbnail">
+    {%- if paper.doi -%}
+    <a href="{{ paper.doi }}" target="_blank" rel="noopener"><img src="{{ paper.thumbnail | relative_url }}" alt=""></a>
+    {%- else -%}
+    <img src="{{ paper.thumbnail | relative_url }}" alt="">
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+  <div class="paper-body">
+    <div class="paper-title">
+      {%- if paper.doi -%}
+      <a href="{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.title }}</a>
+      {%- else -%}
+      {{ paper.title }}
+      {%- endif -%}
+    </div>
+    <div class="paper-authors">
+      {%- for author in paper.authors -%}
+        {%- assign matched = nil -%}
+        {%- for member in site.data.team -%}
+          {%- if member.name == author -%}
+            {%- assign matched = member -%}
+            {%- break -%}
+          {%- elsif member.aliases -%}
+            {%- if member.aliases contains author -%}
+              {%- assign matched = member -%}
+              {%- break -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+        {%- if matched -%}
+          <a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>
+        {%- else -%}
+          {{ author }}
+        {%- endif -%}
+        {%- unless forloop.last -%}, {% endunless -%}
+      {%- endfor -%}
+    </div>
+    <div class="paper-meta">
+      {%- if paper.status and paper.status != "Published" -%}
+      <span class="paper-status">{{ paper.status }}</span>
+      {%- endif -%}
+      {%- if paper.journal -%}
+      <span class="paper-journal">{{ paper.journal }}</span>
+      {%- endif -%}
+    </div>
+    {%- if paper.abstract -%}
+    <details class="paper-abstract">
+      <summary>{{ paper.abstract_label | default: "abstract" }}</summary>
+      <div class="abstract-content">{{ paper.abstract | markdownify }}</div>
+    </details>
+    {%- endif -%}
+    {%- if paper.links -%}
+    <div class="paper-links">
+      {%- for link in paper.links -%}
+      [<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>]{%- unless forloop.last %} {% endunless -%}
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
+  </div>
+</div>
