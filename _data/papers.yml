@@ -616,7 +616,7 @@
   links:
     - { label: "code + data", url: "https://github.com/JunwenBai/GNN-RNN" }
     - { label: "award", url: "https://www.climatechange.ai/papers/neurips2021/29" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2023ml.png
 
 # ---------- 2022 ----------
 
@@ -688,7 +688,7 @@
   links:
     - { label: "code + data", url: "https://archive.ciser.cornell.edu/reproduction-packages/2856" }
     - { label: "preprint", url: "https://arxiv.org/abs/2105.12044" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2021ageconhandbook.jpg
 
 - title: "How big is the 'lemons' problem? Historical evidence from French wines"
   authors:
@@ -712,7 +712,7 @@
     - { label: "code + data", url: "https://doi.org/10.6077/zqcs-2544" }
     - { label: "press release", url: "https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums" }
     - { label: "award", url: "https://wine-economics.org/about/awards/christophe-baron-prize/" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2021eer.png
 
 - title: "A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate"
   authors:
