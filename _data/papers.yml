@@ -881,7 +881,7 @@
     driver of future yields under climate change.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2019erl.png
 
 - title: "Market-Driven Corn Monoculture in the US Midwest"
   authors:
@@ -900,7 +900,7 @@
     presence of nearby ethanol plants. This study illustrates the emerging use of
     high-resolution land cover data to tackle critical agribusiness and agro-environmental
     policy questions that remain elusive with aggregate data.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2019arer.png
 
 # ---------- 2018 ----------
 
@@ -929,7 +929,7 @@
   links:
     - { label: "code + data", url: "https://doi.org/10.6077/f26v-xz15" }
     - { label: "press release", url: "https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/aat4343-f1.jpeg
 
 - title: "US Maize Yield Growth and Countervailing Climate Change Impacts"
   authors:
@@ -953,7 +953,7 @@
     change. This case study illustrates how agricultural policy analysts can assess the
     magnitude of potential climate change impacts relative to historical yield trends to
     help identify targets for agricultural research.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/416854_1_En_8_Fig1_HTML.gif.webp
 
 - title: "Climate Change and California Agriculture"
   authors:
@@ -996,7 +996,7 @@
     The dairy and livestock sector, the main contributor to agricultural greenhouse gas
     emissions in California, is also expected to reduce its methane emissions greatly in
     the near future.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2018ca.png
 
 # ---------- 2017 ----------
 
@@ -1024,7 +1024,7 @@
     counterbalance projected yield losses under climate change. Outside of the US, our
     findings have important implications for regions lagging in the adoption of new
     technologies which could help offset the detrimental effects of climate change.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2017erl2.png
 
 - title: "The Impact of Climate Change on Cereal Yields: Statistical Evidence from France"
   authors:
@@ -1052,7 +1052,7 @@
     Uncertainty from climate projections dominates uncertainty from the statistical model.
     Finally, our model predicts that continuing technology trends would counterbalance most
     of the effects of climate change.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2017erl.png
 
 - title: "Using the Delphi method to value protection of the Amazon rainforest"
   authors:
@@ -1083,7 +1083,7 @@
     unity. Results from the Delphi study match remarkably well those from a recent
     population stated-preference survey in Canada and the United States, using a similar
     valuation scenario.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2017ee.png
 
 # ---------- 2013 ----------
 
@@ -1104,4 +1104,4 @@
     evaluating policies for improved adaptation. This depends on capturing mechanisms that
     provide farmers' abilities to adapt to new climatic constraints in counter-factual
     conditions.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/ajaeajaeaas035-fig-0001-m.jpg
