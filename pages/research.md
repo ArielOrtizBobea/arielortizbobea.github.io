@@ -120,7 +120,6 @@ permalink: /research/
   height: 100%;
   object-fit: contain;
   border-radius: 4px;
-  border: 1px solid #dee2e6;
   display: block;
   background: #fff;
 }
