@@ -762,7 +762,7 @@
     - { label: "press release", url: "https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth" }
     - { label: "video abstract", url: "https://www.youtube.com/watch?v=zsZ6vHO6xAA" }
     - { label: "discussion", url: "https://www.nature.com/articles/s41558-021-01017-6" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2021natclim.png
 
 - title: "How weather affects the decomposition of Total Factor Productivity in U.S. agriculture"
   authors:
@@ -822,7 +822,7 @@
     unrelated to sales, productivity, and profitability. Our results support existing
     findings of a tenuous relation between temperature and aggregate economic growth in
     rich countries.
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/2020rfs.png
 
 - title: "The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture"
   authors:
@@ -850,7 +850,7 @@
   links:
     - { label: "code + data", url: "https://doi.org/10.6077/2dhd-f934" }
     - { label: "award", url: "https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners" }
-  # thumbnail: /assets/theme/images/papers/
+  thumbnail: /assets/theme/images/papers/ajae12065-fig-0001-m.jpg
 
 # ---------- 2019 ----------
 
