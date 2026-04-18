@@ -79,7 +79,7 @@
     intensity, concentrated in the Southeast, has become the dominant mitigating factor.
     Further decomposition suggests that land productivity gains are more closely linked to
     emission reductions than labor productivity gains.
-  # thumbnail:
+  thumbnail: /assets/theme/images/papers/usagghg.png
 
 - title: "Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo"
   authors:
@@ -262,7 +262,9 @@
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2026/01/more-productive-farming-lowers-global-emissions" }
     - { label: "code + data", url: "https://doi.org/10.6077/AT7YVU" }
-  thumbnail: /assets/theme/images/papers/usagghg.png
+  thumbnail: /assets/theme/images/papers/fig_decomp_ghgnvars3_Inc.I_1961-2021.png
+  
+  
 
 - title: "Harnessing satellite data for the next generation of agri-environmental policies"
   authors:
