@@ -16,24 +16,9 @@ permalink: /research/
 .research-page h3 { margin-top: 1.5rem; }
 
 .research-page .paper-entry {
-  display: flex;
-  gap: 1.25rem;
   margin-bottom: 1.25rem;
-  align-items: flex-start;
 }
-.research-page .paper-thumbnail {
-  flex-shrink: 0;
-  width: 150px;
-  height: 150px;
-}
-.research-page .paper-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-  border: 1px solid #dee2e6;
-}
-.research-page .paper-body { flex: 1; min-width: 0; }
+.research-page .paper-body { min-width: 0; }
 .research-page .paper-title {
   font-weight: 600;
   line-height: 1.35;
@@ -107,9 +92,26 @@ permalink: /research/
   margin-top: 0.4rem;
   padding-left: 0.6rem;
   border-left: 2px solid #e9ecef;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
 }
-.research-page .paper-abstract .abstract-content p { margin-bottom: 0.5rem; }
-.research-page .paper-abstract .abstract-content p:last-child { margin-bottom: 0; }
+.research-page .paper-abstract .abstract-thumbnail {
+  flex-shrink: 0;
+  width: 140px;
+  height: 140px;
+}
+.research-page .paper-abstract .abstract-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  display: block;
+}
+.research-page .paper-abstract .abstract-text { flex: 1; min-width: 0; }
+.research-page .paper-abstract .abstract-text p { margin-bottom: 0.5rem; }
+.research-page .paper-abstract .abstract-text p:last-child { margin-bottom: 0; }
 .research-page .paper-links {
   font-size: 0.95rem;
   color: #6c757d;

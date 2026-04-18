@@ -1,17 +1,9 @@
 {%- comment -%}
   Renders a single paper entry. Expects `paper` variable in context.
   Matches authors against _data/team.yml (name or aliases) to link.
+  Thumbnail, if set, renders inside the collapsible abstract block.
 {%- endcomment -%}
 <div class="paper-entry">
-  {%- if paper.thumbnail -%}
-  <div class="paper-thumbnail">
-    {%- if paper.doi -%}
-    <a href="{{ paper.doi }}" target="_blank" rel="noopener"><img src="{{ paper.thumbnail | relative_url }}" alt=""></a>
-    {%- else -%}
-    <img src="{{ paper.thumbnail | relative_url }}" alt="">
-    {%- endif -%}
-  </div>
-  {%- endif -%}
   <div class="paper-body">
     <div class="paper-title">
       {%- if paper.doi -%}
@@ -53,7 +45,18 @@
     {%- if paper.abstract -%}
     <details class="paper-abstract">
       <summary>{{ paper.abstract_label | default: "abstract" }}</summary>
-      <div class="abstract-content">{{ paper.abstract | markdownify }}</div>
+      <div class="abstract-content">
+        {%- if paper.thumbnail -%}
+        <div class="abstract-thumbnail">
+          {%- if paper.doi -%}
+          <a href="{{ paper.doi }}" target="_blank" rel="noopener"><img src="{{ paper.thumbnail | relative_url }}" alt=""></a>
+          {%- else -%}
+          <img src="{{ paper.thumbnail | relative_url }}" alt="">
+          {%- endif -%}
+        </div>
+        {%- endif -%}
+        <div class="abstract-text">{{ paper.abstract | markdownify }}</div>
+      </div>
     </details>
     {%- endif -%}
     {%- if paper.links -%}
