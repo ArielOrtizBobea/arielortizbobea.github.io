@@ -39,7 +39,7 @@
     quality of rebuilding, disasters can hinder, restore, or accelerate growth, underscoring
     the importance of spillovers and coordinated investment policies in shaping urban
     resilience.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal"
   authors:
@@ -105,7 +105,7 @@
     strategies. We apply our model to bamboo forests, which generate two interdependent
     products: bamboo shoots and bamboo stems. Our model has important implications for the
     sustainable management of forests worldwide.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Accounting for quality more than doubles estimated heat damages to U.S. milk production"
   authors:
@@ -158,7 +158,7 @@
     corresponds to 2.3% of national milk revenue. Our study establishes the nonlinear nature
     of yield sensitivity to multiple weather stressors and reveals opportunities to enhance
     yields in US dairy systems.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium"
   authors:
@@ -182,7 +182,7 @@
     measuring the distributional impacts of climate change. The level and distribution of
     the economic impacts of climate change depends the sectoral and spatial structure of
     the economy, and the extent to which different markets can adapt.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Climate Change as a Determinant of Migrant Family Reunification"
   authors:
@@ -204,7 +204,7 @@
     optimal weather windows in Mexican states contributed to the decision of family
     reunification migration, while more conventional weather windows (e.g., annual averages)
     fail to provide a consistent assessment.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "The impact of extreme heat on farm finances: farm-level evidence from Kansas"
   authors:
@@ -232,7 +232,7 @@
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses" }
     - { label: "policy brief", url: "https://business.edf.org/insights/extreme-heat-financial-farm-kansas/" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ======================== PUBLICATIONS ========================
 
@@ -262,7 +262,7 @@
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2026/01/more-productive-farming-lowers-global-emissions" }
     - { label: "code + data", url: "https://doi.org/10.6077/AT7YVU" }
-  # thumbnail:
+  thumbnail: /assets/theme/images/papers/usagghg.png
 
 - title: "Harnessing satellite data for the next generation of agri-environmental policies"
   authors:
@@ -292,7 +292,7 @@
     economic goals, and establishing mechanisms for adaptive learning and performance
     improvement over time. In this paper, we aim to show how recent advances in Earth
     observation technologies can contribute to such a transformation.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2025 ----------
 
@@ -317,7 +317,7 @@
     time.
   links:
     - { label: "preprint", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4942012" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity"
   authors:
@@ -368,7 +368,7 @@
     recent deforestation. To shed light on mechanisms, we use household data to study land
     use behavior and welfare. Our findings suggest that staple food prices have a more
     important role in driving deforestation than previously thought.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2024 ----------
 
@@ -398,7 +398,7 @@
     and build resilience.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/02/nys-agricultural-assessment-cultivates-climate-crisis-solutions" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Climate change exacerbates the environmental impacts of agriculture"
   authors:
@@ -457,7 +457,7 @@
   links:
     - { label: "press release", url: "https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/" }
     - { label: "op ed / blog", url: "https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Double cropping as an adaptation to climate change in the United States"
   authors:
@@ -485,7 +485,7 @@
     fraction of the revenue impacts of predicted yield declines.
   links:
     - { label: "press release", url: "https://www.aaea.org/about-aaea/media--public-relations/press-releases/double-cropping-as-an-adaptation-to-climate-change-in-the-united-states" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "A scalable crop yield estimation framework based on remote sensing of solar-induced chlorophyll fluorescence (SIF)"
   authors:
@@ -531,7 +531,7 @@
     responses to food crises, agricultural policies, and more efficient commodity pricing.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2023 ----------
 
@@ -558,7 +558,7 @@
   links:
     - { label: "preprint", url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3480695" }
     - { label: "award", url: "https://www.icpmnetwork.com/previous-year-winners/" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Structural Transformation, Agriculture, Climate, and the Environment"
   authors:
@@ -578,7 +578,7 @@
     missing linkages and pose key policy research questions concerning structural
     transformation and the complex feedback among agriculture, nature, and economic growth
     processes, especially in low-income agrarian economies.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction"
   authors:
@@ -614,7 +614,7 @@
   links:
     - { label: "code + data", url: "https://github.com/JunwenBai/GNN-RNN" }
     - { label: "award", url: "https://www.climatechange.ai/papers/neurips2021/29" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2022 ----------
 
@@ -638,7 +638,7 @@
     substantially different estimates.
   links:
     - { label: "code + data", url: "https://archive.ciser.cornell.edu/reproduction-packages/2882" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Temperature and children's Nutrition: evidence from West Africa"
   authors:
@@ -660,7 +660,7 @@
     points, reversing the progress made on improving nutrition during our study period.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2022/07/extreme-heat-exposure-worsens-child-malnutrition" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2021 ----------
 
@@ -686,7 +686,7 @@
   links:
     - { label: "code + data", url: "https://archive.ciser.cornell.edu/reproduction-packages/2856" }
     - { label: "preprint", url: "https://arxiv.org/abs/2105.12044" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "How big is the 'lemons' problem? Historical evidence from French wines"
   authors:
@@ -710,7 +710,7 @@
     - { label: "code + data", url: "https://doi.org/10.6077/zqcs-2544" }
     - { label: "press release", url: "https://news.cornell.edu/stories/2021/07/vive-la-difference-when-lemons-masquerade-plums" }
     - { label: "award", url: "https://wine-economics.org/about/awards/christophe-baron-prize/" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "A Vulnerability Index for Priority Targeting of Agricultural Crops Under a Changing Climate"
   authors:
@@ -731,7 +731,7 @@
     yield-weather relationship and provides overall fits consistent with higher-order
     polynomial fitting. We apply the technique to corn, soybeans, wheat, and cotton at the
     USA county level. We illustrate its computation and use as a critical policy variable.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Anthropogenic climate change has slowed global agricultural productivity growth"
   authors:
@@ -760,7 +760,7 @@
     - { label: "press release", url: "https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth" }
     - { label: "video abstract", url: "https://www.youtube.com/watch?v=zsZ6vHO6xAA" }
     - { label: "discussion", url: "https://www.nature.com/articles/s41558-021-01017-6" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "How weather affects the decomposition of Total Factor Productivity in U.S. agriculture"
   authors:
@@ -796,7 +796,7 @@
     would appear to overestimate the rate of productivity growth in U.S. agriculture
     stemming from technical change, market forces, agricultural policies, and other
     nonweather drivers.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2020 ----------
 
@@ -820,7 +820,7 @@
     unrelated to sales, productivity, and profitability. Our results support existing
     findings of a tenuous relation between temperature and aggregate economic growth in
     rich countries.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on U.S. Agriculture"
   authors:
@@ -848,7 +848,7 @@
   links:
     - { label: "code + data", url: "https://doi.org/10.6077/2dhd-f934" }
     - { label: "award", url: "https://www.aaea.org/about-aaea/awards-and-honors/aaea-annual-awards/aaea-annual-award-winners/2021-aaea-award-winners" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2019 ----------
 
@@ -879,7 +879,7 @@
     driver of future yields under climate change.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2019/05/heat-not-drought-will-drive-lower-crop-yields-researchers-say" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Market-Driven Corn Monoculture in the US Midwest"
   authors:
@@ -898,7 +898,7 @@
     presence of nearby ethanol plants. This study illustrates the emerging use of
     high-resolution land cover data to tackle critical agribusiness and agro-environmental
     policy questions that remain elusive with aggregate data.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2018 ----------
 
@@ -927,7 +927,7 @@
   links:
     - { label: "code + data", url: "https://doi.org/10.6077/f26v-xz15" }
     - { label: "press release", url: "https://news.cornell.edu/stories/2018/12big-picture-look-climate-change-impact-us-agriculture-midwest-risk" }
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "US Maize Yield Growth and Countervailing Climate Change Impacts"
   authors:
@@ -951,7 +951,7 @@
     change. This case study illustrates how agricultural policy analysts can assess the
     magnitude of potential climate change impacts relative to historical yield trends to
     help identify targets for agricultural research.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Climate Change and California Agriculture"
   authors:
@@ -994,7 +994,7 @@
     The dairy and livestock sector, the main contributor to agricultural greenhouse gas
     emissions in California, is also expected to reduce its methane emissions greatly in
     the near future.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2017 ----------
 
@@ -1022,7 +1022,7 @@
     counterbalance projected yield losses under climate change. Outside of the US, our
     findings have important implications for regions lagging in the adoption of new
     technologies which could help offset the detrimental effects of climate change.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "The Impact of Climate Change on Cereal Yields: Statistical Evidence from France"
   authors:
@@ -1050,7 +1050,7 @@
     Uncertainty from climate projections dominates uncertainty from the statistical model.
     Finally, our model predicts that continuing technology trends would counterbalance most
     of the effects of climate change.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 - title: "Using the Delphi method to value protection of the Amazon rainforest"
   authors:
@@ -1081,7 +1081,7 @@
     unity. Results from the Delphi study match remarkably well those from a recent
     population stated-preference survey in Canada and the United States, using a similar
     valuation scenario.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/
 
 # ---------- 2013 ----------
 
@@ -1102,4 +1102,4 @@
     evaluating policies for improved adaptation. This depends on capturing mechanisms that
     provide farmers' abilities to adapt to new climatic constraints in counter-factual
     conditions.
-  # thumbnail:
+  # thumbnail: /assets/theme/images/papers/

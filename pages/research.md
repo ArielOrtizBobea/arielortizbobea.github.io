@@ -118,6 +118,19 @@ permalink: /research/
 .research-page .paper-abstract .abstract-text { flex: 1; min-width: 0; }
 .research-page .paper-abstract .abstract-text p { margin-bottom: 0.5rem; }
 .research-page .paper-abstract .abstract-text p:last-child { margin-bottom: 0; }
+
+/* On narrow screens, stack thumbnail above abstract text */
+@media (max-width: 700px) {
+  .research-page .paper-abstract .abstract-content {
+    flex-direction: column;
+  }
+  .research-page .paper-abstract .abstract-thumbnail {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+}
 .research-page .paper-links {
   font-size: 0.95rem;
   color: #6c757d;
