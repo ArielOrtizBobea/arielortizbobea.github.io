@@ -26,19 +26,18 @@ permalink: /research/
   column-gap: 18px;
   row-gap: 0;
   margin-top: 1.5rem;
+  align-items: baseline;
 }
 .research-page .cell-year {
   font-size: 1.5rem;
   color: #b31b1b;
   font-weight: normal;
-  padding-top: 0.2rem;
 }
 .research-page .cell-num {
   font-size: 0.9rem;
   color: #6c757d;
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   text-align: right;
-  padding-top: 0.5rem;
 }
 .research-page .cell-paper { min-width: 0; }
 @media (max-width: 700px) {
@@ -92,7 +91,7 @@ permalink: /research/
 }
 .research-page .paper-status-line {
   margin-top: 0.2rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.2rem;
 }
 .research-page .paper-status {
   display: inline-block;
@@ -108,14 +107,15 @@ permalink: /research/
   vertical-align: middle;
 }
 .research-page .paper-abstract {
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
   margin-bottom: 0;
   border: none;
   background: transparent;
   box-shadow: none;
+  padding: 0;
 }
-.research-page details { border: none; }
-.research-page details > summary { border: none; }
+.research-page details { border: none; margin: 0; padding: 0; }
+.research-page details > summary { border: none; margin: 0; padding: 0; }
 .research-page .paper-abstract summary {
   cursor: pointer;
   font-size: 0.95rem;
@@ -215,7 +215,7 @@ permalink: /research/
 <div class="papers-grid">
 {%- for paper in in_progress -%}
   <div class="cell-year"></div>
-  <div class="cell-num">{{ forloop.index }}</div>
+  <div class="cell-num">{{ forloop.index }}.</div>
   <div class="cell-paper">
     {% include paper_entry.html %}
   </div>
@@ -230,7 +230,7 @@ permalink: /research/
   {%- assign year_papers = published | where: "year", yr -%}
   {%- for paper in year_papers -%}
     <div class="cell-year">{%- if forloop.first -%}{{ yr }}{%- endif -%}</div>
-    <div class="cell-num">{{ counter }}</div>
+    <div class="cell-num">{{ counter }}.</div>
     <div class="cell-paper">
       {% include paper_entry.html %}
     </div>
