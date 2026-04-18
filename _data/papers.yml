@@ -329,7 +329,7 @@
     - David B. Lobell
   status: "Published"
   year: 2025
-  journal: "Proceedings of the National Academy of Sciences (PNAS)"
+  journal: "Proceedings of the National Academy of Sciences"
   doi: https://doi.org/10.1073/pnas.2411010122
   abstract: >
     Increasing agricultural productivity is a gradual process with significant time lags
@@ -649,7 +649,7 @@
     - John Hoddinott
   status: "Published"
   year: 2022
-  journal: "Journal of Environmental Economics and Management (JEEM)"
+  journal: "Journal of Environmental Economics and Management"
   doi: https://doi.org/10.1016/j.jeem.2022.102698
   abstract: >
     Extreme heat shocks are increasingly linked to poor economic and health outcomes. This
@@ -829,7 +829,7 @@
     - Ariel Ortiz-Bobea
   status: "Published"
   year: 2020
-  journal: "American Journal of Agricultural Economics (AJAE)"
+  journal: "American Journal of Agricultural Economics"
   doi: https://doi.org/10.1093/ajae/aaz047
   abstract: >
     The Ricardian approach is a popular hedonic method for analyzing climate change impacts
@@ -1093,7 +1093,7 @@
     - Richard E. Just
   status: "Published"
   year: 2013
-  journal: "American Journal of Agricultural Economics (AJAE)"
+  journal: "American Journal of Agricultural Economics"
   doi: https://doi.org/10.1093/ajae/aas035
   abstract_label: "first paragraph"
   abstract: >
