@@ -31,7 +31,7 @@
   date: 2026-04-17
   venue: "Caribbeans for Climate Spring 2026 Symposium"
   location: "Virtual"
-  paper: https://doi.org/10.2139/ssrn.6575898
+  # paper:
   # thumbnail:
 
 - title: "Heat Shocks and Agricultural Loan Repayment"
@@ -75,7 +75,7 @@
   date_end: 2026-06-16
   venue: "Second Paris-Saclay Conference on Trade and the Environment"
   location: "Palaiseau, France"
-  paper: https://doi.org/10.2139/ssrn.6575898
+  # paper:
   # thumbnail:
 
 - title: "The persistence of climate shocks on global agricultural productivity growth"
