@@ -123,7 +123,7 @@
   linkedin: ruiyi-ouyang-880059267
 
 # Dont change this to allow category alumni
-- name: <h3 style="color: #b31b1b;">Alumni</h3>
+- name: '<h3 style="color: #b31b1b;">Alumni</h3>'
 
 # Here the alumni starts
 
