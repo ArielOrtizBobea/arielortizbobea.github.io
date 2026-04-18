@@ -131,7 +131,7 @@
     heat varies little with cow age, farm size, region of the country, or period in the
     sample, suggesting there has been little progress in adapting U.S. dairy systems to a
     warming climate.
-  # thumbnail:
+  thumbnail: /assets/theme/images/papers/milkclimate.png
 
 - title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
   authors:
@@ -212,7 +212,7 @@
     - Jenny Ifft
     - Ariel Ortiz-Bobea
   status: "Revisions requested (R2)"
-  journal: "AJAE"
+  journal: "American Journal of Agricultural Economics"
   doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435
   abstract: >
     Our understanding of how extreme heat affects US agriculture is largely based on the
@@ -348,7 +348,7 @@
     - { label: "preprint", url: "https://arxiv.org/abs/2405.08159" }
     - { label: "coverage (Grist)", url: "https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/" }
     - { label: "coverage (AP)", url: "https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756" }
-  # thumbnail:
+  thumbnail: /assets/theme/images/papers/usagrdneeds.png
 
 - title: "The Role of Staple Food Prices in Deforestation: Evidence from Cambodia"
   authors:
