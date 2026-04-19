@@ -56,7 +56,7 @@ permalink: /talks/
 .talks-page .talk-body { flex: 1; min-width: 0; }
 .talks-page .talk-title {
   font-weight: normal;
-  font-style: italic;
+  font-style: normal;
   margin-bottom: 0.3rem;
   line-height: 1.35;
   font-size: 1.02rem;
