@@ -38,14 +38,15 @@ a.course-code:hover {
 .course-title {
   font-weight: 500;
   line-height: 1.4;
+  color: #b31b1b;
 }
 a.course-title {
-  color: inherit;
+  color: #b31b1b;
   text-decoration: none;
 }
 a.course-title:hover {
   color: #b31b1b;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .course-semester {
   color: #6c757d;
@@ -60,10 +61,13 @@ a.course-title:hover {
   margin: 0;
 }
 .teaching-page h3 {
-  margin-top: 2.5rem;
+  color: #b31b1b;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-top: 2rem;
   margin-bottom: 1rem;
-  font-weight: 500;
 }
+.teaching-page h3:first-child { margin-top: 0; }
 </style>
 
 <div class="teaching-page" markdown="0">
