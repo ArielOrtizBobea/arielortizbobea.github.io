@@ -8,7 +8,7 @@ permalink: /teaching/
 .course-list { list-style: none; padding-left: 0; margin: 0; }
 .course-entry {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   gap: 0.9rem;
   margin-bottom: 1.5rem;
 }
@@ -27,7 +27,6 @@ permalink: /teaching/
   text-transform: uppercase;
   line-height: 1.4;
   white-space: nowrap;
-  margin-top: 0.25rem;
 }
 a.course-code:hover {
   background: #b31b1b;
