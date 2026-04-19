@@ -152,7 +152,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 <div class="container-fluid px-4" style="margin-top: 36px;">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Recent Publications</h5>
   <div style="padding-left: 1rem;">
-  {%- assign featured = site.data.papers | where: "featured_home", true | sort: "year" | reverse -%}
+  {%- assign featured = site.data.papers | where_exp: "p", "p.featured_home" | sort: "year" | reverse -%}
   <div class="recent-pubs-grid">
   {%- for paper in featured -%}
     <div class="recent-pub-card">
@@ -170,7 +170,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <span class="title">{{ paper.title }}</span>
       {%- endif -%}
       <div class="meta">
-        {%- if paper.authors.size <= 3 -%}
+        {%- assign n_authors = paper.authors | size -%}
+        {%- if n_authors <= 3 -%}
           {{ paper.authors | join: ", " }}
         {%- else -%}
           {{ paper.authors | first }} et al.
