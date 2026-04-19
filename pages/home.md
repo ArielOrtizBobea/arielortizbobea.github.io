@@ -23,19 +23,26 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     </div>
     <div class="col" style="line-height: 1.8;">
     <h5 style="color: #b31b1b; margin-bottom: 6px;">Research Focus</h5>
+    <div style="padding-left: 1rem;">
     <p style="font-size: 1.1em;">I am an applied economist studying how climate and environmental change reshape economic activity, with a particular focus on agriculture.</p>
+    </div>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Positions & Affiliations</h5>
+    <div style="padding-left: 1rem;">
     Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University
     <br/> Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a>
+    </div>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Editorial</h5>
+    <div style="padding-left: 1rem;">
     Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
     <br/> Associate Deputy Editor, <a href="https://link.springer.com/journal/10584" target="_blank"><em>Climatic Change</em></a>
     <br/> Editorial Board, <a href="https://iopscience.iop.org/journal/2976-601X" target="_blank"><em>Environmental Research: Food Systems</em></a>
     <br/> Editorial Advisory Board, <a href="https://www.cambridge.org/core/journals/journal-of-wine-economics" target="_blank"><em>Journal of Wine Economics</em></a>
+    </div>
 
     <h5 style="color: #b31b1b; margin-top: 24px; margin-bottom: 6px;">Contact</h5>
+    <div style="padding-left: 1rem;">
     <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall
     <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
     <br/> <i class="fa-solid fa-phone" style="color: #b31b1b; width: 18px;"></i> 607.255.0220
@@ -48,13 +55,14 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637" target="_blank" title="LinkedIn" style="margin: 0 5px;"><i class="fa-brands fa-linkedin"></i></a>
     </span>
     </div>
+    </div>
   </div>
 </div>
 
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
 <div class="container-fluid px-4" style="margin-top: 36px;">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
-  <div style="line-height: 1.7;">
+  <div style="line-height: 1.7; padding-left: 1rem;">
   {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
   {%- assign sorted = site.data.talks | sort: "date" -%}
   {%- assign count = 0 -%}
