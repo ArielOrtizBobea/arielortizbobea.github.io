@@ -51,7 +51,7 @@ a.course-title:hover {
   color: #6c757d;
   font-size: 0.9rem;
   white-space: nowrap;
-  justify-self: start;
+  justify-self: center;
 }
 .course-description {
   color: #495057;
@@ -71,7 +71,7 @@ a.course-title:hover {
     <a href="https://arielortizbobea.github.io/aem7010-practical-skills" class="course-title">Doing Applied Economics Research: Practical Skills</a>
     <span class="course-semester">Spring 2026</span>
     <p class="course-description">
-      Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools — with a focus on working with secondary data. See the <a href="https://arielortizbobea.github.io/aem7010-practical-skills" target="_blank" rel="noopener">course site</a> for my materials.
+      Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data. See the <a href="https://arielortizbobea.github.io/aem7010-practical-skills" target="_blank" rel="noopener">course site</a> for my materials.
     </p>
   </li>
   <li class="course-entry">
@@ -87,7 +87,7 @@ a.course-title:hover {
     <span class="course-title">Advanced Empirical Methods for Applied Economists</span>
     <span class="course-semester">Spring 2027</span>
     <p class="course-description">
-      Sequel to AEM 6850. Focuses on understanding the small-sample properties of econometric estimators through Monte Carlo simulations. Students first build on version control and AI tools, then work through regular GitHub-based exercises on specific estimators, and finish with a course project on an estimator of their choice — ideally tied to their own research. Best suited for PhD and advanced MS students active in a research project who have completed core econometrics.
+      Sequel to AEM 6850. Focuses on understanding the small-sample properties of econometric estimators through Monte Carlo simulations. Students first build on version control and AI tools, then work through regular GitHub-based exercises on specific estimators, and finish with a course project on an estimator of their choice, ideally tied to their own research. Best suited for PhD and advanced MS students active in a research project who have completed core econometrics.
     </p>
   </li>
   <li class="course-entry">
@@ -95,7 +95,7 @@ a.course-title:hover {
     <span class="course-title">An Introduction to the Economics of Environmental and Natural Resources</span>
     <span class="course-semester">Spring 2027</span>
     <p class="course-description">
-      Undergraduate introduction to using economics to understand and address environmental and natural resource problems. No prerequisites — open to students without prior economics coursework. Large-lecture format; first offering in Spring 2027, with possible guest speakers and field-oriented experiences as the course develops.
+      Undergraduate introduction to using economics to understand and address environmental and natural resource problems. No prerequisites, open to students without prior economics coursework. Large-lecture format; first offering in Spring 2027, with possible guest speakers and field-oriented experiences as the course develops.
     </p>
   </li>
 </ul>
