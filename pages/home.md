@@ -113,41 +113,6 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   color: #6c757d;
   line-height: 1.4;
 }
-.recent-pub-card .pub-abstract { margin-top: 8px; }
-.recent-pub-card .pub-abstract summary {
-  cursor: pointer;
-  font-size: 0.85rem;
-  color: #6c757d;
-  font-weight: 500;
-  list-style: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-.recent-pub-card .pub-abstract summary::-webkit-details-marker { display: none; }
-.recent-pub-card .pub-abstract summary::before {
-  content: "▸";
-  font-size: 0.75rem;
-  transition: transform 0.15s;
-  display: inline-block;
-}
-.recent-pub-card .pub-abstract[open] summary::before { transform: rotate(90deg); }
-.recent-pub-card .pub-abstract summary:hover { color: #b31b1b; }
-.recent-pub-card .pub-abstract .abstract-text {
-  color: #6c757d;
-  font-size: 0.85rem;
-  line-height: 1.5;
-  margin-top: 6px;
-  text-align: left;
-  padding-left: 0.6rem;
-  border-left: 2px solid #e9ecef;
-}
-.recent-pub-card .pub-abstract .abstract-text a {
-  color: #b31b1b;
-  text-decoration: none;
-  font-weight: 500;
-}
-.recent-pub-card .pub-abstract .abstract-text a:hover { text-decoration: underline; }
 </style>
 <div class="container-fluid px-4" style="margin-top: 36px;">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Recent Publications</h5>
@@ -178,15 +143,6 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         {%- endif -%}
         {%- if paper.year %} &middot; {{ paper.year }}{%- endif -%}
       </div>
-      {%- if paper.abstract -%}
-      <details class="pub-abstract">
-        <summary>abstract</summary>
-        <div class="abstract-text">
-          {{ paper.abstract | strip_newlines | truncate: 280, "…" }}
-          {%- if paper.doi %} <a href="{{ paper.doi }}" target="_blank" rel="noopener">read full paper &rarr;</a>{%- endif -%}
-        </div>
-      </details>
-      {%- endif -%}
     </div>
   {%- endfor -%}
   </div>
