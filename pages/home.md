@@ -73,13 +73,13 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 @media (max-width: 500px) {
   .recent-pubs-grid { grid-template-columns: 1fr; }
 }
-.recent-pub-card { display: flex; flex-direction: column; }
+.recent-pub-card { display: flex; flex-direction: column; text-align: center; }
 .recent-pub-card .thumb {
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 4px;
-  background: #f8f9fa;
+  background: #fff;
   margin-bottom: 10px;
   display: block;
 }
