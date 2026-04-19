@@ -59,11 +59,16 @@ a.course-title:hover {
   line-height: 1.55;
   margin: 0;
 }
+.teaching-page h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
 </style>
 
 <div class="teaching-page" markdown="0">
 
-<p>I teach the following courses at Cornell.</p>
+<h3>Current courses</h3>
 
 <ul class="course-list">
   <li class="course-entry">
@@ -96,6 +101,19 @@ a.course-title:hover {
     <span class="course-semester">Spring 2027</span>
     <p class="course-description">
       Undergraduate introduction to using economics to understand and address environmental and natural resource problems. No prerequisites, open to students without prior economics coursework. Large-lecture format; first offering in Spring 2027, with possible guest speakers and field-oriented experiences as the course develops.
+    </p>
+  </li>
+</ul>
+
+<h3>Previous courses</h3>
+
+<ul class="course-list">
+  <li class="course-entry">
+    <span class="course-code">AEM 2500</span>
+    <span class="course-title">Environmental and Resource Economics</span>
+    <span class="course-semester"></span>
+    <p class="course-description">
+      Uses microeconomics to understand the causes of environmental and natural resource problems and to devise solutions. Subjects include valuation, benefit-cost analysis, policy design, and property rights. The course relies on these concepts to explore major current policy issues such as economic incentives in environmental policy, air and water pollution, depletion of renewable and nonrenewable resources, and global warming. Prerequisites: introductory microeconomics and calculus.
     </p>
   </li>
 </ul>
