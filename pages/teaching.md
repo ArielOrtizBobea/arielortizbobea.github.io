@@ -52,9 +52,9 @@ a.course-code:hover {
 
 <ul class="course-list">
   <li class="course-entry">
-    <span class="course-code">AEM 1500</span>
-    <span class="course-title">An Introduction to the Economics of Environmental and Natural Resources</span>
-    <span class="course-semester">Spring 2027</span>
+    <a href="https://arielortizbobea.github.io/aem7010-practical-skills" class="course-code">AEM 7010</a>
+    <span class="course-title">Doing Applied Economics Research: Practical Skills</span>
+    <span class="course-semester">Spring 2026</span>
   </li>
   <li class="course-entry">
     <span class="course-code">AEM 6850</span>
@@ -62,14 +62,14 @@ a.course-code:hover {
     <span class="course-semester">Fall 2026</span>
   </li>
   <li class="course-entry">
-    <span class="course-code">AEM 6851</span>
-    <span class="course-title">Advanced Empirical Methods for Applied Economists</span>
+    <span class="course-code">AEM 1500</span>
+    <span class="course-title">An Introduction to the Economics of Environmental and Natural Resources</span>
     <span class="course-semester">Spring 2027</span>
   </li>
   <li class="course-entry">
-    <a href="https://arielortizbobea.github.io/aem7010-practical-skills" class="course-code">AEM 7010</a>
-    <span class="course-title">Doing Applied Economics Research: Practical Skills</span>
-    <span class="course-semester">Spring 2026</span>
+    <span class="course-code">AEM 6851</span>
+    <span class="course-title">Advanced Empirical Methods for Applied Economists</span>
+    <span class="course-semester">Spring 2027</span>
   </li>
 </ul>
 
