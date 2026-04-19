@@ -59,6 +59,96 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   </div>
 </div>
 
+<!-- Recent publications: pulls papers with featured_home: true from _data/papers.yml -->
+<style>
+.recent-pubs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 0.5rem;
+}
+@media (max-width: 900px) {
+  .recent-pubs-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+  .recent-pubs-grid { grid-template-columns: 1fr; }
+}
+.recent-pub-card { display: flex; flex-direction: column; }
+.recent-pub-card .thumb {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #f8f9fa;
+  margin-bottom: 10px;
+  display: block;
+}
+.recent-pub-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.recent-pub-card .thumb:hover img { transform: scale(1.03); }
+.recent-pub-card .journal {
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #b31b1b;
+  margin-bottom: 4px;
+  line-height: 1.35;
+}
+.recent-pub-card .title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin-bottom: 6px;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+.recent-pub-card a.title:hover { color: #b31b1b; }
+.recent-pub-card .meta {
+  font-size: 0.85rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+</style>
+<div class="container-fluid px-4" style="margin-top: 36px;">
+  <h5 style="color: #b31b1b; margin-bottom: 12px;">Recent Publications</h5>
+  <div style="padding-left: 1rem;">
+  {%- assign featured = site.data.papers | where: "featured_home", true | sort: "year" | reverse -%}
+  <div class="recent-pubs-grid">
+  {%- for paper in featured -%}
+    <div class="recent-pub-card">
+      {%- if paper.thumbnail -%}
+        {%- if paper.doi -%}
+          <a href="{{ paper.doi }}" target="_blank" rel="noopener" class="thumb"><img src="{{ paper.thumbnail }}" alt="{{ paper.title | escape }}"></a>
+        {%- else -%}
+          <div class="thumb"><img src="{{ paper.thumbnail }}" alt="{{ paper.title | escape }}"></div>
+        {%- endif -%}
+      {%- endif -%}
+      <div class="journal">{{ paper.journal }}</div>
+      {%- if paper.doi -%}
+        <a href="{{ paper.doi }}" target="_blank" rel="noopener" class="title">{{ paper.title }}</a>
+      {%- else -%}
+        <span class="title">{{ paper.title }}</span>
+      {%- endif -%}
+      <div class="meta">
+        {%- if paper.authors.size <= 3 -%}
+          {{ paper.authors | join: ", " }}
+        {%- else -%}
+          {{ paper.authors | first }} et al.
+        {%- endif -%}
+        {%- if paper.year %} &middot; {{ paper.year }}{%- endif -%}
+      </div>
+    </div>
+  {%- endfor -%}
+  </div>
+  <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/research/' | relative_url }}">See all publications &rarr;</a></div>
+  </div>
+</div>
+
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
 <div class="container-fluid px-4" style="margin-top: 36px;">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>

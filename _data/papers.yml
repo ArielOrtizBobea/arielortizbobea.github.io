@@ -14,6 +14,8 @@
 #   abstract_label  Label for the collapsible block (default: "abstract"; override with "first paragraph", etc.)
 #   thumbnail       Path to a square key-figure image (shown on the left of the entry)
 #   links           Array of {label, url} for additional resources (code, preprint, press release, award, etc.)
+#   featured_home   When true, paper appears in the "Recent Publications" tiles on the home page
+#                   (sorted newest first).
 #
 # Author linking: author strings are matched against `name` and `aliases` in _data/team.yml.
 # Matched names link to the team member's section on /people/. Non-matches render as plain text.
@@ -246,6 +248,7 @@
   year: 2026
   journal: "Science Advances"
   doi: https://doi.org/10.1126/sciadv.aeb8653
+  featured_home: true
   abstract: >
     Agriculture, forestry and other land use contribute about a fifth of total anthropogenic
     greenhouse gases (GHG) emissions. Mitigation efforts have emphasized "decoupling" that
@@ -331,6 +334,7 @@
   year: 2025
   journal: "Proceedings of the National Academy of Sciences"
   doi: https://doi.org/10.1073/pnas.2411010122
+  featured_home: true
   abstract: >
     Increasing agricultural productivity is a gradual process with significant time lags
     between research and development (R&D) investment and the resulting gains. We estimate
@@ -447,6 +451,7 @@
   year: 2024
   journal: "Science"
   doi: https://doi.org/10.1126/science.adn3747
+  featured_home: true
   abstract_label: "editor's summary"
   abstract: >
     Intensive agriculture creates multiple environmental challenges, including runoff of
@@ -546,6 +551,7 @@
   year: 2023
   journal: "Journal of Financial Economics"
   doi: https://doi.org/10.1016/j.jfineco.2023.07.002
+  featured_home: true
   abstract: >
     Climate scientists project rising average temperatures and increasing frequency of
     temperature extremes. We study how extreme temperatures affect corporate profitability
