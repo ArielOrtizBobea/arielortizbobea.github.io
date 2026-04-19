@@ -55,11 +55,14 @@ permalink: /talks/
 }
 .talks-page .talk-body { flex: 1; min-width: 0; }
 .talks-page .talk-title {
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
   margin-bottom: 0.3rem;
   line-height: 1.35;
   font-size: 1.02rem;
+}
+.talks-page .event-group .talk-title {
+  font-weight: normal;
 }
 .talks-page .talk-title a { color: inherit; }
 .talks-page .talk-title a:hover { color: #b31b1b; }
@@ -97,7 +100,6 @@ permalink: /talks/
 .talks-page .event-group-header {
   font-size: 1.05rem;
   font-weight: 600;
-  font-style: italic;
   margin: 0 0 0.75rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid #dee2e6;
