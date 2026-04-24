@@ -53,8 +53,7 @@
   outlet: "Associated Press"
   url: "https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756"
   date: 2025-03-31
-  # image: add manual URL here if desired — AP serves images via a signed
-  # resizer that requires query strings
+  image: "https://dims.apnews.com/dims4/default/3246fb7/2147483647/strip/true/crop/5654x3778+0+0/resize/1440x962!/format/webp/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F38%2F11%2F1937c6f7b13bcf108e5883f52474%2F48e87defaa484a4db6c074b99f0ea373"
   description: >
     Interviewed on declining public investment in U.S. agricultural R&D and
     its implications for productivity growth and climate adaptation.
