@@ -7,16 +7,23 @@
 #   - Entries where featured_home: true, sorted by date (newest first),
 #     limited to 4 tiles.
 #
-# Required fields:  title, url, date, image
+# ----- WORKFLOW ---------------------------------------------------------
+#   1. When new coverage appears, add an entry anywhere in this file
+#      (sort order is computed at render time).
+#   2. Set featured_home: true on the (up to 4) items you want on the
+#      home page. Flip older ones to false to keep them in the archive
+#      but off the landing page.
+#   3. Commit + push. GitHub Pages rebuilds automatically.
 #
-# Optional fields:
-#   outlet          Publication / outlet name (e.g. "New York Times")
-#   description     Short blurb shown on the /news/ page (1–2 sentences)
-#   featured_home   When true, item appears in the home-page "In the news" tiles
+# ----- FIELDS -----------------------------------------------------------
+#   Required: title, url, date, image
+#   Optional:
+#     outlet          Publication / outlet name (e.g. "New York Times")
+#     description     Short blurb shown on the /news/ page (1–2 sentences)
+#     featured_home   true -> item appears in the home "In the news" tiles
 #
-# Date format: YYYY-MM-DD (used for sorting and display).
-# Image path:  store files under /assets/theme/images/news/ and reference with
-#              the absolute site path, e.g. /assets/theme/images/news/nyt_2025_ag.jpg
+# Date format: YYYY-MM-DD.
+# URLs with query strings (`?` or `&`) MUST be wrapped in double quotes.
 
 # ======================== ENTRIES ========================
 
@@ -30,6 +37,38 @@
     policy pressures facing U.S. farmers, and their implications for food
     prices.
   featured_home: true
+
+- title: "Farm productivity investments reduce greenhouse gas emissions"
+  outlet: "Open Access Government"
+  url: "https://www.openaccessgovernment.org/farm-productivity-investments-reduce-greenhouse-gas-emissions/203860/"
+  date: 2026-01-19
+  image: "https://www.openaccessgovernment.org/wp-content/uploads/2026/01/iStock-1251549972.jpg"
+  description: >
+    Coverage of research showing that investments in agricultural productivity
+    can simultaneously boost output and reduce greenhouse gas emissions from
+    farming.
+  featured_home: false
+
+- title: "Scientists shielding farming from climate change need more public funding. But they're getting less"
+  outlet: "Associated Press"
+  url: "https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756"
+  date: 2025-03-31
+  # image: add manual URL here if desired — AP serves images via a signed
+  # resizer that requires query strings
+  description: >
+    Interviewed on declining public investment in U.S. agricultural R&D and
+    its implications for productivity growth and climate adaptation.
+  featured_home: false
+
+- title: "Farmers are reeling from Trump’s attacks on agricultural research"
+  outlet: "Grist"
+  url: "https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/"
+  date: 2025-03-25
+  image: "https://grist.org/wp-content/uploads/2025/03/GettyImages-1258923036-1.jpg"
+  description: >
+    Quoted on the impact of federal cuts to agricultural research on farmers
+    already contending with climate stress and rising input costs.
+  featured_home: false
 
 - title: "Food as you know it is about to change"
   outlet: "The New York Times"
@@ -51,6 +90,17 @@
     documented drag of climate change on agricultural productivity growth.
   featured_home: true
 
+- title: "Farmers are struggling with climate change, but yields continue to rise. What’s going on?"
+  outlet: "Modern Farmer"
+  url: "https://modernfarmer.com/2023/06/farmers-are-struggling-with-climate-change-but-yields-continue-to-rise-whats-going-on/"
+  date: 2023-06-21
+  image: "https://modernfarmer.com/wp-content/uploads/2023/06/shutterstock_2281940569.jpg"
+  description: >
+    Republication of a feature on the paradox between rising yields and the
+    productivity drag of climate change — context on methods and
+    interpretation.
+  featured_home: false
+
 - title: "High temperatures linked to child malnutrition in West Africa"
   outlet: "The Washington Post"
   url: "https://www.washingtonpost.com/health/2022/08/01/heat-malnutrition-children-west-africa/"
@@ -60,3 +110,54 @@
     Coverage of research linking extreme heat exposure to increases in both
     chronic and acute child malnutrition across five West African countries.
   featured_home: true
+
+- title: "Climate & agricultural economist Ariel Ortiz-Bobea will advise USDA"
+  outlet: "Morning Ag Clips"
+  url: "https://www.morningagclips.com/climate-agricultural-economist-ariel-ortiz-bobea-will-advise-usda/"
+  date: 2022-02-22
+  image: "https://www.morningagclips.com/wp-content/uploads/2022/02/ortiz_bobea_for_chronicle_0.jpg"
+  description: >
+    Announcement of appointment as a climate and agricultural economics
+    advisor to the U.S. Department of Agriculture.
+  featured_home: false
+
+- title: "Climate change ‘has dented global agricultural productivity’"
+  outlet: "PreventionWeb"
+  url: "https://www.preventionweb.net/news/climate-change-has-dented-global-agricultural-productivity"
+  date: 2021-04-19
+  image: "https://www.preventionweb.net/sites/default/files/styles/landscape_16_9/public/77256_largeImage.jpg"
+  description: >
+    Coverage of research finding that anthropogenic climate change has
+    reduced global agricultural total factor productivity since 1961.
+  featured_home: false
+
+- title: "Heat, not drought, will drive lower crop yields, researchers say"
+  outlet: "Smart Water Magazine"
+  url: "https://smartwatermagazine.com/news/cornell-university/heat-not-drought-will-drive-lower-crop-yields-researchers-say"
+  date: 2019-06-05
+  image: "https://smartwatermagazine.com/sites/default/files/styles/share-fb-830x436/public/corn-field.jpg"
+  description: >
+    Coverage of research identifying heat stress — rather than drought — as
+    the primary driver of projected yield declines under climate change.
+  featured_home: false
+
+- title: "Too much crop specialization in Midwest?"
+  outlet: "Agweek"
+  url: "https://www.agweek.com/business/too-much-crop-specialization-in-midwest"
+  date: 2018-12-27
+  # image: Agweek serves images via a query-string resizer; add a manual URL
+  # here if desired, otherwise the home/news placeholder will be used.
+  description: >
+    Coverage of research on the risks of concentrated corn–soy specialization
+    in the U.S. Midwest under a changing climate.
+  featured_home: false
+
+- title: "Big Picture Look at Climate Change Impact on U.S. Agriculture: Midwest at Risk"
+  outlet: "Environmental News Network"
+  url: "https://www.enn.com/articles/56251-big-picture-look-at-climate-change-impact-on-u-s-agriculture-midwest-at-risk"
+  date: 2018-12-12
+  image: "https://1408440223.rsc.cdn77.org/images/2018-Nov-Dec/2018-12-12_Midwest.jpg"
+  description: >
+    Coverage of research on regional heterogeneity in climate change impacts
+    on U.S. agriculture, with the Midwest identified as particularly at risk.
+  featured_home: false
