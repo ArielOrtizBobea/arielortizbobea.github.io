@@ -1,0 +1,40 @@
+# News / press coverage data file
+#
+# Rendered on /news/:
+#   - All entries, sorted by date (newest first).
+#
+# Rendered on the home page ("In the news" grid):
+#   - Entries where featured_home: true, sorted by date (newest first),
+#     limited to 4 tiles.
+#
+# Required fields:  title, url, date, image
+#
+# Optional fields:
+#   outlet          Publication / outlet name (e.g. "New York Times")
+#   description     Short blurb shown on the /news/ page (1–2 sentences)
+#   featured_home   When true, item appears in the home-page "In the news" tiles
+#
+# Date format: YYYY-MM-DD (used for sorting and display).
+# Image path:  store files under /assets/theme/images/news/ and reference with
+#              the absolute site path, e.g. /assets/theme/images/news/nyt_2025_ag.jpg
+
+# ======================== ENTRIES ========================
+
+- title: "Example headline goes here — replace me"
+  outlet: "The New York Times"
+  url: "https://www.example.com/replace-with-article-url"
+  date: 2026-04-20
+  image: /assets/theme/images/news/placeholder.jpg
+  description: >
+    Short 1–2 sentence blurb describing what the article is about and how the
+    work is featured. Only shown on the /news/ page, not on the home tiles.
+  featured_home: true
+
+- title: "Second example — climate and agriculture coverage"
+  outlet: "Bloomberg"
+  url: "https://www.example.com/replace-with-article-url"
+  date: 2026-03-15
+  image: /assets/theme/images/news/placeholder.jpg
+  description: >
+    Replace with a brief summary of the piece.
+  featured_home: true

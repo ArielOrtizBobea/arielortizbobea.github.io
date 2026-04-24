@@ -150,6 +150,88 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   </div>
 </div>
 
+<!-- In the news: pulls items with featured_home: true from _data/news.yml -->
+<style>
+.recent-news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 0.5rem;
+}
+@media (max-width: 900px) {
+  .recent-news-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 500px) {
+  .recent-news-grid { grid-template-columns: 1fr; }
+}
+.recent-news-card { display: flex; flex-direction: column; text-align: left; }
+.recent-news-card .thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #f5f5f5;
+  margin-bottom: 10px;
+  display: block;
+}
+.recent-news-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.2s ease;
+}
+.recent-news-card .thumb:hover img { transform: scale(1.03); }
+.recent-news-card .outlet {
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #b31b1b;
+  margin-bottom: 4px;
+  line-height: 1.35;
+}
+.recent-news-card .title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.35;
+  margin-bottom: 4px;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+.recent-news-card a.title:hover { color: #b31b1b; }
+.recent-news-card .date {
+  font-size: 0.8rem;
+  color: #6c757d;
+  line-height: 1.4;
+}
+</style>
+<div class="container-fluid px-4" style="margin-top: 36px;">
+  <h5 style="color: #b31b1b; margin-bottom: 12px;">In the News</h5>
+  <div style="padding-left: 1rem;">
+  {%- assign featured_news = site.data.news | where_exp: "n", "n.featured_home" | sort: "date" | reverse -%}
+  {%- assign featured_news = featured_news | slice: 0, 4 -%}
+  {%- if featured_news.size == 0 -%}
+  <div style="color: #6c757d;">No news items yet.</div>
+  {%- else -%}
+  <div class="recent-news-grid">
+  {%- for item in featured_news -%}
+    <div class="recent-news-card">
+      {%- if item.image -%}
+      <a href="{{ item.url }}" target="_blank" rel="noopener" class="thumb"><img src="{{ item.image }}" alt="{{ item.title | escape }}"></a>
+      {%- endif -%}
+      {%- if item.outlet -%}
+      <div class="outlet">{{ item.outlet }}</div>
+      {%- endif -%}
+      <a href="{{ item.url }}" target="_blank" rel="noopener" class="title">{{ item.title }}</a>
+      <div class="date">{{ item.date | date: "%b %-d, %Y" }}</div>
+    </div>
+  {%- endfor -%}
+  </div>
+  {%- endif -%}
+  <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></div>
+  </div>
+</div>
+
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
 <div class="container-fluid px-4" style="margin-top: 36px;">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
