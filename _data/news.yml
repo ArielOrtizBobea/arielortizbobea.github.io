@@ -87,7 +87,7 @@
   description: >
     Interviewed on the apparent paradox between rising crop yields and the
     documented drag of climate change on agricultural productivity growth.
-  featured_home: true
+  featured_home: false
 
 - title: "Farmers are struggling with climate change, but yields continue to rise. What’s going on?"
   outlet: "Modern Farmer"
@@ -144,11 +144,11 @@
   outlet: "The Economist"
   url: "https://www.economist.com/democracy-in-america/2019/01/11/midwesterners-are-being-forced-to-face-up-to-climate-change"
   date: 2019-01-11
-  # image: add URL here (right-click hero image on the article → Copy Image Address)
+  image: "https://www.economist.com/cdn-cgi/image/width=834,quality=80,format=auto/sites/default/files/20181222_USP503.jpg"
   description: >
     Coverage of climate change impacts on U.S. Midwest agriculture and the
     political and economic pressures facing farming communities.
-  featured_home: false
+  featured_home: true
 
 - title: "Too much crop specialization in Midwest?"
   outlet: "Agweek"
