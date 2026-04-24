@@ -140,6 +140,16 @@
     the primary driver of projected yield declines under climate change.
   featured_home: false
 
+- title: "Midwesterners are being forced to face up to climate change"
+  outlet: "The Economist"
+  url: "https://www.economist.com/democracy-in-america/2019/01/11/midwesterners-are-being-forced-to-face-up-to-climate-change"
+  date: 2019-01-11
+  # image: add URL here (right-click hero image on the article → Copy Image Address)
+  description: >
+    Coverage of climate change impacts on U.S. Midwest agriculture and the
+    political and economic pressures facing farming communities.
+  featured_home: false
+
 - title: "Too much crop specialization in Midwest?"
   outlet: "Agweek"
   url: "https://www.agweek.com/business/too-much-crop-specialization-in-midwest"
