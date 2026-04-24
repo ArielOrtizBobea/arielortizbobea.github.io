@@ -61,6 +61,16 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 
 <!-- Recent publications: pulls papers with featured_home: true from _data/papers.yml -->
 <style>
+/* Full-bleed band that escapes the layout's .container-fluid.px-4 + .col-12 padding
+   so the grey background reaches the viewport edges. Content inside the band still
+   uses .container-fluid.px-4 to keep alignment with the rest of the page. */
+.section-band {
+  background: #f8f9fa;
+  padding: 36px 0;
+  margin: 36px calc(50% - 50vw) 0;
+  width: 100vw;
+}
+.section-band > .container-fluid { margin-top: 0 !important; }
 .recent-pubs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -114,7 +124,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   line-height: 1.4;
 }
 </style>
-<div class="container-fluid px-4" style="margin-top: 36px;">
+<div class="section-band">
+<div class="container-fluid px-4">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">Recent Publications</h5>
   <div style="padding-left: 1rem;">
   {%- assign featured = site.data.papers | where_exp: "p", "p.featured_home" | sort: "year" | reverse -%}
@@ -149,19 +160,36 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/research/' | relative_url }}">See all publications &rarr;</a></div>
   </div>
 </div>
+</div>
+
+<!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
+<div class="container-fluid px-4" style="margin-top: 36px;">
+  <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
+  <div style="line-height: 1.7; padding-left: 1rem;">
+  {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
+  {%- assign sorted = site.data.talks | sort: "date" -%}
+  {%- assign count = 0 -%}
+  {%- for talk in sorted -%}
+    {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+    {%- if t_s >= now_s and count < 3 -%}
+      <div style="margin-bottom: 4px;">
+        <strong>{{ talk.date | date: "%b %-d" }}</strong>
+        &middot;
+        {% if talk.paper %}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
+        <span style="color: #6c757d;">&mdash; {{ talk.presenter }}, {{ talk.venue }}</span>
+      </div>
+      {%- assign count = count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if count == 0 -%}
+  <div style="color: #6c757d;">No upcoming talks scheduled.</div>
+  {%- endif -%}
+  <div style="margin-top: 10px; font-size: 0.9em;"><a href="{{ '/talks/' | relative_url }}">See all talks &rarr;</a></div>
+  </div>
+</div>
 
 <!-- In the news: pulls items with featured_home: true from _data/news.yml -->
 <style>
-/* Full-bleed band that escapes the layout's .container-fluid.px-4 + .col-12 padding
-   so the grey background reaches the viewport edges. Content inside the band still
-   uses .container-fluid.px-4 to keep alignment with the rest of the page. */
-.section-band {
-  background: #f8f9fa;
-  padding: 36px 0;
-  margin: 36px calc(50% - 50vw) 0;
-  width: 100vw;
-}
-.section-band > .container-fluid { margin-top: 0 !important; }
 .recent-news-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -256,32 +284,6 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></div>
   </div>
 </div>
-</div>
-
-<!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
-<div class="container-fluid px-4" style="margin-top: 36px;">
-  <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
-  <div style="line-height: 1.7; padding-left: 1rem;">
-  {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
-  {%- assign sorted = site.data.talks | sort: "date" -%}
-  {%- assign count = 0 -%}
-  {%- for talk in sorted -%}
-    {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
-    {%- if t_s >= now_s and count < 3 -%}
-      <div style="margin-bottom: 4px;">
-        <strong>{{ talk.date | date: "%b %-d" }}</strong>
-        &middot;
-        {% if talk.paper %}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}
-        <span style="color: #6c757d;">&mdash; {{ talk.presenter }}, {{ talk.venue }}</span>
-      </div>
-      {%- assign count = count | plus: 1 -%}
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if count == 0 -%}
-  <div style="color: #6c757d;">No upcoming talks scheduled.</div>
-  {%- endif -%}
-  <div style="margin-top: 10px; font-size: 0.9em;"><a href="{{ '/talks/' | relative_url }}">See all talks &rarr;</a></div>
-  </div>
 </div>
 
 <!-- This is Markdown 
