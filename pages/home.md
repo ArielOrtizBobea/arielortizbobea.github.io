@@ -182,6 +182,19 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   transition: transform 0.2s ease;
 }
 .recent-news-card .thumb:hover img { transform: scale(1.03); }
+.recent-news-card .thumb.thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b31b1b;
+  color: #fff;
+  text-align: center;
+  padding: 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.25;
+}
 .recent-news-card .outlet {
   font-style: italic;
   font-size: 0.85rem;
@@ -218,6 +231,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
     <div class="recent-news-card">
       {%- if item.image -%}
       <a href="{{ item.url }}" target="_blank" rel="noopener" class="thumb"><img src="{{ item.image }}" alt="{{ item.title | escape }}"></a>
+      {%- else -%}
+      <a href="{{ item.url }}" target="_blank" rel="noopener" class="thumb thumb-placeholder">{{ item.outlet }}</a>
       {%- endif -%}
       {%- if item.outlet -%}
       <div class="outlet">{{ item.outlet }}</div>

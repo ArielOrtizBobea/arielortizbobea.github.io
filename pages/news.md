@@ -44,6 +44,19 @@ permalink: /news/
   transition: transform 0.2s ease;
 }
 .news-page .news-thumb:hover img { transform: scale(1.03); }
+.news-page .news-thumb.thumb-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b31b1b;
+  color: #fff;
+  text-align: center;
+  padding: 0 12px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.25;
+}
 
 .news-page .news-body { min-width: 0; flex: 1; }
 .news-page .news-outlet {
@@ -98,6 +111,8 @@ permalink: /news/
     <a href="{{ item.url }}" target="_blank" rel="noopener" class="news-thumb">
       <img src="{{ item.image }}" alt="{{ item.title | escape }}">
     </a>
+    {%- else -%}
+    <a href="{{ item.url }}" target="_blank" rel="noopener" class="news-thumb thumb-placeholder">{{ item.outlet }}</a>
     {%- endif -%}
     <div class="news-body">
       {%- if item.outlet -%}

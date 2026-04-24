@@ -20,21 +20,43 @@
 
 # ======================== ENTRIES ========================
 
-- title: "Example headline goes here — replace me"
-  outlet: "The New York Times"
-  url: "https://www.example.com/replace-with-article-url"
-  date: 2026-04-20
-  image: /assets/theme/images/news/placeholder.jpg
+- title: "Tariffs, war, and now a historic drought have converged into a ‘perfect storm’ for U.S. farmers and food prices"
+  outlet: "Fortune"
+  url: "https://fortune.com/2026/04/21/farmers-perfect-storm-drought-fertilizer-fuel-prices-tariffs/"
+  date: 2026-04-21
+  image: https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2240341265-e1776717515634.jpg?resize=1200,600
   description: >
-    Short 1–2 sentence blurb describing what the article is about and how the
-    work is featured. Only shown on the /news/ page, not on the home tiles.
+    Quoted on the unusual confluence of drought, rising input costs, and trade
+    policy pressures facing U.S. farmers, and their implications for food
+    prices.
   featured_home: true
 
-- title: "Second example — climate and agriculture coverage"
-  outlet: "Bloomberg"
-  url: "https://www.example.com/replace-with-article-url"
-  date: 2026-03-15
-  image: /assets/theme/images/news/placeholder.jpg
+- title: "Food as you know it is about to change"
+  outlet: "The New York Times"
+  url: "https://www.nytimes.com/2024/07/28/opinion/food-climate-crisis-prices.html"
+  date: 2024-07-28
+  # image: /assets/theme/images/news/nyt_202407_food_climate.jpg  # add image to enable hero thumbnail
   description: >
-    Replace with a brief summary of the piece.
+    David Wallace-Wells' opinion piece on climate change, food systems, and
+    prices, drawing on research on agricultural productivity and climate.
+  featured_home: true
+
+- title: "Farmers are struggling with climate change, but yields continue to rise. What’s going on?"
+  outlet: "Grist"
+  url: "https://grist.org/agriculture/farmers-are-struggling-with-climate-change-but-yields-continue-to-rise-whats-going-on/"
+  date: 2023-07-23
+  image: https://grist.org/wp-content/uploads/2023/07/TractorField.jpg
+  description: >
+    Interviewed on the apparent paradox between rising crop yields and the
+    documented drag of climate change on agricultural productivity growth.
+  featured_home: true
+
+- title: "High temperatures linked to child malnutrition in West Africa"
+  outlet: "The Washington Post"
+  url: "https://www.washingtonpost.com/health/2022/08/01/heat-malnutrition-children-west-africa/"
+  date: 2022-08-01
+  # image: /assets/theme/images/news/wapo_202208_heat_malnutrition.jpg  # add image to enable hero thumbnail
+  description: >
+    Coverage of research linking extreme heat exposure to increases in both
+    chronic and acute child malnutrition across five West African countries.
   featured_home: true
