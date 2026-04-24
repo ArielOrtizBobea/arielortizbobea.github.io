@@ -24,7 +24,7 @@
   outlet: "Fortune"
   url: "https://fortune.com/2026/04/21/farmers-perfect-storm-drought-fertilizer-fuel-prices-tariffs/"
   date: 2026-04-21
-  image: https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2240341265-e1776717515634.jpg?resize=1200,600
+  image: "https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2240341265-e1776717515634.jpg?resize=1200,600"
   description: >
     Quoted on the unusual confluence of drought, rising input costs, and trade
     policy pressures facing U.S. farmers, and their implications for food

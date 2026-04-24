@@ -222,12 +222,11 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <h5 style="color: #b31b1b; margin-bottom: 12px;">In the News</h5>
   <div style="padding-left: 1rem;">
   {%- assign featured_news = site.data.news | where_exp: "n", "n.featured_home" | sort: "date" | reverse -%}
-  {%- assign featured_news = featured_news | slice: 0, 4 -%}
   {%- if featured_news.size == 0 -%}
   <div style="color: #6c757d;">No news items yet.</div>
   {%- else -%}
   <div class="recent-news-grid">
-  {%- for item in featured_news -%}
+  {%- for item in featured_news limit: 4 -%}
     <div class="recent-news-card">
       {%- if item.image -%}
       <a href="{{ item.url }}" target="_blank" rel="noopener" class="thumb"><img src="{{ item.image }}" alt="{{ item.title | escape }}"></a>
