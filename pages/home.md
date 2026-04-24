@@ -152,6 +152,16 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 
 <!-- In the news: pulls items with featured_home: true from _data/news.yml -->
 <style>
+/* Full-bleed band that escapes the layout's .container-fluid.px-4 + .col-12 padding
+   so the grey background reaches the viewport edges. Content inside the band still
+   uses .container-fluid.px-4 to keep alignment with the rest of the page. */
+.section-band {
+  background: #f8f9fa;
+  padding: 36px 0;
+  margin: 36px calc(50% - 50vw) 0;
+  width: 100vw;
+}
+.section-band > .container-fluid { margin-top: 0 !important; }
 .recent-news-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -218,7 +228,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   line-height: 1.4;
 }
 </style>
-<div class="container-fluid px-4" style="margin-top: 36px;">
+<div class="section-band">
+<div class="container-fluid px-4">
   <h5 style="color: #b31b1b; margin-bottom: 12px;">In the News</h5>
   <div style="padding-left: 1rem;">
   {%- assign featured_news = site.data.news | where_exp: "n", "n.featured_home" | sort: "date" | reverse -%}
@@ -244,6 +255,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   {%- endif -%}
   <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></div>
   </div>
+</div>
 </div>
 
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
