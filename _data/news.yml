@@ -35,7 +35,7 @@
   outlet: "The New York Times"
   url: "https://www.nytimes.com/2024/07/28/opinion/food-climate-crisis-prices.html"
   date: 2024-07-28
-  # image: /assets/theme/images/news/nyt_202407_food_climate.jpg  # add image to enable hero thumbnail
+  image: "https://static01.nyt.com/images/2024/08/03/opinion/22wallace-wells-image/22wallace-wells-image-superJumbo-v5.jpg?quality=75&auto=webp"
   description: >
     David Wallace-Wells' opinion piece on climate change, food systems, and
     prices, drawing on research on agricultural productivity and climate.
@@ -55,7 +55,7 @@
   outlet: "The Washington Post"
   url: "https://www.washingtonpost.com/health/2022/08/01/heat-malnutrition-children-west-africa/"
   date: 2022-08-01
-  # image: /assets/theme/images/news/wapo_202208_heat_malnutrition.jpg  # add image to enable hero thumbnail
+  image: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F3FU5KQPNEI63CHIYWG4HW5O4I.jpg&w=1440&impolicy=high_res"
   description: >
     Coverage of research linking extreme heat exposure to increases in both
     chronic and acute child malnutrition across five West African countries.
