@@ -1,7 +1,8 @@
 ---
 title: join me
 #description: Description that will appear below the title in the banner
-permalink: /advising/
+permalink: /joinme/
+redirect_from: /advising/
 background: /assets/theme/images/landing/campus.jpg
 ---
 <style>

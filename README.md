@@ -15,7 +15,7 @@ The repository structure follows that of Jekyll websites.
     - home.md: Main page.
     - people.md: People in the research group.
     - research.md: Papers.
-    - advising.md: Advising and new jobs
+    - joinme.md: Advising and new jobs (also redirects /advising/ → /joinme/)
     - teaching.md: Courses syllabus.
     - other.md: Resources for young researches, books and online resources
 - Posts: [_posts/](_posts/)
