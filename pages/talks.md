@@ -1,6 +1,6 @@
 ---
 title: talks
-background: /assets/theme/images/landing/talks.png
+background: /assets/images/landing/talks.png
 permalink: /talks/
 ---
 

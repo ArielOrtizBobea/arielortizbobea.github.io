@@ -1,7 +1,7 @@
 ---
 title: resources
 permalink: /resources/
-background: /assets/theme/images/landing/home.jpg
+background: /assets/images/landing/home.jpg
 ---
 
 ## Code and data

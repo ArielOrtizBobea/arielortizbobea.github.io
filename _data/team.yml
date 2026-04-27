@@ -5,7 +5,7 @@
 
 - name: Ariel Ortiz-Bobea
   role: Associate Professor
-  image: assets/theme/images/people/ao332.jpg
+  image: assets/images/people/ao332.jpg
   description: >
     Prof. Ortiz-Bobea is an applied economist with interests in agricultural, environmental and development
     economics. His recent research quantifies the impacts of climate change on agriculture and other sectors using 
@@ -26,7 +26,7 @@
 
 - name: Tzu-Hui Chen
   role: Postdoc (joining Summer 2026) # Will appear next to name
-  image: assets/theme/images/people/tzuhuichen.jpg
+  image: assets/images/people/tzuhuichen.jpg
   description: >
     Tzu-Hui Chen is completing her Ph.D. in Agricultural and Resource Economics at UC Davis. 
     Her research spans agricultural, environmental, and health economics, with a focus on the unintended 
@@ -41,7 +41,7 @@
 
 - name: Shuo Yu 
   role: Postdoc (joining Summer 2026) # Will appear next to name
-  image: assets/theme/images/people/shuoyu.jpeg
+  image: assets/images/people/shuoyu.jpg
   description: >
     Shuo Yu is completing her Ph.D. in Agricultural and Resource Economics at UC Berkeley. 
     Her research focuses on regenerative agriculture, conservation policy, and crop insurance, 
@@ -55,7 +55,7 @@
 
 - name: Yurou He
   role: PhD candidate, Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/people/yh878.png
+  image: assets/images/people/yh878.png
   description: >
     Yurou He is a Ph.D. candidate at the Charles H. Dyson School of Applied Economics and Management. She studies the impacts 
     of climate change and adaptation strategies, with a focus on human economic behavior in response to environmental challenges. 
@@ -71,7 +71,7 @@
 
 - name: Jerzy Jaromczyk
   role: PhD candidate, Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/people/jj443.jpg
+  image: assets/images/people/jj443.jpg
   description: >
     Jerzy Jaromczyk is a Ph.D. candidate in Applied Economics and Management at Cornell University interested in researching 
     questions in agricultural and environmental economics, and agricultural finance. Prior to his doctoral studies, Jerzy 
@@ -84,7 +84,7 @@
 
 - name: Jeisson Prieto
   role: PhD candidate, Applied Economics and Management # Will appear next to name
-  image: assets/theme/images/people/jp2276.png # Can be external link
+  image: assets/images/people/jp2276.png # Can be external link
   description: > # Can be Markdown
     Jeisson Prieto is a Ph.D. candidate in Applied Economics and Management at Cornell University. 
     Before coming to Cornell University, he received his BEng in Systems Engineering and MSc in Applied Mathematics 
@@ -99,7 +99,7 @@
 
 - name: Ayşegül Kılınç
   role: PhD student, Natural Resources and the Environment # Will appear next to name
-  image: assets/theme/images/people/ak2754.jpg
+  image: assets/images/people/ak2754.jpg
   description: >
     Ayşegül Kılınç is a PhD student and Fulbright grantee in Natural Resources and the Environment at Cornell University. Her research interests focus on the global implications and
     dynamic environmental and economic effects of climate policies, particularly carbon border adjustments. She aims to analyze how these policies affect greenhouse gas emissions
@@ -110,7 +110,7 @@
 
 - name: Ruiyi Ouyang
   role: PhD student, Applied Economics and Managment
-  image: assets/theme/images/people/ro259.jpg
+  image: assets/images/people/ro259.jpg
   description: >
     Ruiyi Ouyang is a PhD student at the Charles H. Dyson School of Applied Economics and Management at Cornell University. His 
     research focuses on natural disasters and climate change. In particular, he studies consumer responses to natural disasters such 
@@ -129,67 +129,67 @@
 
 - name: Zhuoyan Han
   role: MS student, Applied Economics and Management (2026)
-  image: assets/theme/images/people/zh452.jpg
+  image: assets/images/people/zh452.jpg
   description: >
     → [PhD Student in Hotel Administration](https://www.linkedin.com/in/zhuoyanhan20010501) at Cornell 
 
 - name: Joshua Fan
   role: PhD student, Computer Science (2026)
-  image: assets/theme/images/people/jyf6.jpg
+  image: assets/images/people/jyf6.jpg
   description: >
     → [Software Engineer](https://joshuafan.github.io) at Google (first placement)
 
 - name: Qingli Fan
   role: PhD student, Economics (2025)
-  image: assets/theme/images/people/qf38.jpg
+  image: assets/images/people/qf38.jpg
   description: >
     → [Economist](https://economics.cornell.edu/qingli-fan) at Google (first placement)
 
 - name: Zhiyun Li 
   role: PhD student, Applied Economics and Management (2023)
-  image: assets/theme/images/people/Zhiyun.jpg
+  image: assets/images/people/zhiyun.jpg
   description: >
     → [Climate Economist](https://www.anderson.ucla.edu/about/centers/ucla-anderson-forecast/about-us/zhiyun-li) at UCLA Anderson (first placement)
 
 - name: Osama Sajid
   role: Postdoc (2021-2023)
-  image: assets/theme/images/people/Osama.jpg
+  image: assets/images/people/osama.jpg
   description: >
     → [Socio-Economic Specialist](https://ca.linkedin.com/in/osama-sajid-ph-d-857540116) at Hatfield (first placement)
 
 - name: Maria Gerulis 
   role: Postdoc (2022-2023)
-  image: assets/theme/images/people/Maria.jpg
+  image: assets/images/people/maria.jpg
   description: >
     → [Postdoc](https://sites.google.com/view/mariagerullis/home?authuser=0) at Goettingen University (first placement)
 
 - name: Samuel Porter
   role: MS Student, Applied Economics and Management (2021)
-  image: assets/theme/images/people/samuel.jpg
+  image: assets/images/people/samuel.jpg
   description: >
     → [Agricultural Economist](https://www.linkedin.com/in/samuel-l-porter/) at USDA NRCS (first placement)
 
 - name: Ithipong (Billy) Assaranurak
   role: MS Student, Applied Economics and Management (2019)
-  image: assets/theme/images/people/billy.jpeg
+  image: assets/images/people/billy.jpg
   description: >
     → [Data Scientist](https://www.linkedin.com/in/ithipong-assaranurak/) at Government Big Data Institute of Thailand (first placement)
 
 - name: Matthew Utterback
   role: MS Student, Applied Economics and Management (2018)
-  image: assets/theme/images/people/matt.jpeg
+  image: assets/images/people/matt.jpg
   description: >
     → [Economist](https://www.linkedin.com/in/matthew-l-utterback/) at Transportation Security Administration (first placement)
 
 - name: Justin (Qingrun) Meng
   role: MS Student, Applied Economics and Management (2017)
-  image: assets/theme/images/people/justin.jpeg
+  image: assets/images/people/justin.jpg
   description: >
     → [Analyst](https://www.linkedin.com/in/qingrunmeng/) at Analysis Group (first placement)
 
 - name: Haoying Wang
   role: Postdoc (2014-2017)
-  image: assets/theme/images/people/Haoying.png
+  image: assets/images/people/haoying.png
   description: >
     → [Assistant Professor](https://sites.google.com/site/halkingwang/) at New Mexico Tech (first placement)
 

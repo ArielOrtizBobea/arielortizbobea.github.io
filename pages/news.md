@@ -1,6 +1,6 @@
 ---
-title: in the news
-background: /assets/theme/images/landing/research.png
+title: news
+background: /assets/images/landing/research.png
 permalink: /news/
 ---
 

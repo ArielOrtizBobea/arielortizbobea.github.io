@@ -3,7 +3,7 @@ title: join me
 #description: Description that will appear below the title in the banner
 permalink: /joinme/
 redirect_from: /advising/
-background: /assets/theme/images/landing/campus.jpg
+background: /assets/images/landing/campus.jpg
 ---
 <style>
 h2, h3 { color: #b31b1b; }

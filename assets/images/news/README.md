@@ -2,7 +2,7 @@
 
 Drop article hero images here and reference them from `_data/news.yml` as:
 
-    image: /assets/theme/images/news/your_filename.jpg
+    image: /assets/images/news/your_filename.jpg
 
 Recommended format:
   - JPEG or PNG
