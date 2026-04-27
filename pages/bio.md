@@ -41,13 +41,13 @@ background: /assets/images/landing/campus.jpg
 }
 </style>
 
-<div class="bio-page" style="margin-top: 2rem;">
+<div class="bio-page" markdown="1" style="margin-top: 2rem;">
 
 ## Short bio
 
-I am an applied economist working at the intersection of agricultural, environmental, and development economics. My research uses econometric techniques to quantify the impacts of climate change on agriculture and other sectors of the economy.
+Ariel Ortiz-Bobea is Associate Professor at the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy at Cornell University, and a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research uses econometric techniques to quantify the impacts of climate and environmental change on agriculture and other sectors of the economy. He joined Cornell in 2014, following a research fellowship at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic.
 
-I joined Cornell in 2014 after a brief stint at Resources for the Future. Prior to graduate school, I served as Special Assistant to the Minister of the Environment of the Dominican Republic. I hold a PhD in Agricultural and Resource Economics from the University of Maryland, an MPA from Syracuse University (Maxwell), and a *Diplôme d'Ingénieur* from the Institut National Agronomique Paris-Grignon (now AgroParisTech, Université Paris-Saclay) in France.
+He holds a PhD in Agricultural and Resource Economics from the University of Maryland, an MPA from Syracuse University (Maxwell), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves on the editorial boards of the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
 
 ## My story
 
