@@ -4,25 +4,6 @@ permalink: /bio/
 background: /assets/images/landing/campus.jpg
 ---
 
-<div class="container-fluid px-4">
-  <div class="row align-items-center">
-    <div class="text-center col-md-auto">
-      <p class='text-center'>
-        <img src="/assets/images/landing/aob1.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 300px"/>
-      </p>
-    </div>
-    <div class="col" style="line-height: 1.7;">
-      <h4 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h4>
-      <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University</p>
-      <p style="margin-top: 14px;">
-        <a href="/assets/cv.pdf" target="_blank" style="display: inline-block; background-color: #b31b1b; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none;">
-          <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
-
 <style>
 .bio-page h2 {
   color: #b31b1b;
@@ -39,11 +20,61 @@ background: /assets/images/landing/campus.jpg
   padding: 4px 14px;
   margin: 0 0 1.5rem 0;
 }
+.bio-tall-photo {
+  float: left;
+  width: 220px;
+  margin: 6px 28px 12px 0;
+  shape-outside: margin-box;
+}
+.bio-tall-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+.bio-name {
+  color: #b31b1b;
+  margin: 0 0 6px 0;
+  font-weight: 600;
+}
+.bio-affiliation { margin-bottom: 14px; }
+.bio-cv-btn {
+  display: inline-block;
+  background-color: #b31b1b;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.bio-cv-btn:hover { color: #fff; opacity: 0.9; }
+.bio-page .short-bio-heading { margin-top: 1.75rem; }
+@media (max-width: 600px) {
+  .bio-tall-photo {
+    float: none;
+    width: 70%;
+    max-width: 280px;
+    margin: 0 auto 18px;
+  }
+}
 </style>
 
-<div class="bio-page" markdown="1" style="margin-top: 2rem;">
+<div class="bio-page" markdown="1">
 
-## Short bio
+<div class="bio-tall-photo">
+  <img src="/assets/images/landing/sequoia.jpg" alt="Ariel Ortiz-Bobea at the base of General Sherman, Sequoia National Park"/>
+</div>
+
+<h4 class="bio-name">Ariel Ortiz-Bobea</h4>
+
+<p class="bio-affiliation">Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> &amp; <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University</p>
+
+<p>
+  <a href="/assets/cv.pdf" target="_blank" class="bio-cv-btn">
+    <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
+  </a>
+</p>
+
+<h2 class="short-bio-heading">Short bio</h2>
 
 Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
 
@@ -67,7 +98,7 @@ University went better than I expected. The structure and discipline from my sma
 
 That is how I ended up taking classes in the Château de Grignon, a 17th century castle bought by Charles X to house the school in 1826. Those were amazing years. I was the only person from the Americas in my cohort, fully immersed in French culture, and I made lasting friendships I still keep up with.
 
-One of the classes in my first year at the INA P-G covered the world food problem. It was taught by Marcel Mazoyer, who had succeeded René Dumont in the chair of comparative agriculture at INA P-G. Dumont, himself a graduate of the school, was the first ecologist presidential candidate in France i nthe 1970s. Many people in the world go hungry; most of them are farmers. As a young man from the developing world, growing flowers for a living suddenly felt frivolous. I thus decided to specialize in agricultural development instead of horticulture. I had to tell my family I had a change of heart. I must have broken their hearts, but they never let on, and they were unfailingly supportive.
+One of the classes in my first year at the INA P-G covered the world food problem. It was taught by Marcel Mazoyer, who had succeeded René Dumont in the chair of comparative agriculture at INA P-G. Dumont, himself a graduate of the school, was the first ecologist presidential candidate in France in the 1970s. Many people in the world go hungry; most of them are farmers. As a young man from the developing world, growing flowers for a living suddenly felt frivolous. I thus decided to specialize in agricultural development instead of horticulture. I had to tell my family I had a change of heart. I must have broken their hearts, but they never let on, and they were unfailingly supportive.
 
 I think back to that class often. It is a reminder of the power a single teacher can have to open new doors for a student.
 
@@ -91,14 +122,10 @@ My internship had given me a sense of what work at the Bank would be like, and t
 
 Taking the RFF job is what kept me in research. I think of it as the lifeline that let me stay in academia, and I owe my path to a professorship to RFF and to the late Molly Macauley, the hiring manager who brought me in. Soon after, I moved to Cornell, which offered more flexibility for risky work and less fundraising pressure. I was tenured in 2020.
 
-I love this job. My honest test is the lottery test: if I won tomorrow, I would still do this. The work feels like being a detective trying to understand the world. You are surrounded by curious people who get excited about what they are learning.
+I love this job. My honest test is the lottery test: if I won tomorrow, I would still do this. The work feels like being a detective trying to understand the world, surrounded by curious people who get excited about what they are learning. I feel very fortunate to do it for a living.
 
-I feel very privileged to do this for a living. Part of the job, as I see it, is to encourage curious students with the idea that you can build a career out of your curiosity. It takes other things too: persistence and comfort with uncertainty. But the curiosity and the joy of the discovery process is the start.
+The path here was not linear. The *prépas* said no, most policy programs said no, most PhD programs said no, and many doors stayed closed on the job market. At each stage there was *one* yes, one lifeline, one small miracle that let me keep going. From the outside, you see other people's successes, not their rejections. Mine had plenty of both.
 
-The path here was not linear. I never planned to become a professor. Looking back, the pattern was clear: the *prépas* said no, most policy programs said no, most PhD programs said no, and many doors stayed closed on the job market too. And yet at each stage there was *one* yes, one lifeline, one small miracle that let me keep going.
-
-From the outside, you often see other people's successes, not their failures or rejections. Mine had plenty of both. What carried me through was not knowing where I would end up. It was finding the work itself worth doing. I have come to believe that what others see as resilience is mostly the byproduct of enjoying the path rather than fixating on the destination.
-
-Do not miss the chance to be your own cheerleader, especially when everything else suggests you are not doing well. I ended up at a large research university doing work I find deeply fulfilling. I feel very fortunate.
+What carried me through was not knowing where I would end up. It was finding the work itself worth doing. What others read as resilience is mostly the byproduct of enjoying the path rather than fixating on the destination. If you are on a non-linear path: do not miss the chance to be your own cheerleader, especially when everything else suggests you are not doing well. Part of my job, as I see it, is to remind curious students that you can build a career out of your curiosity. Persistence and comfort with uncertainty come after.
 
 </div>
