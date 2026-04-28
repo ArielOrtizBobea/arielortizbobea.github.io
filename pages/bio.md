@@ -51,7 +51,7 @@ Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy a
 
 <p class="framing">For prospective students and curious visitors: here is the path that brought me into academia. I include it because a non-linear story can be reassuring if you are on one yourself.</p>
 
-I never planned to become a professor. I never really considered it. I write this in case it helps a reader feel that an unplanned path is fine.
+I never planned to become a professor. I never really considered it. I write this for the reader without a planned path. Maybe this could be your spark.
 
 I was born and raised in the Dominican Republic, the son of two agronomists. Weekends were countryside; the rest of life was Santo Domingo. My father, a first-generation college graduate, had done his PhD in France (my older brother was born there), and when the family moved back to the DR, my parents put us in a French school. I did the Science Baccalauréat (Bac S) with a specialty in life sciences. I loved every science class. I played baseball and soccer, and went boogie boarding on weekends.
 
