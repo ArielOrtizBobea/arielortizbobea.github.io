@@ -53,7 +53,7 @@ Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy a
 
 I never planned to become a professor. I never really considered it. I write this for the reader without a planned path. Maybe this could be your spark.
 
-I was born and raised in the Dominican Republic, the son of two agronomists. Weekends were countryside; the rest of life was Santo Domingo. My father, a first-generation college graduate, had done his PhD in France (my older brother was born there), and when the family moved back to the DR, my parents put us in a French school. I did the Science Baccalauréat (Bac S) with a specialty in life sciences. I loved every science class. I played baseball and soccer, and went boogie boarding on weekends.
+I was born and raised in the Dominican Republic, the son of two agronomists. Weekends were countryside; the rest of life was Santo Domingo. My father, a first-generation college graduate, had done his PhD in France (my older brother was born there), and when the family moved back to the DR, my parents put us in a French school. As a native Spanish speaker, I learned to read and write in French, an unusual but defining feature of my upbringing. I did the Science Baccalauréat (Bac S) with a specialty in life sciences. I loved every science class. I played baseball and soccer, and went boogie boarding on weekends.
 
 The plan in my teenage years was to take over the family business on my mother's side, growing ornamental plants. My grandparents had built it from scratch: my grandfather was a writer and journalist, my grandmother a chemical engineer. Horticulture in France felt like the right next step. I was coming from a French high school, and France was a more affordable option than the US.
 
