@@ -76,8 +76,8 @@ a.course-title:hover {
 
 <ul class="course-list">
   <li class="course-entry">
-    <a href="https://arielortizbobea.github.io/aem7010-practical-skills" class="course-code">AEM 7010</a>
-    <a href="https://arielortizbobea.github.io/aem7010-practical-skills" class="course-title">Doing Applied Economics Research: Practical Skills</a>
+    <a href="https://arielortizbobea.github.io/aem7010" class="course-code">AEM 7010</a>
+    <a href="https://arielortizbobea.github.io/aem7010" class="course-title">Doing Applied Economics Research: Practical Skills</a>
     <span class="course-semester">Spring 2026</span>
     <p class="course-description">
       Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data. See the <a href="https://arielortizbobea.github.io/aem7010" target="_blank" rel="noopener">course site</a> for my materials.
