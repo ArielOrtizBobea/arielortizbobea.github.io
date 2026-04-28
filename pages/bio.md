@@ -49,7 +49,7 @@ Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy a
 
 ## My story (so far)
 
-<p class="framing">For prospective students and curious visitors: here is the path that brought me into academia. I include it because a non-linear story can be reassuring if you are on one yourself.</p>
+<p class="framing">For prospective students and curious visitors: here is the path that has brought me so far into academia. I include it because a non-linear story can be reassuring if you are on one yourself.</p>
 
 I never planned to become a professor. I never really considered it. I write this for the reader without a planned path. Maybe this could be your spark.
 
@@ -71,7 +71,7 @@ One of those classes covered the world food problem. It was taught by Marcel Maz
 
 For my engineering thesis in my third year, a classmate and I went to the Kafa zone in Ethiopia, to a town called Bonga. The country was beautiful. Our task was to understand the bottlenecks farmers faced and propose ways to remove them. We interviewed older and younger farmers, met ethnic minorities marginalized by local customs, and learned about the precarious lives of rural widows. Most households we visited produced almost everything they ate, buying only salt and oil. They brewed their own coffee, beer, and honey wine. Life was rich in its way, and full of constraints. What struck me most was that the problems we saw on the ground were not really problems of the field. They were policy problems decided in the capital. I started thinking about how to tool up to make a difference at that level.
 
-That meant more education. I applied to US policy programs and ended up at the Maxwell School at Syracuse University, the oldest public administration school in the US. There I took my first serious economics courses, alongside negotiation and strategic planning. Economics fascinated me.
+That meant more education. I applied to US policy programs and was admitted to only one: the Maxwell School at Syracuse University, the oldest public administration school in the US. There I took my first serious economics courses, alongside negotiation and strategic planning. Economics fascinated me.
 
 After Maxwell I worked in the Dominican government as Special Assistant to the Minister of the Environment. It was a tumultuous time, with several political changes. I wrote speeches, dealt with protesters, coordinated with under-secretaries, talked to journalists. I was the oil in the machinery. I sat at the surface of many problems and never went deep into any of them. I found myself yearning for depth. I could also see I was not a politician. Even if I had been a halfway-decent one, that was not who I wanted to be. I wanted to make change from a different place. Maybe a PhD. Maybe the World Bank or FAO after that.
 
@@ -91,6 +91,10 @@ I love this job. My honest test is the lottery test: if I won tomorrow, I would 
 
 I feel very privileged to do this for a living. Part of the job, as I see it, is to encourage curious students with the idea that you can build a career out of your curiosity. It takes other things too: persistence, comfort with uncertainty, an unwillingness to give up. But the curiosity is the start.
 
-The path here was not linear. I never planned to become a professor. From the outside, you often see other people's successes, not their failures or rejections. Mine had plenty of both. What carried me through was finding intrinsic value in the work itself and continuing at it, even when that was the only thing telling me to. Do not miss the chance to be your own cheerleader, especially when everything else suggests you are not doing well. I ended up at a large research university doing work I find deeply fulfilling. I feel very fortunate.
+The path here was not linear. I never planned to become a professor. Looking back, the pattern was clear: the prépas said no, most policy programs said no, most PhD programs said no, and many doors stayed closed on the job market too. And yet at each stage there was one yes, one lifeline, one small miracle that let me keep going.
+
+From the outside, you often see other people's successes, not their failures or rejections. Mine had plenty of both. What carried me through was not knowing where I would end up. It was finding the work itself worth doing. I have come to believe that what others see as resilience is mostly the byproduct of enjoying the path rather than fixating on the destination.
+
+Do not miss the chance to be your own cheerleader, especially when everything else suggests you are not doing well. I ended up at a large research university doing work I find deeply fulfilling. I feel very fortunate.
 
 </div>
