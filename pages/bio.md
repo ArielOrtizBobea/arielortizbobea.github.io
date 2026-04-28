@@ -59,7 +59,7 @@ The plan in my teenage years was to take over the family business on my mother's
 
 I applied to the three *classes préparatoires* I was allowed to (selective public boarding schools that serve as the main entryway to France's top schools) and was rejected by all three. Plan B was the Université Paris-Sud, where my father had done his PhD. Unlike the *classes préparatoires*, French public universities historically cannot select their undergraduate students. Anyone with a *baccalauréat* can enroll. The only constraint is regional quotas that direct students to their local universities. The fancy new buildings my father remembered from the 1970s and 80s were a bit out of shape by the early 2000s.
 
-I arrived in the summer of 1999. It was my first time in Europe. I was eighteen, and my French had only ever been a classroom language. I remember walking out of Gare Montparnasse and watching Parisians move past as if each one knew exactly where they were going. I was watching them in slow motion, resolved to take on a city I had only known from books.
+I arrived in the summer of 1999. It was my first time in Europe. I was eighteen, and my French had only ever been a classroom language. I remember walking out of Gare Montparnasse and watching Parisians move past as if each one knew exactly where they were going. I recall this in slow motion. And a certain feeling of defiance, of being ready to take on a city I had only known from books.
 
 I came with a sense of purpose. My parents and my grandmother (who was supporting me financially) helped without asking many questions. That felt like a quiet obligation to follow through. It was never pressure, but I would not let myself disappoint them.
 
