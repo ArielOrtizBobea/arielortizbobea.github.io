@@ -7,9 +7,10 @@ background: /assets/images/landing/campus.jpg
 <div class="container-fluid px-4">
   <div class="row align-items-center">
     <div class="text-center col-md-auto">
-      <p class='text-center'>
+      <p class='text-center' style="margin-bottom: 0;">
         <img src="/assets/images/landing/alley.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 300px"/>
       </p>
+      <p class='text-center' style="font-size: 0.85rem; color: #666; font-style: italic; margin-top: 6px; max-width: 300px;">Me, looking surprised in a colorful alleyway in Melbourne, Australia.</p>
     </div>
     <div class="col" style="line-height: 1.7;">
       <h4 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h4>
