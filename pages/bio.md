@@ -4,26 +4,48 @@ permalink: /bio/
 background: /assets/images/landing/campus.jpg
 ---
 
-<div class="container-fluid px-4">
-  <div class="row align-items-center">
-    <div class="text-center col-md-auto">
-      <p class='text-center'>
-        <img src="/assets/images/landing/aob1.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 300px"/>
-      </p>
-    </div>
-    <div class="col" style="line-height: 1.7;">
-      <h4 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h4>
-      <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University</p>
-      <p style="margin-top: 14px;">
-        <a href="/assets/cv.pdf" target="_blank" style="display: inline-block; background-color: #b31b1b; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none;">
-          <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
-        </a>
-      </p>
-    </div>
-  </div>
-</div>
-
 <style>
+.bio-top-row {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+.bio-top-row .bio-tall-photo { flex: 0 0 260px; }
+.bio-top-row .bio-tall-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+.bio-top-row .bio-top-text { flex: 1; line-height: 1.7; }
+.bio-top-row h4 { color: #b31b1b; margin-bottom: 6px; }
+.bio-top-row .bio-cv-btn {
+  display: inline-block;
+  background-color: #b31b1b;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.bio-top-row .bio-cv-btn:hover { color: #fff; opacity: 0.9; }
+.bio-top-row h2 {
+  color: #b31b1b;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+.bio-top-row .short-bio-text { line-height: 1.8; }
+@media (max-width: 700px) {
+  .bio-top-row { flex-direction: column; }
+  .bio-top-row .bio-tall-photo {
+    flex: 0 0 auto;
+    width: 70%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+}
 .bio-page h2 {
   color: #b31b1b;
   font-size: 1.5rem;
@@ -41,11 +63,24 @@ background: /assets/images/landing/campus.jpg
 }
 </style>
 
-<div class="bio-page" markdown="1" style="margin-top: 2rem;">
+<div class="bio-top-row">
+  <div class="bio-tall-photo">
+    <img src="/assets/images/landing/alley.jpg" alt="Photo of Ariel Ortiz-Bobea"/>
+  </div>
+  <div class="bio-top-text">
+    <h4>Ariel Ortiz-Bobea</h4>
+    <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> &amp; <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University</p>
+    <p style="margin-top: 14px;">
+      <a href="/assets/cv.pdf" target="_blank" class="bio-cv-btn">
+        <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
+      </a>
+    </p>
+    <h2>Short bio</h2>
+    <p class="short-bio-text">Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a <em>Diplôme d'Ingénieur</em> from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the <em>Journal of the Association of Environmental and Resource Economists</em>, <em>Climatic Change</em>, <em>Environmental Research: Food Systems</em>, and the <em>Journal of Wine Economics</em>.</p>
+  </div>
+</div>
 
-## Short bio
-
-Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
+<div class="bio-page" markdown="1">
 
 ## My story (so far)
 
