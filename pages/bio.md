@@ -63,7 +63,7 @@ I arrived in the summer of 1999. It was my first time in Europe. I was eighteen,
 
 I came with a sense of purpose. My parents and my grandmother (who was supporting me financially) helped without asking many questions. That felt like a quiet obligation to follow through. It was never pressure, but I would not let myself disappoint them.
 
-University went better than I expected. The structure and discipline from my small school carried over, and to my surprise I did well. I ranked in the top 5 students of a cohort of 600+. After two years preparing for the *concours*, my father suggested I list INA P-G (the oldest and most prestigious agronomy school in France) at the top, and specialize in horticulture afterward. I sat the written and oral rounds and placed third out of more than 500 candidates nationwide.
+University went better than I expected. The structure and discipline from my small school carried over, and to my surprise I did well. I ranked in the top 5 students of a cohort of 600+. After two years preparing for the *concours*, my father suggested I list INA P-G (the oldest and most prestigious agronomy school in France) at the top, and specialize in horticulture afterward. I sat the written and oral rounds and placed third out of more than 500 candidates nationwide. In the *concours*, your ranking determines which schools you can attend, and third place meant I got my first choice. Without ever attending a *classe préparatoire*, I had arrived at the same destination.
 
 That is how I ended up taking classes in a castle Charles X had bought in 1826 to house the school. I was the only person from the Americas in my cohort, fully immersed in French culture, and I made lasting friendships I still keep up with.
 
