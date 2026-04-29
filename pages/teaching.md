@@ -88,7 +88,7 @@ a.course-title:hover {
     <span class="course-title">Empirical Methods for Applied Economists</span>
     <span class="course-semester">Fall 2026</span>
     <p class="course-description">
-      Introduction to empirical research workflows for applied economists: writing R from scratch, data wrangling and visualization, version control with Git and GitHub, and using AI tools effectively. Weekly assignments are submitted via GitHub and audited by classmates for reproducibility, followed by a team research project in the second half of the semester. Aimed at MS, MPS, and first-year PhD students; some coding experience recommended.
+      Introduction to empirical research workflows for applied economists: writing R from scratch, data wrangling and visualization, version control with Git and GitHub, and using AI tools effectively. Weekly assignments are submitted via GitHub and audited by classmates for reproducibility, followed by a team or individual research project in the second half of the semester. Aimed at MS, MPS, and second-year PhD students; some coding experience recommended.
     </p>
   </li>
   <li class="course-entry">
@@ -96,7 +96,7 @@ a.course-title:hover {
     <span class="course-title">Advanced Empirical Methods for Applied Economists</span>
     <span class="course-semester">Spring 2027</span>
     <p class="course-description">
-      Sequel to AEM 6850. Focuses on understanding the small-sample properties of econometric estimators through Monte Carlo simulations. Students first build on version control and AI tools, then work through regular GitHub-based exercises on specific estimators, and finish with a course project on an estimator of their choice, ideally tied to their own research. Best suited for PhD and advanced MS students active in a research project who have completed core econometrics.
+      Sequel to AEM 6850. Focuses on understanding the small-sample properties of econometric estimators through Monte Carlo simulations. Students first build on version control and AI tools, then work through regular GitHub-based exercises on specific estimators, and finish with a course project on an estimator of their choice, ideally tied to their own research. Best suited for PhD and advanced MS students active in a research project who have completed graduate econometrics coursework.
     </p>
   </li>
   <li class="course-entry">
