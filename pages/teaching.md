@@ -68,6 +68,25 @@ a.course-title:hover {
   margin-bottom: 1rem;
 }
 .teaching-page h3:first-child { margin-top: 0; }
+.course-catalog-link {
+  display: inline-block;
+  margin-left: 0.35em;
+  color: #6c757d;
+  text-decoration: none;
+  opacity: 0.65;
+  transition: opacity 0.15s ease, color 0.15s ease;
+  vertical-align: 0.05em;
+}
+.course-catalog-link:hover {
+  opacity: 1;
+  color: #b31b1b;
+  text-decoration: none;
+}
+.course-catalog-link svg {
+  width: 0.78em;
+  height: 0.78em;
+  display: inline;
+}
 </style>
 
 <div class="teaching-page" markdown="0">
@@ -77,7 +96,7 @@ a.course-title:hover {
 <ul class="course-list">
   <li class="course-entry">
     <a href="https://arielortizbobea.github.io/aem7010" class="course-code">AEM 7010</a>
-    <a href="https://arielortizbobea.github.io/aem7010" class="course-title">Doing Applied Economics Research: Practical Skills</a>
+    <span><a href="https://arielortizbobea.github.io/aem7010" class="course-title">Doing Applied Economics Research: Practical Skills</a><a href="https://classes.cornell.edu/browse/roster/SP26/class/AEM/7010" class="course-catalog-link" target="_blank" rel="noopener" title="View in Cornell course catalog" aria-label="View AEM 7010 in Cornell course catalog"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>
     <span class="course-semester">Spring 2026</span>
     <p class="course-description">
       Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data. See the <a href="https://arielortizbobea.github.io/aem7010" target="_blank" rel="noopener">course site</a> for my materials.
@@ -85,7 +104,7 @@ a.course-title:hover {
   </li>
   <li class="course-entry">
     <span class="course-code">AEM 6850</span>
-    <span class="course-title">Empirical Methods for Applied Economists</span>
+    <span><span class="course-title">Empirical Methods for Applied Economists</span><a href="https://classes.cornell.edu/browse/roster/FA26/class/AEM/6850" class="course-catalog-link" target="_blank" rel="noopener" title="View in Cornell course catalog" aria-label="View AEM 6850 in Cornell course catalog"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>
     <span class="course-semester">Fall 2026</span>
     <p class="course-description">
       Introduction to empirical research workflows for applied economists: writing R from scratch, data wrangling and visualization, version control with Git and GitHub, and using AI tools effectively. Weekly assignments are submitted via GitHub and audited by classmates for reproducibility, followed by a team or individual research project in the second half of the semester. Aimed at MS, MPS, and second-year PhD students; some coding experience recommended.
