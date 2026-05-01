@@ -14,9 +14,11 @@ no_banner: true
       <p class='text-center' style="font-size: 0.85rem; color: #666; font-style: italic; margin-top: 6px; max-width: 300px;">Me, looking surprised in a colorful alleyway in Melbourne, Australia.</p>
     </div>
     <div class="col" style="line-height: 1.7;">
-      <h4 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h4>
-      <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University<br/>
-      Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a></p>
+      <h5 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h5>
+      <ul style="padding-left: 1.25rem; margin-bottom: 0;">
+        <li>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University</li>
+        <li>Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a></li>
+      </ul>
 
       <h5 style="color: #b31b1b; margin-top: 20px; margin-bottom: 6px;">Contact</h5>
       <div style="padding-left: 1rem;">
