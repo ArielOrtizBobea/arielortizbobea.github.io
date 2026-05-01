@@ -71,10 +71,23 @@
     body, .content, .navbar, .nav-link, h1, h2, h3, h4, h5, h6, p, li, a, td, th, button, input, select, textarea {
       font-family: 'Hanken Grotesk', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     }
-    /* Footer: light grey background, dark readable text, red links */
-    footer { color: #444 !important; border-top: 1px solid #e6e6e6; }
-    footer p, footer li, footer .small { color: #444 !important; }
-    footer a { color: #b31b1b !important; }
+    /* Footer: force light grey background, dark readable text, red links.
+       petridish theme sets the red via SCSS at build time, so we override here. */
+    body > footer,
+    footer {
+      background-color: #f8f9fa !important;
+      background: #f8f9fa !important;
+      color: #444 !important;
+      border-top: 1px solid #e6e6e6 !important;
+    }
+    footer .container,
+    footer .row,
+    footer p, footer li, footer .small,
+    footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+      color: #444 !important;
+      background: transparent !important;
+    }
+    footer a, footer .small a { color: #b31b1b !important; }
     footer a:hover { color: #8a1414 !important; }
   </style>
   <!-- Javascript: loaded here so they are available in templates -->
