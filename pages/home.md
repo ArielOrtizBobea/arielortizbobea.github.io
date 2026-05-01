@@ -14,8 +14,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 
 <br/> is just space between paragraphs in html
 -->
-<div class="container-fluid px-4">
-  <div class="row align-items-center">
+<div class="container-fluid px-4" style="max-width: 820px; margin: 0 auto;">
+  <div class="row align-items-center justify-content-center">
     <div class="text-center col-md-auto">
       <p class='text-center'>
         <img src="/assets/images/landing/aob2.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 240px"/>
