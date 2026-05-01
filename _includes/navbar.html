@@ -7,6 +7,7 @@
         {% endif %}
         {{ site.title }}
       </a>
+      <div class="site-subtitle">Associate Professor, Cornell University</div>
     </div>
 
     {% if page.navigation and site.data[page.navigation] %}
@@ -71,7 +72,15 @@
     border-bottom: 1px solid #e6e6e6;
   }
   #main-nav .site-title-row {
-    padding: 1.4rem 0 0.05rem;
+    padding: 1.4rem 0 0.3rem;
+  }
+  #main-nav .site-subtitle {
+    font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    color: #6c757d;
+    letter-spacing: 0.01em;
+    margin-top: 0.15rem;
   }
   #main-nav .site-title {
     font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
