@@ -57,6 +57,46 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   margin-left: auto !important;
   margin-right: auto !important;
 }
+/* === Section rail layout (Option D) === */
+.home-section-wrap {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+.home-rail {
+  flex-shrink: 0;
+  width: 110px;
+  border-right: 1px solid #e6e6e6;
+  padding: 4px 16px 0 0;
+}
+.home-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #b31b1b;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.35;
+}
+.home-tag::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #b31b1b;
+  margin-bottom: 8px;
+}
+.home-section-content { flex: 1; min-width: 0; padding-left: 24px; }
+@media (max-width: 760px) {
+  .home-section-wrap { flex-direction: column; }
+  .home-rail {
+    width: auto;
+    border-right: none;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0 0 8px;
+  }
+  .home-tag::before { display: none; }
+  .home-section-content { padding-left: 0; padding-top: 12px; }
+}
 .recent-pubs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -112,8 +152,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 </style>
 <div class="section-band">
 <div class="container-fluid px-4">
-  <h5 style="color: #b31b1b; margin-bottom: 12px;">Recent Publications</h5>
-  <div style="padding-left: 1rem;">
+  <div class="home-section-wrap">
+    <div class="home-rail"><div class="home-tag">Recent<br/>Publications</div></div>
+    <div class="home-section-content">
   {%- assign featured = site.data.papers | where_exp: "p", "p.featured_home" | sort: "year" | reverse -%}
   <div class="recent-pubs-grid">
   {%- for paper in featured -%}
@@ -144,14 +185,16 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   {%- endfor -%}
   </div>
   <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/research/' | relative_url }}">See all publications &rarr;</a></div>
+    </div>
   </div>
 </div>
 </div>
 
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
 <div class="container-fluid px-4" style="margin-top: 36px;">
-  <h5 style="color: #b31b1b; margin-bottom: 12px;">Upcoming Talks</h5>
-  <div style="line-height: 1.7; padding-left: 1rem;">
+  <div class="home-section-wrap">
+    <div class="home-rail"><div class="home-tag">Upcoming<br/>Talks</div></div>
+    <div class="home-section-content" style="line-height: 1.7;">
   {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
   {%- assign sorted = site.data.talks | sort: "date" -%}
   {%- assign count = 0 -%}
@@ -171,6 +214,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <div style="color: #6c757d;">No upcoming talks scheduled.</div>
   {%- endif -%}
   <div style="margin-top: 10px; font-size: 0.9em;"><a href="{{ '/talks/' | relative_url }}">See all talks &rarr;</a></div>
+    </div>
   </div>
 </div>
 
@@ -244,8 +288,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 </style>
 <div class="section-band">
 <div class="container-fluid px-4">
-  <h5 style="color: #b31b1b; margin-bottom: 12px;">In the News</h5>
-  <div style="padding-left: 1rem;">
+  <div class="home-section-wrap">
+    <div class="home-rail"><div class="home-tag">In the<br/>News</div></div>
+    <div class="home-section-content">
   {%- assign featured_news = site.data.news | where_exp: "n", "n.featured_home" | sort: "date" | reverse -%}
   {%- if featured_news.size == 0 -%}
   <div style="color: #6c757d;">No news items yet.</div>
@@ -268,6 +313,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   </div>
   {%- endif -%}
   <div style="margin-top: 12px; font-size: 0.9em;"><a href="{{ '/news/' | relative_url }}">See all news &rarr;</a></div>
+    </div>
   </div>
 </div>
 </div>
