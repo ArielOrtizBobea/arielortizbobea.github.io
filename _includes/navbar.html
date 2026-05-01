@@ -1,58 +1,135 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light d-print-none" id="main-nav">
+<header class="site-header bg-light d-print-none" id="main-nav">
   <div class="container">
-    <a class="navbar-brand d-flex align-items-center" href="{{'/' | relative_url }}">
-      {% if site.logo %}
-        <img class="me-3" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-      {% endif %}
-      {{ site.title }}
-    </a>
+    <div class="site-title-row text-center">
+      <a class="site-title" href="{{'/' | relative_url }}">
+        {% if site.logo %}
+          <img class="site-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+        {% endif %}
+        {{ site.title }}
+      </a>
+    </div>
+
     {% if page.navigation and site.data[page.navigation] %}
       {% assign navigation = site.data[page.navigation] %}
     {% elsif site.data.navigation %}
       {% assign navigation = site.data.navigation %}
     {% endif %}
     {% if navigation %}
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
-        Menu <i class="fa-solid fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="navbar-nav ms-auto">
-          {% for item in navigation %}
-            {% if item.menu %}
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                  {{ item.text }}
-                </a>
-                <div class="dropdown-menu dropdown-menu-end">
-                  {% for subitem in item.menu %}
-                    {% if subitem.href %}
-                      {% if subitem.text contains '' %}
-                        {% assign subitem_text = subitem.text %}
-                      {% else %}
-                        {% assign subitem_text = site.pages | where: 'url', subitem.href | map: 'title' | first %}
-                      {% endif %}
-                      <a class="dropdown-item{% if subitem.href == page.url %} active{% endif %}" href="{{ subitem.href | relative_url }}"{% if subitem.new_window %} target="_blank"{% endif %}>{{ subitem_text }}</a>
-                    {% elsif subitem.text contains '---' %}
-                      <div class="dropdown-divider"></div>
-                    {% else %}
-                      <h6 class="dropdown-header">{{ subitem.text }}</h6>
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </li>
-            {% else %}
-              <li class="navbar-item">
-                {% if item.text contains '' %}
-                  {% assign item_text = item.text %}
+      <nav class="navbar navbar-expand-md navbar-light p-0">
+        <div class="container-fluid justify-content-center p-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+            Menu <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbar-menu">
+            <ul class="navbar-nav site-menu">
+              {% for item in navigation %}
+                {% if item.menu %}
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      {{ item.text }}
+                    </a>
+                    <div class="dropdown-menu">
+                      {% for subitem in item.menu %}
+                        {% if subitem.href %}
+                          {% if subitem.text contains '' %}
+                            {% assign subitem_text = subitem.text %}
+                          {% else %}
+                            {% assign subitem_text = site.pages | where: 'url', subitem.href | map: 'title' | first %}
+                          {% endif %}
+                          <a class="dropdown-item{% if subitem.href == page.url %} active{% endif %}" href="{{ subitem.href | relative_url }}"{% if subitem.new_window %} target="_blank"{% endif %}>{{ subitem_text }}</a>
+                        {% elsif subitem.text contains '---' %}
+                          <div class="dropdown-divider"></div>
+                        {% else %}
+                          <h6 class="dropdown-header">{{ subitem.text }}</h6>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </li>
                 {% else %}
-                  {% assign item_text = site.pages | where: 'url', item.href | map: 'title' | first %}
+                  <li class="nav-item">
+                    {% if item.text contains '' %}
+                      {% assign item_text = item.text %}
+                    {% else %}
+                      {% assign item_text = site.pages | where: 'url', item.href | map: 'title' | first %}
+                    {% endif %}
+                    <a class="nav-link{% if item.href == page.url %} active{% endif %}" href="{{ item.href | relative_url }}"{% if item.new_window %} target="_blank"{% endif %}>{{ item_text }}</a>
+                  </li>
                 {% endif %}
-                <a class="nav-link{% if item.href == page.url %} active{% endif %}" href="{{ item.href | relative_url }}"{% if item.new_window %} target="_blank"{% endif %}>{{ item_text }}</a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </nav>
     {% endif %}
   </div>
-</nav>
+</header>
+
+<style>
+  .site-header {
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .site-title-row {
+    padding: 1.6rem 0 0.6rem;
+  }
+  .site-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #222;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .site-title:hover {
+    color: #b31b1b;
+    text-decoration: none;
+  }
+  .site-title .site-logo {
+    height: 2.4rem;
+    width: auto;
+  }
+  .site-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1.4rem;
+    padding: 0.4rem 0 1rem;
+    margin: 0;
+  }
+  .site-menu .nav-link {
+    color: #444;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 0.25rem 0;
+    position: relative;
+  }
+  .site-menu .nav-link:hover {
+    color: #b31b1b;
+  }
+  .site-menu .nav-link.active {
+    color: #b31b1b;
+  }
+  .site-menu .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 2px;
+    background: #b31b1b;
+  }
+  @media (max-width: 767.98px) {
+    .site-title { font-size: 1.6rem; }
+    .site-title-row { padding: 1rem 0 0.4rem; }
+    .navbar-toggler {
+      margin: 0 auto 0.6rem;
+      display: block;
+    }
+    .site-menu {
+      flex-direction: column;
+      gap: 0.2rem;
+      padding-bottom: 0.8rem;
+    }
+  }
+</style>
