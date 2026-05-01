@@ -22,7 +22,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       </p>
     </div>
     <div class="col" style="line-height: 1.8;">
-      <p><strong>Ariel Ortiz-Bobea</strong> is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies can produce more and better food and thrive in the face of environmental change.</p>
+      <p><strong>Ariel Ortiz-Bobea</strong> is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies can sustainably produce more and better food and thrive in the face of environmental change.</p>
       <div style="margin-top: 1rem;">
         <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall
         <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
@@ -56,6 +56,10 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   max-width: 1100px;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+/* Variant: same horizontal alignment as section-band, no grey background */
+.section-band.section-band-plain {
+  background: transparent;
 }
 /* === Section rail layout (Option D) === */
 .home-section-wrap {
@@ -191,7 +195,8 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 </div>
 
 <!-- Upcoming talks teaser: pulls next 3 from _data/talks.yml -->
-<div class="container-fluid px-4" style="margin-top: 36px;">
+<div class="section-band section-band-plain">
+<div class="container-fluid px-4">
   <div class="home-section-wrap">
     <div class="home-rail"><div class="home-tag">Upcoming<br/>Talks</div></div>
     <div class="home-section-content" style="line-height: 1.7;">
@@ -216,6 +221,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <div style="margin-top: 10px; font-size: 0.9em;"><a href="{{ '/talks/' | relative_url }}">See all talks &rarr;</a></div>
     </div>
   </div>
+</div>
 </div>
 
 <!-- In the news: pulls items with featured_home: true from _data/news.yml -->
