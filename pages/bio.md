@@ -5,7 +5,7 @@ background: /assets/images/landing/campus.jpg
 ---
 
 <div class="container-fluid px-4">
-  <div class="row align-items-center">
+  <div class="row align-items-start">
     <div class="text-center col-md-auto">
       <p class='text-center' style="margin-bottom: 0;">
         <img src="/assets/images/landing/alley.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 300px"/>
@@ -16,17 +16,8 @@ background: /assets/images/landing/campus.jpg
       <h4 style="color: #b31b1b; margin-bottom: 6px;">Ariel Ortiz-Bobea</h4>
       <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University<br/>
       Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a></p>
-      <p style="margin-top: 14px;">
-        <a href="/assets/cv.pdf" target="_blank" style="display: inline-block; background-color: #b31b1b; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none;">
-          <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
-        </a>
-      </p>
-    </div>
-  </div>
 
-  <div class="row" style="margin-top: 32px;">
-    <div class="col-md-6" style="line-height: 1.8;">
-      <h5 style="color: #b31b1b; margin-bottom: 6px;">Contact</h5>
+      <h5 style="color: #b31b1b; margin-top: 20px; margin-bottom: 6px;">Contact</h5>
       <div style="padding-left: 1rem;">
         <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall, Cornell University, Ithaca, NY 14853
         <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
@@ -41,7 +32,10 @@ background: /assets/images/landing/campus.jpg
         </span>
       </div>
     </div>
-    <div class="col-md-6" style="line-height: 1.8;">
+  </div>
+
+  <div class="row" style="margin-top: 32px;">
+    <div class="col-12" style="line-height: 1.8;">
       <h5 style="color: #b31b1b; margin-bottom: 6px;">Editorial</h5>
       <div style="padding-left: 1rem;">
         Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
@@ -76,6 +70,12 @@ background: /assets/images/landing/campus.jpg
 ## Short bio
 
 Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
+
+<p style="margin-top: 18px;">
+  <a href="/assets/cv.pdf" target="_blank" style="display: inline-block; background-color: #b31b1b; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none;">
+    <i class="fa-solid fa-file-pdf" style="margin-right: 6px;"></i>Download full CV (PDF)
+  </a>
+</p>
 
 {% comment %}
 ## My story (so far)

@@ -22,7 +22,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       </p>
     </div>
     <div class="col" style="line-height: 1.8;">
-      <p style="font-size: 1.15em;">Ariel Ortiz-Bobea is Associate Professor of Applied Economics and Policy at Cornell University, where he combines economic and environmental data to understand how humans cope with environmental change, particularly in agriculture.</p>
+      <p style="font-size: 1.15em;">Ariel Ortiz-Bobea is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies adapt to environmental change so they can produce more and better food and lead better lives.</p>
       <p style="margin-top: 1rem;"><i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a></p>
     </div>
   </div>
