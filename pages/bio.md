@@ -77,6 +77,7 @@ background: /assets/images/landing/campus.jpg
 
 Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
 
+{% comment %}
 ## My story (so far)
 
 <p class="framing">For prospective students and curious visitors: here is the path that has brought me so far into academia. I include it because a non-linear story can be reassuring if you are on one yourself.</p>
@@ -126,5 +127,6 @@ I love this job. If I won the lottery tomorrow, I would still do this. That's ho
 The path here was not linear. The *prépas* said no, most policy programs said no, most PhD programs said no, and many doors stayed closed on the job market. At each stage there was *one* yes, one lifeline, one small miracle that let me keep going. From the outside, you see other people's successes, not their failures. Mine had plenty of both.
 
 What carried me through was not knowing where I would end up. It was finding the work itself worth doing. What others read as resilience is mostly the byproduct of enjoying the path rather than fixating on the destination. If you are on a non-linear path: do not miss the chance to be your own cheerleader, especially when everything else suggests you are not doing well. Part of my job, as I see it, is to remind curious students that you can build a career out of your the joy of discovery. That's pretty awesome.
+{% endcomment %}
 
 </div>
