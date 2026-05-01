@@ -7,10 +7,12 @@
     {% include navbar.html %}
 
     <main>
-      {% include header.html %}
+      {% unless page.no_banner %}
+        {% include header.html %}
+      {% endunless %}
 
       <div class="container content">
-          
+
         {{ content
           | replace: '<table', '<div class="table-responsive"><table'
           | replace: '</table>', '</table></div>'

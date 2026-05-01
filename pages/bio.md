@@ -2,6 +2,7 @@
 title: bio-cv
 permalink: /bio/
 background: /assets/images/landing/campus.jpg
+no_banner: true
 ---
 
 <div class="container-fluid px-4">
@@ -17,26 +18,7 @@ background: /assets/images/landing/campus.jpg
       <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University<br/>
       Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a></p>
 
-      <h5 style="color: #b31b1b; margin-top: 20px; margin-bottom: 6px;">Contact</h5>
-      <div style="padding-left: 1rem;">
-        <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall, Cornell University, Ithaca, NY 14853
-        <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
-        <br/> <i class="fa-solid fa-phone" style="color: #b31b1b; width: 18px;"></i> 607.255.0220
-        <br/>
-        <span style="font-size: 1.3em; margin-top: 8px; display: inline-block;">
-          <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ&hl=en" target="_blank" title="Google Scholar" style="margin: 0 5px;"><i class="fa-brands fa-google-scholar"></i></a>
-          <a href="https://github.com/arielortizbobea" target="_blank" title="GitHub" style="margin: 0 5px;"><i class="fa-brands fa-github"></i></a>
-          <a href="https://bsky.app/profile/arielob.bsky.social" target="_blank" title="Bluesky" style="margin: 0 5px;"><i class="fa-brands fa-bluesky"></i></a>
-          <a href="https://x.com/ArielOrtizBobea" target="_blank" title="X / Twitter" style="margin: 0 5px;"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://www.linkedin.com/in/ariel-ortiz-bobea-a904637" target="_blank" title="LinkedIn" style="margin: 0 5px;"><i class="fa-brands fa-linkedin"></i></a>
-        </span>
-      </div>
-    </div>
-  </div>
-
-  <div class="row" style="margin-top: 32px;">
-    <div class="col-12" style="line-height: 1.8;">
-      <h5 style="color: #b31b1b; margin-bottom: 6px;">Editorial</h5>
+      <h5 style="color: #b31b1b; margin-top: 20px; margin-bottom: 6px;">Editorial</h5>
       <div style="padding-left: 1rem;">
         Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
         <br/> Associate Deputy Editor, <a href="https://link.springer.com/journal/10584" target="_blank"><em>Climatic Change</em></a>
