@@ -1,13 +1,15 @@
 <header class="site-header d-print-none" id="main-nav">
   <div class="container">
     <div class="site-title-row text-center">
-      <a class="site-title" href="{{'/' | relative_url }}">
-        {% if site.logo %}
-          <img class="site-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
-        {% endif %}
-        {{ site.title }}
-      </a>
-      <div class="site-subtitle">Associate Professor, Cornell University</div>
+      <div class="site-title-stack">
+        <a class="site-title" href="{{'/' | relative_url }}">
+          {% if site.logo %}
+            <img class="site-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+          {% endif %}
+          {{ site.title }}
+        </a>
+        <div class="site-subtitle">Associate Professor, Cornell University</div>
+      </div>
     </div>
 
     {% if page.navigation and site.data[page.navigation] %}
@@ -74,13 +76,27 @@
   #main-nav .site-title-row {
     padding: 1.4rem 0 0.3rem;
   }
+  /* Stack the name and subtitle in an inline-block so the subtitle can
+     stretch to match the name's width via width:100% + letter-spacing. */
+  #main-nav .site-title-stack {
+    display: inline-block;
+    text-align: center;
+  }
+  #main-nav .site-title-stack .site-title {
+    display: inline-block;
+  }
   #main-nav .site-subtitle {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
-    font-size: 0.85rem;
-    font-weight: 400;
+    font-size: 0.72rem;
+    font-weight: 500;
     color: #6c757d;
-    letter-spacing: 0.01em;
-    margin-top: 0.15rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 0;
+    white-space: nowrap;
   }
   #main-nav .site-title {
     font-family: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
