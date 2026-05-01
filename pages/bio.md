@@ -41,10 +41,10 @@ no_banner: true
 <style>
 .bio-page h2 {
   color: #b31b1b;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.25rem;
+  font-weight: 500;
   margin-top: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 6px;
 }
 .bio-page p { line-height: 1.8; }
 .bio-page .framing {
