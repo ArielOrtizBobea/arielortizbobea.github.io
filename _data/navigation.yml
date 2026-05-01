@@ -1,14 +1,14 @@
-- text: research
+- text: papers
   href: /research/
-- text: teaching
+- text: talks
+  href: /talks/
+- text: courses
   href: /teaching/
 - text: people
   href: /people/
-- text: talks
-  href: /talks/
 - text: join me
   href: /joinme/
-- text: bio/cv
+- text: bio-cv
   href: /bio/
 #- text: resources
 #  href: /resources/

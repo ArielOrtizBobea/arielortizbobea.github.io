@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Local preview files (not deployed)
+_preview_*.html
+# Backup of original photo before crop
+assets/images/landing/aob2_original.jpg

@@ -18,7 +18,7 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   <div class="row align-items-center">
     <div class="text-center col-md-auto">
       <p class='text-center'>
-        <img src="/assets/images/landing/aob2.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 350px"/>
+        <img src="/assets/images/landing/aob2.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 240px"/>
       </p>
     </div>
     <div class="col" style="line-height: 1.8;">

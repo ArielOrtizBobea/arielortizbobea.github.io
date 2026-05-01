@@ -1,5 +1,5 @@
 ---
-title: bio
+title: bio-cv
 permalink: /bio/
 background: /assets/images/landing/campus.jpg
 ---
