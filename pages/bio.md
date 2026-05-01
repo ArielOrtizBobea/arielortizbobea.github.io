@@ -18,13 +18,6 @@ no_banner: true
       <p>Associate Professor, <a href="https://dyson.cornell.edu" target="_blank">Charles H. Dyson School of Applied Economics and Management</a> & <a href="https://publicpolicy.cornell.edu" target="_blank">Jeb E. Brooks School of Public Policy</a>, Cornell University<br/>
       Faculty Fellow, <a href="https://www.atkinson.cornell.edu" target="_blank">Cornell Atkinson Center for Sustainability</a></p>
 
-      <h5 style="color: #b31b1b; margin-top: 20px; margin-bottom: 6px;">Editorial</h5>
-      <div style="padding-left: 1rem;">
-        Editorial Council, <a href="https://www.journals.uchicago.edu/journal/jaere" target="_blank"><em>Journal of the Association of Environmental and Resource Economists</em></a>
-        <br/> Associate Deputy Editor, <a href="https://link.springer.com/journal/10584" target="_blank"><em>Climatic Change</em></a>
-        <br/> Editorial Board, <a href="https://iopscience.iop.org/journal/2976-601X" target="_blank"><em>Environmental Research: Food Systems</em></a>
-        <br/> Editorial Advisory Board, <a href="https://www.cambridge.org/core/journals/journal-of-wine-economics" target="_blank"><em>Journal of Wine Economics</em></a>
-      </div>
     </div>
   </div>
 </div>
@@ -51,7 +44,7 @@ no_banner: true
 
 ## Short bio
 
-Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the *Journal of the Association of Environmental and Resource Economists*, *Climatic Change*, *Environmental Research: Food Systems*, and the *Journal of Wine Economics*.
+Prof. Ariel Ortiz-Bobea is Associate Professor in Applied Economics and Policy at Cornell University, with joint appointments in the Charles H. Dyson School of Applied Economics and Management and the Jeb E. Brooks School of Public Policy. He is also a Faculty Fellow at the Cornell Atkinson Center for Sustainability. His research broadly focuses on how people cope and adapt to environmental change, particularly in agriculture. He joined Cornell in 2014 after a short stint at Resources for the Future. Before graduate school, he served as Special Assistant to the Minister of the Environment of the Dominican Republic. He holds a PhD in Agricultural and Resource Economics from the University of Maryland, College Park, an MPA from Syracuse University (Maxwell School), and a *Diplôme d'Ingénieur* from AgroParisTech (formerly the Institut National Agronomique Paris-Grignon) in France. He serves in editorial roles at various journals, including the [*Journal of the Association of Environmental and Resource Economists*](https://www.journals.uchicago.edu/journal/jaere), [*Climatic Change*](https://link.springer.com/journal/10584), [*Environmental Research: Food Systems*](https://iopscience.iop.org/journal/2976-601X), and the [*Journal of Wine Economics*](https://www.cambridge.org/core/journals/journal-of-wine-economics).
 
 <p style="margin-top: 18px;">
   <a href="/assets/cv.pdf" target="_blank" style="display: inline-block; background-color: #b31b1b; color: #fff; padding: 8px 18px; border-radius: 4px; text-decoration: none;">

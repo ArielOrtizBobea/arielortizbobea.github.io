@@ -22,9 +22,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
       </p>
     </div>
     <div class="col" style="line-height: 1.8;">
-      <p>Ariel Ortiz-Bobea is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies adapt to environmental change so they can produce more and better food and lead better lives.</p>
+      <p><strong>Ariel Ortiz-Bobea</strong> is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies adapt to environmental change so they can produce more and better food and lead better lives.</p>
       <div style="margin-top: 1rem;">
-        <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall, Cornell University, Ithaca, NY 14853
+        <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall
         <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
         <br/> <i class="fa-solid fa-phone" style="color: #b31b1b; width: 18px;"></i> 607.255.0220
         <br/>

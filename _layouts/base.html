@@ -11,7 +11,7 @@
         {% include header.html %}
       {% endunless %}
 
-      <div class="container content">
+      <div class="container content{% if page.no_banner %} pt-4{% endif %}">
 
         {{ content
           | replace: '<table', '<div class="table-responsive"><table'
