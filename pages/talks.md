@@ -150,8 +150,8 @@ permalink: /talks/
   flex-shrink: 0;
   width: 60px;
   height: 60px;
-  border: 1px solid #adb5bd;
-  background: #e9ecef;
+  border: none;
+  background: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
