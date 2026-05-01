@@ -39,7 +39,12 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
   margin: 36px calc(50% - 50vw) 0;
   width: 100vw;
 }
-.section-band > .container-fluid { margin-top: 0 !important; }
+.section-band > .container-fluid {
+  margin-top: 0 !important;
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .recent-pubs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
