@@ -51,14 +51,14 @@ a.course-title:hover {
 .offerings-stack {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 0.05rem;
-  justify-self: start;
-  margin-top: 0.25rem;
+  align-items: center;
+  gap: 0;
+  justify-self: center;
+  margin-top: 0.3rem;
 }
 .offering-row {
-  font-size: 0.85rem;
-  line-height: 1.55;
+  font-size: 0.78rem;
+  line-height: 1.45;
   white-space: nowrap;
 }
 .offering-row .offering-link {
@@ -130,7 +130,13 @@ a.course-title:hover {
     <span class="course-code">AEM 6850</span>
     <span><span class="course-title">Empirical Methods for Applied Economists</span><a href="https://classes.cornell.edu/browse/roster/FA26/class/AEM/6850" class="course-catalog-link" target="_blank" rel="noopener" title="View in Cornell course catalog" aria-label="View AEM 6850 in Cornell course catalog"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>
     <div class="offerings-stack">
-      <span class="offering-row is-upcoming"><span class="offering-link">Fall 2026</span></span>
+      <span class="offering-row is-upcoming"><a class="offering-link" href="https://arielortizbobea.github.io/aem6850">Fall 2026</a></span>
+      <span class="offering-row"><span class="offering-link">Fall 2025</span></span>
+      <span class="offering-row"><span class="offering-link">Spring 2025</span></span>
+      <span class="offering-row"><span class="offering-link">Fall 2022</span></span>
+      <span class="offering-row"><span class="offering-link">Fall 2021</span></span>
+      <span class="offering-row"><span class="offering-link">Spring 2021</span></span>
+      <span class="offering-row"><span class="offering-link">Spring 2019</span></span>
     </div>
     <p class="course-description">
       Introduction to empirical research workflows for applied economists: writing R from scratch, data wrangling and visualization, version control with Git and GitHub, and using AI tools effectively. Weekly assignments are submitted via GitHub and audited by classmates for reproducibility, followed by a team or individual research project in the second half of the semester. Aimed at MS, MPS, and second-year PhD students; some coding experience recommended.
