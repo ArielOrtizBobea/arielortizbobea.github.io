@@ -116,7 +116,7 @@ a.course-title:hover {
       <span class="offering-row is-upcoming"><a class="offering-link" href="https://arielortizbobea.github.io/aem7010">Spring 2026</a></span>
     </div>
     <p class="course-description">
-      Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data. See the <a href="https://arielortizbobea.github.io/aem7010" target="_blank" rel="noopener">course site</a> for my materials.
+      Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data.
     </p>
   </li>
   <li class="course-entry">
