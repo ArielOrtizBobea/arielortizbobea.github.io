@@ -155,6 +155,7 @@ a.course-title:hover {
     <span><a href="https://arielortizbobea.github.io/aem7010/spring-2026/" class="course-title">Doing Applied Economics Research: Practical Skills</a><a href="https://classes.cornell.edu/browse/roster/SP26/class/AEM/7010" class="course-catalog-link" target="_blank" rel="noopener" title="View in Cornell course catalog" aria-label="View AEM 7010 in Cornell course catalog"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>
     <div class="offerings-stack">
       <span class="offering-row"><a class="offering-link" href="https://arielortizbobea.github.io/aem7010/spring-2026/">Spring 2026</a></span>
+      <span class="offering-row"><span class="offering-link">Spring 2025</span></span>
     </div>
     <p class="course-description">
       Graduate course on practical research skills, team-taught by three instructors. My section covers trends in empirical economics research, reproducibility, version control with Git, and effective use of AI tools, with a focus on working with secondary data.
