@@ -51,7 +51,7 @@ a.course-title:hover {
 .offerings-stack {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 0;
   justify-self: center;
   margin-top: 0.3rem;
@@ -67,13 +67,6 @@ a.course-title:hover {
 }
 .offering-row a.offering-link:hover {
   color: #b31b1b;
-  text-decoration: underline;
-}
-.offering-row.is-upcoming .offering-link {
-  color: #b31b1b;
-  font-weight: 500;
-}
-.offering-row.is-upcoming a.offering-link:hover {
   text-decoration: underline;
 }
 .course-description {
