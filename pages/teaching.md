@@ -157,7 +157,7 @@ a.course-title:hover {
   </li>
 </ul>
 
-<h3>Previous courses</h3>
+<h3>Past courses</h3>
 
 <ul class="course-list">
   <li class="course-entry">
