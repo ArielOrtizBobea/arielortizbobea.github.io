@@ -122,6 +122,18 @@
   email: ro259@cornell.edu
   linkedin: ruiyi-ouyang-880059267
 
+- name: Yichen Li
+  role: MS student, Applied Economics and Managment
+  image: assets/images/people/yl4222.jpg
+  description: >
+    Yichen Li is a master’s student at the Charles H. Dyson School of Applied Economics and Management. She studies environmental, 
+    energy, and resource economics. She is particularly interested in exploring the relationship between environmental change and 
+    human behavior. Her research examines how climate change influences human responses, including migration, adaptation strategies, 
+    and decision-making under environmental stress.
+
+  email: yl4222@cornell.edu
+  #linkedin: ruiyi-ouyang-880059267
+
 # Dont change this to allow category alumni
 - name: '<h3 style="color: #b31b1b;">Alumni</h3>'
 

@@ -8,3 +8,6 @@ vendor
 _preview_*.html
 # Backup of original photo before crop
 assets/images/landing/aob2_original.jpg
+# macOS Finder metadata (anywhere in the tree)
+**/.DS_Store
+.DS_Store
