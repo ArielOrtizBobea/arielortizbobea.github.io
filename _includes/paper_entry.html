@@ -36,7 +36,7 @@
             {{ author }}
           {%- endif -%}
           {%- unless forloop.last -%}, {% endunless -%}
-        {%- endfor -%}<details class="authors-more"><summary>, <em>et al.</em></summary>{%- for author in paper.authors offset: show_first -%}, {%- assign matched = nil -%}
+        {%- endfor -%}<span class="authors-trunc"><span class="authors-trunc-toggle" onclick="this.parentElement.classList.add('expanded')">, <em>et al.</em></span><span class="authors-trunc-rest">{%- for author in paper.authors offset: show_first -%}, {%- assign matched = nil -%}
           {%- for member in site.data.team -%}
             {%- if member.name == author -%}
               {%- assign matched = member -%}
@@ -48,7 +48,7 @@
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
-          {%- if matched -%}<a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>{%- else -%}{{ author }}{%- endif -%}{%- endfor %} <a href="#" class="authors-collapse" onclick="event.preventDefault(); this.closest('details').open=false;">show less</a></details>
+          {%- if matched -%}<a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>{%- else -%}{{ author }}{%- endif -%}{%- endfor %} <span class="authors-trunc-less" onclick="this.closest('.authors-trunc').classList.remove('expanded')">show less</span></span></span>
       {%- else -%}
         {%- for author in paper.authors -%}
           {%- assign matched = nil -%}

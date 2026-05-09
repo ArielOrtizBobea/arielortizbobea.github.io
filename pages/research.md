@@ -85,31 +85,30 @@ permalink: /research/
 }
 .research-page .paper-authors a:hover { color: #b31b1b; }
 
-/* Truncated author lists: "First, Second, Third, et al." with click-to-expand */
-.research-page .paper-authors details.authors-more { display: inline; }
-.research-page .paper-authors details.authors-more summary {
-  display: inline;
+/* Truncated author lists: "First, Second, Third, et al." with inline click-to-expand */
+.research-page .paper-authors .authors-trunc { display: inline; }
+.research-page .paper-authors .authors-trunc-toggle {
   cursor: pointer;
-  list-style: none;
   color: #b31b1b;
 }
-.research-page .paper-authors details.authors-more summary::-webkit-details-marker { display: none; }
-.research-page .paper-authors details.authors-more summary::after {
+.research-page .paper-authors .authors-trunc-toggle::after {
   content: " ▸";
-  font-size: 0.75em;
   font-style: normal;
   color: #6c757d;
+  font-size: 0.75em;
 }
-.research-page .paper-authors details.authors-more summary:hover { text-decoration: underline; }
-.research-page .paper-authors details.authors-more[open] summary { display: none; }
-.research-page .paper-authors .authors-collapse {
+.research-page .paper-authors .authors-trunc-toggle:hover { text-decoration: underline; }
+.research-page .paper-authors .authors-trunc-rest { display: none; }
+.research-page .paper-authors .authors-trunc.expanded .authors-trunc-toggle { display: none; }
+.research-page .paper-authors .authors-trunc.expanded .authors-trunc-rest { display: inline; }
+.research-page .paper-authors .authors-trunc-less {
   margin-left: 0.4em;
   cursor: pointer;
   color: #6c757d;
   font-size: 0.85em;
   font-style: italic;
 }
-.research-page .paper-authors .authors-collapse:hover {
+.research-page .paper-authors .authors-trunc-less:hover {
   color: #b31b1b;
   text-decoration: underline;
 }
