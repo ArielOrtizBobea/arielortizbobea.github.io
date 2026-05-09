@@ -13,26 +13,64 @@
       {%- endif -%}
     </div>
     <div class="paper-authors">
-      {%- for author in paper.authors -%}
-        {%- assign matched = nil -%}
-        {%- for member in site.data.team -%}
-          {%- if member.name == author -%}
-            {%- assign matched = member -%}
-            {%- break -%}
-          {%- elsif member.aliases -%}
-            {%- if member.aliases contains author -%}
+      {%- assign author_count = paper.authors | size -%}
+      {%- assign show_first = 3 -%}
+      {%- assign threshold = 8 -%}
+      {%- if author_count > threshold -%}
+        {%- for author in paper.authors limit: show_first -%}
+          {%- assign matched = nil -%}
+          {%- for member in site.data.team -%}
+            {%- if member.name == author -%}
               {%- assign matched = member -%}
               {%- break -%}
+            {%- elsif member.aliases -%}
+              {%- if member.aliases contains author -%}
+                {%- assign matched = member -%}
+                {%- break -%}
+              {%- endif -%}
             {%- endif -%}
+          {%- endfor -%}
+          {%- if matched -%}
+            <a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>
+          {%- else -%}
+            {{ author }}
           {%- endif -%}
+          {%- unless forloop.last -%}, {% endunless -%}
+        {%- endfor -%}<details class="authors-more"><summary>, <em>et al.</em></summary>{%- for author in paper.authors offset: show_first -%}, {%- assign matched = nil -%}
+          {%- for member in site.data.team -%}
+            {%- if member.name == author -%}
+              {%- assign matched = member -%}
+              {%- break -%}
+            {%- elsif member.aliases -%}
+              {%- if member.aliases contains author -%}
+                {%- assign matched = member -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if matched -%}<a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>{%- else -%}{{ author }}{%- endif -%}{%- endfor %} <a href="#" class="authors-collapse" onclick="event.preventDefault(); this.closest('details').open=false;">show less</a></details>
+      {%- else -%}
+        {%- for author in paper.authors -%}
+          {%- assign matched = nil -%}
+          {%- for member in site.data.team -%}
+            {%- if member.name == author -%}
+              {%- assign matched = member -%}
+              {%- break -%}
+            {%- elsif member.aliases -%}
+              {%- if member.aliases contains author -%}
+                {%- assign matched = member -%}
+                {%- break -%}
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+          {%- if matched -%}
+            <a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>
+          {%- else -%}
+            {{ author }}
+          {%- endif -%}
+          {%- unless forloop.last -%}, {% endunless -%}
         {%- endfor -%}
-        {%- if matched -%}
-          <a href="{{ '/people/' | relative_url }}#{{ matched.name | strip | url_encode }}">{{ author }}</a>
-        {%- else -%}
-          {{ author }}
-        {%- endif -%}
-        {%- unless forloop.last -%}, {% endunless -%}
-      {%- endfor -%}
+      {%- endif -%}
     </div>
     {%- if paper.journal -%}
     <div class="paper-journal">{{ paper.journal }}</div>

@@ -84,6 +84,36 @@ permalink: /research/
   font-weight: 500;
 }
 .research-page .paper-authors a:hover { color: #b31b1b; }
+
+/* Truncated author lists: "First, Second, Third, et al." with click-to-expand */
+.research-page .paper-authors details.authors-more { display: inline; }
+.research-page .paper-authors details.authors-more summary {
+  display: inline;
+  cursor: pointer;
+  list-style: none;
+  color: #b31b1b;
+}
+.research-page .paper-authors details.authors-more summary::-webkit-details-marker { display: none; }
+.research-page .paper-authors details.authors-more summary::after {
+  content: " ▸";
+  font-size: 0.75em;
+  font-style: normal;
+  color: #6c757d;
+}
+.research-page .paper-authors details.authors-more summary:hover { text-decoration: underline; }
+.research-page .paper-authors details.authors-more[open] summary { display: none; }
+.research-page .paper-authors .authors-collapse {
+  margin-left: 0.4em;
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 0.85em;
+  font-style: italic;
+}
+.research-page .paper-authors .authors-collapse:hover {
+  color: #b31b1b;
+  text-decoration: underline;
+}
+
 .research-page .paper-journal {
   font-style: italic;
   font-size: 0.95rem;
