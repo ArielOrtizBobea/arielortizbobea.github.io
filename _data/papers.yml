@@ -25,29 +25,180 @@
 
 - title: "U.S. Climate Collection: Informing Assessment of Risks and Solutions"
   authors:
-    - M.A. Kenney, R.E. Kopp, C. Samaras, M. Alberti, S.Y. Angell, J. Burney, C. Cunliff, J.T. 
-    Duffy-Anderson, L.W. Fischer, S. Frey, J. Hicke, P. Howard, A. Jerolleman, C.J. Kirchhoff, 
-    E. Koebele, N.M. Mahowald, N. Misarti, D.L. Pearson, A.A. Phillips, A.R. Siders, P.K. Singh, 
-    N.G. Smith, L.T. Teneva, J.D. Ulrich-Schad, J. Volenec, K. Akamani, A.J. Alexander, C.E. Anderson, 
-    J.G. Arbuckle, M. Auffhammer, K. Averyt, S.H. Baker, D. Balk, M. Barbato, P. Barnard, A.B. Basaraba, 
-    D.J. Bednar, J.E. Bell, D.D. Bennett Gayle, L. Berry Daniels, D. Bertrand, J.E. Bistline, 
-    C.L. Brelsfoard, T. Briceno, M. Burkett, M. Burnham, J. Callahan, C. Cannon, C. Carothers, 
-    R.H. Carter, M. Cawley, J.M. Cha, H.H. Chang, M.H. Chang, O. Chegwidden, K. Chen, B.S. Cheng, 
-    G. Chi, E.K. Chu, R. Cleetus, A. Connor, A.A. Cook, D. Council, K. Cromar, K.J. Curtis, J.J. Daigle, 
-    C. DeLyser Roney, S.J. Domingue, J. Drake, K.L. Ebi, E.H. Elias, N.L. Fann, E. Fleishman, E.T. Gall, 
-    E. Ghitis, E. Gilmore, S. Gopalakrishnan, D. Grafton, S.A. Gray, R.B. Griffis, N.B. Grimm, 
-    A. Hadjimichael, X. Han, J.A. Haverkamp, J.J. Hess, P.F. Hessburg, D. Hondula, B. Hubbell, 
-    N. Hultman, C. Jean, S. Jinnah, J.X. Johnson, S.M. Johnson, V.A. Johnson, K. Jones, P.O. Kaplan, 
-    S. Kay, J. Keenan, L. Keith, H.H. Kim, P. Kinney, S.F. Koller, M.A. Konfirst, A. Kosmal, M. Krosby, 
-    W.O. Lamp, K. Lanza, J. Lappen, J.E. Leach, C.-Y. Lee, F. Lehner, Y. Li, L.A. Luchinsky, K.J. Mach, 
-    J. Maldonado, S.L. Malone, A.A. Marchand, E. Marino, E.M. Markowitz, E.R. Masanet, G.S. Mauger, 
-    C.L. May, K. McConnell, P.D. McElwee, M. Méndez, A. Middel, S.K. Mladinich, R. Molina, N. Nassikas, 
-    R. Nateghi, R. Newman, M.E. O'Rourke, R. Obringer, A. Ortiz-Bobea, E. Osborne, A. Petersen, 
-    B.L. Preston, J. Puvvula, M. Raphael, C. Raymond, K.A. Reed, K. Ricke, J. Rising, K. Rocci, 
-    B.R. Rosenzweig, S. Ryder, B.F. Sanders, M.R. Sanderson, R. Schattman, N.A. Seeteram, L. Shi, 
-    L. Sidner, S.A. Siedlecki, D. Singh, R. Sonnerup, C.M. Steele, E. Tate, J.R. Thompson, P.R. Thompson, 
-    L. Turek-Hankins, N. Ulibarri, P.A. Ullrich, C. Wang, M. Ward, M. Ward Jones, C. Ward-Caviness, 
-    J.C. Whitehead, M.T. Wilson, R.L. Winkler, A. Wootten, G. Xian, G.G. Yorgey, A.M. York, E. Zuetell
+    - M.A. Kenney
+    - R.E. Kopp
+    - C. Samaras
+    - M. Alberti
+    - S.Y. Angell
+    - J. Burney
+    - C. Cunliff
+    - J.T. Duffy-Anderson
+    - L.W. Fischer
+    - S. Frey
+    - J. Hicke
+    - P. Howard
+    - A. Jerolleman
+    - C.J. Kirchhoff
+    - E. Koebele
+    - N.M. Mahowald
+    - N. Misarti
+    - D.L. Pearson
+    - A.A. Phillips
+    - A.R. Siders
+    - P.K. Singh
+    - N.G. Smith
+    - L.T. Teneva
+    - J.D. Ulrich-Schad
+    - J. Volenec
+    - K. Akamani
+    - A.J. Alexander
+    - C.E. Anderson
+    - J.G. Arbuckle
+    - M. Auffhammer
+    - K. Averyt
+    - S.H. Baker
+    - D. Balk
+    - M. Barbato
+    - P. Barnard
+    - A.B. Basaraba
+    - D.J. Bednar
+    - J.E. Bell
+    - D.D. Bennett Gayle
+    - L. Berry Daniels
+    - D. Bertrand
+    - J.E. Bistline
+    - C.L. Brelsfoard
+    - T. Briceno
+    - M. Burkett
+    - M. Burnham
+    - J. Callahan
+    - C. Cannon
+    - C. Carothers
+    - R.H. Carter
+    - M. Cawley
+    - J.M. Cha
+    - H.H. Chang
+    - M.H. Chang
+    - O. Chegwidden
+    - K. Chen
+    - B.S. Cheng
+    - G. Chi
+    - E.K. Chu
+    - R. Cleetus
+    - A. Connor
+    - A.A. Cook
+    - D. Council
+    - K. Cromar
+    - K.J. Curtis
+    - J.J. Daigle
+    - C. DeLyser Roney
+    - S.J. Domingue
+    - J. Drake
+    - K.L. Ebi
+    - E.H. Elias
+    - N.L. Fann
+    - E. Fleishman
+    - E.T. Gall
+    - E. Ghitis
+    - E. Gilmore
+    - S. Gopalakrishnan
+    - D. Grafton
+    - S.A. Gray
+    - R.B. Griffis
+    - N.B. Grimm
+    - A. Hadjimichael
+    - X. Han
+    - J.A. Haverkamp
+    - J.J. Hess
+    - P.F. Hessburg
+    - D. Hondula
+    - B. Hubbell
+    - N. Hultman
+    - C. Jean
+    - S. Jinnah
+    - J.X. Johnson
+    - S.M. Johnson
+    - V.A. Johnson
+    - K. Jones
+    - P.O. Kaplan
+    - S. Kay
+    - J. Keenan
+    - L. Keith
+    - H.H. Kim
+    - P. Kinney
+    - S.F. Koller
+    - M.A. Konfirst
+    - A. Kosmal
+    - M. Krosby
+    - W.O. Lamp
+    - K. Lanza
+    - J. Lappen
+    - J.E. Leach
+    - C.-Y. Lee
+    - F. Lehner
+    - Y. Li
+    - L.A. Luchinsky
+    - K.J. Mach
+    - J. Maldonado
+    - S.L. Malone
+    - A.A. Marchand
+    - E. Marino
+    - E.M. Markowitz
+    - E.R. Masanet
+    - G.S. Mauger
+    - C.L. May
+    - K. McConnell
+    - P.D. McElwee
+    - M. Méndez
+    - A. Middel
+    - S.K. Mladinich
+    - R. Molina
+    - N. Nassikas
+    - R. Nateghi
+    - R. Newman
+    - M.E. O'Rourke
+    - R. Obringer
+    - A. Ortiz-Bobea
+    - E. Osborne
+    - A. Petersen
+    - B.L. Preston
+    - J. Puvvula
+    - M. Raphael
+    - C. Raymond
+    - K.A. Reed
+    - K. Ricke
+    - J. Rising
+    - K. Rocci
+    - B.R. Rosenzweig
+    - S. Ryder
+    - B.F. Sanders
+    - M.R. Sanderson
+    - R. Schattman
+    - N.A. Seeteram
+    - L. Shi
+    - L. Sidner
+    - S.A. Siedlecki
+    - D. Singh
+    - R. Sonnerup
+    - C.M. Steele
+    - E. Tate
+    - J.R. Thompson
+    - P.R. Thompson
+    - L. Turek-Hankins
+    - N. Ulibarri
+    - P.A. Ullrich
+    - C. Wang
+    - M. Ward
+    - M. Ward Jones
+    - C. Ward-Caviness
+    - J.C. Whitehead
+    - M.T. Wilson
+    - R.L. Winkler
+    - A. Wootten
+    - G. Xian
+    - G.G. Yorgey
+    - A.M. York
+    - E. Zuetell
   status: "In preparation"
   abstract: >
     Scientific assessments play a critical role in synthesizing evidence to support evidence-based 
