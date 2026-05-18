@@ -307,30 +307,28 @@
     sustainable management of forests worldwide.
   # thumbnail: /assets/images/papers/
 
-- title: "Accounting for quality more than doubles estimated heat damages to U.S. milk production"
+- title: "Milk composition responses amplify economic damages from heat stress"
   authors:
     - Jeisson Prieto
     - Ziyi Lin
     - Kristan F. Reed
     - Christopher A. Wolf
     - Ariel Ortiz-Bobea
-  status: "Resubmitted (R1)"
+  status: "Resubmitted (R2)"
   journal: "Environmental Research Letters"
   abstract: >
-    Studies analyzing the impact of climate change on agriculture mostly emphasize effects
-    on production quantity, overlooking potential impacts on quality and nutritional content.
-    We explore this question in the context of U.S. milk production which represents about
-    20% of national animal products. We link individual lactation records for over 6.5
-    million cows over 2007-2016 with high-resolution weather data to estimate the nonlinear
-    effects of heat on both milk yield and quality (composition in fat and protein). While
-    milk yield declines sharply only when the Temperature-Humidity Index (THI) exceeds 70
-    (primarily in the summer), milk quality decreases steadily with rising THI (throughout
-    the year). Combining these findings indicates that estimates of heat damages that ignore
-    quality effects —the standard in the literature— underestimate total losses by at least
-    a factor of two. We also find that the sensitivity of both milk yield and quality to
-    heat varies little with cow age, farm size, region of the country, or period in the
-    sample, suggesting there has been little progress in adapting U.S. dairy systems to a
-    warming climate.
+    Studies analyzing the impact of climate change on agriculture mostly emphasize effects on production 
+    quantity, overlooking potential impacts on quality and nutritional content. We explore this question 
+    in the context of U.S. milk production, which represents about 20% of national animal-products. We 
+    link individual lactation records for over 6.5 million cows over 2007-2016 with high-resolution 
+    weather data to estimate the nonlinear effects of heat on both milk yield and composition (fat and 
+    protein content). While milk yield declines sharply only when the Temperature-Humidity Index (THI) 
+    exceeds 70 (primarily in the summer), milk composition deteriorates steadily with rising THI 
+    (throughout the year). Combining these findings indicates that estimates of heat damages that 
+    ignore composition effects –common in the literature– underestimate total economic losses by at 
+    least a factor of two. We also find that the sensitivity of both milk yield and composition to heat 
+    varies little with cow age, farm size, region of the country, or period in the sample, indicating 
+    no detectable change in the aggregate heat sensitivity of U.S. dairy systems over the study period.
   thumbnail: /assets/images/papers/milkclimate.png
 
 - title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
