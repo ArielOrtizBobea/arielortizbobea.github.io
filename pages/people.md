@@ -15,9 +15,11 @@ permalink: /people/
 }
 
 /* Shrink alumni photos to roughly the height of two lines of text */
-.team-member.alumni img {
-  width: 60px;
-  height: 60px;
+.team-member.alumni .flex-shrink-0 img {
+  width: 60px !important;
+  height: 60px !important;
+  max-width: 60px !important;
+  max-height: 60px !important;
   object-fit: cover;
 }
 </style>
