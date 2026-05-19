@@ -27,4 +27,12 @@ permalink: /people/
 .team-member.alumni .flex-shrink-0 img {
   transform: translateX(20px);
 }
+
+/* Tighten the gap between the alumni name line and the placement line */
+.team-member.alumni h5 {
+  margin-bottom: 0.1rem;
+}
+.team-member.alumni h5 + p {
+  margin-top: 0;
+}
 </style>
