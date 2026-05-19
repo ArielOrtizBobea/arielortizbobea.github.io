@@ -23,9 +23,8 @@ permalink: /people/
   object-fit: cover;
 }
 
-/* Shift alumni photo to the right and bring the text closer */
-.team-member.alumni .flex-shrink-0 {
-  margin-left: 1.5rem;
-  margin-right: 0.5rem !important; /* override Bootstrap me-3 (1rem) */
+/* Shift only the alumni photo to the right, without moving the text */
+.team-member.alumni .flex-shrink-0 img {
+  transform: translateX(20px);
 }
 </style>
