@@ -13,4 +13,11 @@ permalink: /people/
   font-weight: 600;
   margin: 0;
 }
+
+/* Shrink alumni photos to roughly the height of two lines of text */
+.team-member.alumni img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
 </style>
