@@ -419,7 +419,7 @@
     - Kristan F. Reed
     - Christopher A. Wolf
     - Ariel Ortiz-Bobea
-  status: "Accepted"
+  status: "Published"
   year: 2026
   journal: "Environmental Research Letters"
   doi: https://doi.org/10.1088/1748-9326/ae74e6 
@@ -467,8 +467,6 @@
     - { label: "code + data", url: "https://doi.org/10.6077/AT7YVU" }
   thumbnail: /assets/images/papers/fig_decomp_ghgnvars3_Inc.I_1961-2021.png
   
-  
-
 - title: "Harnessing satellite data for the next generation of agri-environmental policies"
   authors:
     - David Wuepper
