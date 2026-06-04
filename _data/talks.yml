@@ -1,11 +1,27 @@
 # Talks data file
 #
-# Entries are rendered on /talks/ (and later a teaser on the home page) by
-# filtering on date. No need to manually split "upcoming" vs "recent" — the
-# template computes that from the `date` field at build time.
+# This file is the single source of truth for talks on both the website
+# (/talks page) and the CV. The website filters to the past 12 months and
+# upcoming entries; the CV renders the full history. No flag is needed to
+# distinguish "live" vs "archived" — the date filter handles it.
 #
-# Required fields:  title, presenter, date, venue, location
-# Optional fields:  date_end (multi-day conferences), paper (URL), thumbnail (path)
+# Required fields:  presenter, date, venue
+# Optional fields:
+#   title          The talk / paper / panel title. Omit for archived seminar
+#                  visits where the CV only shows venue + location + date.
+#   date_end       For multi-day conferences (YYYY-MM-DD).
+#   date_approx    true when only the month or season is known. The `date`
+#                  is set to a representative day (1st of the month / season).
+#   location       City, State/Country. Omit only when truly unknown.
+#   paper          URL to the paper, if available.
+#   thumbnail      Path to an event image.
+#   non_research   true for panels, fireside chats, policy talks, etc.
+#                  Defaults to false (research talk).
+#   format         "poster" for posters. Omit for standard paper presentations.
+#   role           "panelist", "speaker", "discussant", etc. Omit if presenter.
+#   with           Co-presenter ("with Richard E. Just").
+#   note           Free-form context ("postponed due to COVID-19", etc.).
+#   cv             Set false to omit from the CV.
 #
 # Notes:
 # - `presenter` must match a `name` in _data/team.yml for the avatar to show.
@@ -13,6 +29,8 @@
 #   conference spans multiple days.
 # - `venue` + `location` together are the grouping key. Keep them identical
 #   across entries that share a conference, or "group by event" will split them.
+# - CV-filter is: presenter matches AOB (name or aliases in team.yml).
+#   Group-member-presented talks appear on the website but not on the CV.
 
 # Talks are chronological (top one is further in the future, low one further in the past irrespective of present)
 
@@ -179,3 +197,566 @@
   location: "Kansas City, KS"
   # paper:
   # thumbnail:
+
+# ============================================================================
+# Backfill from CV — historical conferences, seminars, and workshops.
+# These are filtered off the website by the 12-month date window but appear
+# on the CV. Many lack a `title` field by design (CV shows venue + location
+# + date only). Approximate dates use `date_approx: true`.
+# ============================================================================
+
+# ======================== 2025 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2025-11-14
+  venue: "University of Oklahoma"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2025-09-05
+  venue: "Central Bank of Colombia"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2025-07-28
+  venue: "2025 AAEA Annual Meeting"
+  location: "Denver, CO, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2025-06-10
+  venue: "Paris-Saclay Applied Economics"
+  location: "Paris, France"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2025-04-28
+  venue: "OECD TFPN"
+  location: "Online"
+
+# ======================== 2024 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-07-24
+  venue: "SUFE"
+  location: "Shanghai, China"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-07-08
+  venue: "EC Joint Research Center"
+  location: "Sevilla, Spain"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-06-21
+  venue: "EWEPA"
+  location: "Faro, Portugal"
+  # CV had this as 2014 — corrected to 2024 per chronological context.
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-06-12
+  venue: "ICARB"
+  location: "Ravello, Italy"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-05-22
+  venue: "Sustainability Research Seminar, Inter-American Development Bank"
+  location: "Washington, DC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-05-16
+  venue: "Agriculture and Climate Change Workshop"
+  location: "Harvard University, Cambridge, MA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-05-03
+  venue: "Montana State University"
+  location: "Bozeman, MT, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-04-18
+  venue: "University of San Francisco"
+  location: "San Francisco, CA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-04-10
+  venue: "Santa Clara University"
+  location: "Santa Clara, CA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-03-14
+  venue: "UC Davis"
+  location: "Davis, CA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-02-23
+  venue: "University of Arizona"
+  location: "Tucson, AZ, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-02-21
+  venue: "Arizona State University"
+  location: "Tempe, AZ, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-02-15
+  venue: "Monash University"
+  location: "Melbourne, Australia"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2024-02-07
+  venue: "AARES Conference"
+  location: "Canberra, Australia"
+
+# ======================== 2023 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2023-12-11
+  venue: "Stanford University (FSE)"
+  location: "Stanford, CA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2023-07-03
+  venue: "Lincoln University"
+  location: "Lincoln, New Zealand"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2023-06-30
+  venue: "University of Adelaide"
+  location: "Adelaide, Australia"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2023-06-01
+  venue: "University of Wollongong"
+  location: "Wollongong, Australia"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2023-05-30
+  venue: "Australian National University"
+  location: "Canberra, Australia"
+
+# ======================== 2022 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2022-10-06
+  venue: "IMF-WB joint research seminar in climate economics"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2022-04-07
+  venue: '2022 U.S.-China Agriculture Roundtable: Thinktank Dialogue "Rural Prosperity and Climate Change"'
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2022-04-07
+  venue: 'Workshop "Food Security Strategies for a Changing World"'
+  location: "Cornell University, Ithaca, NY, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2022-02-23
+  venue: "World Bank (Agricultural Policies Community of Practice BBL)"
+  location: "Washington, DC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2022-02-11
+  venue: "Indian Institute of Technology Tirupati"
+  location: "Tirupati, India"
+  # CV writes "Institute of Technology Tirupati" — corrected to full name (IIT Tirupati).
+
+# ======================== 2021 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2021-12-10
+  venue: "UC Berkeley (ARE)"
+  location: "Berkeley, CA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2021-12-08
+  venue: "Online Agricultural and Resource Economics Seminar (#OARES)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2021-11-19
+  venue: "UW-Madison Agricultural and Applied Economics"
+  location: "Madison, WI, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2021-11-04
+  venue: "Cornell SIPS"
+  location: "Ithaca, NY, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2021-10-28
+  venue: "American Society of Hispanic Economists"
+  location: "Online"
+
+# ======================== 2020 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-12-08
+  venue: "American Geophysical Union (AGU) Fall Meeting"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-11-22
+  venue: "AERE@SEA"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-11-20
+  venue: "Oregon State University (Applied Economics)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-11-19
+  venue: "UC Berkeley (ARE)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-11-18
+  venue: "Virginia Tech (AAEC)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-11-09
+  venue: "University of Connecticut (Economics)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-10-30
+  venue: "VIII Cátedra de Economía del Caribe, Universidad del Norte"
+  location: "Online (Colombia)"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-09-24
+  venue: "Michigan State University (AFRE)"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-09-15
+  venue: "Cornell Department of Natural Resources"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-07-01
+  date_approx: true
+  venue: "EAAE Summer Meetings"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-06-01
+  date_approx: true
+  venue: "AERE Summer Meetings"
+  location: "Online"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-04-19
+  venue: "Auburn University (AERS)"
+  location: "Online"
+  # CV lists "April 19 2020" but this entry sits between Nov and Dec 2020
+  # items in the source CV — the date may actually be April 2021. Confirm.
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-04-01
+  date_approx: true
+  venue: "State University of New York (Economics)"
+  location: "Albany, NY, United States"
+  note: postponed due to COVID-19
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-03-01
+  date_approx: true
+  venue: "TREE seminar at NC State / Duke / RTI"
+  location: "Durham, NC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-01-11
+  venue: "Big Ag Data Conference 2020, UC Giannini Foundation of Agricultural Economics"
+  location: "Davis, CA, United States"
+
+# ======================== 2019 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-12-01
+  date_approx: true
+  venue: "University of Arizona"
+  location: "Tucson, AZ, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-12-01
+  date_approx: true
+  venue: "Arizona State University (SPGS)"
+  location: "Tempe, AZ, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-10-01
+  date_approx: true
+  venue: "OECD Network on Agricultural Total Productivity and the Environment"
+  location: "University of Maryland, College Park, MD, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-09-01
+  date_approx: true
+  venue: "Heartland Environmental and Resource Economics Workshop"
+  location: "University of Illinois, IL, United States"
+  role: panelist
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-07-01
+  date_approx: true
+  venue: "AAEA Summer Meetings"
+  location: "Atlanta, GA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-05-01
+  date_approx: true
+  venue: "AERE Summer Meetings"
+  location: "Lake Tahoe, NV, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2019-03-01
+  date_approx: true
+  venue: "TWEEDS Workshop"
+  location: "Portland, OR, United States"
+
+# ======================== 2018 ========================
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2018-06-12
+  venue: "ICARB Pre-conference workshop, multi-state project NC-1034"
+  location: "World Bank, Washington, DC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2018-03-01
+  date_approx: true
+  venue: "Kansas State University (Agricultural Economics)"
+  location: "Manhattan, KS, United States"
+
+# ======================== 2017 ========================
+
+- title: "The Role of Climate in U.S. Agricultural Productivity Growth"
+  presenter: Ariel Ortiz-Bobea
+  date: 2017-07-30
+  date_end: 2017-08-01
+  venue: "AAEA Summer Meetings"
+  location: "Chicago, IL, United States"
+
+- title: "U.S. Maize Yield Growth and Countervailing Climate Change Impacts"
+  presenter: Ariel Ortiz-Bobea
+  date: 2017-07-30
+  date_end: 2017-08-01
+  venue: "AAEA Summer Meetings"
+  location: "Chicago, IL, United States"
+
+- title: "The Economic Impacts of Climate Change on Agriculture: Accounting for Time-invariant Unobservables in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2017-07-30
+  date_end: 2017-08-01
+  venue: "AAEA Summer Meetings"
+  location: "Chicago, IL, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-06-13
+  date_end: 2017-06-14
+  venue: "Northeast Workshop on Energy Policy and Environmental Economics"
+  location: "Dartmouth College, Hanover, NH, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-06-08
+  venue: "EPA NCEE"
+  location: "Washington, DC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-06-07
+  venue: "USDA ERS"
+  location: "Washington, DC, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-06-02
+  venue: "AERE Summer Meetings"
+  location: "Pittsburgh, PA, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-05-18
+  date_end: 2017-05-19
+  venue: 'Workshop "Advances in Estimating Economic Effects from Climate Change Using Weather Observations"'
+  location: "Stanford, CA, United States"
+  note: organized by Charles Kolstad and Frances Moore
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-02-24
+  date_end: 2017-02-25
+  venue: 'USDA Multi-state Research Project NC-1034 "Impact Analyses and Decision Strategies for Agricultural Research"'
+  location: "Tucson, AZ, United States"
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2017-02-17
+  venue: "Purdue University (Agricultural Economics)"
+  location: "West Lafayette, IN, United States"
+  # CV had "Lafayettte" — corrected.
+
+# ======================== 2016 ========================
+
+- title: "Measurement Error, Extreme Temperature and Climate Change Impacts"
+  presenter: Ariel Ortiz-Bobea
+  date: 2016-07-31
+  date_end: 2016-08-02
+  venue: "AAEA Summer Conference"
+  location: "Boston, MA, United States"
+
+- title: "Accounting for Omitted Spatial Dependence in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2016-01-03
+  date_end: 2016-01-05
+  venue: "ASSA-AERE Meetings"
+  location: "San Francisco, CA, United States"
+
+# ======================== 2015 ========================
+
+- title: "Climate Change Impacts on US Agriculture: Accounting for the Option Value of Farmland in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2015-07-26
+  date_end: 2015-07-28
+  venue: "AAEA Summer Conference"
+  location: "San Francisco, CA, United States"
+
+- title: "Climate Change Impacts on US Agriculture: Accounting for the Option Value of Farmland in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2015-06-28
+  date_end: 2015-06-30
+  venue: "NAREA Summer Conference"
+  location: "Newport, RI, United States"
+
+- title: "Climate Change Impacts on US Agriculture: Accounting for the Option Value of Farmland in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2015-06-03
+  date_end: 2015-06-05
+  venue: "AERE Summer Conference"
+  location: "San Diego, CA, United States"
+
+- title: "Climate Change Impacts on US Agriculture: Accounting for the Option Value of Farmland in the Hedonic Approach"
+  presenter: Ariel Ortiz-Bobea
+  date: 2015-01-03
+  date_end: 2015-01-05
+  venue: "ASSA-AERE Meetings"
+  location: "Boston, MA, United States"
+
+# ======================== 2014 ========================
+
+- title: "Climatic Constraints of US Growing Seasons"
+  presenter: Ariel Ortiz-Bobea
+  date: 2014-07-27
+  date_end: 2014-07-29
+  venue: "AAEA Annual Meeting"
+  location: "Minneapolis, MN, United States"
+
+# ======================== 2013 ========================
+
+- title: "Unpacking Temperature and Moisture Effects on US Corn Yields for Climate Change Impact Assessment"
+  presenter: Ariel Ortiz-Bobea
+  date: 2013-08-04
+  date_end: 2013-08-06
+  venue: "AAEA Annual Meeting"
+  location: "Washington, DC, United States"
+
+- title: "Understanding Heat and Moisture Interactions in the Economics of Climate Change Impacts and Adaptation on Agriculture"
+  presenter: Ariel Ortiz-Bobea
+  date: 2013-06-03
+  date_end: 2013-06-05
+  venue: "AERE Annual Meeting"
+  location: "Banff, Ontario, Canada"
+
+# ======================== 2012 ========================
+
+- title: "A Biophysical Framework for Time-Aggregation of Weather in Yield Response Models"
+  presenter: Ariel Ortiz-Bobea
+  date: 2012-08-12
+  date_end: 2012-08-14
+  venue: "AAEA Annual Meeting"
+  location: "Seattle, WA, United States"
+  format: poster
+
+- title: "Moisture and Heat Interactions in Yield Response Models"
+  presenter: Ariel Ortiz-Bobea
+  date: 2012-06-03
+  date_end: 2012-06-05
+  venue: "AERE Annual Meeting"
+  location: "Asheville, NC, United States"
+
+- title: "Toward More Transparency in Climate Change Impact Assessment for Agriculture"
+  presenter: Ariel Ortiz-Bobea
+  date: 2012-01-06
+  venue: "2012 AAEA session at ASSA Meetings"
+  location: "Chicago, IL, United States"
+  with: Richard E. Just
+
+# ======================== 2011 ========================
+
+- title: "Improving Agronomic Structure in Econometric Models of Climate Change Impacts"
+  presenter: Ariel Ortiz-Bobea
+  date: 2011-07-24
+  date_end: 2011-07-26
+  venue: "AAEA & NAREA Joint Annual Meeting"
+  location: "Pittsburgh, PA, United States"
+
+# ============================================================================
+# Select non-research talks — panels, fireside chats, policy fora
+# ============================================================================
+
+- title: '"Changing Climate Changing Farms" — fireside chat with Julie Suarez'
+  presenter: Ariel Ortiz-Bobea
+  date: 2020-11-17
+  venue: "Grow-NY Food and Ag Summit"
+  location: "Online"
+  non_research: true
+
+- title: '"Influence of Climate Change on Agricultural Production and Food Availability"'
+  presenter: Ariel Ortiz-Bobea
+  date: 2020-10-20
+  venue: "National Academies of Sciences, Engineering, and Medicine (NASEM) planning meeting"
+  location: "Online"
+  non_research: true
+
+- title: '"Has anthropogenic climate change already affected global agricultural productivity?"'
+  presenter: Ariel Ortiz-Bobea
+  date: 2020-09-25
+  venue: "NY State Association for Food Protection (NYSAFP) Annual Conference"
+  location: "Online"
+  non_research: true
+  # NOTE: NYSAFP appears twice on your CV (Sep 2020 and Sep 25, 2020) with the
+  # same paper title — likely a duplicate. Please confirm whether to merge.
+
+- title: '"Has anthropogenic climate change already affected global agricultural productivity?"'
+  presenter: Ariel Ortiz-Bobea
+  date: 2020-09-01
+  date_approx: true
+  venue: "New York State Association for Food Protection 98th Annual Meeting"
+  location: "Online"
+  non_research: true
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-08-19
+  venue: 'AAEA Graduate Student Session on "Navigating Stress, Diversity, and Inclusion in Agricultural Economics"'
+  location: "Online"
+  non_research: true
+  role: panelist
+
+- presenter: Ariel Ortiz-Bobea
+  date: 2020-08-18
+  venue: "New Faculty Orientation Research Panel — Social Sciences"
+  location: "Cornell University, Ithaca, NY, United States"
+  non_research: true
+  role: panelist
+
+- title: '"What Does Climate Change Mean for NY Agriculture?"'
+  presenter: Ariel Ortiz-Bobea
+  date: 2020-01-17
+  venue: "2020 Agricultural and Food Business Outlook Conference"
+  location: "Ithaca, NY, United States"
+  non_research: true
+  role: speaker
+
+- title: '"Cross-cultural communication with practiced presenters"'
+  presenter: Ariel Ortiz-Bobea
+  date: 2019-08-19
+  venue: 'Student-organized symposium "Speaking Economics"'
+  location: "Ithaca, NY, United States"
+  non_research: true
+  role: panelist
