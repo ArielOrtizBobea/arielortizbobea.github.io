@@ -16,6 +16,13 @@
 #   links           Array of {label, url} for additional resources (code, preprint, press release, award, etc.)
 #   featured_home   When true, paper appears in the "Recent Publications" tiles on the home page
 #                   (sorted newest first).
+#   volume          Journal volume number (e.g. 122). CV rendering only.
+#   issue           Issue / number within the volume (e.g. 11). CV rendering only.
+#   pages           Page range or single article ID (e.g. "315-340"). CV rendering only.
+#   article_no      Single-article identifier such as "e2411010122" or "aeb8653".
+#                   Use either `pages` or `article_no`, not both. CV rendering only.
+#   cv              Set false to omit from the CV (rare; usually filtered by status).
+#   cv_section      Force routing to a particular CV section ("older_projects", etc.).
 #
 # Author linking: author strings are matched against `name` and `aliases` in _data/team.yml.
 # Matched names link to the team member's section on /people/. Non-matches render as plain text.
