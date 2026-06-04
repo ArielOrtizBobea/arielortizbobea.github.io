@@ -109,21 +109,25 @@ render_authors <- function(authors, threshold = 10) {
 }
 
 # Month/year range "MM/YYYY--MM/YYYY" or "MM/YYYY--present".
-# Ranges break across two lines so the date column can stay narrow.
-format_range_my <- function(item) {
+# With break_range = TRUE (default), ranges break across two lines via
+# \newline so the date column in tabularx stays narrow. With FALSE,
+# ranges render as a single line (used when there is no narrow column,
+# e.g. when the range sits at the end of an itemize entry).
+format_range_my <- function(item, break_range = TRUE) {
   start <- if (!is.null(item$month_start)) {
     sprintf("%d/%d", item$month_start, item$year_start)
   } else {
     as.character(item$year_start)
   }
-  if (isTRUE(item$current)) return(paste0(start, "--\\newline present"))
+  sep <- if (break_range) "--\\newline " else "--"
+  if (isTRUE(item$current)) return(paste0(start, sep, "present"))
   if (!is.null(item$year_end)) {
     end <- if (!is.null(item$month_end)) {
       sprintf("%d/%d", item$month_end, item$year_end)
     } else {
       as.character(item$year_end)
     }
-    if (start == end) start else paste0(start, "--\\newline ", end)
+    if (start == end) start else paste0(start, sep, end)
   } else {
     start
   }
@@ -263,27 +267,57 @@ build_topics <- function() {
   )
 }
 
-# ----- Appointments (single combined block) -----
-# Modern econ-CV convention: one "Appointments" section. Current roles
-# first, then past. Order within each group respects the file order in
-# employment.yml — primary appointment listed first, etc.
+# ----- Appointments (grouped by institution, Blevins-style) -----
+# Top-level item: institution + location. Nested items: title + department
+# + date range, in YAML order. If an institution has only one entry, it
+# renders inline (no nested list). Current roles still come before past.
 build_appointments <- function() {
   current_items <- Filter(function(x) isTRUE(x$current), employment)
   past_items    <- Filter(function(x) !isTRUE(x$current), employment)
   items <- c(current_items, past_items)
-  rows <- vapply(items, function(a) {
-    range <- format_range_my(a)
-    body <- tex_escape(a$title)
-    if (!is.null(a$department))  body <- paste0(body, ", ", tex_escape(a$department))
-    if (!is.null(a$institution)) body <- paste0(body, ", ", tex_escape(a$institution))
-    if (!is.null(a$location))    body <- paste0(body, ", ", tex_escape(a$location))
-    paste0(range, " & ", body, " \\\\")
-  }, character(1))
-  c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
-    rows,
-    "\\end{tabularx}"
-  )
+  # Group by institution, preserving first-seen order
+  by_inst <- list()
+  inst_order <- character(0)
+  for (e in items) {
+    key <- e$institution %||% "(unknown)"
+    if (is.null(by_inst[[key]])) {
+      by_inst[[key]] <- list()
+      inst_order <- c(inst_order, key)
+    }
+    by_inst[[key]] <- c(by_inst[[key]], list(e))
+  }
+  render_role <- function(a) {
+    pieces <- tex_escape(a$title)
+    if (!is.null(a$department)) pieces <- paste0(pieces, ", ", tex_escape(a$department))
+    paste0(pieces, ", ", format_range_my(a, break_range = FALSE), ".")
+  }
+  out <- "\\begin{itemize}"
+  for (inst_key in inst_order) {
+    group <- by_inst[[inst_key]]
+    first <- group[[1]]
+    inst_label <- tex_escape(inst_key)
+    if (!is.null(first$location)) {
+      inst_label <- paste0(inst_label, ", ", tex_escape(first$location))
+    }
+    if (length(group) == 1) {
+      # Single role: inline
+      a <- group[[1]]
+      body <- inst_label
+      body <- paste0(body, ", ", tex_escape(a$title))
+      if (!is.null(a$department)) body <- paste0(body, ", ", tex_escape(a$department))
+      body <- paste0(body, ", ", format_range_my(a, break_range = FALSE), ".")
+      out <- c(out, paste0("\\item ", body))
+    } else {
+      # Multiple roles: nested itemize
+      out <- c(out, paste0("\\item ", inst_label))
+      out <- c(out, "\\begin{itemize}")
+      for (a in group) {
+        out <- c(out, paste0("\\item ", render_role(a)))
+      }
+      out <- c(out, "\\end{itemize}")
+    }
+  }
+  c(out, "\\end{itemize}")
 }
 
 # ----- Working papers / Work in progress -----
