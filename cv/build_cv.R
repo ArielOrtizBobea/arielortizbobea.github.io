@@ -252,9 +252,14 @@ build_topics <- function() {
   )
 }
 
-# ----- Appointments (current or past) -----
-build_appointments <- function(current) {
-  items <- Filter(function(x) isTRUE(x$current) == current, employment)
+# ----- Appointments (single combined block) -----
+# Modern econ-CV convention: one "Appointments" section. Current roles
+# first, then past. Order within each group respects the file order in
+# employment.yml — primary appointment listed first, etc.
+build_appointments <- function() {
+  current_items <- Filter(function(x) isTRUE(x$current), employment)
+  past_items    <- Filter(function(x) !isTRUE(x$current), employment)
+  items <- c(current_items, past_items)
   vapply(items, function(a) {
     range <- format_range_my(a)
     body <- tex_escape(a$title)
@@ -535,21 +540,22 @@ build_languages <- function() {
 
 body <- c(
   build_header(),
+  # ----- Identity / position -----
+  cv_section("Appointments"),                         build_appointments(),
   cv_section("Education"),                            build_education(),
-  cv_section("Topics and Fields of Interest"),        build_topics(),
-  cv_section("Current Appointments"),                 build_appointments(current = TRUE),
-  cv_section("Past Appointments"),                    build_appointments(current = FALSE),
+  # ----- Scholarly output -----
   cv_section("Working Papers and Work in Progress"),  build_working_papers(),
   cv_section("Publications"),                         build_publications(),
   cv_section("Book Chapters"),                        build_book_chapters(),
-  cv_section("Teaching"),                             build_teaching(),
-  cv_section("Service"),                              build_service(),
   cv_section("Honors and Awards"),                    build_awards(),
   cv_section("Grants"),                               build_grants(),
   cv_section("Conferences and Seminars"),             build_talks(non_research = FALSE),
   cv_section("Select Non-Research Talks"),            build_talks(non_research = TRUE),
-  cv_section("Professional Organizations"),           build_prof_orgs(),
+  # ----- Teaching, advising, service (admin / institutional) -----
+  cv_section("Teaching"),                             build_teaching(),
   cv_section("Graduate Students"),                    build_students(),
+  cv_section("Service"),                              build_service(),
+  cv_section("Professional Organizations"),           build_prof_orgs(),
   cv_section("Languages"),                            build_languages()
 )
 
