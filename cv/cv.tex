@@ -26,21 +26,24 @@
 % ----- Paragraph & list defaults -----
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.35em}
-\setlist{nosep,leftmargin=1.5em,labelsep=0.5em,itemsep=0.15em,topsep=0.2em}
 
-% ----- Section macro: small caps heading, thin rule below -----
+% Suppress bullets on itemize (Blevins-style indented list) but keep them
+% on enumerate for numbered things like Working Papers and Book Chapters.
+\setlist[itemize]{leftmargin=1.5em,label={},itemsep=0.25em,parsep=0pt,topsep=0.2em}
+\setlist[itemize,2]{leftmargin=1.5em,label={}}
+\setlist[enumerate]{leftmargin=2em,labelsep=0.5em,itemsep=0.25em,parsep=0pt,topsep=0.2em}
+
+% ----- Section macro: plain UPPERCASE, no rule (Blevins style) -----
 \newcommand{\cvsection}[1]{%
-  \par\vspace{0.9em}%
-  \noindent{\large\textsc{#1}}\par
-  \vspace{0.25em}%
-  {\color{black!75}\hrule height 0.4pt}%
-  \vspace{0.45em}%
+  \par\vspace{1.0em}%
+  \noindent\uppercase{#1}\par
+  \vspace{0.3em}%
 }
 
 % ----- Sub-heading inside sections (e.g. service kinds, talk years) -----
 \newcommand{\cvsubsection}[1]{%
   \par\vspace{0.3em}%
-  \noindent\textbf{#1}\par
+  \noindent\textit{#1}\par
 }
 
 % ----- Page furniture: "page X of N" bottom-center -----

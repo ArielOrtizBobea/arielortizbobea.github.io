@@ -209,24 +209,25 @@ cv_subsection <- function(title) {
 #  Section builders
 # ============================================================================
 
-# ----- Header -----
+# ----- Header (Blevins style: name uppercase, date on a separate line) -----
 build_header <- function() {
   addr <- paste(vapply(profile$address, tex_escape, character(1)), collapse = "\\\\\n")
   cit  <- paste(vapply(profile$citizenship, tex_escape, character(1)), collapse = ", ")
   website_display <- sub("^https?://", "", profile$website)
+  today <- paste0(format(Sys.Date(), "%B "), format(Sys.Date(), "%Y"))
   c(
-    "{\\centering\\Large\\textbf{",
-    tex_escape(profile$name),
-    "}\\par}",
+    paste0("\\noindent{\\LARGE\\uppercase{", tex_escape(profile$name), "}}\\par"),
     "\\vspace{0.4em}",
+    paste0("\\noindent ", tex_escape(today), "\\par"),
+    "\\vspace{0.8em}",
     "\\noindent",
-    "\\begin{minipage}[t]{0.65\\textwidth}\\raggedright",
+    "\\begin{minipage}[t]{0.495\\textwidth}\\raggedright",
     addr,
     "\\end{minipage}\\hfill",
-    "\\begin{minipage}[t]{0.33\\textwidth}\\raggedleft",
+    "\\begin{minipage}[t]{0.495\\textwidth}\\raggedright",
+    paste0("\\href{", profile$website, "}{", tex_escape(website_display), "}\\\\"),
     paste0("\\href{mailto:", profile$email, "}{", tex_escape(profile$email), "}\\\\"),
     paste0(tex_escape(profile$phone), " (office)\\\\"),
-    paste0("\\href{", profile$website, "}{", tex_escape(website_display), "}\\\\"),
     paste0("Citizenship: ", cit),
     "\\end{minipage}",
     "\\par"
