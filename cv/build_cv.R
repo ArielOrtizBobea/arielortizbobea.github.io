@@ -217,25 +217,23 @@ build_header <- function() {
 
 # ----- Education -----
 build_education <- function() {
-  # tabularx with X (wrap-friendly content) + r (year). Guarantees year stays
-  # right-aligned and a long content row wraps without crashing into the year.
-  # institution_now (if any) appears small on a second row.
+  # Year on the left, content on the right — matches Awards / Grants /
+  # Appointments columns for visual consistency.
   rows <- character(0)
   for (e in education) {
     main <- paste0("\\textbf{", tex_escape(e$degree), "}")
     if (!is.null(e$field))      main <- paste0(main, ", ", tex_escape(e$field))
     main <- paste0(main, ", ", tex_escape(e$institution))
     if (!is.null(e$department)) main <- paste0(main, ", ", tex_escape(e$department))
-    rows <- c(rows, paste0(main, " & ", as.character(e$year_end), " \\\\"))
+    rows <- c(rows, paste0(as.character(e$year_end), " & ", main, " \\\\"))
     if (!is.null(e$institution_now)) {
       rows <- c(rows, paste0(
-        "\\multicolumn{2}{@{}l@{}}{\\hspace{1em}{\\small (now ",
-        tex_escape(e$institution_now), ")}} \\\\"
+        " & {\\small (now ", tex_escape(e$institution_now), ")} \\\\"
       ))
     }
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}>{\\raggedright\\arraybackslash}Xr@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{0.55in}>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
@@ -402,7 +400,7 @@ build_teaching <- function() {
   rows
 }
 
-# ----- Service (grouped by kind) -----
+# ----- Service (grouped by kind, year-range left column) -----
 build_service <- function() {
   kinds <- list(
     department    = "Department",
@@ -416,18 +414,20 @@ build_service <- function() {
     items <- Filter(function(s) identical(s$kind, k), service)
     if (length(items) == 0) next
     out <- c(out, cv_subsection(kinds[[k]]))
-    out <- c(out, "\\begin{itemize}")
+    rows <- character(0)
     for (s in items) {
       line <- tex_escape(s$role)
-      if (!is.null(s$journal)) line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
-      if (!is.null(s$group)) line <- paste0(line, ", ", tex_escape(s$group))
+      if (!is.null(s$journal))     line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
+      if (!is.null(s$group))       line <- paste0(line, ", ", tex_escape(s$group))
       if (!is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
-      range <- format_range_y(s)
-      line <- paste0(line, ", ", range)
-      if (!is.null(s$note)) line <- paste0(line, " (", tex_escape(s$note), ")")
-      out <- c(out, paste0("\\item ", line))
+      if (!is.null(s$note))        line <- paste0(line, " (", tex_escape(s$note), ")")
+      rows <- c(rows, paste0(format_range_y(s), " & ", line, " \\\\"))
     }
-    out <- c(out, "\\end{itemize}")
+    out <- c(out,
+      "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+      rows,
+      "\\end{tabularx}"
+    )
   }
   out
 }
@@ -475,13 +475,27 @@ build_grants <- function() {
   )
 }
 
-# ----- Conferences & Seminars (grouped by year, newest year first) -----
+# ----- Conferences & Seminars (year heading, month-day on left) -----
+# Since the year is the heading, each entry only needs month-day on the
+# left, matching the date-left convention used by other sections.
+format_talk_date_short <- function(date, date_end = NULL, approx = FALSE) {
+  d <- as_date_safe(date)
+  if (is.na(d)) return("")
+  if (isTRUE(approx)) return(format(d, "%B"))
+  if (is.null(date_end)) return(paste0(format(d, "%b "), day_of(d)))
+  de <- as_date_safe(date_end)
+  if (format(d, "%Y-%m") == format(de, "%Y-%m")) {
+    paste0(format(d, "%b "), day_of(d), "--", day_of(de))
+  } else {
+    paste0(format(d, "%b "), day_of(d), "--", format(de, "%b "), day_of(de))
+  }
+}
+
 build_talks <- function(non_research = FALSE) {
   items <- Filter(function(t) {
     is_aob(t$presenter) && (isTRUE(t$non_research) == non_research)
   }, talks)
   if (length(items) == 0) return(character(0))
-  # Extract year from date
   years <- vapply(items, function(t) {
     d <- as_date_safe(t$date)
     if (is.na(d)) NA_integer_ else as.integer(format(d, "%Y"))
@@ -489,24 +503,34 @@ build_talks <- function(non_research = FALSE) {
   ord <- order(-years, vapply(items, function(t) -as.numeric(as_date_safe(t$date)), numeric(1)))
   items <- items[ord]
   years <- years[ord]
+
+  # Emit a tabularx per year so the left column aligns within each year.
+  flush_year <- function(out, rows) {
+    if (length(rows) == 0) return(out)
+    c(out,
+      "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+      rows,
+      "\\end{tabularx}"
+    )
+  }
   out <- character(0)
+  rows <- character(0)
   current_year <- NA
   for (i in seq_along(items)) {
     t <- items[[i]]
     y <- years[i]
     if (is.na(current_year) || y != current_year) {
+      out <- flush_year(out, rows); rows <- character(0)
       current_year <- y
-      out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\\\"))
+      out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\par"))
     }
     venue <- tex_escape(t$venue)
     loc <- if (!is.null(t$location)) paste0(", ", tex_escape(t$location)) else ""
-    d <- format_talk_date(t$date, t$date_end, t$date_approx)
+    d_short <- format_talk_date_short(t$date, t$date_end, t$date_approx)
     role_note <- if (!is.null(t$role)) paste0(" [", tex_escape(t$role), "]") else ""
-    # Hanging indent: first line at 1em, wrapped lines align at 1em too.
-    out <- c(out, paste0(
-      "{\\leftskip=1em\\noindent ", venue, loc, ", ", d, role_note, "\\par}"
-    ))
+    rows <- c(rows, paste0(d_short, " & ", venue, loc, role_note, " \\\\"))
   }
+  out <- flush_year(out, rows)
   out
 }
 
