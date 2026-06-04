@@ -345,16 +345,61 @@ build_book_chapters <- function() {
   c(out, "\\end{enumerate}")
 }
 
-# ----- Teaching -----
-build_teaching <- function() {
-  items <- teaching
-  vapply(items, function(t) {
-    paste0(
-      tex_escape(t$course_number), ", ", tex_escape(t$course_title), ", ",
-      tex_escape(t$term), " ", as.character(t$year),
-      " (", tex_escape(as.character(t$enrollment)), " students)\\\\"
-    )
+# ----- Teaching (one row per course, terms+years aggregated) -----
+# Collapse consecutive years to ranges within each term: e.g. "Fall 2014-2019"
+# instead of "Fall 2014, Fall 2015, ..., Fall 2019".
+collapse_years <- function(years) {
+  years <- sort(unique(years))
+  if (length(years) == 0) return("")
+  groups <- list()
+  current <- c(years[1])
+  for (y in years[-1]) {
+    if (y == tail(current, 1) + 1) current <- c(current, y)
+    else { groups <- c(groups, list(current)); current <- y }
+  }
+  groups <- c(groups, list(current))
+  parts <- vapply(groups, function(g) {
+    if (length(g) == 1) as.character(g) else paste0(g[1], "--", tail(g, 1))
   }, character(1))
+  paste(parts, collapse = ", ")
+}
+
+build_teaching <- function() {
+  # Group offerings by course_number, preserving first-seen order
+  courses <- list()
+  course_order <- character(0)
+  for (t in teaching) {
+    key <- t$course_number
+    if (is.null(courses[[key]])) {
+      courses[[key]] <- list(
+        course_number = t$course_number,
+        course_title  = t$course_title,
+        level         = t$level,
+        offerings     = list()
+      )
+      course_order <- c(course_order, key)
+    }
+    courses[[key]]$offerings <- c(courses[[key]]$offerings, list(t))
+  }
+  rows <- character(0)
+  for (key in course_order) {
+    co <- courses[[key]]
+    # Within each course: group years by term
+    by_term <- list()
+    for (o in co$offerings) {
+      by_term[[o$term]] <- c(by_term[[o$term]] %||% integer(0), o$year)
+    }
+    term_strs <- vapply(names(by_term), function(tn) {
+      paste0(tn, " ", collapse_years(by_term[[tn]]))
+    }, character(1))
+    offerings_text <- paste(term_strs, collapse = "; ")
+    level_tag <- if (!is.null(co$level)) paste0(" \\textit{(", co$level, ")}") else ""
+    rows <- c(rows, paste0(
+      "\\noindent\\textbf{", tex_escape(co$course_number), "}, ",
+      tex_escape(co$course_title), " --- ", offerings_text, level_tag, "\\par"
+    ))
+  }
+  rows
 }
 
 # ----- Service (grouped by kind) -----
@@ -387,41 +432,47 @@ build_service <- function() {
   out
 }
 
-# ----- Honors & Awards -----
+# ----- Honors & Awards (year-prefix two-column layout) -----
 build_awards <- function() {
   if (length(awards) == 0) return(character(0))
-  out <- "\\begin{itemize}"
+  rows <- character(0)
   for (a in awards) {
-    line <- tex_escape(a$title)
-    if (!is.null(a$granter)) line <- paste0(line, ", ", tex_escape(a$granter))
-    if (!is.null(a$paper))   line <- paste0(line, " for ``", tex_escape(a$paper), "''")
-    if (!is.null(a$collaborators)) line <- paste0(line, " (", tex_escape(a$collaborators), ")")
-    if (!is.null(a$venue))   line <- paste0(line, ", ", tex_escape(a$venue))
-    line <- paste0(line, ", ", as.character(a$year))
-    if (!is.null(a$note))    line <- paste0(line, " (", tex_escape(a$note), ")")
-    out <- c(out, paste0("\\item ", line))
+    desc <- tex_escape(a$title)
+    if (!is.null(a$granter))        desc <- paste0(desc, ", ", tex_escape(a$granter))
+    if (!is.null(a$paper))          desc <- paste0(desc, " for ``", tex_escape(a$paper), "''")
+    if (!is.null(a$collaborators))  desc <- paste0(desc, " (", tex_escape(a$collaborators), ")")
+    if (!is.null(a$venue))          desc <- paste0(desc, ", ", tex_escape(a$venue))
+    if (!is.null(a$note))           desc <- paste0(desc, " (", tex_escape(a$note), ")")
+    rows <- c(rows, paste0(as.character(a$year), " & ", desc, " \\\\"))
   }
-  c(out, "\\end{itemize}")
+  c(
+    "\\begin{tabularx}{\\textwidth}{@{}p{0.55in}>{\\raggedright\\arraybackslash}X@{}}",
+    rows,
+    "\\end{tabularx}"
+  )
 }
 
-# ----- Grants -----
+# ----- Grants (year-range-prefix two-column layout) -----
 build_grants <- function() {
   if (length(grants) == 0) return(character(0))
-  out <- "\\begin{enumerate}"
+  rows <- character(0)
   for (g in grants) {
     pieces <- c(tex_escape(g$funder))
     if (!is.null(g$program))        pieces <- c(pieces, tex_escape(g$program))
     if (!is.null(g$project_number)) pieces <- c(pieces, paste0("project ", tex_escape(g$project_number)))
     head <- paste(pieces, collapse = ", ")
-    line <- paste0(head, ". ``", tex_escape(g$title), ".''")
-    if (!is.null(g$role)) line <- paste0(line, " Role: ", tex_escape(g$role), ".")
-    if (!is.null(g$collaborators)) line <- paste0(line, " ", tex_escape(g$collaborators), ".")
+    desc <- paste0(head, ". ``", tex_escape(g$title), ".''")
+    if (!is.null(g$role))           desc <- paste0(desc, " Role: ", tex_escape(g$role), ".")
+    if (!is.null(g$collaborators))  desc <- paste0(desc, " ", tex_escape(g$collaborators), ".")
     amt <- format_amount(g)
-    if (nchar(amt) > 0) line <- paste0(line, " Award: ", amt, ".")
-    line <- paste0(line, " Period: ", format_range_y(g), ".")
-    out <- c(out, paste0("\\item ", line))
+    if (nchar(amt) > 0)             desc <- paste0(desc, " Award: ", amt, ".")
+    rows <- c(rows, paste0(format_range_y(g), " & ", desc, " \\\\"))
   }
-  c(out, "\\end{enumerate}")
+  c(
+    "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+    rows,
+    "\\end{tabularx}"
+  )
 }
 
 # ----- Conferences & Seminars (grouped by year, newest year first) -----
@@ -451,8 +502,9 @@ build_talks <- function(non_research = FALSE) {
     loc <- if (!is.null(t$location)) paste0(", ", tex_escape(t$location)) else ""
     d <- format_talk_date(t$date, t$date_end, t$date_approx)
     role_note <- if (!is.null(t$role)) paste0(" [", tex_escape(t$role), "]") else ""
+    # Hanging indent: first line at 1em, wrapped lines align at 1em too.
     out <- c(out, paste0(
-      "\\hspace{1em}", venue, loc, ", ", d, role_note, "\\\\"
+      "{\\leftskip=1em\\noindent ", venue, loc, ", ", d, role_note, "\\par}"
     ))
   }
   out
