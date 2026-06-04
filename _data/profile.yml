@@ -1,0 +1,34 @@
+# Personal profile data file
+#
+# Header content for the CV. The website does not render this file directly
+# today; a future template may pick up the address / contact block.
+#
+# Required fields:  name, email, address
+# Optional fields:  phone, website, citizenship, born, languages
+
+name: Ariel Ortiz-Bobea
+
+email: ao332@cornell.edu
+phone: 607.255.0220
+website: https://arielortizbobea.github.io
+
+address:
+  - Charles H. Dyson School of Applied Economics and Management
+  - SC Johnson College of Business
+  - College of Agriculture and Life Sciences
+  - Cornell University
+  - 450B Warren Hall
+  - Ithaca, NY 14853-7801
+
+citizenship:
+  - Dominican Republic
+  - Italy
+  # United States — pending; add when finalized
+
+# Kept for personal records; the CV template does not render this.
+born: 1981-07-29
+
+languages:
+  - { language: Spanish, level: native }
+  - { language: French,  level: fluent }
+  - { language: English, level: fluent }

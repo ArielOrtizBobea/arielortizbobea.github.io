@@ -1,0 +1,150 @@
+# Teaching offerings data file
+#
+# One entry per course offering (a course taught in a given term).
+#
+# Required fields:  course_number, course_title, term, year
+# Optional fields:
+#   enrollment    Number of students (string to allow notes like "48+47" cross-listed)
+#   level         "undergraduate" | "graduate"
+#   note          Free-form
+#   cv            Set false to omit from the CV
+#
+# `term` values:  Fall | Spring | Winter | Summer
+#
+# Entries listed oldest first (matches the CV).
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2014
+  enrollment: "12"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Spring
+  year: 2015
+  enrollment: "48"
+  level: undergraduate
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2015
+  enrollment: "9"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2015
+  enrollment: "49"
+  level: undergraduate
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2016
+  enrollment: "11"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2016
+  enrollment: "51"
+  level: undergraduate
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2017
+  enrollment: "13"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2017
+  enrollment: "60"
+  level: undergraduate
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2018
+  enrollment: "24"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2018
+  enrollment: "72"
+  level: undergraduate
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Spring
+  year: 2019
+  enrollment: "18"
+  level: graduate
+
+- course_number: AEM 7675
+  course_title: Advanced Grad Research Seminar
+  term: Spring
+  year: 2019
+  enrollment: "34"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2019
+  enrollment: "48+47"
+  level: undergraduate
+  note: cross-listed
+
+- course_number: AEM 7010
+  course_title: Applied Microeconomics
+  term: Fall
+  year: 2019
+  enrollment: "9"
+  level: graduate
+
+- course_number: AEM 7675
+  course_title: Advanced Grad Research Seminar
+  term: Spring
+  year: 2020
+  enrollment: "18"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2020
+  enrollment: "50+55"
+  level: undergraduate
+  note: cross-listed
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Spring
+  year: 2020
+  enrollment: "10"
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2021
+  enrollment: "51+52"
+  level: undergraduate
+  note: cross-listed
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Fall
+  year: 2021
+  enrollment: "22"
+  level: graduate

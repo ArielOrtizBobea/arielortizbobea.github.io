@@ -1,0 +1,189 @@
+# Service data file
+#
+# Used for the CV's "Service" section. Entries are grouped at render time
+# by the `kind` field, in this order:
+#   department, university, faculty_senate, external, editorial
+#
+# Required fields:  role, kind
+# Optional fields:
+#   institution       E.g. "Cornell University", "OECD"
+#   group             Sub-organization (e.g. "Office of Faculty Development and Diversity")
+#   journal           For editorial entries
+#   year_start        Year service began
+#   year_end          Omit if ongoing (or set `current: true`)
+#   current           true for ongoing service
+#   note              Free-form ("prematurely terminated in 2025", "3-year term", etc.)
+#
+# `kind` values:
+#   department       Dyson / AEM department-level service
+#   university       Cornell-wide service (not Faculty Senate)
+#   faculty_senate   Faculty Senate roles
+#   external         Outside-Cornell professional service
+#   editorial        Editorial boards, deputy editorships, etc.
+
+# ======================== DEPARTMENT ========================
+
+- role: Member, Theory competency committee
+  group: Applied Economics and Management PhD program
+  institution: Cornell University
+  year_start: 2014
+  year_end: 2020
+  kind: department
+
+- role: Member, MS admissions committee
+  group: Applied Economics and Management
+  institution: Cornell University
+  year_start: 2014
+  year_end: 2018
+  kind: department
+
+# ======================== UNIVERSITY ========================
+
+- role: Member, Cornell Research Integrity Council
+  institution: Cornell University
+  year_start: 2025
+  current: true
+  kind: university
+
+- role: Advisory Board Member, Office of Faculty Development and Diversity
+  institution: Cornell University
+  year_start: 2025
+  current: true
+  kind: university
+
+- role: Affiliated faculty, Environment & Sustainability (cross-college major)
+  institution: Cornell University
+  year_start: 2019
+  current: true
+  kind: university
+
+- role: Advisory board member, Cornell Institute for Climate Smart Solutions
+  institution: Cornell University
+  year_start: 2016
+  year_end: 2019
+  kind: university
+
+- role: Member, Food Security Working Group
+  group: Cornell Atkinson Center for a Sustainable Future
+  institution: Cornell University
+  year_start: 2018
+  year_end: 2020
+  kind: university
+
+- role: Faculty adviser, Diversity in Cornell Economics (DICE) graduate student group
+  institution: Cornell University
+  year_start: 2019
+  year_end: 2022
+  kind: university
+
+- role: Member, Steering Committee for California-New York Climate Innovation Highway
+  institution: Cornell University
+  year_start: 2021
+  year_end: 2021
+  kind: university
+
+# ======================== FACULTY SENATE ========================
+
+- role: Member, Faculty Senate
+  institution: Cornell University
+  year_start: 2020
+  year_end: 2023
+  note: 3-year term
+  kind: faculty_senate
+
+- role: Member, Working Group F — A Required Educational Program for Faculty
+  institution: Cornell University
+  year_start: 2020
+  year_end: 2021
+  kind: faculty_senate
+
+# ======================== EXTERNAL ========================
+
+- role: Member, OECD Network on Agricultural TFP and the Environment
+  institution: OECD
+  year_start: 2019
+  current: true
+  kind: external
+
+- role: Author, Economics Chapter, Sixth National Climate Assessment Report
+  institution: U.S. Global Change Research Program
+  year_start: 2024
+  year_end: 2028
+  note: prematurely terminated in 2025
+  kind: external
+
+- role: Board Director
+  institution: Association of Environmental and Resource Economists (AERE)
+  month_start: 1
+  year_start: 2022
+  month_end: 12
+  year_end: 2024
+  kind: external
+
+- role: Member, National Agricultural Research, Extension, Education, and Economics (NAREEE) Advisory Board
+  institution: U.S. Department of Agriculture (USDA)
+  month_start: 10
+  year_start: 2021
+  month_end: 10
+  year_end: 2023
+  kind: external
+
+- role: Member, Agriculture Workgroup
+  group: New York State Climate Impacts Assessment
+  year_start: 2021
+  year_end: 2022
+  kind: external
+
+- role: Mentor, AERE Scholars Program
+  institution: Association of Environmental and Resource Economists (AERE)
+  year_start: 2021
+  year_end: 2022
+  kind: external
+
+- role: Co-organizer, Online Summer Workshop in Environment, Energy, and Transportation (Economics) (OSWEET)
+  year_start: 2020
+  year_end: 2025
+  kind: external
+
+- role: Co-organizer, Global Open Series in Environmental Economics (GOSEE)
+  year_start: 2020
+  year_end: 2020
+  kind: external
+
+- role: Advisory Board Member, Food Systems Needs Advisory Committee
+  group: Grow-NY Program
+  year_start: 2020
+  year_end: 2020
+  kind: external
+
+# ======================== EDITORIAL ========================
+
+- role: Associate Deputy Editor
+  journal: Climatic Change
+  year_start: 2021
+  current: true
+  kind: editorial
+
+- role: Member, Editorial Council
+  journal: Journal of the Association of Environmental and Resource Economists (JAERE)
+  year_start: 2020
+  current: true
+  kind: editorial
+
+- role: Member, Editorial Advisory Board
+  journal: Journal of Wine Economics
+  year_start: 2021
+  current: true
+  kind: editorial
+
+- role: Member, Executive Editorial Board
+  journal: "Environmental Research: Food Systems"
+  year_start: 2023
+  current: true
+  kind: editorial
+
+- role: Associate Editor
+  journal: American Journal of Agricultural Economics (AJAE)
+  year_start: 2020
+  year_end: 2023
+  kind: editorial

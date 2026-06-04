@@ -1,0 +1,97 @@
+# Employment / appointments data file
+#
+# Used to render both "Current Appointments" and "Past Appointments" CV
+# sections, split by the `current` flag.
+#
+# Required fields:  title, institution, year_start
+# Optional fields:
+#   department    E.g. "Dyson School of Applied Economics and Management"
+#   location      City, State / Country
+#   month_start   1-12 for month-precision (matches CV's MM/YYYY format)
+#   year_end      Omit when `current: true`
+#   month_end     1-12
+#   current       true for ongoing appointments
+#   note          Free-form context
+#
+# Entries listed newest first within each block.
+
+# ======================== CURRENT ========================
+
+- title: Associate Professor
+  department: Dyson School of Applied Economics and Management
+  institution: Cornell University
+  location: Ithaca, NY
+  month_start: 7
+  year_start: 2020
+  current: true
+
+- title: Associate Professor
+  department: Brooks School of Public Policy
+  institution: Cornell University
+  location: Ithaca, NY
+  month_start: 9
+  year_start: 2021
+  current: true
+
+- title: Fellow
+  department: Cornell Atkinson Center for Sustainability
+  institution: Cornell University
+  location: Ithaca, NY
+  month_start: 7
+  year_start: 2015
+  current: true
+
+# ======================== PAST ========================
+
+- title: Visiting Fellow
+  department: Center for Food Security and the Environment
+  institution: Stanford University
+  location: Stanford, CA
+  month_start: 9
+  year_start: 2023
+  month_end: 6
+  year_end: 2024
+
+- title: Visiting Researcher
+  department: School of Economics
+  institution: University of Sydney
+  location: Sydney, Australia
+  month_start: 1
+  year_start: 2023
+  month_end: 6
+  year_end: 2023
+
+- title: Assistant Professor and CoBank/Farm Credit East Sesquicentennial Faculty Fellow in Economics and Management of Agricultural Production Sustainability
+  department: Dyson School of Applied Economics and Management
+  institution: Cornell University
+  location: Ithaca, NY
+  month_start: 7
+  year_start: 2014
+  month_end: 6
+  year_end: 2020
+
+- title: Fellow
+  institution: Resources for the Future
+  location: Washington, DC
+  month_start: 7
+  year_start: 2013
+  month_end: 6
+  year_end: 2014
+
+- title: Short Term Consultant
+  department: Development Research Group — Environment & Energy Team (DECEE)
+  institution: World Bank
+  location: Washington, DC
+  month_start: 7
+  year_start: 2012
+  month_end: 7
+  year_end: 2013
+
+- title: Special Assistant to the Minister
+  department: Ministry of the Environment and Natural Resources
+  institution: Government of the Dominican Republic
+  location: Santo Domingo, Dominican Republic
+  month_start: 7
+  year_start: 2006
+  month_end: 8
+  year_end: 2008

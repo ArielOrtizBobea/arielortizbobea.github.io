@@ -1,0 +1,81 @@
+# Grants and external funding data file
+#
+# Required fields:  title, funder, year_start
+# Optional fields:
+#   project_number    E.g. "1360424"
+#   program           Funder's program (e.g. "Hatch", "AFRI", "INFEWS")
+#   role              "PI", "Co-PI", "Project Director", etc. (omit if PI / sole)
+#   collaborators     Free-form text (e.g. "with 7 co-PIs at 3 other institutions")
+#   amount_total      Total award in USD (number, no commas)
+#   amount_managed    Portion managed by AOB
+#   amount_approx     true when amounts are approximate (e.g. "approx. $500,000")
+#   year_end          Omit for ongoing
+#   url               Project page / press release
+#   cv                Set false to omit from the CV
+
+- title: Impacts of Climate Change on the Phenology of Linked Agriculture-Water Systems
+  funder: National Science Foundation
+  project_number: "1360424"
+  collaborators: Collaborative Research with 7 co-PIs at 3 other institutions
+  amount_total: 1800000
+  amount_managed: 330000
+  year_start: 2014
+  year_end: 2018
+
+- title: Can public institutions resolve information asymmetries? Historical evidence from the French wine market
+  funder: Cornell Institute for Social Science (ISS)
+  program: small grant
+  amount_total: 10000
+  year_start: 2014
+  year_end: 2015
+
+- title: Impact Analysis and Decision Strategies for Agricultural Research
+  funder: USDA National Institute of Food and Agriculture
+  program: Hatch / Multi-State
+  project_number: "101155"
+  amount_total: 137500
+  year_start: 2016
+  year_end: 2021
+
+- title: A Near Real-Time Crop Yield Forecasting System for the Eastern United States
+  funder: USDA National Institute of Food and Agriculture
+  program: Hatch
+  project_number: "1017421"
+  amount_total: 105000
+  year_start: 2018
+  year_end: 2021
+
+- title: "Agricultural-to-Energy Land Use Transitions: A FEW System Modeling Framework"
+  funder: USDA National Institute of Food and Agriculture
+  program: INFEWS
+  project_number: "1855984"
+  collaborators: Research with 5 other co-PIs
+  amount_total: 2400000
+  amount_managed: 350000
+  year_start: 2019
+  year_end: 2021
+
+- title: Development of an Empirical Multi-Scale Agricultural Forecast Model
+  funder: USDA
+  program: cooperative agreement 58-6000-9-0041
+  amount_total: 16193
+  year_start: 2020
+  year_end: 2020
+
+- title: Evolving agricultural credit markets and resilience of the US farm sector
+  funder: USDA National Institute of Food and Agriculture
+  program: AFRI
+  role: Co-PI
+  amount_total: 500000
+  amount_approx: true
+  year_start: 2021
+  year_end: 2023
+
+- title: R&D and agricultural productivity in a changing climate
+  funder: USDA National Institute of Food and Agriculture
+  program: AFRI
+  role: Project Director
+  amount_total: 500000
+  amount_approx: true
+  year_start: 2021
+  year_end: 2023

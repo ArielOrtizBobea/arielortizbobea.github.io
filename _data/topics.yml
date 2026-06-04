@@ -1,0 +1,16 @@
+# Research topics and graduate-field affiliations data file
+#
+# Drives the CV's "Topics and Fields of Interest" section.
+
+topics:
+  - Agricultural Economics
+  - Resource Economics
+  - Environmental Economics
+  - Applied Econometrics
+  - Climate Change Impacts and Adaptation
+
+cornell_graduate_fields:
+  - Applied Economics and Management
+  - Public Policy
+  - Economics
+  - Natural Resources

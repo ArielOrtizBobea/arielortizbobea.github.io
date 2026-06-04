@@ -1,0 +1,113 @@
+# Honors and awards data file
+#
+# Required fields:  title, year
+# Optional fields:
+#   granter        Organization conferring the award
+#   paper          Title of the awarded paper (free text; cross-link by hand
+#                  if you want — no automatic match against papers.yml yet)
+#   collaborators  Other awardees ("with Robert G. Chambers, Yurou He ...")
+#   venue          Where the prize was awarded (e.g., a conference)
+#   note           Free-form ("declined", "category 'ML innovation'", etc.)
+#   cv             Set false to omit from the CV
+#
+# Entries listed newest first.
+
+- title: Quality of Communication Award
+  granter: Agricultural & Applied Economics Association (AAEA)
+  paper: Large increases in public R&D investment are needed to avoid declines of US agricultural productivity
+  collaborators: with Robert G. Chambers, Yurou He and David B. Lobell
+  year: 2026
+
+- title: Teaching Excellence — Graduate Program
+  granter: Charles H. Dyson School of Applied Economics and Management, Cornell University
+  year: 2026
+  note: 2025–26 academic year
+
+- title: Best Paper Award (category "ML innovation")
+  granter: Climate Change AI NeurIPS Workshop
+  paper: A GNN-RNN Approach for Harnessing Geospatial and Temporal Information — Application to Crop Yield Prediction
+  collaborators: with Joshua Fan, Junwen Bai, Zhiyun Li and Carla P. Gomes
+  year: 2021
+
+- title: Quality of Research Discovery Award
+  granter: Agricultural & Applied Economics Association (AAEA)
+  paper: The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on US Agriculture
+  year: 2021
+  note: declined
+
+- title: Outstanding Article Award
+  granter: American Journal of Agricultural Economics (AJAE)
+  paper: The Role of Nonfarm Influences in Ricardian Estimates of Climate Change Impacts on US Agriculture
+  year: 2020
+
+- title: Christophe Baron Prize
+  granter: American Association of Wine Economists
+  paper: How big is the "lemons" problem? Historical evidence from French appellation wines
+  venue: 13th Annual AAWE Conference, Vienna, Austria
+  year: 2019
+  note: paper presented by P. Mérel
+
+- title: Research Award
+  granter: International Center for Pension Management (IPCM)
+  paper: Temperature Shocks and Earnings News
+  year: 2018
+
+- title: Best Paper Award
+  granter: Geneva Summit on Sustainable Finance (GSSF)
+  paper: Temperature Shocks and Earnings News
+  year: 2018
+
+- title: Finalist, Big Data Innovation Challenge
+  granter: World Bank
+  year: 2017
+
+- title: Distinguished Dissertation Award (Social Sciences)
+  granter: University of Maryland
+  year: 2014
+  note: recognizes original work that makes an unusually significant contribution to the discipline
+
+- title: Young Professionals Program
+  granter: World Bank
+  year: 2013
+  note: admitted; declined to pursue research career
+
+- title: Dr. and Mrs. Bill V. Lessley Award for Dissertation Excellence
+  granter: Department of Agricultural & Resource Economics, University of Maryland
+  year: 2013
+  note: awarded to the author of the best dissertation in the department
+
+- title: International Conference Student Support Award
+  granter: University of Maryland — Office of the President and the Graduate School
+  year: 2013
+
+- title: Distinguished Teaching Assistant Award
+  granter: University of Maryland — Center for Teaching Excellence and the Graduate School
+  year: 2012
+  note: 2011–2012 academic year
+
+- title: Jacob K. Goldhaber Travel Grant
+  granter: University of Maryland Graduate School
+  year: 2012
+
+- title: Travel grant — Belpasso International Summer School "Extremes — Natural Disasters in Changing Climate"
+  granter: European Association of Environmental and Resource Economists (EAERE)
+  venue: Belpasso, Italy
+  year: 2011
+
+- title: Distinguished Teaching Assistant Award
+  granter: University of Maryland — Center for Teaching Excellence and the Graduate School
+  year: 2011
+  note: 2010–2011 academic year
+
+- title: Bessie H. Devault Award
+  granter: Department of Agricultural & Resource Economics, University of Maryland
+  year: 2010
+  note: best paper by a second-year graduate student
+
+- title: Syracuse University Graduate Fellow
+  granter: Syracuse University
+  year: 2006
+  note: 2005–2006 academic year
+
+- title: Placed 3rd in national entrance exam to French "Grandes Écoles" of agronomy
+  year: 2001

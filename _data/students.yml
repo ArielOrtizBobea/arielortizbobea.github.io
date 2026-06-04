@@ -1,0 +1,234 @@
+# Graduate students and postdocs data file
+#
+# Used to render the CV's "Graduate Students" section. The website's
+# /people page is generated from _data/team.yml independently — this file
+# is the authoritative academic-advising record for the CV.
+#
+# Required fields:  name, level
+# Optional fields:
+#   field            E.g. "Applied Economics", "Natural Resources"
+#   chair_role       chair | co_chair | committee     (PhD / MS only)
+#   year_start       For ongoing students
+#   year_end         Year of completion (omit if current)
+#   placement        First placement after completion
+#   note             E.g. "second-place winner, ICPSR 2018 ..."
+#   cv               Set false to omit from the CV
+#
+# `level` values:  postdoc, phd, ms
+#
+# Order: current students first (no year_end), then completed newest first.
+
+# ======================== POSTDOCS ========================
+
+- name: Tzu-Hui Chen
+  level: postdoc
+  year_start: 2026
+  note: joining Summer 2026
+
+- name: Shuo Yu
+  level: postdoc
+  year_start: 2026
+  note: joining Summer 2026
+
+- name: Maria Gerullis
+  level: postdoc
+  year_start: 2022
+  year_end: 2023
+  placement: Postdoc, Goettingen University
+
+- name: Osama Sajid
+  level: postdoc
+  year_start: 2021
+  year_end: 2023
+  placement: Socio-Economic Specialist, Hatfield Group, BC, Canada
+
+- name: Haoying Wang
+  level: postdoc
+  year_start: 2014
+  year_end: 2017
+  placement: Assistant Professor, New Mexico Tech
+
+# ======================== PHD STUDENTS ========================
+
+- name: Ayşegül Kılınç
+  level: phd
+  field: Natural Resources
+  chair_role: chair
+
+- name: Jeisson Prieto
+  level: phd
+  field: Applied Economics
+  chair_role: chair
+
+- name: Jerzy Jaromczyk
+  level: phd
+  field: Applied Economics
+  chair_role: co_chair
+
+- name: Yurou He
+  level: phd
+  field: Applied Economics
+  chair_role: chair
+
+- name: Luc Esprabens
+  level: phd
+  field: Applied Economics
+
+- name: Yunran Wang
+  level: phd
+  field: Applied Economics
+
+- name: Ruiyi Ouyang
+  level: phd
+  field: Applied Economics
+
+- name: Qingli Fan
+  level: phd
+  field: Economics
+  year_end: 2025
+  placement: Economist, Amazon
+
+- name: Tong Wu
+  level: phd
+  field: Applied Economics
+  year_end: 2025
+  placement: Researcher, Natural Resources Institute Finland
+
+- name: Trinh Pham
+  level: phd
+  field: Applied Economics
+  year_end: 2024
+  placement: Assistant Professor, Korea Development Institute
+
+- name: Zhiyun Li
+  level: phd
+  field: Applied Economics
+  chair_role: co_chair
+  year_end: 2023
+  placement: Economist, UCLA Anderson Forecast
+
+- name: David Frederick Gold
+  level: phd
+  field: Civil and Environmental Engineering
+  year_end: 2022
+  placement: Postdoctoral Associate, Cornell University
+
+- name: Steven Wilcox
+  level: phd
+  field: Applied Economics
+  year_end: 2022
+  placement: Assistant Professor, Utah State University
+
+- name: Sylvia Blom
+  level: phd
+  field: Applied Economics
+  year_end: 2021
+  placement: Postdoctoral Fellow, University of Notre Dame
+
+- name: Lin Yang
+  level: phd
+  field: Applied Economics
+  year_end: 2021
+  placement: Assistant Professor of Urban Governance and Design, Society Hub of Hong Kong University of Science and Technology (Guangzhou)
+
+- name: Xiaolu (Grace) Li
+  level: phd
+  field: Earth and Atmospheric Sciences
+  year_end: 2019
+
+# ======================== MS STUDENTS ========================
+
+- name: Zhuoyan Han
+  level: ms
+  field: Applied Economics
+  chair_role: chair
+
+- name: Trent Claessens
+  level: ms
+  field: Applied Economics
+
+- name: Yichen Li
+  level: ms
+  field: Applied Economics and Management
+
+- name: Ziyi Lin
+  level: ms
+  field: Applied Economics
+  chair_role: chair
+  year_end: 2023
+  placement: PhD student, Cornell University
+
+- name: Gemma Del Rossi
+  level: ms
+  field: Applied Economics
+  year_end: 2022
+  placement: PhD student, UCSB
+
+- name: Shuxin Liu
+  level: ms
+  field: Applied Economics
+
+- name: Ziqian Song
+  level: ms
+  field: Applied Economics
+  chair_role: chair
+
+- name: Henry Forehand Williams
+  level: ms
+  field: Applied Economics
+
+- name: Qingrun (Justin) Meng
+  level: ms
+  field: Applied Economics and Management
+  chair_role: chair
+  year_end: 2017
+  placement: Analyst, Analysis Group, Boston
+
+- name: Elizabeth Womack
+  level: ms
+  field: Applied Economics and Management
+  year_end: 2017
+  placement: Survey Statistician, U.S. Census Bureau
+
+- name: Linghui Wu
+  level: ms
+  field: Applied Economics and Management
+  year_end: 2017
+  placement: PhD Student, University of New Hampshire
+
+- name: Matthew Utterback
+  level: ms
+  field: Applied Economics and Management
+  chair_role: chair
+  year_end: 2018
+  placement: Economist, Transportation Security Administration
+  note: second-place winner, Master's category of the 2018 ICPSR Research Paper Competition ("Investigating Weather Shocks and the Farmers' Perceptions of Climate Change in the American Farmland Market")
+
+- name: Lin Yang
+  level: ms
+  field: Applied Economics and Management
+  placement: PhD student in Applied Economics, Cornell University
+
+- name: Ithipong (Billy) Assaranurak
+  level: ms
+  field: Applied Economics and Management
+  chair_role: chair
+  year_end: 2019
+  placement: Data Scientist, Government Big Data Institute of Thailand
+
+- name: Sangwoo Park
+  level: ms
+  field: Applied Economics and Management
+  chair_role: chair
+  year_end: 2020
+
+- name: Jiajun Du
+  level: ms
+  field: Applied Economics and Management
+  year_end: 2020
+
+- name: Samuel Porter
+  level: ms
+  field: Applied Economics and Management
+  chair_role: chair
+  year_end: 2021

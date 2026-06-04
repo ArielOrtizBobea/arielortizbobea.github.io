@@ -1,0 +1,63 @@
+# Referee activity and external review data file
+#
+# Captures the "Referee activities", "Invited editor" and
+# "External reviews, grant & panel reviews" lines on the CV.
+#
+# Sections:
+#   journals          Journals where AOB has served as a referee (alphabetical)
+#   invited_editor    Journals where AOB has served as invited editor
+#   panels            Grant panel / external review service
+#                     Each entry: { funder, program, year (or years: [...]) }
+#
+# Membership in professional organizations is a separate section on the CV;
+# kept here so the whole "Professional Organizations" block lives together.
+
+journals:
+  - "American Economic Journal: Applied Economics"
+  - American Journal of Agricultural Economics
+  - Agricultural and Resource Economics Review
+  - Climate Change Economics
+  - Climatic Change
+  - Environmental and Resource Economics
+  - Environmental Research Letters
+  - Food Policy
+  - Journal of Agricultural and Applied Economics
+  - Journal of Agricultural and Resource Economics
+  - Journal of Applied Econometrics
+  - Journal of the Association of Environmental and Resource Economists
+  - Journal of Environmental Economics and Management
+  - Journal of the European Economic Association
+  - Journal of Political Economy
+  - Latin American Economic Review
+  - Nature Climate Change
+  - Nature Food
+  - Proceedings of the National Academy of Sciences
+  - Quantitative Economics
+  - Resource and Energy Economics
+  - Review of Financial Studies
+  - Science Advances
+  - Science
+
+invited_editor:
+  - Proceedings of the National Academy of Sciences
+
+panels:
+  - funder: National Science Foundation
+    program: Decision, Risk, and Management Sciences
+    year: 2015
+  - funder: USDA
+    program: AFRI Environmental and Natural Resource Economics Program
+    years: [2016, 2021]
+  - funder: European Research Council (ERC)
+    program: Starting Grant
+    year: 2017
+
+# Professional organization memberships (rendered in the same CV section)
+professional_organizations:
+  - { name: American Economic Association (AEA), year_start: 2013, current: true }
+  - { name: Agricultural and Applied Economics Association (AAEA), year_start: 2009, current: true }
+  - { name: Association of Environmental and Resource Economists (AERE), year_start: 2010, current: true }
+  - { name: European Association of Environmental and Resource Economists (EAERE), year_start: 2011, current: true }
+  - { name: Northeastern Agricultural and Resource Economics Association (NAREA), year_start: 2012, current: true, note: "2012, 2015–" }
+  - { name: Latin American Association of Environmental and Resource Economists (LAERE), year_start: 2020, current: true }
+  - { name: American Society of Hispanic Economists (ASHE), year_start: 2020, current: true }
