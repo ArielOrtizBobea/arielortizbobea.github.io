@@ -217,23 +217,23 @@ build_header <- function() {
 
 # ----- Education -----
 build_education <- function() {
-  # Year on the left, content on the right — matches Awards / Grants /
-  # Appointments columns for visual consistency.
+  # Three columns: year | degree + field | institution (+ department).
+  # Mirrors the Appointments layout (year | position | institution).
   rows <- character(0)
   for (e in education) {
-    main <- paste0("\\textit{", tex_escape(e$degree), "}")
-    if (!is.null(e$field))      main <- paste0(main, ", ", tex_escape(e$field))
-    main <- paste0(main, ", ", tex_escape(e$institution))
-    if (!is.null(e$department)) main <- paste0(main, ", ", tex_escape(e$department))
-    rows <- c(rows, paste0(as.character(e$year_end), " & ", main, " \\\\"))
+    position <- paste0("\\textit{", tex_escape(e$degree), "}")
+    if (!is.null(e$field))       position <- paste0(position, ", ", tex_escape(e$field))
+    inst <- tex_escape(e$institution)
+    if (!is.null(e$department))  inst <- paste0(inst, ", ", tex_escape(e$department))
+    rows <- c(rows, paste0(as.character(e$year_end), " & ", position, " & ", inst, " \\\\"))
     if (!is.null(e$institution_now)) {
       rows <- c(rows, paste0(
-        " & {\\small (now ", tex_escape(e$institution_now), ")} \\\\"
+        " & & {\\small (now ", tex_escape(e$institution_now), ")} \\\\"
       ))
     }
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
@@ -260,14 +260,14 @@ build_appointments <- function() {
   items <- c(current_items, past_items)
   rows <- vapply(items, function(a) {
     range <- format_range_my(a)
-    body <- tex_escape(a$title)
-    if (!is.null(a$department))  body <- paste0(body, ", ", tex_escape(a$department))
-    if (!is.null(a$institution)) body <- paste0(body, ", ", tex_escape(a$institution))
-    if (!is.null(a$location))    body <- paste0(body, ", ", tex_escape(a$location))
-    paste0(range, " & ", body, " \\\\")
+    position <- tex_escape(a$title)
+    if (!is.null(a$department))  position <- paste0(position, ", ", tex_escape(a$department))
+    institution <- tex_escape(a$institution %||% "")
+    if (!is.null(a$location))    institution <- paste0(institution, ", ", tex_escape(a$location))
+    paste0(range, " & ", position, " & ", institution, " \\\\")
   }, character(1))
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
