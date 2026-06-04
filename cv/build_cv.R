@@ -261,10 +261,11 @@ build_appointments <- function() {
   rows <- vapply(items, function(a) {
     range <- format_range_my(a)
     position <- tex_escape(a$title)
-    if (!is.null(a$department))  position <- paste0(position, ", ", tex_escape(a$department))
-    institution <- tex_escape(a$institution %||% "")
-    if (!is.null(a$location))    institution <- paste0(institution, ", ", tex_escape(a$location))
-    paste0(range, " & ", position, " & ", institution, " \\\\")
+    institution <- character(0)
+    if (!is.null(a$department))  institution <- c(institution, tex_escape(a$department))
+    if (!is.null(a$institution)) institution <- c(institution, tex_escape(a$institution))
+    if (!is.null(a$location))    institution <- c(institution, tex_escape(a$location))
+    paste0(range, " & ", position, " & ", paste(institution, collapse = ", "), " \\\\")
   }, character(1))
   c(
     "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X>{\\raggedright\\arraybackslash}X@{}}",
