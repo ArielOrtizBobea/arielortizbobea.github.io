@@ -221,7 +221,7 @@ build_education <- function() {
   # Appointments columns for visual consistency.
   rows <- character(0)
   for (e in education) {
-    main <- paste0("\\textbf{", tex_escape(e$degree), "}")
+    main <- paste0("\\textit{", tex_escape(e$degree), "}")
     if (!is.null(e$field))      main <- paste0(main, ", ", tex_escape(e$field))
     main <- paste0(main, ", ", tex_escape(e$institution))
     if (!is.null(e$department)) main <- paste0(main, ", ", tex_escape(e$department))
@@ -233,7 +233,7 @@ build_education <- function() {
     }
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.55in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
@@ -258,17 +258,19 @@ build_appointments <- function() {
   current_items <- Filter(function(x) isTRUE(x$current), employment)
   past_items    <- Filter(function(x) !isTRUE(x$current), employment)
   items <- c(current_items, past_items)
-  vapply(items, function(a) {
+  rows <- vapply(items, function(a) {
     range <- format_range_my(a)
     body <- tex_escape(a$title)
     if (!is.null(a$department))  body <- paste0(body, ", ", tex_escape(a$department))
     if (!is.null(a$institution)) body <- paste0(body, ", ", tex_escape(a$institution))
     if (!is.null(a$location))    body <- paste0(body, ", ", tex_escape(a$location))
-    paste0(
-      "\\noindent\\makebox[1.5in][l]{", range, "} ",
-      "\\begin{minipage}[t]{5in}", body, "\\end{minipage}\\par"
-    )
+    paste0(range, " & ", body, " \\\\")
   }, character(1))
+  c(
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
+    rows,
+    "\\end{tabularx}"
+  )
 }
 
 # ----- Working papers / Work in progress -----
@@ -424,7 +426,7 @@ build_service <- function() {
       rows <- c(rows, paste0(format_range_y(s), " & ", line, " \\\\"))
     }
     out <- c(out,
-      "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+      "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
       rows,
       "\\end{tabularx}"
     )
@@ -446,7 +448,7 @@ build_awards <- function() {
     rows <- c(rows, paste0(as.character(a$year), " & ", desc, " \\\\"))
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.55in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
@@ -469,7 +471,7 @@ build_grants <- function() {
     rows <- c(rows, paste0(format_range_y(g), " & ", desc, " \\\\"))
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
@@ -508,7 +510,7 @@ build_talks <- function(non_research = FALSE) {
   flush_year <- function(out, rows) {
     if (length(rows) == 0) return(out)
     c(out,
-      "\\begin{tabularx}{\\textwidth}{@{}p{0.8in}>{\\raggedright\\arraybackslash}X@{}}",
+      "\\begin{tabularx}{\\textwidth}{@{}p{1.1in}>{\\raggedright\\arraybackslash}X@{}}",
       rows,
       "\\end{tabularx}"
     )
