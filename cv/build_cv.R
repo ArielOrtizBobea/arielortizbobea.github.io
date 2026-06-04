@@ -86,13 +86,26 @@ render_author <- function(name) {
   if (is_aob(name)) paste0("\\textbf{", esc, "}") else esc
 }
 
-render_authors <- function(authors) {
+render_authors <- function(authors, threshold = 10) {
   if (length(authors) == 0) return("")
-  parts <- vapply(authors, render_author, character(1))
-  n <- length(parts)
-  if (n == 1) return(parts)
-  if (n == 2) return(paste(parts, collapse = " and "))
-  paste(paste(parts[-n], collapse = ", "), parts[n], sep = ", and ")
+  if (length(authors) <= threshold) {
+    parts <- vapply(authors, render_author, character(1))
+    n <- length(parts)
+    if (n == 1) return(parts)
+    if (n == 2) return(paste(parts, collapse = " and "))
+    return(paste(paste(parts[-n], collapse = ", "), parts[n], sep = ", and "))
+  }
+  # > threshold authors: truncate to "First, ..., AOB, et al."
+  # AOB stays visible so the credit is preserved on mega-author papers.
+  aob_idx <- which(vapply(authors, is_aob, logical(1)))
+  first <- render_author(authors[[1]])
+  if (length(aob_idx) == 0) {
+    paste0(first, ", et al.")
+  } else if (aob_idx[1] == 1) {
+    paste0(first, ", et al.")
+  } else {
+    paste0(first, ", \\ldots, ", render_author(authors[[aob_idx[1]]]), ", et al.")
+  }
 }
 
 # Month/year range "MM/YYYY--MM/YYYY" or "MM/YYYY--present".
@@ -295,16 +308,20 @@ build_working_papers <- function() {
   c(out, "\\end{enumerate}")
 }
 
-# ----- Publications (Published, grouped by year, newest first) -----
+# ----- Publications (Published, newest at top, but numbered oldest=1) -----
 build_publications <- function() {
   pub <- Filter(function(p) {
     identical(p$status, "Published") &&
       (is.null(p$journal) || !grepl("^Chapter in", p$journal))
   }, papers)
   if (length(pub) == 0) return(character(0))
+  # Display newest first, but assign numbers so the oldest paper is 1.
   pub <- pub[order(vapply(pub, function(p) -as.integer(p$year %||% 0L), integer(1)))]
-  out <- "\\begin{itemize}"
-  for (p in pub) {
+  total <- length(pub)
+  out <- character(0)
+  for (i in seq_along(pub)) {
+    p <- pub[[i]]
+    num <- total - i + 1L
     title <- if (!is.null(p$doi)) {
       paste0("\\href{", p$doi, "}{``", tex_escape(p$title), "''}")
     } else {
@@ -312,13 +329,18 @@ build_publications <- function() {
     }
     auths <- render_authors(p$authors)
     cite <- paste0(" \\textit{", tex_escape(p$journal %||% ""), "} (", as.character(p$year), ")")
-    if (!is.null(p$volume)) cite <- paste0(cite, " Vol.~", as.character(p$volume))
-    if (!is.null(p$issue))  cite <- paste0(cite, ", No.~", as.character(p$issue))
-    if (!is.null(p$pages))  cite <- paste0(cite, ", pp.~", tex_escape(as.character(p$pages)))
+    if (!is.null(p$volume))     cite <- paste0(cite, " Vol.~", as.character(p$volume))
+    if (!is.null(p$issue))      cite <- paste0(cite, ", No.~", as.character(p$issue))
+    if (!is.null(p$pages))      cite <- paste0(cite, ", pp.~", tex_escape(as.character(p$pages)))
     if (!is.null(p$article_no)) cite <- paste0(cite, ", ", tex_escape(as.character(p$article_no)))
-    out <- c(out, paste0("\\item ", auths, ", ", title, ".", cite, "."))
+    body <- paste0(auths, ", ", title, ".", cite, ".")
+    # Manual number prefix with hanging indent so wrapped lines align after "N."
+    out <- c(out, paste0(
+      "\\noindent\\hangindent=2.2em\\hangafter=1",
+      "\\makebox[2em][r]{", num, ".}\\hspace{0.2em}", body, "\\par"
+    ))
   }
-  c(out, "\\end{itemize}")
+  out
 }
 
 # ----- Book Chapters -----
