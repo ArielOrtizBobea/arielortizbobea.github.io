@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(ruby -ryaml -e 'YAML.load_file\\('\\\\''__TRACKED_VAR__'\\\\''\\)')",
+      "Bash(ruby *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(R --version)",
+      "Bash(Rscript -e 'cat\\(\"yaml installed:\", requireNamespace\\(\"yaml\", quietly=TRUE\\), \"\\\\n\"\\); cat\\(\"tinytex installed:\", requireNamespace\\(\"tinytex\", quietly=TRUE\\), \"\\\\n\"\\); if \\(requireNamespace\\(\"tinytex\", quietly=TRUE\\)\\) cat\\(\"tinytex::is_tinytex\\(\\):\", tinytex::is_tinytex\\(\\), \"\\\\n\"\\)')",
+      "Bash(Rscript cv/build_cv.R)",
+      "WebFetch(domain:jblevins.org)",
+      "Bash(curl -s -o /tmp/jblevins-cv.pdf https://jblevins.org/cv.pdf)",
+      "Read(//tmp/**)",
+      "Bash(cp cv/cv.tex /tmp/cv.tex.bak)",
+      "Bash(sed -i.bak2 's|\\\\\\\\usepackage{ebgaramond}|\\\\\\\\usepackage{libertinus}|' cv/cv.tex)",
+      "Bash(cp /tmp/cv.tex.bak cv/cv.tex)",
+      "Bash(sed -i.bak2 's|\\\\\\\\usepackage{ebgaramond}|\\\\\\\\usepackage{XCharter}|' cv/cv.tex)",
+      "Bash(sed -i.bak2 's|\\\\\\\\usepackage{ebgaramond}|\\\\\\\\usepackage{mathpazo}|' cv/cv.tex)",
+      "Bash(sed -i.bak2 's|\\\\\\\\usepackage{ebgaramond}|\\\\\\\\usepackage[scaled=1]{sourceserifpro}|' cv/cv.tex)",
+      "Bash(python3 -c ' *)",
+      "Read(//Users/ao332/Dropbox/5_Professional/CV/**)",
+      "Bash(pdfinfo /Users/ao332/Dropbox/5_Professional/CV/cv.pdf)"
+    ]
+  }
+}
