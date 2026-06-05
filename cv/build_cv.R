@@ -662,7 +662,7 @@ build_students <- function() {
       if (!is.null(s$field)) line <- paste0(line, " (", tex_escape(s$field), ")")
       span <- year_span(s)
       if (nchar(span) > 0) line <- paste0(line, ", ", span)
-      if (!is.null(s$placement)) line <- paste0(line, " --- ", tex_escape(s$placement))
+      if (!is.null(s$placement)) line <- paste0(line, " $\\rightarrow$ ", tex_escape(s$placement))
       if (!is.null(s$note))      line <- paste0(line, ". ", tex_escape(s$note))
       out <- c(out, paste0("\\item ", line))
     }
