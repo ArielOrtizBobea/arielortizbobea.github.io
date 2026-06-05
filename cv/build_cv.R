@@ -252,7 +252,7 @@ build_header <- function() {
 
 # ----- Education -----
 build_education <- function() {
-  # Two columns: year | degree + field + institution (+ department).
+  # Year column is narrow (4 digits only); degree+content takes the X column.
   rows <- character(0)
   for (e in education) {
     main <- paste0("\\textit{", tex_escape(e$degree), "}")
@@ -267,7 +267,7 @@ build_education <- function() {
     }
   }
   c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
+    "\\begin{tabularx}{\\textwidth}{@{}p{0.45in}>{\\raggedright\\arraybackslash}X@{}}",
     rows,
     "\\end{tabularx}"
   )
