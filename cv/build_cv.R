@@ -296,15 +296,11 @@ build_education <- function() {
   out <- character(0)
   for (e in education) {
     main <- paste0("\\textit{", tex_escape(e$degree), "}")
-    if (!is.null(e$field))       main <- paste0(main, ", ", tex_escape(e$field))
+    if (!is.null(e$field))           main <- paste0(main, ", ", tex_escape(e$field))
     main <- paste0(main, ", ", tex_escape(e$institution))
-    if (!is.null(e$department))  main <- paste0(main, ", ", tex_escape(e$department))
+    if (!is.null(e$department))      main <- paste0(main, ", ", tex_escape(e$department))
+    if (!is.null(e$institution_now)) main <- paste0(main, " (now ", tex_escape(e$institution_now), ")")
     out <- c(out, date_entry(as.character(e$year_end), main, date_width = "0.45in"))
-    if (!is.null(e$institution_now)) {
-      out <- c(out, date_entry("",
-        paste0("{\\small (now ", tex_escape(e$institution_now), ")}"),
-        date_width = "0.45in"))
-    }
   }
   out
 }
