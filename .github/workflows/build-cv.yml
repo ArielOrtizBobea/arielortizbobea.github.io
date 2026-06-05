@@ -34,15 +34,18 @@ jobs:
         uses: r-lib/actions/setup-tinytex@v2
 
       - name: Install LaTeX packages used by cv.tex
-        # Install only the packages we know exist; tinytex auto-installs the
-        # rest on first compile if anything is missing.
+        # Install only packages NOT already bundled in TinyTeX baseline.
+        # tabularx, colortbl, hyperref, xcolor, etc. ship as part of the
+        # default install. set +e so a typo in one name doesn't abort the
+        # whole step — tinytex auto-installs anything missing at compile time.
+        shell: bash
         run: |
-          tlmgr update --self || true
+          set +e
+          tlmgr update --self
           tlmgr install \
             libertinus libertinus-otf libertinus-type1 \
-            lastpage needspace fancyhdr enumitem tabularx xcolor hyperref colortbl || true
-        env:
-          TINYTEX_INSTALLER_QUIET: yes
+            lastpage needspace fancyhdr enumitem
+          true  # always succeed; let pdflatex auto-install anything else
 
       - name: Build CV
         run: Rscript cv/build_cv.R
