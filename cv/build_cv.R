@@ -209,10 +209,26 @@ cv_subsection <- function(title) {
 #  Section builders
 # ============================================================================
 
+# Country name → ISO 3166-1 alpha-3 code (for the compact citizenship line).
+# Extend as needed; falls back to the original name if not listed.
+country_code <- function(name) {
+  codes <- list(
+    "Dominican Republic" = "DOM",
+    "Italy"              = "ITA",
+    "United States"      = "USA",
+    "France"             = "FRA",
+    "Spain"              = "ESP",
+    "Germany"            = "DEU",
+    "United Kingdom"     = "GBR"
+  )
+  codes[[name]] %||% name
+}
+
 # ----- Header (Blevins style: name uppercase, date on a separate line) -----
 build_header <- function() {
   addr <- paste(vapply(profile$address, tex_escape, character(1)), collapse = "\\\\\n")
-  cit  <- paste(vapply(profile$citizenship, tex_escape, character(1)), collapse = ", ")
+  cit  <- paste(vapply(profile$citizenship, function(c) tex_escape(country_code(c)), character(1)),
+                collapse = ", ")
   website_display <- sub("^https?://", "", profile$website)
   today <- paste0(format(Sys.Date(), "%B "), format(Sys.Date(), "%Y"))
   c(
@@ -221,10 +237,10 @@ build_header <- function() {
     paste0("\\noindent ", tex_escape(today), "\\par"),
     "\\vspace{0.8em}",
     "\\noindent",
-    "\\begin{minipage}[t]{0.62\\textwidth}\\raggedright",
+    "\\begin{minipage}[t]{0.7\\textwidth}\\raggedright",
     addr,
     "\\end{minipage}\\hfill",
-    "\\begin{minipage}[t]{0.36\\textwidth}\\raggedright",
+    "\\begin{minipage}[t]{0.28\\textwidth}\\raggedright",
     paste0("\\href{", profile$website, "}{", tex_escape(website_display), "}\\\\"),
     paste0("\\href{mailto:", profile$email, "}{", tex_escape(profile$email), "}\\\\"),
     paste0(tex_escape(profile$phone), " (office)\\\\"),
