@@ -48,6 +48,13 @@
   \noindent\textit{#1}\par
 }
 
+% ----- Pill macro: small rounded badge for links (e.g. [code], [preprint]) -----
+\definecolor{pillbg}{gray}{0.92}
+\definecolor{pillfg}{gray}{0.20}
+\newcommand{\cvpill}[2]{%
+  \href{#1}{\fboxsep=2pt\colorbox{pillbg}{\scriptsize\sffamily\color{pillfg}#2}}%
+}
+
 % ----- Page furniture: "page X of N" bottom-center -----
 \pagestyle{fancy}
 \fancyhf{}

@@ -86,6 +86,33 @@ render_author <- function(name) {
   if (is_aob(name)) paste0("\\textbf{", esc, "}") else esc
 }
 
+# Map a free-form link label (e.g. "press release", "code + data") to a
+# normalized short tag for pill rendering. Returns NA for labels we
+# choose not to show on the CV (e.g. podcast, coverage).
+normalize_link_label <- function(label) {
+  if (is.null(label)) return(NA_character_)
+  s <- tolower(label)
+  if (grepl("code",        s)) return("code")
+  if (grepl("preprint",    s)) return("preprint")
+  if (grepl("press",       s)) return("press")
+  if (grepl("award",       s)) return("award")
+  if (grepl("polic",       s)) return("policy")
+  NA_character_  # skip everything else (coverage, podcast, op-ed, etc.)
+}
+
+# Render pills for a paper's `links` array (skips unsupported categories).
+render_link_pills <- function(links) {
+  if (is.null(links) || length(links) == 0) return("")
+  parts <- character(0)
+  for (l in links) {
+    tag <- normalize_link_label(l$label)
+    if (is.na(tag)) next
+    parts <- c(parts, paste0("\\cvpill{", l$url, "}{", tag, "}"))
+  }
+  if (length(parts) == 0) return("")
+  paste0(" ", paste(parts, collapse = "\\,"))
+}
+
 render_authors <- function(authors, threshold = 10) {
   if (length(authors) == 0) return("")
   if (length(authors) <= threshold) {
@@ -353,9 +380,10 @@ build_working_papers <- function() {
     auths <- render_authors(p$authors)
     status <- status_label(p$status)
     if (!is.null(p$journal)) status <- paste0(status, ", ", tex_escape(p$journal))
+    pills <- render_link_pills(p$links)
     out <- c(out, paste0(
       "\\item ", title, " \\\\ ",
-      auths, " \\\\ \\textit{", status, "}"
+      auths, " \\\\ \\textit{", status, "}", pills
     ))
   }
   c(out, "\\end{enumerate}")
@@ -386,7 +414,8 @@ build_publications <- function() {
     if (!is.null(p$issue))      cite <- paste0(cite, ", No.~", as.character(p$issue))
     if (!is.null(p$pages))      cite <- paste0(cite, ", pp.~", tex_escape(as.character(p$pages)))
     if (!is.null(p$article_no)) cite <- paste0(cite, ", ", tex_escape(as.character(p$article_no)))
-    body <- paste0(auths, ", ", title, ".", cite, ".")
+    pills <- render_link_pills(p$links)
+    body <- paste0(auths, ", ", title, ".", cite, ".", pills)
     # Manual number prefix with hanging indent so wrapped lines align after "N."
     out <- c(out, paste0(
       "\\noindent\\hangindent=2.2em\\hangafter=1",
