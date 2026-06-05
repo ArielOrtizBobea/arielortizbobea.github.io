@@ -160,10 +160,11 @@ format_range_my <- function(item, break_range = TRUE) {
   }
 }
 
-format_range_y <- function(item) {
-  if (isTRUE(item$current)) return(paste0(item$year_start, "--\\newline present"))
+format_range_y <- function(item, break_range = TRUE) {
+  sep <- if (break_range) "--\\newline " else "--"
+  if (isTRUE(item$current)) return(paste0(item$year_start, sep, "present"))
   if (!is.null(item$year_end) && item$year_end != item$year_start) {
-    paste0(item$year_start, "--\\newline ", item$year_end)
+    paste0(item$year_start, sep, item$year_end)
   } else {
     as.character(item$year_start)
   }
@@ -232,6 +233,19 @@ cv_subsection <- function(title) {
   paste0("\\cvsubsection{", tex_escape(title), "}")
 }
 
+# Render a single "date-prefix" entry as a paragraph with hanging indent,
+# so the year/range sits at the left margin and the description wraps to
+# align with where the description starts. Paragraph-flow lets LaTeX
+# break between entries — unlike a tabularx which is atomic per page.
+date_entry <- function(date, body, date_width = "0.85in") {
+  paste0(
+    "\\noindent\\hangindent=", date_width, "\\hangafter=1",
+    "\\makebox[", date_width, "][l]{", date, "}",
+    body,
+    "\\par"
+  )
+}
+
 # ============================================================================
 #  Section builders
 # ============================================================================
@@ -279,25 +293,20 @@ build_header <- function() {
 
 # ----- Education -----
 build_education <- function() {
-  # Year column is narrow (4 digits only); degree+content takes the X column.
-  rows <- character(0)
+  out <- character(0)
   for (e in education) {
     main <- paste0("\\textit{", tex_escape(e$degree), "}")
     if (!is.null(e$field))       main <- paste0(main, ", ", tex_escape(e$field))
     main <- paste0(main, ", ", tex_escape(e$institution))
     if (!is.null(e$department))  main <- paste0(main, ", ", tex_escape(e$department))
-    rows <- c(rows, paste0(as.character(e$year_end), " & ", main, " \\\\"))
+    out <- c(out, date_entry(as.character(e$year_end), main, date_width = "0.45in"))
     if (!is.null(e$institution_now)) {
-      rows <- c(rows, paste0(
-        " & {\\small (now ", tex_escape(e$institution_now), ")} \\\\"
-      ))
+      out <- c(out, date_entry("",
+        paste0("{\\small (now ", tex_escape(e$institution_now), ")}"),
+        date_width = "0.45in"))
     }
   }
-  c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.45in}>{\\raggedright\\arraybackslash}X@{}}",
-    rows,
-    "\\end{tabularx}"
-  )
+  out
 }
 
 # ----- Topics -----
@@ -506,7 +515,7 @@ build_teaching <- function() {
   rows
 }
 
-# ----- Service (grouped by kind, year-range left column) -----
+# ----- Service (grouped by kind, year-range paragraph flow) -----
 build_service <- function() {
   kinds <- list(
     department    = "Department",
@@ -520,28 +529,22 @@ build_service <- function() {
     items <- Filter(function(s) identical(s$kind, k), service)
     if (length(items) == 0) next
     out <- c(out, cv_subsection(kinds[[k]]))
-    rows <- character(0)
     for (s in items) {
       line <- tex_escape(s$role)
       if (!is.null(s$journal))     line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
       if (!is.null(s$group))       line <- paste0(line, ", ", tex_escape(s$group))
       if (!is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
       if (!is.null(s$note))        line <- paste0(line, " (", tex_escape(s$note), ")")
-      rows <- c(rows, paste0(format_range_y(s), " & ", line, " \\\\"))
+      out <- c(out, date_entry(format_range_y(s, break_range = FALSE), line))
     }
-    out <- c(out,
-      "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
-      rows,
-      "\\end{tabularx}"
-    )
   }
   out
 }
 
-# ----- Honors & Awards (year-prefix two-column layout) -----
+# ----- Honors & Awards (year-prefix paragraph flow) -----
 build_awards <- function() {
   if (length(awards) == 0) return(character(0))
-  rows <- character(0)
+  out <- character(0)
   for (a in awards) {
     desc <- tex_escape(a$title)
     if (!is.null(a$granter))        desc <- paste0(desc, ", ", tex_escape(a$granter))
@@ -549,19 +552,15 @@ build_awards <- function() {
     if (!is.null(a$collaborators))  desc <- paste0(desc, " (", tex_escape(a$collaborators), ")")
     if (!is.null(a$venue))          desc <- paste0(desc, ", ", tex_escape(a$venue))
     if (!is.null(a$note))           desc <- paste0(desc, " (", tex_escape(a$note), ")")
-    rows <- c(rows, paste0(as.character(a$year), " & ", desc, " \\\\"))
+    out <- c(out, date_entry(as.character(a$year), desc))
   }
-  c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
-    rows,
-    "\\end{tabularx}"
-  )
+  out
 }
 
-# ----- Grants (year-range-prefix two-column layout) -----
+# ----- Grants (year-range-prefix paragraph flow) -----
 build_grants <- function() {
   if (length(grants) == 0) return(character(0))
-  rows <- character(0)
+  out <- character(0)
   for (g in grants) {
     pieces <- c(tex_escape(g$funder))
     if (!is.null(g$program))        pieces <- c(pieces, tex_escape(g$program))
@@ -572,13 +571,9 @@ build_grants <- function() {
     if (!is.null(g$collaborators))  desc <- paste0(desc, " ", tex_escape(g$collaborators), ".")
     amt <- format_amount(g)
     if (nchar(amt) > 0)             desc <- paste0(desc, " Award: ", amt, ".")
-    rows <- c(rows, paste0(format_range_y(g), " & ", desc, " \\\\"))
+    out <- c(out, date_entry(format_range_y(g, break_range = FALSE), desc))
   }
-  c(
-    "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
-    rows,
-    "\\end{tabularx}"
-  )
+  out
 }
 
 # ----- Conferences & Seminars (year heading, month-day on left) -----
@@ -597,10 +592,10 @@ format_talk_date_short <- function(date, date_end = NULL, approx = FALSE) {
   }
 }
 
-build_talks <- function(non_research = FALSE) {
-  items <- Filter(function(t) {
-    is_aob(t$presenter) && (isTRUE(t$non_research) == non_research)
-  }, talks)
+build_talks <- function() {
+  # All AOB-presented talks, research + non-research combined. Dates are
+  # not rendered; year is the grouping heading and venue/location is the line.
+  items <- Filter(function(t) is_aob(t$presenter), talks)
   if (length(items) == 0) return(character(0))
   years <- vapply(items, function(t) {
     d <- as_date_safe(t$date)
@@ -610,40 +605,44 @@ build_talks <- function(non_research = FALSE) {
   items <- items[ord]
   years <- years[ord]
 
-  # Emit a tabularx per year so the left column aligns within each year.
-  flush_year <- function(out, rows) {
-    if (length(rows) == 0) return(out)
-    c(out,
-      "\\begin{tabularx}{\\textwidth}{@{}p{0.85in}>{\\raggedright\\arraybackslash}X@{}}",
-      rows,
-      "\\end{tabularx}"
-    )
-  }
   out <- character(0)
-  rows <- character(0)
   current_year <- NA
   for (i in seq_along(items)) {
     t <- items[[i]]
     y <- years[i]
     if (is.na(current_year) || y != current_year) {
-      out <- flush_year(out, rows); rows <- character(0)
       current_year <- y
       out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\par"))
     }
     venue <- tex_escape(t$venue)
     loc <- if (!is.null(t$location)) paste0(", ", tex_escape(t$location)) else ""
-    d_short <- format_talk_date_short(t$date, t$date_end, t$date_approx)
     role_note <- if (!is.null(t$role)) paste0(" [", tex_escape(t$role), "]") else ""
-    rows <- c(rows, paste0(d_short, " & ", venue, loc, role_note, " \\\\"))
+    out <- c(out, paste0(
+      "{\\leftskip=1em\\noindent ", venue, loc, role_note, "\\par}"
+    ))
   }
-  out <- flush_year(out, rows)
   out
 }
 
 # ----- Students -----
 build_students <- function() {
+  # Render the year span: range if both start+end, single year if only end,
+  # "YYYY-" if only start (ongoing postdoc), empty otherwise.
+  year_span <- function(s) {
+    if (!is.null(s$year_start) && !is.null(s$year_end)) {
+      if (s$year_start == s$year_end) as.character(s$year_end)
+      else paste0(s$year_start, "--", s$year_end)
+    } else if (!is.null(s$year_end)) {
+      as.character(s$year_end)
+    } else if (!is.null(s$year_start)) {
+      paste0(s$year_start, "--")
+    } else {
+      ""
+    }
+  }
   levels <- list(postdoc = "Postdocs", phd = "PhD Students", ms = "MS Students")
-  out <- character(0)
+  # Legend goes at the top of the section
+  out <- "{\\small ** indicates chair; * indicates co-chair.}"
   for (lv in names(levels)) {
     items <- Filter(function(s) identical(s$level, lv), students)
     if (length(items) == 0) next
@@ -656,14 +655,15 @@ build_students <- function() {
         if (nzchar(marker)) line <- paste0(line, "\\,", marker)
       }
       if (!is.null(s$field)) line <- paste0(line, " (", tex_escape(s$field), ")")
-      if (!is.null(s$year_end)) line <- paste0(line, ", ", as.character(s$year_end))
+      span <- year_span(s)
+      if (nchar(span) > 0) line <- paste0(line, ", ", span)
       if (!is.null(s$placement)) line <- paste0(line, " --- ", tex_escape(s$placement))
       if (!is.null(s$note))      line <- paste0(line, ". ", tex_escape(s$note))
       out <- c(out, paste0("\\item ", line))
     }
     out <- c(out, "\\end{itemize}")
   }
-  c(out, "", "{\\small ** indicates chair; * indicates co-chair.}")
+  out
 }
 
 # ----- Professional organizations (incl. refereeing) -----
@@ -731,8 +731,7 @@ body <- c(
   cv_section("Book Chapters"),                        build_book_chapters(),
   cv_section("Honors and Awards"),                    build_awards(),
   cv_section("Grants"),                               build_grants(),
-  cv_section("Conferences and Seminars"),             build_talks(non_research = FALSE),
-  cv_section("Select Non-Research Talks"),            build_talks(non_research = TRUE),
+  cv_section("Conferences and Seminars"),             build_talks(),
   # ----- Teaching, advising, service (admin / institutional) -----
   cv_section("Teaching"),                             build_teaching(),
   cv_section("Graduate Students"),                    build_students(),

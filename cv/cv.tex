@@ -22,6 +22,7 @@
 \usepackage{xcolor}
 \usepackage{fancyhdr}
 \usepackage{lastpage}                 % for "page X of N" in the footer
+\usepackage{needspace}                % keep a section heading with its first content lines
 
 % ----- Paragraph & list defaults -----
 \setlength{\parindent}{0pt}
@@ -34,7 +35,10 @@
 \setlist[enumerate]{leftmargin=2em,labelsep=0.5em,itemsep=0.25em,parsep=0pt,topsep=0.2em}
 
 % ----- Section macro: plain UPPERCASE with thin rule below -----
+% \needspace guarantees the heading sits with at least 4 lines of
+% content on the same page (avoids the orphan-heading at page bottom).
 \newcommand{\cvsection}[1]{%
+  \needspace{4\baselineskip}%
   \par\vspace{1.0em}%
   \noindent\uppercase{#1}\par
   \vspace{0.25em}%
@@ -51,8 +55,10 @@
 % ----- Pill macro: small rounded badge for links (e.g. [code], [preprint]) -----
 \definecolor{pillbg}{gray}{0.92}
 \definecolor{pillfg}{gray}{0.20}
+% \strut forces a consistent height regardless of whether the label has
+% descenders ("preprint", "policy") or not ("code", "press").
 \newcommand{\cvpill}[2]{%
-  \href{#1}{\fboxsep=2pt\colorbox{pillbg}{\scriptsize\sffamily\color{pillfg}#2}}%
+  \href{#1}{\fboxsep=2pt\colorbox{pillbg}{\scriptsize\sffamily\color{pillfg}\strut #2}}%
 }
 
 % ----- Page furniture: "page X of N" bottom-center -----
