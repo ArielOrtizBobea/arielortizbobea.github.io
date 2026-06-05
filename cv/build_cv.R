@@ -538,32 +538,33 @@ build_service <- function() {
   out
 }
 
-# ----- Honors & Awards (year-prefix paragraph flow with bullet markers) -----
-# Year column matches Education (0.45in). Every entry is prefixed with a
-# small bullet so it's visible when multiple awards share a year. The
-# year column is only printed for the first award of each year — repeats
-# blank out so the visual grouping is obvious.
+# ----- Honors & Awards (year-prefix paragraph flow) -----
+# Year column matches Education (0.45in). Year is printed on every row;
+# repeated years are a sufficient grouping signal without bullets.
 build_awards <- function() {
   if (length(awards) == 0) return(character(0))
   out <- character(0)
-  prev_year <- NA
   for (a in awards) {
-    desc <- paste0("\\textbullet\\hspace{0.5em}", tex_escape(a$title))
+    desc <- tex_escape(a$title)
     if (!is.null(a$granter))        desc <- paste0(desc, ", ", tex_escape(a$granter))
     if (!is.null(a$paper))          desc <- paste0(desc, " for ``", tex_escape(a$paper), "''")
     if (!is.null(a$collaborators))  desc <- paste0(desc, " (", tex_escape(a$collaborators), ")")
     if (!is.null(a$venue))          desc <- paste0(desc, ", ", tex_escape(a$venue))
     if (!is.null(a$note))           desc <- paste0(desc, " (", tex_escape(a$note), ")")
-    year_col <- if (is.na(prev_year) || a$year != prev_year) as.character(a$year) else ""
-    out <- c(out, date_entry(year_col, desc, date_width = "0.45in"))
-    prev_year <- a$year
+    out <- c(out, date_entry(as.character(a$year), desc, date_width = "0.45in"))
   }
   out
 }
 
-# ----- Grants (year-range-prefix paragraph flow) -----
+# ----- Grants (year-range-prefix paragraph flow, newest first) -----
 build_grants <- function() {
   if (length(grants) == 0) return(character(0))
+  # Sort newest first by start year (then end year as tiebreaker).
+  ord <- order(
+    -vapply(grants, function(g) as.integer(g$year_start %||% 0L), integer(1)),
+    -vapply(grants, function(g) as.integer(g$year_end %||% g$year_start %||% 0L), integer(1))
+  )
+  grants <- grants[ord]
   out <- character(0)
   for (g in grants) {
     pieces <- c(tex_escape(g$funder))
