@@ -273,9 +273,10 @@ build_header <- function() {
   website_display <- sub("^https?://", "", profile$website)
   today <- paste0(format(Sys.Date(), "%B "), format(Sys.Date(), "%Y"))
   c(
+    # Make today's date available to the firstpage header (top-right margin)
+    paste0("\\newcommand{\\cvdate}{", tex_escape(today), "}"),
+    "\\thispagestyle{firstpage}",
     paste0("\\noindent{\\LARGE\\uppercase{", tex_escape(profile$name), "}}\\par"),
-    "\\vspace{0.4em}",
-    paste0("\\noindent ", tex_escape(today), "\\par"),
     "\\vspace{0.8em}",
     "\\noindent",
     "\\begin{minipage}[t]{0.7\\textwidth}\\raggedright",
