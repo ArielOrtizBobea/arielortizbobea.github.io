@@ -308,7 +308,9 @@ build_appointments <- function() {
     if (!is.null(a$department)) pieces <- paste0(pieces, ", ", tex_escape(a$department))
     paste0(pieces, ", ", format_range_my(a, break_range = FALSE), ".")
   }
-  out <- "\\begin{itemize}"
+  # Override the global label-less itemize: bullets for institutions, en-dash
+  # for nested positions.
+  out <- "\\begin{itemize}[label={\\textbullet}]"
   for (inst_key in inst_order) {
     group <- by_inst[[inst_key]]
     first <- group[[1]]
@@ -325,9 +327,9 @@ build_appointments <- function() {
       body <- paste0(body, ", ", format_range_my(a, break_range = FALSE), ".")
       out <- c(out, paste0("\\item ", body))
     } else {
-      # Multiple roles: nested itemize
+      # Multiple roles: nested itemize with en-dash markers
       out <- c(out, paste0("\\item ", inst_label))
-      out <- c(out, "\\begin{itemize}")
+      out <- c(out, "\\begin{itemize}[label={--}]")
       for (a in group) {
         out <- c(out, paste0("\\item ", render_role(a)))
       }
