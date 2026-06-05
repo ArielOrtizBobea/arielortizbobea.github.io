@@ -296,6 +296,7 @@ build_education <- function() {
   out <- character(0)
   for (e in education) {
     main <- paste0("\\textit{", tex_escape(e$degree), "}")
+    if (!is.null(e$degree_equivalent)) main <- paste0(main, " (", tex_escape(e$degree_equivalent), ")")
     if (!is.null(e$field))           main <- paste0(main, ", ", tex_escape(e$field))
     main <- paste0(main, ", ", tex_escape(e$institution))
     if (!is.null(e$department))      main <- paste0(main, ", ", tex_escape(e$department))
