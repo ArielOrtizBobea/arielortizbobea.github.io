@@ -697,7 +697,7 @@ body <- c(
   cv_section("Appointments"),                         build_appointments(),
   cv_section("Education"),                            build_education(),
   # ----- Scholarly output -----
-  cv_section("Working Papers and Work in Progress"),  build_working_papers(),
+  cv_section("Work in progress"),                     build_working_papers(),
   cv_section("Publications"),                         build_publications(),
   cv_section("Book Chapters"),                        build_book_chapters(),
   cv_section("Honors and Awards"),                    build_awards(),
