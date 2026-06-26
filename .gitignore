@@ -11,3 +11,6 @@ assets/images/landing/aob2_original.jpg
 # macOS Finder metadata (anywhere in the tree)
 **/.DS_Store
 .DS_Store
+
+# Claude Code local settings (machine-specific, auto-mutates)
+.claude/settings.local.json
