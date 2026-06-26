@@ -20,7 +20,11 @@
       "Bash(sed -i.bak2 's|\\\\\\\\usepackage{ebgaramond}|\\\\\\\\usepackage[scaled=1]{sourceserifpro}|' cv/cv.tex)",
       "Bash(python3 -c ' *)",
       "Read(//Users/ao332/Dropbox/5_Professional/CV/**)",
-      "Bash(pdfinfo /Users/ao332/Dropbox/5_Professional/CV/cv.pdf)"
+      "Bash(pdfinfo /Users/ao332/Dropbox/5_Professional/CV/cv.pdf)",
+      "Bash(git reset *)",
+      "Bash(git pull *)",
+      "Bash(git push *)",
+      "Bash(git stash *)"
     ]
   }
 }
