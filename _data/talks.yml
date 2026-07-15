@@ -44,6 +44,12 @@
   # thumbnail:
 
 - presenter: Ariel Ortiz-Bobea
+  date: 2026-10-21
+  venue: "Rutgers University (Agricultural, Food and Resource Economics)"
+  location: "New Brunswick, NJ, United States"
+  title: "The persistence of climatic shocks on global agricultural productivity growth"
+
+- presenter: Ariel Ortiz-Bobea
   date: 2026-09-25
   venue: "2026 agInnovation Fall Meeting"
   location: "Grand Junction, CO, United States"
@@ -53,7 +59,7 @@
   date: 2026-09-22
   venue: "University of Wisconsin–Madison (Agricultural and Applied Economics)"
   location: "Madison, WI, United States"
-  title: TBD
+  title: "The persistence of climatic shocks on global agricultural productivity growth"
 
 - title: "Heat Shocks and Agricultural Loan Repayment"
   presenter: Jerzy Jaromczyk
