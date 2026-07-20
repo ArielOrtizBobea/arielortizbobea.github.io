@@ -564,6 +564,7 @@
     - { label: "preprint", url: "https://arxiv.org/abs/2405.08159" }
     - { label: "coverage (Grist)", url: "https://grist.org/food-and-agriculture/farmers-are-reeling-from-trumps-attacks-on-agricultural-research/" }
     - { label: "coverage (AP)", url: "https://apnews.com/article/farming-research-development-agriculture-public-funding-climate-change-9aec16fc632326b3be97280612405756" }
+    - { label: "coverage", url: "https://pnas.altmetric.com/details/175104919/news" }
   thumbnail: /assets/images/papers/pnas.2411010122fig04.jpg
 
 - title: "The Role of Staple Food Prices in Deforestation: Evidence from Cambodia"
@@ -674,6 +675,7 @@
   links:
     - { label: "press release", url: "https://business.cornell.edu/hub/2024/09/12/climate-change-worsens-agricultures-environmental-impact/" }
     - { label: "op ed / blog", url: "https://voxdev.org/topic/agriculture/feedback-loop-between-climate-change-and-agriculture" }
+    - { label: "coverage", url: "https://science.altmetric.com/details/167028853/news" }
   thumbnail: /assets/images/papers/science.adn3747-fa.jpg
 
 - title: "Double cropping as an adaptation to climate change in the United States"
@@ -748,6 +750,7 @@
     responses to food crises, agricultural policies, and more efficient commodity pricing.
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2024/05/satellite-images-plants-fluorescence-can-predict-crop-yields" }
+    - { label: "coverage", url: "https://iop.altmetric.com/details/163022437/news" }
   thumbnail: /assets/images/papers/2024erl.png
 
 # ---------- 2023 ----------
@@ -978,6 +981,7 @@
     - { label: "press release", url: "https://news.cornell.edu/stories/2021/04/climate-change-has-cost-7-years-ag-productivity-growth" }
     - { label: "video abstract", url: "https://www.youtube.com/watch?v=zsZ6vHO6xAA" }
     - { label: "discussion", url: "https://www.nature.com/articles/s41558-021-01017-6" }
+    - { label: "coverage", url: "https://nature.altmetric.com/details/86214176/news" }
   thumbnail: /assets/images/papers/2021natclim.png
 
 - title: "How weather affects the decomposition of Total Factor Productivity in U.S. agriculture"
