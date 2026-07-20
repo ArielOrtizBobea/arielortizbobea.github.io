@@ -448,7 +448,6 @@
   links:
    - { label: "press release", url: "https://news.cornell.edu/stories/2026/06/double-damage-warming-climate-reduces-milk-quality-and-quantity" }
    - { label: "code + data", url: "https://doi.org/10.6077/COSA8S" }
-   - { label: "coverage (Sentient Media)", url: "https://sentientmedia.org/heat-stress-hits-dairy-quality/" }
    - { label: "coverage", url: "https://iop.altmetric.com/details/198263295/news" }
   thumbnail: /assets/images/papers/milkclimate.png
 
