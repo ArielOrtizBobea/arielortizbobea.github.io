@@ -448,6 +448,8 @@
   links:
    - { label: "press release", url: "https://news.cornell.edu/stories/2026/06/double-damage-warming-climate-reduces-milk-quality-and-quantity" }
    - { label: "code + data", url: "https://doi.org/10.6077/COSA8S" }
+   - { label: "coverage (Sentient Media)", url: "https://sentientmedia.org/heat-stress-hits-dairy-quality/" }
+   - { label: "coverage", url: "https://iop.altmetric.com/details/198263295/news" }
   thumbnail: /assets/images/papers/milkclimate.png
 
 - title: "Unpacking the growth of global agricultural greenhouse gas emissions"
@@ -475,6 +477,7 @@
   links:
     - { label: "press release", url: "https://news.cornell.edu/stories/2026/01/more-productive-farming-lowers-global-emissions" }
     - { label: "code + data", url: "https://doi.org/10.6077/AT7YVU" }
+    - { label: "coverage", url: "https://scienceadvances.altmetric.com/details/187497579/news" }
   thumbnail: /assets/images/papers/fig_decomp_ghgnvars3_Inc.I_1961-2021.png
   
 - title: "Harnessing satellite data for the next generation of agri-environmental policies"
