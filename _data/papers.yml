@@ -272,12 +272,12 @@
 #    forces increasingly costly trade-offs.
 #  thumbnail: /assets/images/papers/waterrevealedpref.png
 
-- title: "Decomposing the growth of historical U.S. agricultural greenhouse gas emissions"
+- title: "Growing more while emitting less? Decoupling U.S. agricultural production and greenhouse gas emissions"
   authors:
     - Ariel Ortiz-Bobea
     - Simone Pieralli
     - Jeisson Prieto
-  status: "Under review"
+  status: "Resubmitted (R1)"
   abstract: >
     We decompose state-level U.S. agricultural greenhouse gas emissions growth into output
     growth, input emission intensity, and total factor productivity (TFP). Combining EPA
@@ -287,6 +287,8 @@
     Further decomposition suggests that land productivity gains are more closely linked to
     emission reductions than labor productivity gains.
   thumbnail: /assets/images/papers/usagghg.png
+  links:
+    - { label: "code + data", url: "https://doi.org/10.5281/zenodo.21460920" }
 
 - title: "Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo"
   authors:
