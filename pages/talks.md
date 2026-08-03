@@ -243,7 +243,12 @@ permalink: /talks/
 
 <!-- ========== BY EVENT ========== -->
 <div class="talks-by-event">
-{%- assign by_venue = sorted | group_by: "venue" -%}
+{%- comment -%}
+  Group by venue *and year*: venue names repeat across years (e.g. "AAEA Annual
+  Meeting"), and grouping on venue alone merges separate editions into one group,
+  which then inherits the newest edition's date for the window check.
+{%- endcomment -%}
+{%- assign by_venue = sorted | group_by_exp: "t", "t.date | date: '%Y' | prepend: '|' | prepend: t.venue" -%}
 
 <h2>Upcoming</h2>
 {%- assign any_upcoming_event = false -%}
@@ -259,7 +264,7 @@ permalink: /talks/
     {%- assign first_talk = group.items | first -%}
     <div class="event-group">
       <div class="event-group-header">
-        {{ group.name }}
+        {{ first_talk.venue }}
         <span class="talk-meta">
           &middot; {{ first_talk.location }}
           &middot;
@@ -277,7 +282,10 @@ permalink: /talks/
         </span>
       </div>
       {%- for talk in group.items -%}
+        {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+        {%- if t_s >= year_ago_s -%}
         {% include talk_entry.html hide_venue=true hide_date=true %}
+        {%- endif -%}
       {%- endfor -%}
     </div>
   {%- endif -%}
@@ -301,7 +309,7 @@ permalink: /talks/
     {%- assign first_talk = group.items | first -%}
     <div class="event-group">
       <div class="event-group-header">
-        {{ group.name }}
+        {{ first_talk.venue }}
         <span class="talk-meta">
           &middot; {{ first_talk.location }}
           &middot;
@@ -319,7 +327,10 @@ permalink: /talks/
         </span>
       </div>
       {%- for talk in group.items -%}
+        {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
+        {%- if t_s >= year_ago_s -%}
         {% include talk_entry.html hide_venue=true hide_date=true %}
+        {%- endif -%}
       {%- endfor -%}
     </div>
   {%- endif -%}
@@ -332,7 +343,7 @@ permalink: /talks/
 <!-- ========== BY PRESENTER ========== -->
 <div class="talks-by-presenter">
 {%- for member in site.data.team -%}
-  {%- assign member_talks = sorted | where: "presenter", member.name -%}
+  {%- assign member_talks = sorted | where: "presenter", member.name | reverse -%}
   {%- if member_talks.size > 0 -%}
     {%- assign has_in_window = false -%}
     {%- for talk in member_talks -%}
