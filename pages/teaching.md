@@ -126,16 +126,6 @@ a.course-title:hover {
     </p>
   </li>
   <li class="course-entry">
-    <span class="course-code">AEM 6851</span>
-    <span class="course-title">Advanced Empirical Methods for Applied Economists</span>
-    <div class="offerings-stack">
-      <span class="offering-row is-upcoming"><span class="offering-link">Spring 2027</span></span>
-    </div>
-    <p class="course-description">
-      Sequel to AEM 6850. Focuses on understanding the small-sample properties of econometric estimators through Monte Carlo simulations. Students first build on version control and AI tools, then work through regular GitHub-based exercises on specific estimators, and finish with a course project on an estimator of their choice, ideally tied to their own research. Best suited for PhD and advanced MS students active in a research project who have completed graduate econometrics coursework.
-    </p>
-  </li>
-  <li class="course-entry">
     <span class="course-code">AEM 1500</span>
     <span class="course-title">An Introduction to the Economics of Environmental and Natural Resources</span>
     <div class="offerings-stack">
