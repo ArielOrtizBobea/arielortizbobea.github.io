@@ -49,11 +49,29 @@
   location: "Mesa, AZ, United States"
   # title:  # TBD
 
+- title: "Local Shocks, Global Ripples: Climate Disruptions in Maritime Trade Networks"
+  presenter: Jeisson Prieto
+  date: 2026-11-12
+  date_end: 2026-11-14
+  venue: "2026 LACEA-LAMES Annual Meeting"
+  location: "Lima, Peru"
+  # paper:
+  # thumbnail:
+
 - presenter: Ariel Ortiz-Bobea
   date: 2026-10-21
   venue: "Rutgers University (Agricultural, Food and Resource Economics)"
   location: "New Brunswick, NJ, United States"
   title: "The persistence of climatic shocks on global agricultural productivity growth"
+
+- presenter: Jeisson Prieto
+  date: 2026-10-16
+  date_end: 2026-10-18
+  venue: "Fall 2026 Midwest International Trade & Theory Conference (MWIEG)"
+  location: "Toronto, Canada"
+  # title:  # TBD
+  # paper:
+  # thumbnail:
 
 - presenter: Ariel Ortiz-Bobea
   date: 2026-09-25
