@@ -25,10 +25,10 @@
     - Ortiz-Bobea, A.
 
 - name: Tzu-Hui Chen
-  role: Postdoc (joining Summer 2026) # Will appear next to name
+  role: Postdoc # Will appear next to name
   image: assets/images/people/tzuhuichen.jpg
   description: >
-    Tzu-Hui Chen is completing her Ph.D. in Agricultural and Resource Economics at UC Davis. 
+    Tzu-Hui Chen received her Ph.D. in Agricultural and Resource Economics from UC Davis.
     Her research spans agricultural, environmental, and health economics, with a focus on the unintended 
     consequences of agricultural and environmental policies. Her work uses remote sensing data and applied 
     econometric methods to study topics such as the health effects of agrochemical exposure and the 
@@ -39,11 +39,11 @@
   linkedin: tzu-hui-j-chen
   personal_page: https://tzuhuichen.owlstown.net
 
-- name: Shuo Yu 
-  role: Postdoc (joining Summer 2026) # Will appear next to name
+- name: Shuo Yu
+  role: Postdoc # Will appear next to name
   image: assets/images/people/shuoyu.jpg
   description: >
-    Shuo Yu is completing her Ph.D. in Agricultural and Resource Economics at UC Berkeley. 
+    Shuo Yu received her Ph.D. in Agricultural and Resource Economics from UC Berkeley.
     Her research focuses on regenerative agriculture, conservation policy, and crop insurance, 
     combining econometric methods with satellite data to study how agricultural and environmental 
     policies affect sustainability and climate adaptation.
