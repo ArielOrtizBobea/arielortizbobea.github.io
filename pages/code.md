@@ -97,6 +97,10 @@ permalink: /code/
       the climate change impacts literature, from the chapter
       <a href="https://www.sciencedirect.com/science/article/pii/S1574007221000025" target="_blank" rel="noopener">The Empirical Analysis of Climate Change Impacts and Adaptation in Agriculture</a>,
       <em>Handbook of Agricultural Economics</em> 5 (2021) 3981&ndash;4073.
+      Tasks covered include: fast aggregation of point and gridded weather data; construction of
+      temperature exposure bins; semi-parametric estimation of non-linear and within-season
+      varying effects of weather; dealing with spatial dependence; and common robustness checks
+      presented in specification charts.
     </div>
     <div class="code-links">
       <a href="https://archive.ciser.cornell.edu/reproduction-packages/2856" target="_blank" rel="noopener">code + data</a>
