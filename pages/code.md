@@ -24,16 +24,21 @@ permalink: /code/
 }
 .code-page .code-thumbnail {
   flex-shrink: 0;
-  width: 110px;
-  height: 110px;
+  width: 300px;
 }
 .code-page .code-thumbnail img {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
   border-radius: 4px;
   display: block;
   background: #fff;
+}
+/* Widen the code page content area beyond the default col-lg-8 */
+@media (min-width: 992px) {
+  .code-page {
+    margin-left: -100px;
+    margin-right: -100px;
+  }
 }
 .code-page .code-body { flex: 1; min-width: 0; }
 .code-page .code-title {
@@ -73,7 +78,7 @@ permalink: /code/
 }
 @media (max-width: 700px) {
   .code-page .code-entry { flex-direction: column; }
-  .code-page .code-thumbnail { width: 100%; max-width: 200px; height: auto; aspect-ratio: 1 / 1; }
+  .code-page .code-thumbnail { width: 100%; max-width: 300px; }
 }
 </style>
 
