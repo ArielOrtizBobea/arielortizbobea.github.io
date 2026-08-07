@@ -1,7 +1,7 @@
 ---
 layout: team
 title: people
-background: /assets/images/landing/people.png
+background: /assets/images/landing/campus.jpg
 #description: Who we are
 permalink: /people/
 ---

@@ -1,6 +1,6 @@
 ---
 title: code
-background: /assets/images/landing/campus.jpg
+background: /assets/images/landing/people.png
 permalink: /code/
 ---
 
