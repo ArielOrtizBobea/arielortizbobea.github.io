@@ -479,7 +479,10 @@ build_teaching <- function() {
   courses <- list()
   course_order <- character(0)
   for (t in teaching) {
-    key <- t$course_number
+    # Key on number + title: a renumbered/renamed course (e.g. the two
+    # incarnations of AEM 7010) gets its own row instead of being lumped
+    # under the first title seen.
+    key <- paste(t$course_number, t$course_title)
     if (is.null(courses[[key]])) {
       courses[[key]] <- list(
         course_number = t$course_number,

@@ -130,7 +130,7 @@
 - course_number: AEM 6850
   course_title: Empirical Methods for Applied Economists
   term: Spring
-  year: 2020
+  year: 2021
   enrollment: "10"
   level: graduate
 
@@ -147,4 +147,66 @@
   term: Fall
   year: 2021
   enrollment: "22"
+  level: graduate
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Fall
+  year: 2022
+  level: graduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2022
+  level: undergraduate
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2024
+  level: undergraduate
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Spring
+  year: 2025
+  level: graduate
+
+- course_number: AEM 7010
+  course_title: "Doing Applied Economics Research: Practical Skills"
+  term: Spring
+  year: 2025
+  level: graduate
+  note: team-taught
+
+- course_number: AEM 2500
+  course_title: Environmental and Resource Economics
+  term: Fall
+  year: 2025
+  level: undergraduate
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Fall
+  year: 2025
+  level: graduate
+
+- course_number: AEM 7010
+  course_title: "Doing Applied Economics Research: Practical Skills"
+  term: Spring
+  year: 2026
+  level: graduate
+  note: team-taught
+
+- course_number: AEM 6850
+  course_title: Empirical Methods for Applied Economists
+  term: Fall
+  year: 2026
+  level: graduate
+
+- course_number: AEM 6991
+  course_title: MPS Capstone Project 1
+  term: Fall
+  year: 2026
   level: graduate

@@ -126,6 +126,16 @@ a.course-title:hover {
     </p>
   </li>
   <li class="course-entry">
+    <a href="https://arielortizbobea.github.io/aem6991/fall-2026/" class="course-code">AEM 6991</a>
+    <span><a href="https://arielortizbobea.github.io/aem6991/fall-2026/" class="course-title">MPS Capstone Project 1</a><a href="https://classes.cornell.edu/browse/roster/FA26/class/AEM/6991" class="course-catalog-link" target="_blank" rel="noopener" title="View in Cornell course catalog" aria-label="View AEM 6991 in Cornell course catalog"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a></span>
+    <div class="offerings-stack">
+      <span class="offering-row is-upcoming"><a class="offering-link" href="https://arielortizbobea.github.io/aem6991/fall-2026/">Fall 2026</a></span>
+    </div>
+    <p class="course-description">
+      This is a core course for Master of Professional Studies (MPS) in Applied Economics and Management. It provides students with the opportunity to explore strategies for behavioral, quantitative, and qualitative problem-solving projects. We consider the conceptual challenges associated with identifying and defining a project topic and examine the practical tasks of selecting or collecting data, analyzing data, and reporting the results, including visualization and writing. The objective of the course is for students to understand how problems associated with different kinds of projects can be addressed with empirical methods. Many course activities will be structured as teamwork, and team leadership and management skills are a major component of the course. The course topics are introduced through readings, class discussion, and independent team-based research.
+    </p>
+  </li>
+  <li class="course-entry">
     <span class="course-code">AEM 1500</span>
     <span class="course-title">An Introduction to the Economics of Environmental and Natural Resources</span>
     <div class="offerings-stack">
@@ -164,6 +174,7 @@ a.course-title:hover {
       <span class="offering-row"><span class="offering-link">Fall 2018</span></span>
       <span class="offering-row"><span class="offering-link">Fall 2017</span></span>
       <span class="offering-row"><span class="offering-link">Fall 2016</span></span>
+      <span class="offering-row"><span class="offering-link">Fall 2015</span></span>
       <span class="offering-row"><span class="offering-link">Spring 2015</span></span>
     </div>
     <p class="course-description">
