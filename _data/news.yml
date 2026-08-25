@@ -104,7 +104,8 @@
   outlet: "The Washington Post"
   url: "https://www.washingtonpost.com/health/2022/08/01/heat-malnutrition-children-west-africa/"
   date: 2022-08-01
-  image: "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F3FU5KQPNEI63CHIYWG4HW5O4I.jpg&w=1440&impolicy=high_res"
+  # WaPo blocks cross-origin hotlinking of imrs.php; hero image saved locally.
+  image: "/assets/images/news/wapo_202208_heat_malnutrition.jpg"
   description: >
     Coverage of research linking extreme heat exposure to increases in both
     chronic and acute child malnutrition across five West African countries.
@@ -165,7 +166,8 @@
   outlet: "Environmental News Network"
   url: "https://www.enn.com/articles/56251-big-picture-look-at-climate-change-impact-on-u-s-agriculture-midwest-at-risk"
   date: 2018-12-12
-  image: "https://1408440223.rsc.cdn77.org/images/2018-Nov-Dec/2018-12-12_Midwest.jpg"
+  # ENN retired its cdn77 CDN; image now served from the enn.com origin.
+  image: "https://www.enn.com/images/2018-Nov-Dec/2018-12-12_Midwest.jpg"
   description: >
     Coverage of research on regional heterogeneity in climate change impacts
     on U.S. agriculture, with the Midwest identified as particularly at risk.
