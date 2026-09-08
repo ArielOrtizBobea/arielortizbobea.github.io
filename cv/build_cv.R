@@ -199,6 +199,12 @@ format_talk_date <- function(date, date_end = NULL, approx = FALSE) {
   }
 }
 
+# Papers that belong in the "Publications" section: already out, plus accepted
+# ones (rendered as "forthcoming"). Everything else is work in progress.
+is_publication <- function(p) {
+  identical(p$status, "Published") || identical(p$status, "Accepted")
+}
+
 # Map papers.yml status values to the CV labels AOB prefers
 # ("Revisions requested" → "R&R", "Under review" → "Submitted").
 status_label <- function(s) {
@@ -374,7 +380,7 @@ build_appointments <- function() {
 
 # ----- Working papers / Work in progress -----
 build_working_papers <- function() {
-  items <- Filter(function(p) !identical(p$status, "Published"), papers)
+  items <- Filter(function(p) !is_publication(p), papers)
   if (length(items) == 0) return(character(0))
   out <- "\\begin{enumerate}"
   for (p in items) {
@@ -395,10 +401,10 @@ build_working_papers <- function() {
   c(out, "\\end{enumerate}")
 }
 
-# ----- Publications (Published, newest at top, but numbered oldest=1) -----
+# ----- Publications (published + accepted, newest at top, numbered oldest=1) -----
 build_publications <- function() {
   pub <- Filter(function(p) {
-    identical(p$status, "Published") &&
+    is_publication(p) &&
       (is.null(p$journal) || !grepl("^Chapter in", p$journal))
   }, papers)
   if (length(pub) == 0) return(character(0))
@@ -415,7 +421,8 @@ build_publications <- function() {
       paste0("``", tex_escape(p$title), "''")
     }
     auths <- render_authors(p$authors)
-    cite <- paste0(" \\textit{", tex_escape(p$journal %||% ""), "} (", as.character(p$year), ")")
+    yr <- if (identical(p$status, "Accepted")) "forthcoming" else as.character(p$year)
+    cite <- paste0(" \\textit{", tex_escape(p$journal %||% ""), "} (", yr, ")")
     if (!is.null(p$volume))     cite <- paste0(cite, " Vol.~", as.character(p$volume))
     if (!is.null(p$issue))      cite <- paste0(cite, ", No.~", as.character(p$issue))
     if (!is.null(p$pages))      cite <- paste0(cite, ", pp.~", tex_escape(as.character(p$pages)))
@@ -434,7 +441,7 @@ build_publications <- function() {
 # ----- Book Chapters -----
 build_book_chapters <- function() {
   ch <- Filter(function(p) {
-    identical(p$status, "Published") &&
+    is_publication(p) &&
       !is.null(p$journal) && grepl("^Chapter in", p$journal)
   }, papers)
   if (length(ch) == 0) return(character(0))

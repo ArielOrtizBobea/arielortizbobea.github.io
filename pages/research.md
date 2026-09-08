@@ -245,8 +245,14 @@ permalink: /research/
 <p class="scholar-link">Access my <a href="https://scholar.google.com/citations?user=MALB7wEAAAAJ" target="_blank" rel="noopener">Google Scholar</a> page.</p>
 
 {%- assign papers = site.data.papers -%}
-{%- assign in_progress = papers | where_exp: "p", "p.status != 'Published'" -%}
-{%- assign published = papers | where: "status", "Published" -%}
+{%- comment -%}
+  Accepted-but-not-yet-out papers list with the publications (keeping their
+  "Accepted" badge), ahead of the already-published ones of the same year.
+{%- endcomment -%}
+{%- assign in_progress = papers | where_exp: "p", "p.status != 'Published'" | where_exp: "p", "p.status != 'Accepted'" -%}
+{%- assign accepted = papers | where: "status", "Accepted" -%}
+{%- assign out_now = papers | where: "status", "Published" -%}
+{%- assign published = accepted | concat: out_now -%}
 
 <h2>In progress</h2>
 <div class="papers-grid">
