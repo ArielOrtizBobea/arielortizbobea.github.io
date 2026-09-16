@@ -38,7 +38,7 @@
   presenter: Yurou He
   date: 2027-01-03
   date_end: 2027-01-05
-  venue: "2027 ASSA Annual Meeting"
+  venue: "ASSA Annual Meeting"
   location: "Washington, DC, United States"
   # paper:
   # thumbnail:
@@ -53,7 +53,7 @@
   presenter: Jeisson Prieto
   date: 2026-11-12
   date_end: 2026-11-14
-  venue: "2026 LACEA-LAMES Annual Meeting"
+  venue: "LACEA-LAMES Annual Meeting"
   location: "Lima, Peru"
   # paper:
   # thumbnail:
@@ -67,9 +67,18 @@
 - presenter: Jeisson Prieto
   date: 2026-10-16
   date_end: 2026-10-18
-  venue: "Fall 2026 Midwest International Economics Group (MWIEG) Meeting"
+  venue: "Midwest International Economics Group (MWIEG) Fall Meeting"
   location: "Toronto, Canada"
   # title:  # TBD
+  # paper:
+  # thumbnail:
+
+- title: "Land Assembly: Outsider Bargaining with a Network"
+  presenter: Yurou He
+  date: 2026-09-25
+  date_end: 2026-09-26
+  venue: "North American Meeting of the Urban Economics Association"
+  location: "Chicago, IL, United States"
   # paper:
   # thumbnail:
 
@@ -81,14 +90,14 @@
 
 - presenter: Ariel Ortiz-Bobea
   date: 2026-09-22
-  venue: "2026 agInnovation Fall Meeting"
+  venue: "agInnovation Fall Meeting"
   location: "Grand Junction, CO, United States"
   title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity (opening plenary talk)"
 
 - title: "Heat Shocks and Agricultural Loan Repayment"
   presenter: Jerzy Jaromczyk
   date: 2026-07-28
-  venue: "2026 AAEA Annual Meeting"
+  venue: "AAEA Annual Meeting"
   location: "Kansas City, KS, United States"
   # paper:
   # thumbnail:
@@ -96,7 +105,7 @@
 - title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
   presenter: Yurou He
   date: 2026-07-28
-  venue: "2026 AAEA Annual Meeting"
+  venue: "AAEA Annual Meeting"
   location: "Kansas City, KS, United States"
   # paper:
   # thumbnail:
@@ -122,7 +131,7 @@
   presenter: Yurou He
   date: 2026-06-29
   date_end: 2026-07-03
-  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE)"
   location: "Carcavelos–Cascais, Portugal"
   # paper:
   # thumbnail:
@@ -130,7 +139,7 @@
 - title: "Creative Destruction or Lasting Decline: Evidence from Post-Disaster Recovery"
   presenter: Yurou He
   date: 2026-06-30
-  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE)"
   location: "Carcavelos–Cascais, Portugal"
   # paper:
   # thumbnail:
@@ -138,7 +147,7 @@
 - title: "Unpacking the growth of agricultural greenhouse gas emissions"
   presenter: Ariel Ortiz-Bobea
   date: 2026-07-03
-  venue: "7th World Congress of Environmental and Resource Economists (WCERE 2026)"
+  venue: "7th World Congress of Environmental and Resource Economists (WCERE)"
   location: "Carcavelos–Cascais, Portugal"
   # paper:
   # thumbnail:
@@ -189,7 +198,7 @@
   presenter: Yurou He
   date: 2026-05-11
   date_end: 2026-05-13
-  venue: "2026 Summer School in Urban Economics"
+  venue: "Summer School in Urban Economics"
   location: "London, United Kingdom"
   # paper:
   # thumbnail:
@@ -223,7 +232,7 @@
 - title: "Water Scarcity, Network Externalities, and Trade: Evidence from the Panama Canal"
   presenter: Jeisson Prieto
   date: 2026-04-17
-  venue: "Caribbeans for Climate Spring 2026 Symposium"
+  venue: "Caribbeans for Climate Spring Symposium"
   location: "Virtual"
   # paper:
   # thumbnail:
@@ -257,7 +266,7 @@
 
 - presenter: Ariel Ortiz-Bobea
   date: 2025-07-28
-  venue: "2025 AAEA Annual Meeting"
+  venue: "AAEA Annual Meeting"
   location: "Denver, CO, United States"
 
 - presenter: Ariel Ortiz-Bobea
@@ -379,7 +388,7 @@
 
 - presenter: Ariel Ortiz-Bobea
   date: 2022-04-07
-  venue: '2022 U.S.-China Agriculture Roundtable: Thinktank Dialogue "Rural Prosperity and Climate Change"'
+  venue: 'U.S.-China Agriculture Roundtable: Thinktank Dialogue "Rural Prosperity and Climate Change"'
   location: "Online"
 
 - presenter: Ariel Ortiz-Bobea
@@ -506,7 +515,7 @@
 
 - presenter: Ariel Ortiz-Bobea
   date: 2020-01-11
-  venue: "Big Ag Data Conference 2020, UC Giannini Foundation of Agricultural Economics"
+  venue: "Big Ag Data Conference, UC Giannini Foundation of Agricultural Economics"
   location: "Davis, CA, United States"
 
 # ======================== 2019 ========================
@@ -721,7 +730,7 @@
 - title: "Toward More Transparency in Climate Change Impact Assessment for Agriculture"
   presenter: Ariel Ortiz-Bobea
   date: 2012-01-06
-  venue: "2012 AAEA session at ASSA Meetings"
+  venue: "AAEA session at ASSA Meetings"
   location: "Chicago, IL, United States"
   with: Richard E. Just
 
@@ -786,7 +795,7 @@
 - title: '"What Does Climate Change Mean for NY Agriculture?"'
   presenter: Ariel Ortiz-Bobea
   date: 2020-01-17
-  venue: "2020 Agricultural and Food Business Outlook Conference"
+  venue: "Agricultural and Food Business Outlook Conference"
   location: "Ithaca, NY, United States"
   non_research: true
   role: speaker
