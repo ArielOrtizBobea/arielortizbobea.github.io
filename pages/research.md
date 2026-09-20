@@ -247,12 +247,22 @@ permalink: /research/
 {%- assign papers = site.data.papers -%}
 {%- comment -%}
   "Publications" holds only papers that are out online (status "Published").
-  Accepted-but-not-yet-out papers stay under "In progress", listed after the
-  ones still under review, and keep their "Accepted" badge.
+  Everything else is "In progress", ordered by stage: least advanced at the
+  top, accepted-but-not-yet-online at the bottom (keeping their "Accepted"
+  badge). Ties keep file order. Statuses not in `stages` are listed first so
+  nothing is silently dropped. Keep this list in sync with `stage_order` in
+  cv/build_cv.R.
 {%- endcomment -%}
-{%- assign under_review = papers | where_exp: "p", "p.status != 'Published'" | where_exp: "p", "p.status != 'Accepted'" -%}
-{%- assign accepted = papers | where: "status", "Accepted" -%}
-{%- assign in_progress = under_review | concat: accepted -%}
+{%- assign stages = "In preparation|Under review|Revisions requested (R1)|Resubmitted (R1)|Revisions requested (R2)|Resubmitted (R2)|Revisions requested (R3)|Resubmitted (R3)|Accepted" | split: "|" -%}
+{%- assign not_published = papers | where_exp: "p", "p.status != 'Published'" -%}
+{%- assign in_progress = "" | split: "" -%}
+{%- for p in not_published -%}
+  {%- unless stages contains p.status -%}{%- assign in_progress = in_progress | push: p -%}{%- endunless -%}
+{%- endfor -%}
+{%- for s in stages -%}
+  {%- assign batch = not_published | where: "status", s -%}
+  {%- assign in_progress = in_progress | concat: batch -%}
+{%- endfor -%}
 {%- assign published = papers | where: "status", "Published" -%}
 
 <h2>In progress</h2>

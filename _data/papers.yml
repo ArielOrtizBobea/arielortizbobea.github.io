@@ -1,9 +1,12 @@
 # Research papers data file
 #
 # Rendered on /research/ (and in the CV):
-#   - "In progress" section: entries where status != "Published", in file
-#     order, with "Accepted" ones listed last (keep them at the end of the
-#     IN PROGRESS block below, under the ACCEPTED sub-header)
+#   - "In progress" section: entries where status != "Published", ordered by
+#     stage from least to most advanced: In preparation, Under review,
+#     Revisions requested (R1), Resubmitted (R1), ... (R2), ... (R3),
+#     Accepted. Ties keep file order, so within a stage put the most recent
+#     work first. The IN PROGRESS block below is kept in that same order for
+#     readability, but the ordering is enforced at render time.
 #   - "Publications" section: entries where status == "Published", i.e. only
 #     papers already out online with an active link, grouped by year, newest
 #     first. Once an accepted paper goes online, set status to "Published",
@@ -80,6 +83,30 @@
 #    forces increasingly costly trade-offs.
 #  thumbnail: /assets/images/papers/waterrevealedpref.png
 
+- title: "Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium"
+  authors:
+    - Ivan Rudik
+    - Gary Lyn
+    - Weiliang Tan
+    - Ariel Ortiz-Bobea
+  status: "Revisions requested (R1)"
+  journal: "Journal of Political Economy Macroeconomics"
+  doi: https://osf.io/preprints/socarxiv/usghb
+  abstract: >
+    We develop a dynamic-spatial equilibrium model to quantify the economic effects of
+    climate change with a focus on the United States. We find that climate change reduces
+    US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade
+    and labor reallocation increases US welfare, but with substantial spatial heterogeneity.
+    Adaptation through labor reallocation and trade are complementary: together they boost
+    welfare by 50% more than their individual effects. We additionally develop a new dynamic
+    envelope theorem method for measuring welfare impacts in reduced form and to validate
+    our quantitative model. We find that welfare distributions from our two approaches are
+    consistent, indicating that our quantitative model captures the first-order factors for
+    measuring the distributional impacts of climate change. The level and distribution of
+    the economic impacts of climate change depends the sectoral and spatial structure of
+    the economy, and the extent to which different markets can adapt.
+  thumbnail: /assets/images/papers/speqclim.png
+
 - title: "Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo"
   authors:
     - Tong Wu
@@ -132,30 +159,6 @@
     of yield sensitivity to multiple weather stressors and reveals opportunities to enhance
     yields in US dairy systems.
   thumbnail: /assets/images/papers/2026natfood.png
-
-- title: "Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium"
-  authors:
-    - Ivan Rudik
-    - Gary Lyn
-    - Weiliang Tan
-    - Ariel Ortiz-Bobea
-  status: "Revisions requested (R1)"
-  journal: "Journal of Political Economy Macroeconomics"
-  doi: https://osf.io/preprints/socarxiv/usghb
-  abstract: >
-    We develop a dynamic-spatial equilibrium model to quantify the economic effects of
-    climate change with a focus on the United States. We find that climate change reduces
-    US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade
-    and labor reallocation increases US welfare, but with substantial spatial heterogeneity.
-    Adaptation through labor reallocation and trade are complementary: together they boost
-    welfare by 50% more than their individual effects. We additionally develop a new dynamic
-    envelope theorem method for measuring welfare impacts in reduced form and to validate
-    our quantitative model. We find that welfare distributions from our two approaches are
-    consistent, indicating that our quantitative model captures the first-order factors for
-    measuring the distributional impacts of climate change. The level and distribution of
-    the economic impacts of climate change depends the sectoral and spatial structure of
-    the economy, and the extent to which different markets can adapt.
-  thumbnail: /assets/images/papers/speqclim.png
 
 - title: "Climate Change as a Determinant of Migrant Family Reunification"
   authors:

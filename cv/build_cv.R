@@ -206,6 +206,21 @@ is_publication <- function(p) {
   identical(p$status, "Published")
 }
 
+# Stage order for "Work in progress": least advanced at the top, accepted at
+# the bottom. Ties keep file order; statuses not listed here sort first.
+# Keep in sync with `stages` in pages/research.md.
+stage_order <- c(
+  "In preparation", "Under review",
+  "Revisions requested (R1)", "Resubmitted (R1)",
+  "Revisions requested (R2)", "Resubmitted (R2)",
+  "Revisions requested (R3)", "Resubmitted (R3)",
+  "Accepted"
+)
+stage_rank <- function(p) {
+  r <- match(p$status, stage_order)
+  if (is.na(r)) 0L else r
+}
+
 # Map papers.yml status values to the CV labels AOB prefers
 # ("Revisions requested" → "R&R", "Under review" → "Submitted").
 status_label <- function(s) {
@@ -383,9 +398,7 @@ build_appointments <- function() {
 build_working_papers <- function() {
   items <- Filter(function(p) !is_publication(p), papers)
   if (length(items) == 0) return(character(0))
-  # Accepted (forthcoming) papers go after the ones still under review.
-  is_accepted <- vapply(items, function(p) identical(p$status, "Accepted"), logical(1))
-  items <- c(items[!is_accepted], items[is_accepted])
+  items <- items[order(vapply(items, stage_rank, integer(1)), seq_along(items))]
   out <- "\\begin{enumerate}"
   for (p in items) {
     title <- if (!is.null(p$doi)) {
