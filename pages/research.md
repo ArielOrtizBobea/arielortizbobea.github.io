@@ -246,13 +246,14 @@ permalink: /research/
 
 {%- assign papers = site.data.papers -%}
 {%- comment -%}
-  Accepted-but-not-yet-out papers list with the publications (keeping their
-  "Accepted" badge), ahead of the already-published ones of the same year.
+  "Publications" holds only papers that are out online (status "Published").
+  Accepted-but-not-yet-out papers stay under "In progress", listed after the
+  ones still under review, and keep their "Accepted" badge.
 {%- endcomment -%}
-{%- assign in_progress = papers | where_exp: "p", "p.status != 'Published'" | where_exp: "p", "p.status != 'Accepted'" -%}
+{%- assign under_review = papers | where_exp: "p", "p.status != 'Published'" | where_exp: "p", "p.status != 'Accepted'" -%}
 {%- assign accepted = papers | where: "status", "Accepted" -%}
-{%- assign out_now = papers | where: "status", "Published" -%}
-{%- assign published = accepted | concat: out_now -%}
+{%- assign in_progress = under_review | concat: accepted -%}
+{%- assign published = papers | where: "status", "Published" -%}
 
 <h2>In progress</h2>
 <div class="papers-grid">

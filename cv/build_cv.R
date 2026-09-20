@@ -199,10 +199,11 @@ format_talk_date <- function(date, date_end = NULL, approx = FALSE) {
   }
 }
 
-# Papers that belong in the "Publications" section: already out, plus accepted
-# ones (rendered as "forthcoming"). Everything else is work in progress.
+# Papers that belong in the "Publications" section: only those already out
+# online (status "Published"). Everything else -- including accepted papers
+# not yet online -- is work in progress.
 is_publication <- function(p) {
-  identical(p$status, "Published") || identical(p$status, "Accepted")
+  identical(p$status, "Published")
 }
 
 # Map papers.yml status values to the CV labels AOB prefers
@@ -382,6 +383,9 @@ build_appointments <- function() {
 build_working_papers <- function() {
   items <- Filter(function(p) !is_publication(p), papers)
   if (length(items) == 0) return(character(0))
+  # Accepted (forthcoming) papers go after the ones still under review.
+  is_accepted <- vapply(items, function(p) identical(p$status, "Accepted"), logical(1))
+  items <- c(items[!is_accepted], items[is_accepted])
   out <- "\\begin{enumerate}"
   for (p in items) {
     title <- if (!is.null(p$doi)) {
@@ -421,8 +425,7 @@ build_publications <- function() {
       paste0("``", tex_escape(p$title), "''")
     }
     auths <- render_authors(p$authors)
-    yr <- if (identical(p$status, "Accepted")) "forthcoming" else as.character(p$year)
-    cite <- paste0(" \\textit{", tex_escape(p$journal %||% ""), "} (", yr, ")")
+    cite <- paste0(" \\textit{", tex_escape(p$journal %||% ""), "} (", as.character(p$year), ")")
     if (!is.null(p$volume))     cite <- paste0(cite, " Vol.~", as.character(p$volume))
     if (!is.null(p$issue))      cite <- paste0(cite, ", No.~", as.character(p$issue))
     if (!is.null(p$pages))      cite <- paste0(cite, ", pp.~", tex_escape(as.character(p$pages)))

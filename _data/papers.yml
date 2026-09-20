@@ -1,11 +1,13 @@
 # Research papers data file
 #
-# Rendered on /research/:
-#   - "In progress" section: entries where status is neither "Published" nor
-#     "Accepted" (in file order)
-#   - "Publications" section: entries where status == "Published" or "Accepted"
-#     (accepted-but-not-yet-out papers keep their "Accepted" badge), grouped by
-#     year, newest first
+# Rendered on /research/ (and in the CV):
+#   - "In progress" section: entries where status != "Published", in file
+#     order, with "Accepted" ones listed last (keep them at the end of the
+#     IN PROGRESS block below, under the ACCEPTED sub-header)
+#   - "Publications" section: entries where status == "Published", i.e. only
+#     papers already out online with an active link, grouped by year, newest
+#     first. Once an accepted paper goes online, set status to "Published",
+#     add the doi, and move it into its year block.
 #
 # Required fields:  title, authors, status
 #
@@ -205,9 +207,27 @@
     - { label: "policy brief", url: "https://business.edf.org/insights/extreme-heat-financial-farm-kansas/" }
   # thumbnail: /assets/images/papers/
   
-# ======================== PUBLICATIONS ========================
+# ---------- ACCEPTED (forthcoming, not yet online) ----------
 
-# ---------- 2026 ----------
+- title: "Growing more while emitting less? Decoupling U.S. agricultural production and greenhouse gas emissions"
+  authors:
+    - Ariel Ortiz-Bobea
+    - Simone Pieralli
+    - Jeisson Prieto
+  status: "Accepted"
+  journal: "Applied Economic Perspectives and Policy"
+  year: 2026
+  abstract: >
+    We decompose state-level U.S. agricultural greenhouse gas emissions growth into output
+    growth, input emission intensity, and total factor productivity (TFP). Combining EPA
+    emissions data with USDA productivity accounts over 1990–2015, we find that TFP growth
+    historically slowed emissions but has recently weakened. Declining input emission
+    intensity, concentrated in the Southeast, has become the dominant mitigating factor.
+    Further decomposition suggests that land productivity gains are more closely linked to
+    emission reductions than labor productivity gains.
+  thumbnail: /assets/images/papers/usagghg.png
+  links:
+    - { label: "code + data", url: "https://doi.org/10.5281/zenodo.21460920" }
 
 - title: "U.S. Climate Collection: Informing Assessment of Risks and Solutions"
   authors:
@@ -408,25 +428,9 @@
     sectoral, regional, and cross-cutting climate action plans and decisions in the U.S.
   # thumbnail: /assets/images/papers/
 
-- title: "Growing more while emitting less? Decoupling U.S. agricultural production and greenhouse gas emissions"
-  authors:
-    - Ariel Ortiz-Bobea
-    - Simone Pieralli
-    - Jeisson Prieto
-  status: "Accepted"
-  journal: "Applied Economic Perspectives and Policy"
-  year: 2026
-  abstract: >
-    We decompose state-level U.S. agricultural greenhouse gas emissions growth into output
-    growth, input emission intensity, and total factor productivity (TFP). Combining EPA
-    emissions data with USDA productivity accounts over 1990–2015, we find that TFP growth
-    historically slowed emissions but has recently weakened. Declining input emission
-    intensity, concentrated in the Southeast, has become the dominant mitigating factor.
-    Further decomposition suggests that land productivity gains are more closely linked to
-    emission reductions than labor productivity gains.
-  thumbnail: /assets/images/papers/usagghg.png
-  links:
-    - { label: "code + data", url: "https://doi.org/10.5281/zenodo.21460920" }
+# ======================== PUBLICATIONS ========================
+
+# ---------- 2026 ----------
 
 - title: "Milk composition responses amplify economic damages from heat stress"
   authors:
