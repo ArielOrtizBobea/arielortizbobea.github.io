@@ -33,6 +33,182 @@
 # ======================== IN PROGRESS ========================
 
 
+- title: "Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery"
+  authors:
+    - Yurou He
+    - Ariel Ortiz-Bobea
+    - Jiong Wu
+  status: "In preparation"
+  abstract: >
+    Why do some cities rebound after destructive disasters while others stagnate or decline?
+    Linking over one thousand wildfires that occurred across the United States to parcel-level
+    tax assessments, we estimate land and building value dynamics in burned and surrounding
+    areas. On average, wildfires reduce land and building values in the long run, but impacts
+    vary systematically with pre-disaster local productivity. Ranked within counties, parcels
+    in low productivity areas suffer persistent losses, middle-ranked areas recover quickly,
+    and upper-ranked areas undergo "creative destruction," experiencing sustained gains.
+    Nearby unburned areas exhibit similar growth or decline trajectories due to spillovers
+    from burned areas, with effects persisting for more than a decade. Depending on the
+    quality of rebuilding, disasters can hinder, restore, or accelerate growth, underscoring
+    the importance of spillovers and coordinated investment policies in shaping urban
+    resilience.
+  # thumbnail: /assets/images/papers/
+
+#- title: "Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal"
+#  authors:
+#    - Jeisson Prieto
+#    - Stefano Galelli
+#    - Ariel Ortiz-Bobea
+#  status: "In preparation"
+ # doi: https://doi.org/10.2139/ssrn.6575898
+#  abstract: >
+#    Allocating limited water resources among competing uses is increasingly challenging as
+#    climate variability intensifies. Water is typically allocated through administrative
+#    rules rather than markets, yet the implicit priorities that guide these decisions are
+#    rarely observed or quantified, making it difficult to evaluate whether non-market
+#    allocation approximates efficient outcomes. We develop a structural framework to recover
+#    these priorities from observed management behavior. We model the planner's problem as a
+#    stochastic dynamic optimization and use the simulated method of moments to estimate
+#    preference weights that rationalize historical storage and release patterns. Applied to
+#    the Panama Canal Watershed—a multipurpose system supporting navigation, hydropower, and
+#    municipal supply—we find that drinking-water reliability and upstream storage management
+#    receive the highest priority, while hydropower serves as a flexible adjustment margin.
+#    Counterfactual simulations suggest that administrative allocation can broadly serve
+#    competing water uses without large reductions in aggregate value, but sustained drought
+#    forces increasingly costly trade-offs.
+#  thumbnail: /assets/images/papers/waterrevealedpref.png
+
+- title: "Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo"
+  authors:
+    - Tong Wu
+    - David R. Just
+    - C.-Y. Cynthia Lin Lawell
+    - Ariel Ortiz-Bobea
+    - Jiancheng Zhao
+  status: "Resubmitted (R1)"
+  journal: "Journal of the Agricultural & Applied Economics Association (JAAEA)"
+  abstract: >
+    Sustainable forest management is a complex dynamic problem, and an important issue
+    worldwide. Forests supply the world's population with a variety of forest products,
+    including renewable products such as fruits, nuts, and maple syrup that can be harvested
+    at more frequent intervals than the trees themselves. When there is both uncertainty and
+    interdependent forest products, the interaction between these two phenomena leads to a
+    complicated set of trade-offs. We develop a nested stochastic dynamic bioeconomic model
+    of optimal forest management under uncertainty for interdependent products that differ
+    in their growth cycles, rates of growth, lengths of growing periods, and potential
+    harvest frequency. Our model enables us to assess the optimality of actual decisions
+    made by forest managers and to develop a dynamic structural econometric model to
+    understand the beliefs and perceptions that underlie and rationalize their management
+    strategies. We apply our model to bamboo forests, which generate two interdependent
+    products: bamboo shoots and bamboo stems. Our model has important implications for the
+    sustainable management of forests worldwide.
+  # thumbnail: /assets/images/papers/
+
+- title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
+  authors:
+    - Eukyoung Choi
+    - Frances Davenport
+    - Ziyi Lin
+    - Ariel Ortiz-Bobea
+    - Kristan Reed
+    - Ermias Kebreab
+    - Nathaniel Mueller
+  status: "Resubmitted (R1)"
+  journal: "Nature Food"
+  doi: https://doi.org/10.21203/rs.3.rs-8227805/v1
+  abstract: >
+    Climate change threatens dairy production, yet a full understanding of these risks
+    remains limited by a combination of coarse yield data and simplified models. Here we
+    combine 155 million test-day milk records from 9 million US cows from 2000–2024 with a
+    causality aware machine learning framework to quantify yield responses to temperature,
+    radiation, humidity, and wind. We find that nighttime heat is the dominant driver of
+    milk yield declines. Nationwide, heat stress reduced yield per cow per test-day by
+    –2.5%, compared with –1.0% from cold stress. Yield reductions were most intensive from
+    late-summer heat and springtime cold, which were –4.3% and –1.5%, respectively. Combined
+    heat and cold stress resulted in an annual economic loss of $871 million, which
+    corresponds to 2.3% of national milk revenue. Our study establishes the nonlinear nature
+    of yield sensitivity to multiple weather stressors and reveals opportunities to enhance
+    yields in US dairy systems.
+  thumbnail: /assets/images/papers/2026natfood.png
+
+- title: "Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium"
+  authors:
+    - Ivan Rudik
+    - Gary Lyn
+    - Weiliang Tan
+    - Ariel Ortiz-Bobea
+  status: "Revisions requested (R1)"
+  journal: "Journal of Political Economy Macroeconomics"
+  doi: https://osf.io/preprints/socarxiv/usghb
+  abstract: >
+    We develop a dynamic-spatial equilibrium model to quantify the economic effects of
+    climate change with a focus on the United States. We find that climate change reduces
+    US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade
+    and labor reallocation increases US welfare, but with substantial spatial heterogeneity.
+    Adaptation through labor reallocation and trade are complementary: together they boost
+    welfare by 50% more than their individual effects. We additionally develop a new dynamic
+    envelope theorem method for measuring welfare impacts in reduced form and to validate
+    our quantitative model. We find that welfare distributions from our two approaches are
+    consistent, indicating that our quantitative model captures the first-order factors for
+    measuring the distributional impacts of climate change. The level and distribution of
+    the economic impacts of climate change depends the sectoral and spatial structure of
+    the economy, and the extent to which different markets can adapt.
+  thumbnail: /assets/images/papers/speqclim.png
+
+- title: "Climate Change as a Determinant of Migrant Family Reunification"
+  authors:
+    - Brian H. Park
+    - Arnab K. Basu
+    - Nancy H. Chau
+    - Filiz Garip
+    - Ariel Ortiz-Bobea
+  status: "Resubmitted (R1)"
+  journal: "Networks and Spatial Economics"
+  abstract: >
+    This paper investigates the role of extreme climate as a push factor for family
+    reunification migration. We leverage a novel data set on Mexican agricultural workers in
+    the United States with detailed family separation history and family characteristics.
+    Furthermore, we use a data-driven approach to identify the optimal weather window – one
+    that minimizes prediction error measured in the out of sample root mean squared error
+    compared to the traditional method. We unveil evidence showing that shifts in
+    agricultural productivity induced by changes in extreme climatic conditions during
+    optimal weather windows in Mexican states contributed to the decision of family
+    reunification migration, while more conventional weather windows (e.g., annual averages)
+    fail to provide a consistent assessment.
+  # thumbnail: /assets/images/papers/
+
+- title: "The impact of extreme heat on farm finances: farm-level evidence from Kansas"
+  authors:
+    - Osama Sajid
+    - Jenny Ifft
+    - Ariel Ortiz-Bobea
+  status: "Revisions requested (R2)"
+  journal: "American Journal of Agricultural Economics"
+  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435
+  abstract: >
+    Our understanding of how extreme heat affects US agriculture is largely based on the
+    analysis of yields or productivity using aggregate data. Using a unique 40-year
+    farm-level panel from the Kansas Farm Management Association (KFMA) tracking nearly
+    7,000 farms across the state, we examine how extreme heat affects farm income and
+    quantify the extent to which farmers buffer income losses through on-farm adaptive
+    strategies and government support programs. We find that a 1°C warming reduces gross
+    and net farm income approximately $10,200 and $7,300 for the median farm, or by 3
+    percent and 11 percent, respectively. Several types of expenses, such as fuel and
+    machinery repairs, decrease in response to extreme heat. Crop insurance payments offset
+    about 10% and inventory adjustments offset about 14% of the total potential income loss.
+    Irrigation buffers nearly one-third to one-half of the net income loss associated with
+    extreme heat. Together, these results highlight the role of both farm management
+    decisions and the federal farm safety net in reducing the financial vulnerability of
+    farms to extreme heat.
+  links:
+    - { label: "press release", url: "https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses" }
+    - { label: "policy brief", url: "https://business.edf.org/insights/extreme-heat-financial-farm-kansas/" }
+  # thumbnail: /assets/images/papers/
+  
+# ======================== PUBLICATIONS ========================
+
+# ---------- 2026 ----------
+
 - title: "U.S. Climate Collection: Informing Assessment of Risks and Solutions"
   authors:
     - M.A. Kenney
@@ -209,7 +385,9 @@
     - G.G. Yorgey
     - A.M. York
     - E. Zuetell
-  status: "In preparation"
+  status: "Accepted"
+  journal: "One Earth"
+  year: 2026
   abstract: >
     Scientific assessments play a critical role in synthesizing evidence to support evidence-based 
     decision-making in many sectors and topics. For climate change, large-scale assessments like the 
@@ -229,182 +407,6 @@
     impacts, risks, and responses and to provide widely accessible and foundational information for 
     sectoral, regional, and cross-cutting climate action plans and decisions in the U.S.
   # thumbnail: /assets/images/papers/
-
-- title: "Creative destruction or lasting decline? Evidence from U.S. post-disaster recovery"
-  authors:
-    - Yurou He
-    - Ariel Ortiz-Bobea
-    - Jiong Wu
-  status: "In preparation"
-  abstract: >
-    Why do some cities rebound after destructive disasters while others stagnate or decline?
-    Linking over one thousand wildfires that occurred across the United States to parcel-level
-    tax assessments, we estimate land and building value dynamics in burned and surrounding
-    areas. On average, wildfires reduce land and building values in the long run, but impacts
-    vary systematically with pre-disaster local productivity. Ranked within counties, parcels
-    in low productivity areas suffer persistent losses, middle-ranked areas recover quickly,
-    and upper-ranked areas undergo "creative destruction," experiencing sustained gains.
-    Nearby unburned areas exhibit similar growth or decline trajectories due to spillovers
-    from burned areas, with effects persisting for more than a decade. Depending on the
-    quality of rebuilding, disasters can hinder, restore, or accelerate growth, underscoring
-    the importance of spillovers and coordinated investment policies in shaping urban
-    resilience.
-  # thumbnail: /assets/images/papers/
-
-#- title: "Recovering Revealed Preferences of Centralized Decision-Makers: Evidence from Water Allocation in the Panama Canal"
-#  authors:
-#    - Jeisson Prieto
-#    - Stefano Galelli
-#    - Ariel Ortiz-Bobea
-#  status: "In preparation"
- # doi: https://doi.org/10.2139/ssrn.6575898
-#  abstract: >
-#    Allocating limited water resources among competing uses is increasingly challenging as
-#    climate variability intensifies. Water is typically allocated through administrative
-#    rules rather than markets, yet the implicit priorities that guide these decisions are
-#    rarely observed or quantified, making it difficult to evaluate whether non-market
-#    allocation approximates efficient outcomes. We develop a structural framework to recover
-#    these priorities from observed management behavior. We model the planner's problem as a
-#    stochastic dynamic optimization and use the simulated method of moments to estimate
-#    preference weights that rationalize historical storage and release patterns. Applied to
-#    the Panama Canal Watershed—a multipurpose system supporting navigation, hydropower, and
-#    municipal supply—we find that drinking-water reliability and upstream storage management
-#    receive the highest priority, while hydropower serves as a flexible adjustment margin.
-#    Counterfactual simulations suggest that administrative allocation can broadly serve
-#    competing water uses without large reductions in aggregate value, but sustained drought
-#    forces increasingly costly trade-offs.
-#  thumbnail: /assets/images/papers/waterrevealedpref.png
-
-- title: "Optimal Forest Management for Interdependent Products: A Nested Stochastic Dynamic Bioeconomic Model and Application to Bamboo"
-  authors:
-    - Tong Wu
-    - David R. Just
-    - C.-Y. Cynthia Lin Lawell
-    - Ariel Ortiz-Bobea
-    - Jiancheng Zhao
-  status: "Revisions requested (R1)"
-  journal: "Journal of the Agricultural & Applied Economics Association (JAAEA)"
-  abstract: >
-    Sustainable forest management is a complex dynamic problem, and an important issue
-    worldwide. Forests supply the world's population with a variety of forest products,
-    including renewable products such as fruits, nuts, and maple syrup that can be harvested
-    at more frequent intervals than the trees themselves. When there is both uncertainty and
-    interdependent forest products, the interaction between these two phenomena leads to a
-    complicated set of trade-offs. We develop a nested stochastic dynamic bioeconomic model
-    of optimal forest management under uncertainty for interdependent products that differ
-    in their growth cycles, rates of growth, lengths of growing periods, and potential
-    harvest frequency. Our model enables us to assess the optimality of actual decisions
-    made by forest managers and to develop a dynamic structural econometric model to
-    understand the beliefs and perceptions that underlie and rationalize their management
-    strategies. We apply our model to bamboo forests, which generate two interdependent
-    products: bamboo shoots and bamboo stems. Our model has important implications for the
-    sustainable management of forests worldwide.
-  # thumbnail: /assets/images/papers/
-
-- title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
-  authors:
-    - Eukyoung Choi
-    - Frances Davenport
-    - Ziyi Lin
-    - Ariel Ortiz-Bobea
-    - Kristan Reed
-    - Ermias Kebreab
-    - Nathaniel Mueller
-  status: "Resubmitted (R1)"
-  journal: "Nature Food"
-  doi: https://doi.org/10.21203/rs.3.rs-8227805/v1
-  abstract: >
-    Climate change threatens dairy production, yet a full understanding of these risks
-    remains limited by a combination of coarse yield data and simplified models. Here we
-    combine 155 million test-day milk records from 9 million US cows from 2000–2024 with a
-    causality aware machine learning framework to quantify yield responses to temperature,
-    radiation, humidity, and wind. We find that nighttime heat is the dominant driver of
-    milk yield declines. Nationwide, heat stress reduced yield per cow per test-day by
-    –2.5%, compared with –1.0% from cold stress. Yield reductions were most intensive from
-    late-summer heat and springtime cold, which were –4.3% and –1.5%, respectively. Combined
-    heat and cold stress resulted in an annual economic loss of $871 million, which
-    corresponds to 2.3% of national milk revenue. Our study establishes the nonlinear nature
-    of yield sensitivity to multiple weather stressors and reveals opportunities to enhance
-    yields in US dairy systems.
-  thumbnail: /assets/images/papers/2026natfood.png
-
-- title: "Heterogeneity and Market Adaptation to Climate Change in Dynamic-Spatial Equilibrium"
-  authors:
-    - Ivan Rudik
-    - Gary Lyn
-    - Weiliang Tan
-    - Ariel Ortiz-Bobea
-  status: "Revisions requested (R1)"
-  journal: "Journal of Political Economy Macroeconomics"
-  doi: https://osf.io/preprints/socarxiv/usghb
-  abstract: >
-    We develop a dynamic-spatial equilibrium model to quantify the economic effects of
-    climate change with a focus on the United States. We find that climate change reduces
-    US welfare by 4% and global welfare by over 20%. Market-based adaptation through trade
-    and labor reallocation increases US welfare, but with substantial spatial heterogeneity.
-    Adaptation through labor reallocation and trade are complementary: together they boost
-    welfare by 50% more than their individual effects. We additionally develop a new dynamic
-    envelope theorem method for measuring welfare impacts in reduced form and to validate
-    our quantitative model. We find that welfare distributions from our two approaches are
-    consistent, indicating that our quantitative model captures the first-order factors for
-    measuring the distributional impacts of climate change. The level and distribution of
-    the economic impacts of climate change depends the sectoral and spatial structure of
-    the economy, and the extent to which different markets can adapt.
-  thumbnail: /assets/images/papers/speqclim.png
-
-- title: "Climate Change as a Determinant of Migrant Family Reunification"
-  authors:
-    - Brian H. Park
-    - Arnab K. Basu
-    - Nancy H. Chau
-    - Filiz Garip
-    - Ariel Ortiz-Bobea
-  status: "Resubmitted (R1)"
-  journal: "Networks and Spatial Economics"
-  abstract: >
-    This paper investigates the role of extreme climate as a push factor for family
-    reunification migration. We leverage a novel data set on Mexican agricultural workers in
-    the United States with detailed family separation history and family characteristics.
-    Furthermore, we use a data-driven approach to identify the optimal weather window – one
-    that minimizes prediction error measured in the out of sample root mean squared error
-    compared to the traditional method. We unveil evidence showing that shifts in
-    agricultural productivity induced by changes in extreme climatic conditions during
-    optimal weather windows in Mexican states contributed to the decision of family
-    reunification migration, while more conventional weather windows (e.g., annual averages)
-    fail to provide a consistent assessment.
-  # thumbnail: /assets/images/papers/
-
-- title: "The impact of extreme heat on farm finances: farm-level evidence from Kansas"
-  authors:
-    - Osama Sajid
-    - Jenny Ifft
-    - Ariel Ortiz-Bobea
-  status: "Revisions requested (R2)"
-  journal: "American Journal of Agricultural Economics"
-  doi: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022435
-  abstract: >
-    Our understanding of how extreme heat affects US agriculture is largely based on the
-    analysis of yields or productivity using aggregate data. Using a unique 40-year
-    farm-level panel from the Kansas Farm Management Association (KFMA) tracking nearly
-    7,000 farms across the state, we examine how extreme heat affects farm income and
-    quantify the extent to which farmers buffer income losses through on-farm adaptive
-    strategies and government support programs. We find that a 1°C warming reduces gross
-    and net farm income approximately $10,200 and $7,300 for the median farm, or by 3
-    percent and 11 percent, respectively. Several types of expenses, such as fuel and
-    machinery repairs, decrease in response to extreme heat. Crop insurance payments offset
-    about 10% and inventory adjustments offset about 14% of the total potential income loss.
-    Irrigation buffers nearly one-third to one-half of the net income loss associated with
-    extreme heat. Together, these results highlight the role of both farm management
-    decisions and the federal farm safety net in reducing the financial vulnerability of
-    farms to extreme heat.
-  links:
-    - { label: "press release", url: "https://news.cornell.edu/stories/2024/01/report-warmer-planet-will-trigger-increased-farm-losses" }
-    - { label: "policy brief", url: "https://business.edf.org/insights/extreme-heat-financial-farm-kansas/" }
-  # thumbnail: /assets/images/papers/
-  
-# ======================== PUBLICATIONS ========================
-
-# ---------- 2026 ----------
 
 - title: "Growing more while emitting less? Decoupling U.S. agricultural production and greenhouse gas emissions"
   authors:
