@@ -232,7 +232,11 @@
   links:
     - { label: "code + data", url: "https://doi.org/10.5281/zenodo.21460920" }
 
-- title: "U.S. Climate Collection: Informing Assessment of Risks and Solutions"
+# ======================== PUBLICATIONS ========================
+
+# ---------- 2026 ----------
+
+- title: "Research Priorities for Robust Climate Assessments in the United States"
   authors:
     - M.A. Kenney
     - R.E. Kopp
@@ -243,12 +247,12 @@
     - C. Cunliff
     - J.T. Duffy-Anderson
     - L.W. Fischer
-    - S. Frey
-    - J. Hicke
-    - P. Howard
+    - S.D. Frey
+    - J.A. Hicke
+    - P.H. Howard
     - A. Jerolleman
     - C.J. Kirchhoff
-    - E. Koebele
+    - E.A. Koebele
     - N.M. Mahowald
     - N. Misarti
     - D.L. Pearson
@@ -258,37 +262,37 @@
     - N.G. Smith
     - L.T. Teneva
     - J.D. Ulrich-Schad
-    - J. Volenec
+    - J.J. Volenec
     - K. Akamani
     - A.J. Alexander
     - C.E. Anderson
     - J.G. Arbuckle
     - M. Auffhammer
-    - K. Averyt
+    - C.W. Avery
     - S.H. Baker
     - D. Balk
     - M. Barbato
-    - P. Barnard
+    - P.L. Barnard
     - A.B. Basaraba
     - D.J. Bednar
     - J.E. Bell
     - D.D. Bennett Gayle
     - L. Berry Daniels
     - D. Bertrand
-    - J.E. Bistline
+    - J.E.T. Bistline
     - C.L. Brelsfoard
     - T. Briceno
     - M. Burkett
     - M. Burnham
-    - J. Callahan
-    - C. Cannon
+    - J.A. Callahan
+    - C.E.B. Cannon
     - C. Carothers
     - R.H. Carter
     - M. Cawley
     - J.M. Cha
     - H.H. Chang
     - M.H. Chang
-    - O. Chegwidden
+    - O.S. Chegwidden
     - K. Chen
     - B.S. Cheng
     - G. Chi
@@ -297,19 +301,19 @@
     - A. Connor
     - A.A. Cook
     - D. Council
-    - K. Cromar
+    - K.R. Cromar
     - K.J. Curtis
     - J.J. Daigle
     - C. DeLyser Roney
     - S.J. Domingue
-    - J. Drake
+    - J.E. Drake
     - K.L. Ebi
     - E.H. Elias
     - N.L. Fann
     - E. Fleishman
     - E.T. Gall
     - E. Ghitis
-    - E. Gilmore
+    - E.A. Gilmore
     - S. Gopalakrishnan
     - D. Grafton
     - S.A. Gray
@@ -320,7 +324,8 @@
     - J.A. Haverkamp
     - J.J. Hess
     - P.F. Hessburg
-    - D. Hondula
+    - K.A. Hinton
+    - D.M. Hondula
     - B. Hubbell
     - N. Hultman
     - C. Jean
@@ -331,14 +336,14 @@
     - K. Jones
     - P.O. Kaplan
     - S. Kay
-    - J. Keenan
+    - J.M. Keenan
     - L. Keith
     - H.H. Kim
-    - P. Kinney
+    - P.L. Kinney
     - S.F. Koller
     - M.A. Konfirst
     - A. Kosmal
-    - M. Krosby
+    - M.B. Krosby
     - W.O. Lamp
     - K. Lanza
     - J. Lappen
@@ -350,7 +355,7 @@
     - K.J. Mach
     - J. Maldonado
     - S.L. Malone
-    - A.A. Marchand
+    - A.A.M. Marchand
     - E. Marino
     - E.M. Markowitz
     - E.R. Masanet
@@ -368,32 +373,32 @@
     - M.E. O'Rourke
     - R. Obringer
     - A. Ortiz-Bobea
-    - E. Osborne
+    - E.B. Osborne
     - A. Petersen
     - B.L. Preston
     - J. Puvvula
-    - M. Raphael
-    - C. Raymond
+    - M.N. Raphael
+    - C.L. Raymond
     - K.A. Reed
-    - K. Ricke
+    - K.L. Ricke
     - J. Rising
-    - K. Rocci
+    - K.S. Rocci
     - B.R. Rosenzweig
     - S. Ryder
     - B.F. Sanders
     - M.R. Sanderson
-    - R. Schattman
+    - R.E. Schattman
     - N.A. Seeteram
     - L. Shi
     - L. Sidner
     - S.A. Siedlecki
     - D. Singh
-    - R. Sonnerup
+    - R.E. Sonnerup
     - C.M. Steele
     - E. Tate
     - J.R. Thompson
     - P.R. Thompson
-    - L. Turek-Hankins
+    - L.L. Turek-Hankins
     - N. Ulibarri
     - P.A. Ullrich
     - C. Wang
@@ -403,14 +408,15 @@
     - J.C. Whitehead
     - M.T. Wilson
     - R.L. Winkler
-    - A. Wootten
+    - A.M. Wootten
     - G. Xian
     - G.G. Yorgey
     - A.M. York
-    - E. Zuetell
-  status: "Accepted"
-  journal: "One Earth"
+    - E.J. Zuetell
+  status: "Published"
   year: 2026
+  journal: "Earth's Future"
+  doi: https://doi.org/10.1029/2025EF007336
   abstract: >
     Scientific assessments play a critical role in synthesizing evidence to support evidence-based 
     decision-making in many sectors and topics. For climate change, large-scale assessments like the 
@@ -430,10 +436,6 @@
     impacts, risks, and responses and to provide widely accessible and foundational information for 
     sectoral, regional, and cross-cutting climate action plans and decisions in the U.S.
   # thumbnail: /assets/images/papers/
-
-# ======================== PUBLICATIONS ========================
-
-# ---------- 2026 ----------
 
 - title: "Milk composition responses amplify economic damages from heat stress"
   authors:
