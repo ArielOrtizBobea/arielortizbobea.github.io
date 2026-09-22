@@ -44,7 +44,8 @@
   {%- endunless -%}
   <div class="talk-body">
     <div class="talk-title">
-      {%- if talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
+      {%- if talk.slides -%}<a href="{{ talk.slides | relative_url }}" target="_blank" rel="noopener">{{ talk.title }}</a>
+      {%- elsif talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
     </div>
 
     {%- if include.stacked_meta -%}

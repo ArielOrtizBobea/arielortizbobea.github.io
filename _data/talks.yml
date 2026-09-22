@@ -14,6 +14,7 @@
 #                  is set to a representative day (1st of the month / season).
 #   location       City, State/Country. Omit only when truly unknown.
 #   paper          URL to the paper, if available.
+#   slides         URL or site path to the slides; when present the title links to it (else to `paper`).
 #   thumbnail      Path to an event image.
 #   non_research   true for panels, fireside chats, policy talks, etc.
 #                  Defaults to false (research talk).
@@ -93,6 +94,7 @@
   venue: "agInnovation Fall Meeting"
   location: "Grand Junction, CO, United States"
   title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity (opening plenary talk)"
+  slides: /assets/talks/agInnovation_2026.pdf
 
 - title: "Heat Shocks and Agricultural Loan Repayment"
   presenter: Jerzy Jaromczyk
