@@ -196,6 +196,15 @@ permalink: /talks/
 </style>
 
 {%- assign now_s = site.time | date: "%s" | plus: 0 -%}
+{%- comment -%}
+  A talk stays in "Upcoming" (top of the page) for a grace week after it ends
+  before dropping into "Recent"/"Past", so a talk that just happened keeps top
+  billing for a while instead of moving down on the first rebuild after its date.
+  `site.time` is the build time, so the split only ever changes on a rebuild.
+{%- endcomment -%}
+{%- assign upcoming_grace_days = 7 -%}
+{%- assign upcoming_grace_s = upcoming_grace_days | times: 86400 -%}
+{%- assign upcoming_cutoff_s = now_s | minus: upcoming_grace_s -%}
 {%- assign year_ago_s = now_s | minus: 31536000 -%}
 {%- assign sorted = site.data.talks | sort: "date" -%}
 
@@ -216,8 +225,8 @@ permalink: /talks/
 <h2>Upcoming</h2>
 {%- assign any_upcoming = false -%}
 {%- for talk in sorted -%}
-  {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
-  {%- if t_s >= now_s -%}
+  {%- assign t_s = talk.date_end | default: talk.date | date: "%s" | plus: 0 -%}
+  {%- if t_s >= upcoming_cutoff_s -%}
     {%- assign any_upcoming = true -%}
     {% include talk_entry.html date_badge=true %}
   {%- endif -%}
@@ -230,8 +239,8 @@ permalink: /talks/
 {%- assign reversed = sorted | reverse -%}
 {%- assign any_recent = false -%}
 {%- for talk in reversed -%}
-  {%- assign t_s = talk.date | date: "%s" | plus: 0 -%}
-  {%- if t_s < now_s and t_s >= year_ago_s -%}
+  {%- assign t_s = talk.date_end | default: talk.date | date: "%s" | plus: 0 -%}
+  {%- if t_s < upcoming_cutoff_s and t_s >= year_ago_s -%}
     {%- assign any_recent = true -%}
     {% include talk_entry.html date_badge=true %}
   {%- endif -%}
@@ -259,7 +268,7 @@ permalink: /talks/
   {%- else -%}
     {%- assign group_end_s = last_talk.date | date: "%s" | plus: 0 -%}
   {%- endif -%}
-  {%- if group_end_s >= now_s -%}
+  {%- if group_end_s >= upcoming_cutoff_s -%}
     {%- assign any_upcoming_event = true -%}
     {%- assign first_talk = group.items | first -%}
     <div class="event-group">
@@ -304,7 +313,7 @@ permalink: /talks/
   {%- else -%}
     {%- assign group_end_s = last_talk.date | date: "%s" | plus: 0 -%}
   {%- endif -%}
-  {%- if group_end_s < now_s and group_end_s >= year_ago_s -%}
+  {%- if group_end_s < upcoming_cutoff_s and group_end_s >= year_ago_s -%}
     {%- assign any_past_event = true -%}
     {%- assign first_talk = group.items | first -%}
     <div class="event-group">

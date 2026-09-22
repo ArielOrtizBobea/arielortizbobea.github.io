@@ -2,8 +2,9 @@
 #
 # This file is the single source of truth for talks on both the website
 # (/talks page) and the CV. The website filters to the past 12 months and
-# upcoming entries; the CV renders the full history. No flag is needed to
-# distinguish "live" vs "archived" — the date filter handles it.
+# upcoming entries (a talk stays in the "Upcoming" section for a week after it
+# ends before moving to "Recent"); the CV renders the full history. No flag is
+# needed to distinguish "live" vs "archived" — the date filter handles it.
 #
 # Required fields:  presenter, date, venue
 # Optional fields:
