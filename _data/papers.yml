@@ -115,7 +115,7 @@
     - Ariel Ortiz-Bobea
     - Jiancheng Zhao
   status: "Resubmitted (R1)"
-  journal: "Journal of the Agricultural & Applied Economics Association (JAAEA)"
+  journal: "American Journal of Agricultural Economics"
   abstract: >
     Sustainable forest management is a complex dynamic problem, and an important issue
     worldwide. Forests supply the world's population with a variety of forest products,
@@ -125,12 +125,13 @@
     complicated set of trade-offs. We develop a nested stochastic dynamic bioeconomic model
     of optimal forest management under uncertainty for interdependent products that differ
     in their growth cycles, rates of growth, lengths of growing periods, and potential
-    harvest frequency. Our model enables us to assess the optimality of actual decisions
-    made by forest managers and to develop a dynamic structural econometric model to
-    understand the beliefs and perceptions that underlie and rationalize their management
-    strategies. We apply our model to bamboo forests, which generate two interdependent
-    products: bamboo shoots and bamboo stems. Our model has important implications for the
-    sustainable management of forests worldwide.
+    harvest frequency. We use our model to assess the optimality of actual decisions made by
+    forest managers and to develop a dynamic structural econometric model to understand the
+    beliefs and perceptions that underlie and rationalize their management strategies. We
+    apply our model to bamboo forests, which generate two interdependent products: bamboo
+    shoots and bamboo stems. Our methodology is relevant and applicable to the sustainable
+    management of a variety of renewable resources that generate multiple interdependent
+    products.
   # thumbnail: /assets/images/papers/
 
 - title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
