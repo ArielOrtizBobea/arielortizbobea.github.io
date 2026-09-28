@@ -643,7 +643,8 @@ build_talks <- function() {
     y <- years[i]
     if (is.na(current_year) || y != current_year) {
       current_year <- y
-      out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\par"))
+      # \nobreak keeps the year label on the same page as its first talk.
+      out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\par\\nobreak"))
     }
     venue <- tex_escape(t$venue)
     loc <- if (!is.null(t$location)) paste0(", ", tex_escape(t$location)) else ""

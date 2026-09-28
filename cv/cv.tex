@@ -28,6 +28,10 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.35em}
 
+% Never break a page inside a paragraph. Every entry is one paragraph or
+% list item, so pages break only between entries and no entry is split.
+\interlinepenalty=10000
+
 % Suppress bullets on itemize (Blevins-style indented list) but keep them
 % on enumerate for numbered things like Working Papers and Book Chapters.
 \setlist[itemize]{leftmargin=1.5em,label={},itemsep=0.25em,parsep=0pt,topsep=0.2em}
@@ -35,22 +39,30 @@
 \setlist[enumerate]{leftmargin=2em,labelsep=0.5em,itemsep=0.25em,parsep=0pt,topsep=0.2em}
 
 % ----- Section macro: plain UPPERCASE with thin rule below -----
-% \needspace guarantees the heading sits with at least 4 lines of
+% \Needspace guarantees the heading sits with at least 4 lines of
 % content on the same page (avoids the orphan-heading at page bottom).
+% It measures the space left on the page; plain \needspace instead adds
+% a cheap break point that pulls every heading to the next page once
+% entries cannot split. \nobreak and \@afterheading tie the heading to
+% its first entry.
+\makeatletter
 \newcommand{\cvsection}[1]{%
-  \needspace{4\baselineskip}%
+  \Needspace{4\baselineskip}%
   \par\vspace{1.0em}%
-  \noindent\uppercase{#1}\par
+  \noindent\uppercase{#1}\par\nobreak
   \vspace{0.25em}%
   {\color{black!75}\hrule height 0.4pt}%
-  \vspace{0.45em}%
+  \nobreak\vspace{0.45em}%
+  \@afterheading
 }
 
 % ----- Sub-heading inside sections (e.g. service kinds, talk years) -----
 \newcommand{\cvsubsection}[1]{%
   \par\vspace{0.3em}%
-  \noindent\textit{#1}\par
+  \noindent\textit{#1}\par\nobreak
+  \@afterheading
 }
+\makeatother
 
 % ----- Pill macro: small rounded badge for links (e.g. [code], [preprint]) -----
 \definecolor{pillbg}{gray}{0.92}
