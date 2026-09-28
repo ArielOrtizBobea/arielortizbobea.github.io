@@ -134,6 +134,29 @@
     products.
   # thumbnail: /assets/images/papers/
 
+- title: "The Bamboo Cycle"
+  authors:
+    - Tong Wu
+    - Jennifer E. Ifft
+    - David R. Just
+    - C.-Y. Cynthia Lin Lawell
+    - Ariel Ortiz-Bobea
+    - Jiancheng Zhao
+    - Zhangjun Fei
+    - Qiang Wei
+  status: "Resubmitted (R1)"
+  journal: "Journal of the Agricultural and Applied Economics Association (JAAEA)"
+  abstract: >
+    We develop the notion of a bamboo cycle, analogous to the notion of a cattle cycle. The
+    management of a bamboo forest is similar to the management of cattle; and the dynamics and
+    interdependence of bamboo forest products share characteristics with the dynamics and
+    interdependence of cows and calves. Just as the cattle cycle provides valuable insights into
+    the cattle industry and helps guide predictions about the future, the bamboo cycle provides
+    insight into patterns, relationships, and the possibly periodic and cyclic nature of bamboo
+    forest resources, stocks, and harvest decisions, and helps guide the sustainable management
+    of bamboo forests.
+  # thumbnail: /assets/images/papers/
+
 - title: "Weather-driven US milk yield losses and economic damages revealed by 9 million cows"
   authors:
     - Eukyoung Choi
