@@ -848,6 +848,8 @@
     processes, especially in low-income agrarian economies.
   thumbnail: /assets/images/papers/2023reep.jpg
 
+# ---------- 2022 ----------
+
 - title: "A GNN-RNN approach for harnessing geospatial and temporal information: application to crop yield prediction"
   authors:
     - Joshua Fan
@@ -856,7 +858,7 @@
     - Ariel Ortiz-Bobea
     - Carla P. Gomes
   status: "Published"
-  year: 2023
+  year: 2022
   journal: "Proceedings of the AAAI conference on artificial intelligence"
   doi: https://ojs.aaai.org/index.php/AAAI/article/view/21444
   abstract: >
@@ -884,8 +886,6 @@
     - { label: "award", url: "https://www.climatechange.ai/papers/neurips2021/29" }
   thumbnail: /assets/images/papers/2023ml.png
 
-# ---------- 2022 ----------
-
 - title: "On the Timing of Relevant Weather Conditions in Agriculture"
   authors:
     - Zhiyun Li
@@ -908,7 +908,7 @@
     - { label: "code + data", url: "https://archive.ciser.cornell.edu/reproduction-packages/2882" }
   thumbnail: /assets/images/papers/jaa221-fig-0004-m.jpg
 
-- title: "Temperature and children's Nutrition: evidence from West Africa"
+- title: "Heat exposure and child nutrition: Evidence from West Africa"
   authors:
     - Sylvia Blom
     - Ariel Ortiz-Bobea
@@ -1172,6 +1172,32 @@
 
 # ---------- 2018 ----------
 
+- title: "Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?"
+  authors:
+    - Ariel Ortiz-Bobea
+    - Jesse Tack
+  status: "Published"
+  year: 2018
+  journal: "Environmental Research Letters"
+  doi: https://doi.org/10.1088/1748-9326/aae9b8
+  abstract: >
+    Predictions of future food supply under climate change rely on projected crop yield
+    trends, which are typically based upon retrospective empirical analyses of historical
+    yield gains. However, the estimation of these trends is difficult given the evolving
+    impact of agricultural technologies and confounding influences such as weather. Here,
+    we evaluate the effect of climate change on United States (US) maize yields in light of
+    the productivity gains associated with the period of rapid adoption of genetically
+    engineered (GE) seeds. We find that yield gains on the order of those experienced
+    during the adoption of GE maize are needed to offset climate change impacts under the
+    business-as-usual scenario, and that smaller gains, such as those associated with the
+    pre-GE era in the 1980s and early 90s, would likely imply yield reductions below
+    current levels. Although this study cannot identify the biophysical drivers of past and
+    future maize yields, it helps contextualize the yield growth requirements necessary to
+    counterbalance projected yield losses under climate change. Outside of the US, our
+    findings have important implications for regions lagging in the adoption of new
+    technologies which could help offset the detrimental effects of climate change.
+  thumbnail: /assets/images/papers/2017erl2.png
+
 - title: "Growing Climatic Sensitivity of US Agriculture Linked to Technological Change and Regional Specialization"
   authors:
     - Ariel Ortiz-Bobea
@@ -1268,33 +1294,7 @@
 
 # ---------- 2017 ----------
 
-- title: "Is Another Genetic Revolution Needed to Offset Climate Change Impacts for US Maize Yields?"
-  authors:
-    - Ariel Ortiz-Bobea
-    - Jesse Tack
-  status: "Published"
-  year: 2017
-  journal: "Environmental Research Letters"
-  doi: https://doi.org/10.1088/1748-9326/aae9b8
-  abstract: >
-    Predictions of future food supply under climate change rely on projected crop yield
-    trends, which are typically based upon retrospective empirical analyses of historical
-    yield gains. However, the estimation of these trends is difficult given the evolving
-    impact of agricultural technologies and confounding influences such as weather. Here,
-    we evaluate the effect of climate change on United States (US) maize yields in light of
-    the productivity gains associated with the period of rapid adoption of genetically
-    engineered (GE) seeds. We find that yield gains on the order of those experienced
-    during the adoption of GE maize are needed to offset climate change impacts under the
-    business-as-usual scenario, and that smaller gains, such as those associated with the
-    pre-GE era in the 1980s and early 90s, would likely imply yield reductions below
-    current levels. Although this study cannot identify the biophysical drivers of past and
-    future maize yields, it helps contextualize the yield growth requirements necessary to
-    counterbalance projected yield losses under climate change. Outside of the US, our
-    findings have important implications for regions lagging in the adoption of new
-    technologies which could help offset the detrimental effects of climate change.
-  thumbnail: /assets/images/papers/2017erl2.png
-
-- title: "The Impact of Climate Change on Cereal Yields: Statistical Evidence from France"
+- title: "Negative impacts of climate change on cereal yields: statistical evidence from France"
   authors:
     - Matthew Gammans
     - Pierre Mérel
