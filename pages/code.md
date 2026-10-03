@@ -105,7 +105,7 @@ permalink: /code/
     <div class="code-links">
       <a href="https://github.com/ArielOrtizBobea/handbook-ag-econ-climate" target="_blank" rel="noopener">GitHub repo (v2.0)</a>
       <a href="https://archive.ciser.cornell.edu/reproduction-packages/2856" target="_blank" rel="noopener">code + data (v1.0)</a>
-      <a href="https://www.sciencedirect.com/science/article/pii/S1574007221000025" target="_blank" rel="noopener">chapter</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S1574007221000025" target="_blank" rel="noopener">paper</a>
       <a href="https://arxiv.org/abs/2105.12044" target="_blank" rel="noopener">preprint</a>
     </div>
   </div>
