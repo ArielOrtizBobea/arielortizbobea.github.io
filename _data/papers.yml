@@ -828,6 +828,27 @@
     - { label: "award", url: "https://www.icpmnetwork.com/previous-year-winners/" }
   thumbnail: /assets/images/papers/2023jfe.png
 
+- title: "A new look at agricultural fires and health: A replication of Rangel and Vogl (2019)"
+  authors:
+    - Matthew Gammans
+    - Ariel Ortiz-Bobea
+  status: "Published"
+  year: 2023
+  journal: "Applied Economic Perspectives and Policy"
+  doi: https://doi.org/10.1002/aepp.13393
+  abstract: >
+    Globally, over 400 million tons of biomass are burned in agricultural fires for
+    management purposes each year, substantially affecting air quality. Rangel and Vogl
+    (Review of Economics and Statistics 2019) provide evidence that agricultural fires in
+    Brazil cause large declines in newborn health in downwind communities. We replicate
+    this analysis and evaluate the sensitivity of their results to changes in the dataset
+    and alternative modeling choices. Although accounting for the potential of spatial
+    correlation in errors reduces precision of estimated effects, we find that their
+    primary conclusions are robust to alternative specifications and reasonable placebo
+    tests. We discuss how our findings may guide future research on the relationship
+    between agricultural fires and health.
+  thumbnail: /assets/images/papers/aepp13393-fig-0005-m.jpg
+
 - title: "Structural Transformation, Agriculture, Climate, and the Environment"
   authors:
     - Chris B. Barrett
