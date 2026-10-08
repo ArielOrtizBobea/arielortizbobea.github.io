@@ -243,14 +243,19 @@
   
 # ---------- ACCEPTED (forthcoming, not yet online) ----------
 
+# ======================== PUBLICATIONS ========================
+
+# ---------- 2026 ----------
+
 - title: "Growing more while emitting less? Decoupling U.S. agricultural production and greenhouse gas emissions"
   authors:
     - Ariel Ortiz-Bobea
     - Simone Pieralli
     - Jeisson Prieto
-  status: "Accepted"
+  status: "Published"
   journal: "Applied Economic Perspectives and Policy"
   year: 2026
+  doi: https://doi.org/10.1002/aepp.70131
   abstract: >
     We decompose state-level U.S. agricultural greenhouse gas emissions growth into output
     growth, input emission intensity, and total factor productivity (TFP). Combining EPA
@@ -262,10 +267,6 @@
   thumbnail: /assets/images/papers/usagghg.png
   links:
     - { label: "code + data", url: "https://doi.org/10.5281/zenodo.21460920" }
-
-# ======================== PUBLICATIONS ========================
-
-# ---------- 2026 ----------
 
 - title: "Research Priorities for Robust Climate Assessments in the United States"
   authors:
