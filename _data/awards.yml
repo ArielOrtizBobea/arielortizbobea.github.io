@@ -8,14 +8,17 @@
 #   collaborators  Other awardees ("with Robert G. Chambers, Yurou He ...")
 #   venue          Where the prize was awarded (e.g., a conference)
 #   note           Free-form ("declined", "category 'ML innovation'", etc.)
+#   url            Link for the award; the title becomes a hyperlink in the CV
 #   cv             Set false to omit from the CV
 #
 # Entries listed newest first.
 
 # Stanford–Elsevier list: one entry, updated each fall when the new release
-# appears (year, end of the range, rank). Not in the career table as of 2026.
+# appears (year, end of the range, rank, and the version at the end of the DOI).
+# Not in the career table as of 2026.
 - title: Top 2% most-cited scientists, Agricultural Economics & Policy, single-year list
   granter: Stanford University and Elsevier
+  url: https://doi.org/10.17632/btchxktzyw.9
   year: 2026
   note: listed each year 2024–2026; 2026 rank 47 of 6,741 in subfield
 

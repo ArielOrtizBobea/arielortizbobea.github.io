@@ -572,6 +572,7 @@ build_awards <- function() {
   out <- character(0)
   for (a in awards) {
     desc <- tex_escape(a$title)
+    if (!is.null(a$url))            desc <- paste0("\\href{", a$url, "}{", desc, "}")
     if (!is.null(a$granter))        desc <- paste0(desc, ", ", tex_escape(a$granter))
     if (!is.null(a$paper))          desc <- paste0(desc, " for ``", tex_escape(a$paper), "''")
     if (!is.null(a$collaborators))  desc <- paste0(desc, " (", tex_escape(a$collaborators), ")")
