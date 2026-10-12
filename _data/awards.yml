@@ -12,6 +12,13 @@
 #
 # Entries listed newest first.
 
+# Stanford–Elsevier list: one entry, updated each fall when the new release
+# appears (year, end of the range, rank). Not in the career table as of 2026.
+- title: Top 2% most-cited scientists, Agricultural Economics & Policy, single-year list
+  granter: Stanford University and Elsevier
+  year: 2026
+  note: listed each year 2024–2026; 2026 rank 47 of 6,741 in subfield
+
 - title: Quality of Communication Award
   granter: Agricultural & Applied Economics Association (AAEA)
   paper: Large increases in public R&D investment are needed to avoid declines of US agricultural productivity
