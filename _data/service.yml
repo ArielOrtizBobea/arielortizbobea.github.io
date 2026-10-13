@@ -99,6 +99,16 @@
 
 # ======================== EXTERNAL ========================
 
+# Accepted 2026-10-12 (invitation from Yanhong Jin, Rutgers). Two-year term;
+# recruited in October 2026, so the first cycle is the 2027 Annual Meeting.
+- role: Topic Leader, Productivity Analysis and Emerging Technologies
+  group: Selected Paper Committee
+  institution: Agricultural and Applied Economics Association (AAEA)
+  year_start: 2026
+  year_end: 2028
+  note: 2027 and 2028 Annual Meetings
+  kind: external
+
 - role: Member, OECD Network on Agricultural TFP and the Environment
   institution: OECD
   year_start: 2019
