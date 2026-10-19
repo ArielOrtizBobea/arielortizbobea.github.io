@@ -2,7 +2,9 @@
 #
 # Used for the CV's "Service" section. Entries are grouped at render time
 # by the `kind` field, in this order:
-#   department, university, faculty_senate, external, editorial
+#   department, university, faculty_senate, external
+# `editorial` entries render in their own "Editorial Positions" section,
+# right after Appointments.
 #
 # Required fields:  role, kind
 # Optional fields:

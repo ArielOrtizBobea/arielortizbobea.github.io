@@ -549,29 +549,37 @@ build_teaching <- function() {
 }
 
 # ----- Service (grouped by kind, year-range paragraph flow) -----
+service_entry <- function(s) {
+  line <- tex_escape(s$role)
+  if (!is.null(s$journal))     line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
+  if (!is.null(s$group))       line <- paste0(line, ", ", tex_escape(s$group))
+  if (!is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
+  if (!is.null(s$note))        line <- paste0(line, " (", tex_escape(s$note), ")")
+  # 1.05in fits "2021--present"; the 0.85in default runs it into the role.
+  date_entry(format_range_y(s, break_range = FALSE), line, date_width = "1.05in")
+}
+
+# Editorial roles are left out here; build_editorial() puts them in their
+# own section on page 1, after Appointments, where peer CVs list them.
 build_service <- function() {
   kinds <- list(
     department    = "Department",
     university    = "University",
     faculty_senate = "Faculty Senate",
-    external      = "External",
-    editorial     = "Editorial"
+    external      = "External"
   )
   out <- character(0)
   for (k in names(kinds)) {
     items <- Filter(function(s) identical(s$kind, k), service)
     if (length(items) == 0) next
-    out <- c(out, cv_subsection(kinds[[k]]))
-    for (s in items) {
-      line <- tex_escape(s$role)
-      if (!is.null(s$journal))     line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
-      if (!is.null(s$group))       line <- paste0(line, ", ", tex_escape(s$group))
-      if (!is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
-      if (!is.null(s$note))        line <- paste0(line, " (", tex_escape(s$note), ")")
-      out <- c(out, date_entry(format_range_y(s, break_range = FALSE), line))
-    }
+    out <- c(out, cv_subsection(kinds[[k]]), vapply(items, service_entry, character(1)))
   }
   out
+}
+
+build_editorial <- function() {
+  items <- Filter(function(s) identical(s$kind, "editorial"), service)
+  vapply(items, service_entry, character(1))
 }
 
 # ----- Honors & Awards (year-prefix paragraph flow) -----
@@ -760,14 +768,13 @@ build_prof_orgs <- function() {
   }
   # Panels
   if (!is.null(referee$panels) && length(referee$panels) > 0) {
+    # One run-in paragraph, like Memberships and the referee list above it.
     out <- c(out, cv_subsection("External reviews, grant and panel reviews"))
-    out <- c(out, "\\begin{itemize}")
-    for (p in referee$panels) {
+    panels <- vapply(referee$panels, function(p) {
       yrs <- if (!is.null(p$years)) paste(p$years, collapse = ", ") else as.character(p$year)
-      out <- c(out, paste0("\\item ", tex_escape(p$funder),
-                           ", ", tex_escape(p$program), ", ", yrs))
-    }
-    out <- c(out, "\\end{itemize}")
+      paste0(tex_escape(p$funder), ", ", tex_escape(p$program), ", ", yrs)
+    }, character(1))
+    out <- c(out, paste(panels, collapse = "; "))
   }
   out
 }
@@ -788,6 +795,7 @@ body <- c(
   build_header(),
   # ----- Identity / position -----
   cv_section("Appointments"),                         build_appointments(),
+  cv_section("Editorial Positions"),                  build_editorial(),
   cv_section("Education"),                            build_education(),
   cv_section("Fields"),                               build_topics(),
   # ----- Scholarly output -----
