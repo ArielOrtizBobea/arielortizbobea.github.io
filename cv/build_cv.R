@@ -531,14 +531,19 @@ build_teaching <- function() {
   for (key in course_order) {
     co <- courses[[key]]
     # Within each course: group years by term
+    # Scheduled (future) offerings are listed after the taught ones, each
+    # marked "(scheduled)".
+    taught <- Filter(function(o) !isTRUE(o$scheduled), co$offerings)
+    sched  <- Filter(function(o) isTRUE(o$scheduled), co$offerings)
     by_term <- list()
-    for (o in co$offerings) {
+    for (o in taught) {
       by_term[[o$term]] <- c(by_term[[o$term]] %||% integer(0), o$year)
     }
     term_strs <- vapply(names(by_term), function(tn) {
       paste0(tn, " ", collapse_years(by_term[[tn]]))
     }, character(1))
-    offerings_text <- paste(term_strs, collapse = "; ")
+    sched_strs <- vapply(sched, function(o) paste0(o$term, " ", o$year, " (scheduled)"), character(1))
+    offerings_text <- paste(c(term_strs, sched_strs), collapse = "; ")
     level_tag <- if (!is.null(co$level)) paste0(" \\textit{(", co$level, ")}") else ""
     rows <- c(rows, paste0(
       "\\noindent\\textbf{", tex_escape(co$course_number), "}, ",

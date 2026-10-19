@@ -8,6 +8,8 @@
 #   level         "undergraduate" | "graduate"
 #   note          Free-form
 #   cv            Set false to omit from the CV
+#   scheduled     true for a future offering; the CV prints "(scheduled)".
+#                 Delete the line once the course has been taught.
 #
 # `term` values:  Fall | Spring | Winter | Summer
 #
@@ -210,3 +212,10 @@
   term: Fall
   year: 2026
   level: graduate
+
+- course_number: AEM 1500
+  course_title: An Introduction to the Economics of Environmental and Natural Resources
+  term: Spring
+  year: 2027
+  level: undergraduate
+  scheduled: true
