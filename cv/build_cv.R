@@ -240,7 +240,7 @@ format_thousands <- function(n) {
 format_amount <- function(item) {
   if (is.null(item$amount_total)) return("")
   s <- paste0("\\$", format_thousands(item$amount_total))
-  if (isTRUE(item$amount_approx)) s <- paste(s, "approx.")
+  if (isTRUE(item$amount_approx)) s <- paste("approx.", s)
   if (!is.null(item$amount_managed)) {
     s <- paste0(s, " (AOB-managed: \\$", format_thousands(item$amount_managed), ")")
   }
@@ -294,7 +294,11 @@ build_header <- function() {
                 collapse = ", ")
   website_display <- sub("^https?://", "", profile$website)
   today <- paste0(format(Sys.Date(), "%B "), format(Sys.Date(), "%Y"))
+  # "Ariel Ortiz-Bobea" -> "AOB"; the footer carries initials and date on
+  # every page, as the Dyson promotion dossier requires.
+  initials <- paste(substr(strsplit(profile$name, "[ -]+")[[1]], 1, 1), collapse = "")
   c(
+    paste0("\\gdef\\cvinitials{", tex_escape(initials), "}\\gdef\\cvdate{", tex_escape(today), "}%"),
     paste0("\\noindent{\\LARGE\\uppercase{", tex_escape(profile$name), "}}\\par"),
     "\\vspace{0.4em}",
     paste0("\\noindent ", tex_escape(today), "\\par"),
@@ -608,7 +612,7 @@ build_grants <- function() {
   out
 }
 
-# ----- Conferences & Seminars (year heading, month-day on left) -----
+# ----- Conferences & Seminars (one paragraph per year) -----
 # Since the year is the heading, each entry only needs month-day on the
 # left, matching the date-left convention used by other sections.
 format_talk_date_short <- function(date, date_end = NULL, approx = FALSE) {
@@ -625,8 +629,10 @@ format_talk_date_short <- function(date, date_end = NULL, approx = FALSE) {
 }
 
 build_talks <- function() {
-  # All AOB-presented talks, research + non-research combined. Dates are
-  # not rendered; year is the grouping heading and venue/location is the line.
+  # All AOB-presented talks, research + non-research combined. One paragraph
+  # per year, year in the left margin (as in Honors), venues separated by
+  # semicolons; "United States" is dropped from US locations. This keeps the
+  # section near 1.5 pages instead of 3+ with one venue per line.
   items <- Filter(function(t) is_aob(t$presenter), talks)
   if (length(items) == 0) return(character(0))
   years <- vapply(items, function(t) {
@@ -637,21 +643,25 @@ build_talks <- function() {
   items <- items[ord]
   years <- years[ord]
 
-  out <- character(0)
-  current_year <- NA
-  for (i in seq_along(items)) {
-    t <- items[[i]]
-    y <- years[i]
-    if (is.na(current_year) || y != current_year) {
-      current_year <- y
-      # \nobreak keeps the year label on the same page as its first talk.
-      out <- c(out, "", paste0("\\textbf{", as.character(y), "}\\par\\nobreak"))
-    }
+  entry <- function(t) {
     venue <- tex_escape(t$venue)
-    loc <- if (!is.null(t$location)) paste0(", ", tex_escape(t$location)) else ""
+    loc <- if (!is.null(t$location)) {
+      paste0(", ", tex_escape(sub(",\\s*United States$", "", t$location)))
+    } else ""
     role_note <- if (!is.null(t$role)) paste0(" [", tex_escape(t$role), "]") else ""
+    paste0(venue, loc, role_note)
+  }
+
+  out <- character(0)
+  for (y in unique(years)) {
+    venues <- vapply(items[years == y], entry, character(1))
+    # A busy year runs over a dozen lines, so let this paragraph break across
+    # pages; the preamble's \interlinepenalty=10000 would otherwise push it
+    # whole to the next page and leave a gap.
     out <- c(out, paste0(
-      "{\\leftskip=1em\\noindent ", venue, loc, role_note, "\\par}"
+      "{\\interlinepenalty=0 ",
+      date_entry(as.character(y), paste(venues, collapse = "; "), date_width = "0.45in"),
+      "}"
     ))
   }
   out
