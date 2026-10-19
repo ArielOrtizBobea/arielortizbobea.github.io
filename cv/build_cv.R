@@ -73,6 +73,11 @@ tex_escape <- function(x) {
   x <- gsub("}", "\\}",  x, fixed = TRUE)
   x <- gsub("~", "\\textasciitilde{}", x, fixed = TRUE)
   x <- gsub("^", "\\textasciicircum{}", x, fixed = TRUE)
+  # Straight quotes print as closing quotes on both sides in LaTeX. Turn a
+  # balanced "..." into ``...'' and an opening ' (after a space or bracket)
+  # into `, leaving apostrophes inside or at the end of words alone.
+  x <- gsub('"([^"]*)"', "``\\1''", x, perl = TRUE)
+  x <- gsub("(^|[\\s(\\[])'", "\\1`", x, perl = TRUE)
   x
 }
 
