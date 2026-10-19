@@ -332,14 +332,15 @@ build_education <- function() {
   out
 }
 
-# ----- Topics -----
+# ----- Fields (research fields + Cornell graduate fields) -----
 build_topics <- function() {
-  t_main <- paste(vapply(topics$topics, tex_escape, character(1)), collapse = "; ")
-  gf <- paste(vapply(topics$cornell_graduate_fields, tex_escape, character(1)), collapse = "; ")
+  line <- function(label, items) paste0(
+    "\\noindent\\hangindent=1em\\hangafter=1\\textit{", label, ":} ",
+    paste(vapply(items, tex_escape, character(1)), collapse = "; "), "\\par"
+  )
   c(
-    paste0(t_main, "."),
-    "",
-    paste0("Graduate Fields at Cornell: ", gf, ".")
+    line("Research", topics$research_fields),
+    line("Cornell graduate fields", topics$cornell_graduate_fields)
   )
 }
 
@@ -633,7 +634,8 @@ build_talks <- function() {
   # per year, year in the left margin (as in Honors), venues separated by
   # semicolons; "United States" is dropped from US locations. This keeps the
   # section near 1.5 pages instead of 3+ with one venue per line.
-  items <- Filter(function(t) is_aob(t$presenter), talks)
+  # Keynotes are left out here; build_keynotes() lists them with titles.
+  items <- Filter(function(t) is_aob(t$presenter) && is.null(t$keynote), talks)
   if (length(items) == 0) return(character(0))
   years <- vapply(items, function(t) {
     d <- as_date_safe(t$date)
@@ -665,6 +667,28 @@ build_talks <- function() {
     ))
   }
   out
+}
+
+# ----- Keynote and plenary talks (talks with a `keynote` field) -----
+# One entry per talk with its title, newest first, and a slides pill when
+# the deck is published. Returns its own heading, or nothing when there are
+# no keynotes, so the section never shows up empty.
+build_keynotes <- function() {
+  items <- Filter(function(t) is_aob(t$presenter) && !is.null(t$keynote), talks)
+  if (length(items) == 0) return(character(0))
+  items <- items[order(-vapply(items, function(t) as.numeric(as_date_safe(t$date)), numeric(1)))]
+  site <- sub("/$", "", profile$website)
+  entries <- vapply(items, function(t) {
+    loc <- if (!is.null(t$location)) paste0(", ", tex_escape(sub(",\\s*United States$", "", t$location))) else ""
+    body <- paste0("``", tex_escape(t$title), "''. ", tex_escape(t$keynote), ", ",
+                   tex_escape(t$venue), loc, ".")
+    if (!is.null(t$slides)) {
+      url <- if (startsWith(t$slides, "/")) paste0(site, t$slides) else t$slides
+      body <- paste0(body, " \\cvpill{", url, "}{slides}")
+    }
+    date_entry(format(as_date_safe(t$date), "%Y"), body, date_width = "0.45in")
+  }, character(1))
+  c(cv_section("Keynote and Plenary Talks"), entries)
 }
 
 # ----- Students -----
@@ -712,19 +736,11 @@ build_students <- function() {
 # ----- Professional organizations (incl. refereeing) -----
 build_prof_orgs <- function() {
   out <- character(0)
-  # Memberships
+  # Memberships: current ones only, one line, no years (like the referee list)
+  current <- Filter(function(m) isTRUE(m$current), referee$professional_organizations)
   out <- c(out, cv_subsection("Memberships"))
-  out <- c(out, "\\begin{itemize}")
-  for (m in referee$professional_organizations) {
-    line <- tex_escape(m$name)
-    if (!is.null(m$year_start)) {
-      yr <- if (isTRUE(m$current)) paste0(m$year_start, "--") else as.character(m$year_start)
-      line <- paste0(line, ", ", yr)
-    }
-    if (!is.null(m$note)) line <- paste0(line, " (", tex_escape(m$note), ")")
-    out <- c(out, paste0("\\item ", line))
-  }
-  out <- c(out, "\\end{itemize}")
+  out <- c(out, paste(vapply(current, function(m) tex_escape(m$name), character(1)),
+                      collapse = "; "))
   # Referee
   out <- c(out, cv_subsection("Referee activities"))
   out <- c(out, paste0("\\textit{",
@@ -768,12 +784,14 @@ body <- c(
   # ----- Identity / position -----
   cv_section("Appointments"),                         build_appointments(),
   cv_section("Education"),                            build_education(),
+  cv_section("Fields"),                               build_topics(),
   # ----- Scholarly output -----
   cv_section("Work in progress"),                     build_working_papers(),
   cv_section("Publications"),                         build_publications(),
   cv_section("Book Chapters"),                        build_book_chapters(),
   cv_section("Honors and Awards"),                    build_awards(),
   cv_section("Grants"),                               build_grants(),
+  build_keynotes(),                                   # adds its own heading
   cv_section("Conferences and Seminars"),             build_talks(),
   # ----- Teaching, advising, service (admin / institutional) -----
   cv_section("Teaching"),                             build_teaching(),

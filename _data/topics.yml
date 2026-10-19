@@ -1,16 +1,21 @@
-# Research topics and graduate-field affiliations data file
+# Research fields and Cornell graduate-field memberships data file
 #
-# Drives the CV's "Topics and Fields of Interest" section.
+# Drives the CV's "Fields" section (right after Education).
+#
+# research_fields use standard field names in economics; the JEL codes they
+# correspond to are noted for reference and are not rendered.
+# cornell_graduate_fields use the Graduate School's formal field names; keep
+# them in the same order as pages/joinme.md.
 
-topics:
-  - Agricultural Economics
-  - Resource Economics
-  - Environmental Economics
-  - Applied Econometrics
-  - Climate Change Impacts and Adaptation
+research_fields:
+  - Agricultural Economics                          # Q1
+  - Environmental and Natural Resource Economics    # Q2, Q3, Q5
+  - Climate Economics                               # Q54
+  - Productivity and Technological Change           # O3, O4
+  - Applied Econometrics                            # C1, C2, C5
 
 cornell_graduate_fields:
   - Applied Economics and Management
   - Public Policy
   - Economics
-  - Natural Resources
+  - Natural Resources and the Environment

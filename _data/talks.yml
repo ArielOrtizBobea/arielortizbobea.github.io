@@ -21,6 +21,9 @@
 #                  Defaults to false (research talk).
 #   format         "poster" for posters. Omit for standard paper presentations.
 #   role           "panelist", "speaker", "discussant", etc. Omit if presenter.
+#   keynote        Kind of invited lecture ("Keynote", "Opening plenary").
+#                  The CV lists these, with titles, in their own section and
+#                  leaves them out of the yearly talk lists.
 #   with           Co-presenter ("with Richard E. Just").
 #   note           Free-form context ("postponed due to COVID-19", etc.).
 #   cv             Set false to omit from the CV.
@@ -100,7 +103,8 @@
   date: 2026-09-22
   venue: "agInnovation Fall Meeting"
   location: "Grand Junction, CO, United States"
-  title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity (opening plenary talk)"
+  title: "Large increases in public R&D investment are needed to avoid declines of US agricultural productivity"
+  keynote: Opening plenary
   slides: /assets/talks/agInnovation_2026.pdf
 
 - title: "Heat Shocks and Agricultural Loan Repayment"
