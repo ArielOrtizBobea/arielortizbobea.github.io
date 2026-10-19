@@ -54,13 +54,10 @@ panels:
 
 # Professional organization memberships (rendered in the same CV section)
 # The CV lists only memberships with current: true, on one line and without
-# years; year_start and the lapsed entries are kept for the record.
-# EAERE: student member around 2011, rejoined in October 2026.
+# years. Lapsed memberships (NAREA, LAERE, ASHE) were removed in October 2026;
+# git history has them. EAERE: student member around 2011, rejoined October 2026.
 professional_organizations:
   - { name: American Economic Association (AEA), year_start: 2013, current: true }
   - { name: Agricultural and Applied Economics Association (AAEA), year_start: 2009, current: true }
   - { name: Association of Environmental and Resource Economists (AERE), year_start: 2010, current: true }
   - { name: European Association of Environmental and Resource Economists (EAERE), year_start: 2026, current: true }
-  - { name: Northeastern Agricultural and Resource Economics Association (NAREA), year_start: 2012, current: false, note: "2012, 2015–" }
-  - { name: Latin American Association of Environmental and Resource Economists (LAERE), year_start: 2020, current: false }
-  - { name: American Society of Hispanic Economists (ASHE), year_start: 2020, current: false }
