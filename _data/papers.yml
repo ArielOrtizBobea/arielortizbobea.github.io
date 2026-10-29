@@ -214,6 +214,8 @@
     - { label: "policy brief", url: "https://business.edf.org/insights/extreme-heat-financial-farm-kansas/" }
   # thumbnail: /assets/images/papers/
 
+# ---------- ACCEPTED (forthcoming, not yet online) ----------
+
 - title: "Nighttime heat drives nonlinear milk yield losses and economic costs across US dairy systems"
   authors:
     - Eukyoung Choi
@@ -223,8 +225,9 @@
     - Kristan Reed
     - Ermias Kebreab
     - Nathaniel Mueller
-  status: "Resubmitted (R2)"
+  status: "Accepted"
   journal: "Nature Food"
+  year: 2026
   doi: https://doi.org/10.21203/rs.3.rs-8227805/v1
   abstract: >
     Climate change threatens dairy production, yet a full understanding of these risks
@@ -240,8 +243,6 @@
     of yield sensitivity to multiple weather stressors and reveals opportunities to enhance
     yields in US dairy systems.
   thumbnail: /assets/images/papers/2026natfood.png
-  
-# ---------- ACCEPTED (forthcoming, not yet online) ----------
 
 # ======================== PUBLICATIONS ========================
 
