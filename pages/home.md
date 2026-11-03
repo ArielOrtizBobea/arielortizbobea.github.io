@@ -14,6 +14,19 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
 
 <br/> is just space between paragraphs in html
 -->
+<style>
+/* Phone: the photo stacks above the bio (Bootstrap md breakpoint), so center the bio
+   and center the contact box as a unit. Its lines stay left-aligned so the icons line up. */
+@media (max-width: 767.98px) {
+  .home-bio { text-align: center; }
+  .home-contact {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+</style>
 <div class="container-fluid px-4" style="max-width: 820px; margin: 0 auto;">
   <div class="row align-items-center justify-content-center">
     <div class="text-center col-md-auto">
@@ -21,9 +34,9 @@ PLEASE READ THIS BEFORE EDIT THE HOME PAGE
         <img src="/assets/images/landing/aob2.jpg" alt="Photo of Ariel Ortiz-Bobea" style="width: 240px"/>
       </p>
     </div>
-    <div class="col" style="line-height: 1.8;">
+    <div class="col home-bio" style="line-height: 1.8;">
       <p><strong>Ariel Ortiz-Bobea</strong> is Associate Professor of Applied Economics and Policy at Cornell University. His research group combines economic and environmental data to study how societies can sustainably produce more and better food and thrive in the face of environmental change.</p>
-      <div style="margin-top: 1rem;">
+      <div class="home-contact" style="margin-top: 1rem;">
         <i class="fa-solid fa-location-dot" style="color: #b31b1b; width: 18px;"></i> 450B Warren Hall
         <br/> <i class="fa-solid fa-envelope" style="color: #b31b1b; width: 18px;"></i> <a href="mailto:ao332@cornell.edu">ao332@cornell.edu</a>
         <br/> <i class="fa-solid fa-phone" style="color: #b31b1b; width: 18px;"></i> 607.255.0220
