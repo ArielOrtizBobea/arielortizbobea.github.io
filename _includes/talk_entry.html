@@ -47,7 +47,7 @@
       {%- if talk.slides -%}<a href="{{ talk.slides | relative_url }}" target="_blank" rel="noopener">{{ talk.title }}</a>
       {%- elsif talk.paper -%}<a href="{{ talk.paper }}" target="_blank" rel="noopener">{{ talk.title }}</a>{%- else -%}{{ talk.title }}{%- endif -%}
       {%- if talk.keynote -%}
-        {%- if talk.title %} ({{ talk.keynote | downcase }}){%- else -%}{{ talk.keynote }}{%- endif -%}
+        {%- if talk.title %} ({{ talk.keynote | downcase }}){%- else -%}{{ talk.keynote }}: title TBD{%- endif -%}
       {%- endif -%}
     </div>
 
