@@ -688,9 +688,9 @@ build_talks <- function() {
 }
 
 # ----- Keynote and plenary talks (talks with a `keynote` field) -----
-# One entry per talk with its title, newest first, and a slides pill when
-# the deck is published. Returns its own heading, or nothing when there are
-# no keynotes, so the section never shows up empty.
+# One entry per talk with its title (if set yet), newest first, and a slides
+# pill when the deck is published. Returns its own heading, or nothing when
+# there are no keynotes, so the section never shows up empty.
 build_keynotes <- function() {
   items <- Filter(function(t) is_aob(t$presenter) && !is.null(t$keynote), talks)
   if (length(items) == 0) return(character(0))
@@ -698,7 +698,8 @@ build_keynotes <- function() {
   site <- sub("/$", "", profile$website)
   entries <- vapply(items, function(t) {
     loc <- if (!is.null(t$location)) paste0(", ", tex_escape(sub(",\\s*United States$", "", t$location))) else ""
-    body <- paste0("``", tex_escape(t$title), "''. ", tex_escape(t$keynote), ", ",
+    title <- if (!is.null(t$title)) paste0("``", tex_escape(t$title), "''. ") else ""
+    body <- paste0(title, tex_escape(t$keynote), ", ",
                    tex_escape(t$venue), loc, ".")
     if (!is.null(t$slides)) {
       url <- if (startsWith(t$slides, "/")) paste0(site, t$slides) else t$slides

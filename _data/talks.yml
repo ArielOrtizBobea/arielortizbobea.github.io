@@ -39,6 +39,13 @@
 
 # Talks are chronological (top one is further in the future, low one further in the past irrespective of present)
 
+- presenter: Ariel Ortiz-Bobea
+  date: 2027-05-11
+  venue: "North American Agricultural Advisory Network (NAAAN) Trinational Convening"
+  location: "Regina, Saskatchewan, Canada"
+  keynote: Plenary
+  # title:  # TBD
+
 - title: "Creative Destruction or Lasting Decline? Evidence from Post-Disaster Recovery"
   presenter: Yurou He
   date: 2027-01-03
@@ -721,7 +728,7 @@
   date: 2013-06-03
   date_end: 2013-06-05
   venue: "AERE Annual Meeting"
-  location: "Banff, Ontario, Canada"
+  location: "Banff, Alberta, Canada"
 
 # ======================== 2012 ========================
 
