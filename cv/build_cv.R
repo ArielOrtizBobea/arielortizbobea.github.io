@@ -687,7 +687,7 @@ build_talks <- function() {
   out
 }
 
-# ----- Keynote and plenary talks (talks with a `keynote` field) -----
+# ----- Keynote talks (talks with a `keynote` field) -----
 # One entry per talk with its title (if set yet), newest first, and a slides
 # pill when the deck is published. Returns its own heading, or nothing when
 # there are no keynotes, so the section never shows up empty.
@@ -707,7 +707,7 @@ build_keynotes <- function() {
     }
     date_entry(format(as_date_safe(t$date), "%Y"), body, date_width = "0.45in")
   }, character(1))
-  c(cv_section("Keynote and Plenary Talks"), entries)
+  c(cv_section("Keynote Talks"), entries)
 }
 
 # ----- Students -----
