@@ -53,6 +53,14 @@
   current: true
   kind: university
 
+# Start year from memory ("since last year, I believe" in Nov 2026); unconfirmed.
+- role: Concentration Representative, Sustainable Business and Environmental Economics (SBEE)
+  group: Environment & Sustainability major
+  institution: Cornell University
+  year_start: 2025
+  current: true
+  kind: university
+
 - role: Affiliated faculty, Environment & Sustainability (cross-college major)
   institution: Cornell University
   year_start: 2019
@@ -120,8 +128,8 @@
 - role: Author, Economics Chapter, Sixth National Climate Assessment Report
   institution: U.S. Global Change Research Program
   year_start: 2024
-  year_end: 2028
-  note: prematurely terminated in 2025
+  year_end: 2025
+  note: terminated in 2025; original appointment until 2028
   kind: external
 
 - role: Board Director

@@ -349,59 +349,30 @@ build_topics <- function() {
   )
 }
 
-# ----- Appointments (grouped by institution, Blevins-style) -----
-# Top-level item: institution + location. Nested items: title + department
-# + date range, in YAML order. If an institution has only one entry, it
-# renders inline (no nested list). Current roles still come before past.
+# ----- Appointments and affiliations -----
+# Cornell roles sit under a Cornell subheading; the rest follow after a small
+# gap with no heading. The date column and years-only format match Editorial
+# and Service. Current roles come first, then YAML order.
 build_appointments <- function() {
   current_items <- Filter(function(x) isTRUE(x$current), employment)
   past_items    <- Filter(function(x) !isTRUE(x$current), employment)
   items <- c(current_items, past_items)
-  # Group by institution, preserving first-seen order
-  by_inst <- list()
-  inst_order <- character(0)
-  for (e in items) {
-    key <- e$institution %||% "(unknown)"
-    if (is.null(by_inst[[key]])) {
-      by_inst[[key]] <- list()
-      inst_order <- c(inst_order, key)
+  is_cornell <- function(x) identical(x$institution, "Cornell University")
+  role_entry <- function(a, show_institution) {
+    body <- tex_escape(a$title)
+    if (!is.null(a$department)) body <- paste0(body, ", ", tex_escape(a$department))
+    if (show_institution) {
+      if (!is.null(a$institution)) body <- paste0(body, ", ", tex_escape(a$institution))
+      if (!is.null(a$location))    body <- paste0(body, ", ", tex_escape(a$location))
     }
-    by_inst[[key]] <- c(by_inst[[key]], list(e))
+    date_entry(format_range_y(a, break_range = FALSE), body, date_width = "1.05in")
   }
-  render_role <- function(a) {
-    pieces <- tex_escape(a$title)
-    if (!is.null(a$department)) pieces <- paste0(pieces, ", ", tex_escape(a$department))
-    paste0(pieces, ", ", format_range_my(a, break_range = FALSE), ".")
-  }
-  # Override the global label-less itemize: bullets for institutions, en-dash
-  # for nested positions.
-  out <- "\\begin{itemize}[label={\\textbullet}]"
-  for (inst_key in inst_order) {
-    group <- by_inst[[inst_key]]
-    first <- group[[1]]
-    inst_label <- tex_escape(inst_key)
-    if (!is.null(first$location)) {
-      inst_label <- paste0(inst_label, ", ", tex_escape(first$location))
-    }
-    if (length(group) == 1) {
-      # Single role: inline
-      a <- group[[1]]
-      body <- inst_label
-      body <- paste0(body, ", ", tex_escape(a$title))
-      if (!is.null(a$department)) body <- paste0(body, ", ", tex_escape(a$department))
-      body <- paste0(body, ", ", format_range_my(a, break_range = FALSE), ".")
-      out <- c(out, paste0("\\item ", body))
-    } else {
-      # Multiple roles: nested itemize with en-dash markers
-      out <- c(out, paste0("\\item ", inst_label))
-      out <- c(out, "\\begin{itemize}[label={--}]")
-      for (a in group) {
-        out <- c(out, paste0("\\item ", render_role(a)))
-      }
-      out <- c(out, "\\end{itemize}")
-    }
-  }
-  c(out, "\\end{itemize}")
+  c(
+    cv_subsection("Cornell University, Ithaca, NY"),
+    vapply(Filter(is_cornell, items), role_entry, character(1), show_institution = FALSE),
+    "\\medskip",
+    vapply(Filter(Negate(is_cornell), items), role_entry, character(1), show_institution = TRUE)
+  )
 }
 
 # ----- Working papers / Work in progress -----
@@ -508,7 +479,7 @@ collapse_years <- function(years) {
 }
 
 build_teaching <- function() {
-  # Group offerings by course_number, preserving first-seen order
+  # Group offerings by course, then sort courses newest first
   courses <- list()
   course_order <- character(0)
   for (t in teaching) {
@@ -527,6 +498,16 @@ build_teaching <- function() {
     }
     courses[[key]]$offerings <- c(courses[[key]]$offerings, list(t))
   }
+  # Sort by most recent offering (scheduled ones count); ties go to the course
+  # first taught more recently.
+  term_rank <- c(Winter = 1, Spring = 2, Summer = 3, Fall = 4)
+  offering_times <- function(key) {
+    vapply(courses[[key]]$offerings,
+           function(o) o$year * 10 + term_rank[[o$term]], numeric(1))
+  }
+  latest <- vapply(course_order, function(k) max(offering_times(k)), numeric(1))
+  first  <- vapply(course_order, function(k) min(offering_times(k)), numeric(1))
+  course_order <- course_order[order(-latest, -first)]
   rows <- character(0)
   for (key in course_order) {
     co <- courses[[key]]
@@ -554,11 +535,11 @@ build_teaching <- function() {
 }
 
 # ----- Service (grouped by kind, year-range paragraph flow) -----
-service_entry <- function(s) {
+service_entry <- function(s, show_institution = TRUE) {
   line <- tex_escape(s$role)
   if (!is.null(s$journal))     line <- paste0(line, ", \\textit{", tex_escape(s$journal), "}")
   if (!is.null(s$group))       line <- paste0(line, ", ", tex_escape(s$group))
-  if (!is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
+  if (show_institution && !is.null(s$institution)) line <- paste0(line, ", ", tex_escape(s$institution))
   if (!is.null(s$note))        line <- paste0(line, " (", tex_escape(s$note), ")")
   # 1.05in fits "2021--present"; the 0.85in default runs it into the role.
   date_entry(format_range_y(s, break_range = FALSE), line, date_width = "1.05in")
@@ -567,17 +548,20 @@ service_entry <- function(s) {
 # Editorial roles are left out here; build_editorial() puts them in their
 # own section on page 1, after Appointments, where peer CVs list them.
 build_service <- function() {
+  # Cornell is named in the subheadings, so its entries omit the institution.
   kinds <- list(
-    department    = "Department",
-    university    = "University",
-    faculty_senate = "Faculty Senate",
+    department    = "Department, Cornell University",
+    university    = "Cornell University",
+    faculty_senate = "Faculty Senate, Cornell University",
     external      = "External"
   )
   out <- character(0)
   for (k in names(kinds)) {
     items <- Filter(function(s) identical(s$kind, k), service)
     if (length(items) == 0) next
-    out <- c(out, cv_subsection(kinds[[k]]), vapply(items, service_entry, character(1)))
+    out <- c(out, cv_subsection(kinds[[k]]),
+             vapply(items, service_entry, character(1),
+                    show_institution = identical(k, "external")))
   }
   out
 }
@@ -587,7 +571,7 @@ build_editorial <- function() {
   vapply(items, service_entry, character(1))
 }
 
-# ----- Honors & Awards (year-prefix paragraph flow) -----
+# ----- Honors & Fellowships (year-prefix paragraph flow) -----
 # Year column matches Education (0.45in). Year is printed on every row;
 # repeated years are a sufficient grouping signal without bullets.
 build_awards <- function() {
@@ -726,7 +710,13 @@ build_students <- function() {
       ""
     }
   }
-  levels <- list(postdoc = "Postdocs", phd = "PhD Students", ms = "MS Students")
+  levels <- list(
+    postdoc = "Postdocs",
+    phd = "PhD Students (Applied Economics and Management unless noted)",
+    ms = "MS Students (Applied Economics and Management)"
+  )
+  # The subheadings carry the program, so only other fields print by the name.
+  default_fields <- c("Applied Economics", "Applied Economics and Management")
   # Legend goes at the top of the section
   out <- "{\\small ** indicates chair; * indicates co-chair.}"
   for (lv in names(levels)) {
@@ -740,7 +730,9 @@ build_students <- function() {
         marker <- switch(s$chair_role, chair = "**", co_chair = "*", "")
         if (nzchar(marker)) line <- paste0(line, "\\,", marker)
       }
-      if (!is.null(s$field)) line <- paste0(line, " (", tex_escape(s$field), ")")
+      if (!is.null(s$field) && !(s$field %in% default_fields)) {
+        line <- paste0(line, " (", tex_escape(s$field), ")")
+      }
       span <- year_span(s)
       if (nchar(span) > 0) line <- paste0(line, ", ", span)
       if (!is.null(s$placement)) line <- paste0(line, " $\\rightarrow$ ", tex_escape(s$placement))
@@ -800,7 +792,7 @@ build_languages <- function() {
 body <- c(
   build_header(),
   # ----- Identity / position -----
-  cv_section("Appointments"),                         build_appointments(),
+  cv_section("Appointments and Affiliations"),        build_appointments(),
   cv_section("Editorial Positions"),                  build_editorial(),
   cv_section("Education"),                            build_education(),
   cv_section("Fields"),                               build_topics(),
@@ -808,7 +800,7 @@ body <- c(
   cv_section("Work in progress"),                     build_working_papers(),
   cv_section("Publications"),                         build_publications(),
   cv_section("Book Chapters"),                        build_book_chapters(),
-  cv_section("Honors and Awards"),                    build_awards(),
+  cv_section("Honors and Fellowships"),               build_awards(),
   cv_section("Grants"),                               build_grants(),
   build_keynotes(),                                   # adds its own heading
   cv_section("Conferences and Seminars"),             build_talks(),

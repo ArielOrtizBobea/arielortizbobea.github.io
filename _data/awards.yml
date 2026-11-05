@@ -1,4 +1,4 @@
-# Honors and awards data file
+# Honors and fellowships data file
 #
 # Required fields:  title, year
 # Optional fields:
@@ -62,6 +62,13 @@
   venue: 13th Annual AAWE Conference, Vienna, Austria
   year: 2019
   note: paper presented by P. Mérel
+
+# January–May 2018. Competitive fellowship; $27,483 teaching relief plus up to
+# $5,000 research funds (MOU 1/10/2018). Kept as a comment because `note` prints
+# on the CV.
+- title: Faculty-in-Residence Fellow (one semester of teaching relief)
+  granter: Atkinson Center for a Sustainable Future, Cornell University
+  year: 2018
 
 - title: Research Award
   granter: International Centre for Pension Management (ICPM)

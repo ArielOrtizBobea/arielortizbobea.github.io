@@ -61,12 +61,12 @@
 - name: Jerzy Jaromczyk
   level: phd
   field: Applied Economics
-  chair_role: co_chair
+  chair_role: chair
 
 - name: Yurou He
   level: phd
   field: Applied Economics
-  chair_role: chair
+  chair_role: co_chair
 
 - name: Luc Esprabens
   level: phd
@@ -79,6 +79,7 @@
 - name: Ruiyi Ouyang
   level: phd
   field: Applied Economics
+  chair_role: chair
 
 - name: Qingli Fan
   level: phd
@@ -101,7 +102,7 @@
 - name: Zhiyun Li
   level: phd
   field: Applied Economics
-  chair_role: co_chair
+  chair_role: chair
   year_end: 2023
   placement: Economist, UCLA Anderson Forecast
 
@@ -148,6 +149,7 @@
 - name: Yichen Li
   level: ms
   field: Applied Economics and Management
+  chair_role: chair
 
 - name: Ziyi Lin
   level: ms

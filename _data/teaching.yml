@@ -13,7 +13,7 @@
 #
 # `term` values:  Fall | Spring | Winter | Summer
 #
-# Entries listed oldest first (matches the CV).
+# Entries listed oldest first. The CV sorts courses by most recent offering.
 
 - course_number: AEM 7010
   course_title: Applied Microeconomics
