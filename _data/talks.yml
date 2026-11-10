@@ -77,6 +77,14 @@
   # thumbnail:
 
 - presenter: Ariel Ortiz-Bobea
+  date: 2026-11-10
+  venue: "AERE Fall Virtual Workshop on Teaching and Pedagogy"
+  location: "Online"
+  title: "Introducing students to generative AI coding tools for reproducible projects"
+  non_research: true
+  slides: /assets/talks/aere_ai_fall_2026.pdf
+
+- presenter: Ariel Ortiz-Bobea
   date: 2026-10-21
   venue: "Rutgers University (Agricultural, Food and Resource Economics)"
   location: "New Brunswick, NJ, United States"
