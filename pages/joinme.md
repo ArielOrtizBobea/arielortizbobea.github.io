@@ -33,4 +33,4 @@ I advise students in our [AEM MS program](https://dyson.cornell.edu/programs/gra
 
 ## Visitors
 
-I can sometimes host faculty and PhD candidates working on similar issues. If interested, please email me with a plan stating 1- your goals and why my group is a good match, 2- financial support and 3- a timeline.
+I can occasionally host faculty and PhD candidates working on similar issues. If interested, please email me with a plan stating 1- your goals and why my group is a good match, 2- financial support and 3- a timeline.
